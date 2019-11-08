@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello world !"
 date:   2018-11-11 11:11:11 -0500
-categories: [Tech]
+categories: Tech
 ---
 
 Welcome to my blog !
@@ -14,5 +14,5 @@ def hello
 end
 
 hello
-#=> puts 'Hello World' to STDOUT.
+#=> 'Hello World' to STDOUT.
 {% endhighlight %}
