@@ -4,7 +4,7 @@ title: Books
 permalink: /books/
 ---
 
-This year, I took a big decision in my life and I committed to read 1 book each month. I started `September 1st 2019` and here is my progress so far:
+Starting of `September 1st 2019` I committed to read 1 book each month. Here is my progress so far:
 
 ## Ongoing
 
