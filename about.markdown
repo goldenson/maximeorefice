@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I'm a french developer living in Montreal (Canada).
+I'm a french entrepreneur living in Montreal (Canada) 🏂 🇨🇦
 
-Formerly @Shopify where I learned how to write scalable code for millions of users with Ruby on Rails, GraphQL and React.
+Currently interested in Ruby on Rails, SASS businesses, and of ecommerce.
 
-Ruby is my favourite programming language.
+Formerly developer @Shopify where I learned how to write scalable code for millions of users with Ruby on Rails, GraphQL and React.
