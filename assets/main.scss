@@ -30,7 +30,7 @@ body {
   font-family: "iA", monospace;
   font-weight: 400;
   vertical-align: baseline;
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: -.016em;
   line-height: 2;
 }
@@ -73,4 +73,12 @@ a {
     border-bottom: 2px solid var(--y);
     text-decoration: none;
   }
+}
+
+social-icons, footer > ul > li {
+  display: inline-block;
+}
+
+footer ul > li > a {
+  border-bottom: none;
 }
