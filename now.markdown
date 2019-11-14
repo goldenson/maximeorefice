@@ -15,7 +15,7 @@ I'm also planning to learn some basic design skills before the end of 2019.
 
 - Food
 
-I love cooking, it's one of my hobbie and it's the best when you share it with people.
+I love cooking, it's one of my favorite hobbie and it's the best when you share it with people.
 My favorite meal is a great [neapolitan pizza](https://www.google.com/search?tbm=isch&sxsrf=ACYBGNRZ6lYmizxoRqjq2_FvqdkJyctEDg%3A1573512106638&source=hp&biw=1440&bih=730&ei=quPJXbarJI6d5wKE94_wBw&q=neapolitan+pizza) as my dad used to make for 25 years.
 
 - Wife
