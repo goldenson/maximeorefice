@@ -14,7 +14,6 @@ Currently interested in programming, marketing, SAAS businesses and ecommerce. O
 <!-- Formerly developer [@Shopify](https://www.shopify.com/) where I learned how to write scalable code for millions of users with Ruby on Rails, GraphQL and React. -->
 
 
-
 <!-- - I'm teaching code to people at [Le Wagon](https://www.lewagon.com/) where I help student changing careers and achieve their full potential. -->
 
 
