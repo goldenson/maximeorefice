@@ -12,6 +12,7 @@
   --p: 10px;
   --x: ease 0.4s;
   --y: #ffca04;
+  --t: #303335;
 }
 
 body {
@@ -177,4 +178,26 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.darkmode {
+  background-color: var(--t);
+  color: var(--w);
+
+  @media screen and (prefers-color-scheme: light) {
+    body {
+      background-color: var(--w);
+      color: var(--t);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    img {
+      opacity: .75;
+      transition: opacity .5s ease-in-out;
+    }
+    img:hover {
+      opacity: 1;
+    }
+  }
 }
