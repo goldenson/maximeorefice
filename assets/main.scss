@@ -81,4 +81,16 @@ social-icons, footer > ul > li {
 
 footer ul > li > a {
   border-bottom: none;
+
+  &:hover {
+    border-bottom: none;
+  }
+}
+
+li .social-icon {
+  &:hover {
+    path {
+      fill: var(--y);
+    }
+  }
 }

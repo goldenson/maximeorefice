@@ -11,7 +11,7 @@ I'm currently interested in few things in life these days:
 I love coding, automating things and making people's life easier.
 After few years at coding, I recently start learning marketing with the great [Stan LeLoup](https://marketingmania.fr/) and it's been a fascinating ride so far.
 
-I'm also planning to learn some basic design skills at before the end of 2019.
+I'm also planning to learn some basic design skills before the end of 2019.
 
 - Food
 
