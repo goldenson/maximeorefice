@@ -1,0 +1,19 @@
+social-icons, footer > ul > li {
+  display: inline-block;
+}
+
+footer ul > li > a {
+  border-bottom: none;
+
+  &:hover {
+    border-bottom: none;
+  }
+}
+
+li .social-icon {
+  &:hover {
+    path {
+      fill: var(--clr-accent);
+    }
+  }
+}

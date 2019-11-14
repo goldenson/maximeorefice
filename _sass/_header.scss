@@ -1,0 +1,33 @@
+.site-nav .page-link {
+  color: inherit;
+}
+
+.page-link {
+  transition: color var(--transition), border var(--transition);
+  border-bottom: 2px solid var(--clr-accent);
+
+  &:hover {
+    color: var(--clr-accent);
+    border-bottom: 2px solid var(--clr-accent);
+    text-decoration: none;
+  }
+}
+
+.site-title svg {
+  width: 50px;
+  height: 50px;
+}
+
+.site-title {
+  margin-top: var(--padding);
+  border-bottom: none;
+
+  &:hover {
+    border-bottom: none;
+
+    path {
+      fill: var(--clr-accent);
+    }
+  }
+}
+
