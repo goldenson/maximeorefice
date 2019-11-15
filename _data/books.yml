@@ -1,20 +1,41 @@
 - title: Anything you want
   author: Derek Sivers
   url: https://www.amazon.com/Anything-You-Want-Derek-Sivers/dp/0241209048
-  date_started: 2019-11-15
+  started_at:
   finished: false
   comment:
+
+- title: 'Drive: The Surprising Truth About What Motivates Us'
+  author: Daniel H. Pink
+  url: https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805
+  started_at: 2019-11-15
+  finished: false
+  comment:
+
+- title: Shoe Dog
+  author: Phil Knight
+  url: https://www.amazon.com/Shoe-Dog-Phil-Knight/dp/1508211809
+  started_at: 2019-11-01
+  finished: true
+  comment: Incredible autobiography from the creator of Nike. He spent his life hustling to become successful.
+
+- title: 'Influence: The Psychology of Persuasion'
+  author: Dr. Robert Cialdini
+  url: https://www.amazon.com/Influence-The-Psychology-of-Persuasion/dp/B01KWAPHAK
+  started_at: 2019-11-01
+  finished: true
+  comment: The key to understand humain basic of psychologysh.
 
 - title: Company of One
   author: Paul Jarvis
   url: https://www.amazon.com/Company-One-Staying-Small-Business/dp/B07KFNRRTS
-  date_started: 2019-10-01
+  started_at: 2019-09-15
   finished: true
   comment: Great book that questions in depth companie's growth.
 
 - title: Never split the difference
   author: Chris Voss
   url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/B01COR1GM2
-  date_started: 2019-09-01
+  started_at: 2019-09-01
   finished: true
   comment: Amazing book that will teach you everything you need to know in order to negociate like boss.

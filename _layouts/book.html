@@ -16,9 +16,9 @@ layout: default
     {% for book in site.data.books %}
       {% if book.finished == false %}
         <li>
-          {{ book.progress }} <a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author"> by {{ book.author }}</span>
+          <a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author"> by {{ book.author }} {% if book.started_at != nil %} ({{ book.started_at | date_to_string: "ordinal", "US" }}) {% endif %}</span>
+          <p class="book-comment">{{ book.comment }}</p>
         </li>
-        <p>{{ book.comment }}</p>
       {% endif %}
     {% endfor %}
   </ul>
@@ -28,9 +28,9 @@ layout: default
     {% for book in site.data.books %}
       {% if book.finished == true %}
         <li>
-            {{ book.progress }} <a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author"> by {{ book.author }}</span>
+          <a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author"> by {{ book.author }} ({{ book.started_at | date_to_string: "ordinal", "US" }})</span>
+          <p class="book-comment">{{ book.comment }}</p>
         </li>
-        <p class="book-comment">{{ book.comment }}</p>
       {% endif %}
     {% endfor %}
   </ul>
