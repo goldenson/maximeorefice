@@ -14,3 +14,45 @@
 .book-title {
   font-size: 19px;
 }
+
+.book-cover {
+  width: 100px;
+  height: 175px;
+  box-shadow: 3px 3px 4px 5px var(--clr-link);
+  border-radius: 3px;
+  opacity: 0.9;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.book-cover-link {
+  text-decoration: none;
+  border-bottom: none;
+
+  &:hover {
+    border-bottom: none;
+  }
+}
+
+.book-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.book-item {
+  flex-basis: 600px;
+  padding: 20px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.test {
+  display: block;
+}

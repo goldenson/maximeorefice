@@ -12,28 +12,36 @@ layout: default
   </p>
 
   <h2>Ongoing 📖</h2>
-  <ul>
     {% for book in site.data.books %}
       {% if book.finished == false %}
-        <li>
-          <a class="book-title" href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author"> by {{ book.author }} {% if book.started_at != nil %} ({{ book.started_at | date_to_string: "ordinal", "US" }}) {% endif %}</span>
-          <p class="book-comment">{{ book.comment }}</p>
-        </li>
+        <div class="book-container">
+          <div class="book-item">
+            <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author">  by {{ book.author }} {% if book.started_at != nil %} ({{ book.started_at | date_to_string: "ordinal", "US" }}) {% endif %}</span>
+            <p class="book-comment">{{ book.comment }}</p>
+          </div>
+          <div class="book-item-cover">
+            <a class="book-cover-link" href="{{ book.url }}">
+              <img class="book-cover" src="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
+            </a>
+          </div>
+        </div>
       {% endif %}
     {% endfor %}
-  </ul>
 
   <h2>Done 📚</h2>
-  <ul>
-    {% for book in site.data.books %}
-      {% if book.finished == true %}
-        <li>
-          <a class="book-title" href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author"> by {{ book.author }} ({{ book.started_at | date_to_string: "ordinal", "US" }})</span>
+  {% for book in site.data.books %}
+    {% if book.finished == true %}
+      <div class="book-container">
+        <div class="book-item">
+          <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author">  by {{ book.author }} ({{ book.started_at | date_to_string: "ordinal", "US" }})</span>
           <p class="book-comment">{{ book.comment }}</p>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+        </div>
+        <a class="book-cover-link" href="{{ book.url }}">
+          <img class="book-cover" src="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
 
   <br/>
 
