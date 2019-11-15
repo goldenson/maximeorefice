@@ -9,7 +9,7 @@ layout: home
 
 Human being and maker of products. I'm originally from France and currently living in Montreal (Canada) 🏂 🇨🇦. Working right now on [...](/now.markdown)
 
-Currently interested in programming, marketing, SAAS businesses and ecommerce. On my spare time, I bootstrap and run several online businesses.
+Interested in programming, marketing, SAAS businesses and ecommerce. On my spare time, I bootstrap and run several online businesses.
 
 <!-- Formerly developer [@Shopify](https://www.shopify.com/) where I learned how to write scalable code for millions of users with Ruby on Rails, GraphQL and React. -->
 
