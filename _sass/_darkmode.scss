@@ -1,23 +1,7 @@
 .darkmode {
   background-color: var(--foreground);
   color: var(--background);
-  --clr-darkmode: var(--clr-accent);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: var(--clr-dark);
-    --foreground: var(--clr-light);
-  }
-
-  img {
-    opacity: .75;
-    transition: opacity .5s ease-in-out;
-  }
-
-  img:hover {
-    opacity: 1;
-  }
+  --clr-darkmode: var(--clr-link);
 }
 
 .darkmode-moon svg {
