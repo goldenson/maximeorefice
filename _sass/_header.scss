@@ -46,3 +46,7 @@
 .nav-link-item {
   margin: 10px;
 }
+
+.nav-link .active {
+  color: var(--clr-accent);
+}
