@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <p>
+    Starting <b>September 1st 2019</b> I committed to read 1 book each month. Here is my progress so far:
+  </p>
+
+  <h2>Ongoing 📖</h2>
+  <ul>
+    {% for book in site.data.books %}
+      {% if book.finished == false %}
+        <li>
+          {{ book.progress }} <a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author"> by {{ book.author }}</span>
+        </li>
+        <p>{{ book.comment }}</p>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h2>Done 📚</h2>
+  <ul>
+    {% for book in site.data.books %}
+      {% if book.finished == true %}
+        <li>
+            {{ book.progress }} <a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author"> by {{ book.author }}</span>
+        </li>
+        <p class="book-comment">{{ book.comment }}</p>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <br/>
+
+  <p class="book-footer">
+    This is a reading page, inspired by <a href="https://hashref.com/reading">Xavier Noria</a>.
+  </p>
+
+</article>
