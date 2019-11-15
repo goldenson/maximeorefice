@@ -31,3 +31,18 @@
   }
 }
 
+.nav-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.nav-link-item {
+  margin: 10px;
+}
