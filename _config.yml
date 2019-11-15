@@ -31,7 +31,7 @@ github_username:  goldenson
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+  # - jekyll-sitemap
   - github-pages
 
 google_analytics: UA-152637440-1
