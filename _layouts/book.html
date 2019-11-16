@@ -21,10 +21,7 @@ layout: default
           </div>
           <div class="book-item-cover">
             <a class="book-cover-link" href="{{ book.url }}">
-              <picture>
-                <source srcset="/assets/images/covers/{{ book.title | slugify }}.webp" type="image/webp">
-                <img class="book-cover" src="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
-              </picture>
+              <img class="book-cover" src="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
             </a>
           </div>
         </div>
@@ -40,10 +37,7 @@ layout: default
           <p class="book-comment">{{ book.comment }}</p>
         </div>
         <a class="book-cover-link" href="{{ book.url }}">
-          <picture>
-            <source srcset="/assets/images/covers/{{ book.title | slugify }}.webp" type="image/webp">
-            <img class="book-cover" src="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
-          </picture>
+          <img class="book-cover" src="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
         </a>
       </div>
     {% endif %}

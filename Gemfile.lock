@@ -188,7 +188,6 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll-webp (1.0.0)
     jemoji (0.10.2)
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
@@ -246,7 +245,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-sitemap
-  jekyll-webp
   minima (~> 2.5)
 
 BUNDLED WITH
