@@ -21,7 +21,7 @@ layout: default
           </div>
           <div class="book-item-cover">
             <a class="book-cover-link" href="{{ book.url }}">
-              <img class="book-cover" src="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
+              <img class="book-cover lazy" src="/assets/images/covers/book-placeholder.png" data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
             </a>
           </div>
         </div>
@@ -37,7 +37,7 @@ layout: default
           <p class="book-comment">{{ book.comment }}</p>
         </div>
         <a class="book-cover-link" href="{{ book.url }}">
-          <img class="book-cover" src="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
+          <img class="book-cover lazy" src="/assets/images/covers/book-placeholder.png" data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
         </a>
       </div>
     {% endif %}
