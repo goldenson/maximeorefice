@@ -15,4 +15,6 @@ Interested in programming, marketing, SAAS businesses and ecommerce. On my spare
 
 <!-- I'm teaching code to people at [Le Wagon](https://www.lewagon.com/) where I help student changing careers and achieve their full potential. -->
 
-Feel free to email me at <a target="_blank" href="mailto:orefice.maxime@gmail.com">orefice.maxime@gmail.com</a>
+Feel free to email me at <a target="_blank" href="mailto:orefice.maxime@gmail.com">orefice.maxime@gmail.com</a>.
+
+Or <a target="_blank" href="https://calendly.com/orefice-maxime/chat?month=2019-11">book a chat</a> with me to discuss about your project.
