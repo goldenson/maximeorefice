@@ -17,16 +17,5 @@ plugins:
 
 google_analytics: UA-152637440-1
 
-### Assets
-
-webp:
-  enabled: true
-  quality: 75
-  img_dir: ["/assets/images/"]
-  nested: true
-  formats: [".jpeg", ".jpg", ".png", ".tiff", ".gif"]
-  gifs: [".gif"]
-  regenerate: false
-  webp_path: nil
-  exclude: []
-  append_ext: false
+exclude:
+  - vendor
