@@ -5,6 +5,7 @@ cache:
   - vendor/
 
 before_script:
+  - bundle update --bundler
   - bundle install --path vendor
 
 pages:
