@@ -6,14 +6,13 @@ description: >-
   French maker currently living in Canada. Curious human being who love to solve problems.
   On an eternal learning journey ✌️
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://goldenson.dev"
+url: ""
 twitter_username: goldenson_
 github_username:  goldenson
 
 theme: minima
 plugins:
   - jekyll-sitemap
-  - github-pages
 
 google_analytics: UA-152637440-1
 
