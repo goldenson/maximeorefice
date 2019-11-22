@@ -2,8 +2,8 @@
   author: Adam Wathan & Steve Schoger
   url: https://refactoringui.com/book/
   started_at: 2019-11-17
-  finished: false
-  comment:
+  finished: true
+  comment: A book that will teach you all the fundamentals of design. By showing you examples and explaining how you can build great UI your users will love. It's the foundation of <a href="https://tailwindcss.com/">Tailwind CSS</a>.
 
 - title: Anything you want
   author: Derek Sivers
