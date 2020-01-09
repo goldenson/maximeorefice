@@ -4,7 +4,7 @@ title: Now
 permalink: /now/
 ---
 
-I'm currently interested in few things in life these days:
+Interested in programming, marketing, SAAS businesses and ecommerce.
 
 # Technology
 

@@ -9,12 +9,13 @@ layout: home
 
 Human being and maker of products. I'm originally from France and currently living in Montreal (Canada) 🏂 🇨🇦. Working right now on [...](/now.markdown)
 
-Interested in programming, marketing, SAAS businesses and ecommerce. On my spare time, I bootstrap and run several online businesses.
+**I help startups to build the feature they need.**
 
-<!-- Formerly developer [@Shopify](https://www.shopify.com/) where I learned how to write scalable code for millions of users with Ruby on Rails, GraphQL and React. -->
+- You want to boostrap a new project and don't know where to start ?
+- You need to implement a feature and don't have the time to do it yourself ?
+
+Former developer [@Shopify](https://www.shopify.com/), I learned how to write scalable code for millions of users.
 
 <!-- I'm teaching code to people at [Le Wagon](https://www.lewagon.com/) where I help student changing careers and achieve their full potential. -->
 
-Feel free to email me at <a target="_blank" href="mailto:orefice.maxime@gmail.com">orefice.maxime@gmail.com</a>.
-
-Or <a target="_blank" href="https://calendly.com/orefice-maxime/chat?month=2019-11">book a chat</a> with me to discuss about your project.
+Save time in your next project by <a target="_blank" href="https://calendly.com/orefice-maxime/chat?month=2019-11">booking a chat</a> with me.
