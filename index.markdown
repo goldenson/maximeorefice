@@ -7,7 +7,9 @@ layout: home
 
 <h1 class="hello">Hi, I'm Maxime Orefice.</h1>
 
-Human being and maker of products. I'm originally from France and currently living in Montreal (Canada) 🏂 🇨🇦. Working right now on [...](/now.markdown)
+Human being and maker of products. I'm originally from France and I'm living in Montreal (Canada) 🏂 🇨🇦. Working right now on [...](/now.markdown)
+
+🦊 Currently Software Engineer [@GitLab](https://gitlab.com).
 
 **I help startups to build the feature they need.**
 
