@@ -1,29 +1,33 @@
 image: ruby:2.6.5
 
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
+
 cache:
   paths:
-  - vendor/
+    - vendor/
 
 before_script:
   - gem install bundler
   - bundle install --path vendor
 
-pages:
-  stage: deploy
-  script:
-  - bundle exec jekyll build -d public
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test
+    - bundle exec jekyll build -d test
   artifacts:
     paths:
-    - test
+      - test
   except:
-  - master
+    - master
+
+pages:
+  stage: deploy
+  script:
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
