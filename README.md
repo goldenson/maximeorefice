@@ -1,3 +1,3 @@
 # Goldenson
 
-Personal website deployed on gitlab pages: https://goldenson.gitlab.io/maximeorefice
+Personal website deployed on `GitLab` pages: https://goldenson.dev
