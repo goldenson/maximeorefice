@@ -1,9 +1,30 @@
+- title: Rich Dad Poor Dad
+  author: Robert T. Kiyosaki
+  url: https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680178
+  started_at:
+  finished: false
+  comment:
+
+- title: Atomic Habits
+  author: James Clear
+  url: https://www.amazon.com/Atomic-Habits-James-Clear/dp/1847941834
+  started_at: 2019-12-30
+  finished: true
+  comment: This book demontrates how small habits can lead to great things. James teaches you how to build good habit and get rid of the bad ones. His techniques seems simple but they work !
+
+- title: I Will Teach You to Be Rich
+  author: Ramit Sethi
+  url: https://www.amazon.com/Will-Teach-You-Rich-Second/dp/1523505745/
+  started_at: 2019-12-01
+  finished: true
+  comment: This is a must ready for everybody. Ramit will teach you what to do with your financial life. Setting up an automated financial system so you don't need to think about money anymore.
+
 - title: Refactoring UI
   author: Adam Wathan & Steve Schoger
   url: https://refactoringui.com/book/
   started_at: 2019-11-17
-  finished: false
-  comment:
+  finished: true
+  comment: A book that will teach you all the fundamentals of design. By showing you examples and explaining how you can build great UI your users will love. It's the foundation of <a href="https://tailwindcss.com/">Tailwind CSS</a>.
 
 - title: Anything you want
   author: Derek Sivers
@@ -16,33 +37,33 @@
   author: Daniel H. Pink
   url: https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805
   started_at: 2019-11-15
-  finished: false
-  comment:
+  finished: true
+  comment: This book explains how intrinsic motivation can lead to great things. The author provides a lot of practical advices you can apply in your daily life.
 
 - title: Shoe Dog
   author: Phil Knight
   url: https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike/dp/1501135929
   started_at: 2019-11-01
   finished: true
-  comment: Incredible autobiography from the creator of Nike. He spent his life hustling to become successful.
+  comment: Incredible autobiography from the creator of Nike. Phil spent his life hustling to become successful. His journey is fascinating and very inspiring for entrepreneurs.
 
 - title: 'Influence: The Psychology of Persuasion'
   author: Dr. Robert Cialdini
   url: https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X
   started_at: 2019-10-01
   finished: true
-  comment: The key to understand humain basic of psychologysh.
+  comment: The key to understand human basic of psychologysh. Dr. Cialdini introduces 6 principles of psychology that explains how our behavior could be influenced by different techniques.
 
 - title: Company of One
   author: Paul Jarvis
   url: https://www.amazon.com/Company-One-Staying-Small-Business/dp/0358213258
   started_at: 2019-09-15
   finished: true
-  comment: Great book that questions in depth companies' growth.
+  comment: Great book that questions in depth companies' growth. Paul thinks we don't need to double our numbers every year in order to build a sustainable and healthy business.
 
 - title: Never split the difference
   author: Chris Voss
   url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/1847941494
   started_at: 2019-09-01
   finished: true
-  comment: Amazing book that will teach you everything you need to know in order to negociate like a boss.
+  comment: Amazing book that will teach you everything you need to know in order to negociate like a boss. Chris shares is 30 years of experience as and old FBI agent.
