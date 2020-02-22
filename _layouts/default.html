@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <head>
-    {% include head.html %}
-  </head>
+<head>
+  {% include head.html %}
+  {% seo %}
+</head>
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main class="page-content interface" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+  <main class="page-content interface" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
 
-    {%- include footer.html -%}
+  {%- include footer.html -%}
 
   <script src="/assets/darkmode.js"></script>
   <script src="/assets/header.js"></script>
   <script src="/assets/lazyload.js"></script>
-  </body>
+</body>
 
 </html>

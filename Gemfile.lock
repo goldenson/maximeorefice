@@ -70,6 +70,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
+  jekyll-seo-tag
   jekyll-sitemap
   minima (~> 2.5)
 

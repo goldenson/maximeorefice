@@ -13,5 +13,6 @@ github_username: goldenson
 theme: minima
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 google_analytics: UA-152637440-1
