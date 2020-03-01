@@ -31,14 +31,14 @@
   url: https://www.amazon.com/Will-Teach-You-Rich-Second/dp/1523505745/
   started_at: 2019-12-01
   finished: true
-  comment: This is a must ready for everybody. Ramit will teach you what to do with your financial life. Setting up an automated financial system so you don't need to think about money anymore.
+  comment: This is a must read for everybody. Ramit will teach you what to do with your financial life. Setting up an automated financial system so you don't need to think about money anymore.
 
 - title: Refactoring UI
   author: Adam Wathan & Steve Schoger
   url: https://refactoringui.com/book/
   started_at: 2019-11-17
   finished: true
-  comment: A book that will teach you all the fundamentals of design. By showing you examples and explaining how you can build great UI your users will love. It's the foundation of <a href="https://tailwindcss.com/">Tailwind CSS</a>.
+  comment: A book that will teach you all the fundamentals of design by showing you examples and explaining how you can build great UI your users will love. It's the foundation of <a href="https://tailwindcss.com/">Tailwind CSS</a>.
 
 - title: Anything you want
   author: Derek Sivers
