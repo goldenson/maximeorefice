@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Smart Home"
-date: 2020-03-06 11:11:11 -0500
+date: 2020-03-06
 ---
 
 This year I'm planning to build a smart home. Here are some intitial tought about the proposal architecture. I will use the open source **home assistant**.
