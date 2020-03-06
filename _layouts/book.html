@@ -11,39 +11,56 @@ layout: default
     Starting <b>September 1st 2019</b> I committed to read 1 book each month. Here is my progress so far:
   </p>
 
+  <h3>Books ideas to read next:</h3>
+  <ul>
+    <li>Total recall</li>
+    <li>The boron letters</li>
+    <li>Open, andre agassi</li>
+    <li>On Writing Well</li>
+    <li>Foundation</li>
+    <li>How to Get Filthy Rich in Rising Asia: A Novel</li>
+    <li>Liar's Poker</li>
+    <li>Poor Charlie's Almanack</li>
+  </ul>
+
   <h2>Ongoing 📖</h2>
-    {% for book in site.data.books %}
-      {% if book.finished == false %}
-        <div class="book-container">
-          <div class="book-item">
-            <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author">  by {{ book.author }} {% if book.started_at != nil %} ({{ book.started_at | date_to_string: "ordinal", "US" }}) {% endif %}</span>
-            <p class="book-comment">{{ book.comment }}</p>
-          </div>
-          <div class="book-item-cover">
-            <a class="book-cover-link" href="{{ book.url }}">
-              <img class="book-cover lazy" src="/assets/images/covers/book-placeholder.png" data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
-            </a>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
+  {% for book in site.data.books %}
+  {% if book.finished == false %}
+  <div class="book-container">
+    <div class="book-item">
+      <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author"> by
+        {{ book.author }} {% if book.started_at != nil %} ({{ book.started_at | date_to_string: "ordinal", "US" }})
+        {% endif %}</span>
+      <p class="book-comment">{{ book.comment }}</p>
+    </div>
+    <div class="book-item-cover">
+      <a class="book-cover-link" href="{{ book.url }}">
+        <img class="book-cover lazy" src="/assets/images/covers/book-placeholder.png"
+          data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
+      </a>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
 
   <h2>Done 📚</h2>
   {% for book in site.data.books %}
-    {% if book.finished == true %}
-      <div class="book-container">
-        <div class="book-item">
-          <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author">  by {{ book.author }} ({{ book.started_at | date_to_string: "ordinal", "US" }})</span>
-          <p class="book-comment">{{ book.comment }}</p>
-        </div>
-        <a class="book-cover-link" href="{{ book.url }}">
-          <img class="book-cover lazy" src="/assets/images/covers/book-placeholder.png" data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
-        </a>
-      </div>
-    {% endif %}
+  {% if book.finished == true %}
+  <div class="book-container">
+    <div class="book-item">
+      <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a> <span class="book-by-author"> by
+        {{ book.author }} ({{ book.started_at | date_to_string: "ordinal", "US" }})</span>
+      <p class="book-comment">{{ book.comment }}</p>
+    </div>
+    <a class="book-cover-link" href="{{ book.url }}">
+      <img class="book-cover lazy" src="/assets/images/covers/book-placeholder.png"
+        data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}">
+    </a>
+  </div>
+  {% endif %}
   {% endfor %}
 
-  <br/>
+  <br />
 
   <p class="book-footer">
     This is a reading page, inspired by <a href="https://hashref.com/reading">Xavier Noria</a>.
