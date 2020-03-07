@@ -1,11 +1,14 @@
 ### Config
-
 title: Maxime Orefice
 email: orefice.maxime@gmail.com
 description: >-
   French maker currently living in Canada. Curious human being who love to solve problems.
   On an eternal learning journey ✌️
-# baseurl: "" # the subpath of your site, e.g. /blog
+
+# Permalinks
+permalink: pretty
+
+# About
 url: "https://goldenson.dev"
 twitter_username: goldenson_
 github_username: goldenson
