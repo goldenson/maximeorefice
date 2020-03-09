@@ -4,7 +4,7 @@ title:  "Smart Home"
 date: 2020-03-06
 ---
 
-This year I'm planning to build a smart home. Here are some intitial tought about the proposal architecture. I will use the open source **home assistant**.
+This year I'm planning to build a smart home. Here are some intitial thoughts about the proposal architecture. I will use the open source **home assistant**.
 
 ## What
 

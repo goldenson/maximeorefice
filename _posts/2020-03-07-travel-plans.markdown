@@ -4,7 +4,7 @@ title:  "Travel plans"
 date: 2020-03-07
 ---
 
-This note is to keep track of places I've been to and the ones I want to go next
+This note is to keep track of places I've been to and the ones I want to go next.
 
 ## Booked 🧿
 
