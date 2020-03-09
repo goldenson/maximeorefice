@@ -4,7 +4,7 @@ title:  "Investing"
 date: 2020-03-08
 ---
 
-Some thoughts about my strategy investing.
+Some thoughts about my investment strategy.
 
 ## Strategy
 
