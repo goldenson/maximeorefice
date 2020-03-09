@@ -12,7 +12,7 @@ The goal here is early retirement to enjoy time with the people I love and I wan
 
 I'm a strong believer in 2 principles:
 - Simplicity
-- Peacefully
+- Mind Freely
 
 These 2 criterias are the foundation of my strategy.
 
