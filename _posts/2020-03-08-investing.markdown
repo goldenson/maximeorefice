@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Investing"
+title: "Investing"
 date: 2020-03-08
 ---
 
@@ -11,8 +11,9 @@ Some thoughts about my investment strategy.
 The goal here is early retirement to enjoy time with the people I love and I want to spend my time with.
 
 I'm a strong believer in 2 principles:
+
 - Simplicity
-- Mind Freely
+- Peace of mind
 
 These 2 criterias are the foundation of my strategy.
 
