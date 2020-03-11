@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Travel plans"
+title: "🌍 Travel plans"
 date: 2020-03-07
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Investing"
+title: "💰 Investing"
 date: 2020-03-08
 ---
 

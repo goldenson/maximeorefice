@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Smart Home"
+title: "🤖 Smart Home"
 date: 2020-03-06
 ---
 
