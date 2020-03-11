@@ -27,6 +27,6 @@ This is becoming a real hobbie that I will dedicate a special note for it later 
 
 ### 2. Stock market
 
-I'm currently using [wealthsimple](https://www.wealthsimple.com) which satisfies my 2 principles above.
+I'm currently using [wealthsimple](https://wealthsimple.com/invite/9CHAFQ) which satisfies my 2 principles above.
 
 My current porfolio is at **80% stocks and 20% bonds**. This might change anytime as I'm still young in my investment career and I can take more risk in my early life.
