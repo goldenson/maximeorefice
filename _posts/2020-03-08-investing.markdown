@@ -8,7 +8,7 @@ Some thoughts about my investment strategy.
 
 ## Strategy
 
-The goal here is early retirement to enjoy time with the people I love and I want to spend my time with.
+The goal here financial independence to enjoy time with the people I love.
 
 I'm a strong believer in 2 principles:
 
