@@ -29,4 +29,4 @@ This is becoming a real hobbie that I will dedicate a special note for it later 
 
 I'm currently using [wealthsimple](https://wealthsimple.com/invite/9CHAFQ) which satisfies my 2 principles above.
 
-My current porfolio is at **90% stocks and 10% bonds** as I'm in the **growth accumulation** phase as [JL Collins](https://jlcollinsnh.com/) calls it.
+My current porfolio is at **90% stocks and 10% bonds** as I'm in the [wealth acquisition stage](https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/) as **JL Collins** calls it.
