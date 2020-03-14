@@ -8,7 +8,7 @@ Some thoughts about my investment strategy.
 
 ## Strategy
 
-The goal here financial independence to enjoy time with the people I love.
+The goal here is financial independence to enjoy time with the people I love.
 
 I'm a strong believer in 2 principles:
 
