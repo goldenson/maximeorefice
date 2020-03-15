@@ -1,0 +1,46 @@
+---
+layout: post
+title: "🇨🇦 Taxes"
+date: 2020-03-16
+---
+
+# How to fill your taxes in Canada?
+
+I've been surprised how many canadians were outsourcing their taxes by a professional. If you don't have a complex financial situation you will be surprised how easy it is.
+
+Please **don't paid for it** and **learn how taxes work** so you will be in control of your financial life.
+
+Do it by yourself and use an assistant software like **SimpleTax**.
+
+## Work
+
+Your employer will provide you a tax document called a [T4](https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t4.html). If you have multiple employers the same year you will then have multiple T4s.
+
+> In Québec we have an additional tax document called an [R1](https://www.revenuquebec.ca/en/online-services/forms-and-publications/current-details/rl-1-t/).
+
+### T4
+
+Using **SimpleTax**, this is a straightforward task. Just follow what SimpleTax asks for and report the corresponding boxes from your T4 to SimpleTax.
+
+### R1
+
+If you live in Québec, you will get asked to report the data about your R1. Take your R1 provided by your employer and repeat the task as you did with your T4.
+
+## Stock market
+
+If you invest in the market you will need to let the government knows how much you invested/made during the fiscal year.
+
+### ACB: Adjust Cost Base
+
+Make sure you register somewhere how much you bought/sold, when and at which exchange rate (USD/CAD). This would save you time when you will fill in your taxes.
+
+> [How to report your T5008?](https://help.simpletax.ca/questions/t5008-slip)
+
+## Real estate
+
+If you have a renting property, you can claim money to the government if you did major renovations. I will add more information about this next year.
+
+### Tools
+
+- [SimpleTax](https://simpletax.ca/)
+- [Adjust Cost Base](https://www.adjustedcostbase.ca/)
