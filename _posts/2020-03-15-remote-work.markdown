@@ -4,7 +4,7 @@ title: "🌝 Remote Work"
 date: 2020-03-15
 ---
 
-Remote work is growing rapidly these past years. A lot of companies are embracing it by choice or constraint due to the recent health pandemic : `COVID19`.
+Remote work is rapidly growing these past years. A lot of companies are embracing it by choice or constraint due to the recent health pandemic : `COVID19`.
 
 Some notes about how to work efficiently remotely.
 
@@ -13,11 +13,11 @@ Some notes about how to work efficiently remotely.
 - Work is clearly defined and well scoped
 - Connect with people outside of work
 - Travel to meet your team once or more every year
-- Plan in advance and find your own pace with your team
+- Plan in advance your roadmap
 - Communicate effectively, provide daily updates and document everything
 - Ask for help if you are stucked
-- Find your own routine
-- Have daily social breaks
+- Find a routine that works for you
+- Have daily social breaks during the day
 
 ## Links
 
