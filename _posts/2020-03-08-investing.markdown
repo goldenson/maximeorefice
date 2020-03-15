@@ -45,9 +45,9 @@ This account is a huge advantage in Canada, as you don't pay taxes on capital ga
 
 ### 3. Bitcoin
 
-I believe in crypotocurrency and I own only Bitcoin.
+I believe in crypotocurrency and I only own Bitcoin.
 
-You can buy bitcoin without any commissions in Canada on [BullBitcoin](https://bullbitcoin.com/).
+You can buy bitcoin without any commission fees in Canada on [BullBitcoin](https://bullbitcoin.com/).
 
 ### Links
 
