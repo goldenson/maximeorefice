@@ -33,11 +33,15 @@ My current porfolio is at **90% stocks and 10% bonds** as I'm in the [wealth acq
 
 #### RRSP
 
+> REER in Québec
+
 Every year I'm maxing out this account (18% of my last year income). And we are doing the same for my wife's accounts.
 
 I invest all of this account with stocks and bonds as decribed above.
 
 #### TFSA
+
+> CELI in Québec
 
 I'm using this account for stock picking with [Wealthsimple Trade](https://www.wealthsimple.com/en-ca/product/trade/).
 
