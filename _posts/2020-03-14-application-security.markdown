@@ -8,8 +8,6 @@ Some notes about application security for `Rails` application.
 
 What to think about when your application runs in production, things to keep in mind to prevent data leak.
 
-
-
 ## Checklist
 
 - [ ] No usage of `.html_safe` anywhere in the code. The app uses safe view helpers such as `safe_join`, `content_tag`, etc. to render html.
