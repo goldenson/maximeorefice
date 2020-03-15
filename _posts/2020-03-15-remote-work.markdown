@@ -11,13 +11,14 @@ Some notes about how to work efficiently remotely.
 ## How to be efficient?
 
 - Work is clearly defined and well scoped
-- Connect with people outside of work
-- Travel to meet your team once or more every year
-- Plan in advance your roadmap
 - Communicate effectively, provide daily updates and document everything
 - Ask for help if you are stucked
 - Find a routine that works for you
 - Have daily social breaks during the day
+- Dress up like if you were going to work
+- Have a dedicate setup at home
+- Plan in advance your roadmap
+- Travel to meet your team once or more every year
 
 ## Links
 
