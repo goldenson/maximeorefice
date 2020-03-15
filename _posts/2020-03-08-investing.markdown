@@ -41,7 +41,7 @@ I invest all of this account with stocks and bonds as decribed above.
 
 Im using this account for stock picking with [Wealthsimple Trade](https://www.wealthsimple.com/en-ca/product/trade/).
 
-This account is a huge advantage in Canada, as you don't pay taxes with capital gains. This means if your money double in 10 years you will be tax exempt on it.
+This account is a huge advantage in Canada, as you don't pay taxes on capital gains. This means if your money double in 10 years you will be tax exempt on it.
 
 ### 3. Bitcoin
 
