@@ -18,7 +18,7 @@ After spending half a decade coding, I'm looking at new perspectives to keep lea
 
 # Family 👰😸
 
-I'm a family man above all. I'm married to my lovely wife, we've been dating for almost a decade. We decided to adopt a cat together.
+I'm a family man above all. I'm married to my lovely wife, we've been dating for almost a decade and we adopted a cat together.
 
 # Food 🍕
 
