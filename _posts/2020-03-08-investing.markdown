@@ -43,11 +43,11 @@ I'm using this account for stock picking with [Wealthsimple Trade](https://www.w
 
 This account is a huge advantage in Canada, as you don't pay taxes on capital gains. This means if your money double in 10 years you will be tax exempt on it.
 
-### 3. Bitcoin
+### 3. Cryptocurrency
 
-I believe in crypotocurrency and I only own Bitcoin.
+I believe in a world lead by technology as software is eating the world.
 
-You can buy bitcoin without any commission fees in Canada on [BullBitcoin](https://bullbitcoin.com/).
+I only own Bitcoin. If you are looking to buy some in Canada with the lowest commission fees, try [BullBitcoin](https://bullbitcoin.com/).
 
 ### Links
 
