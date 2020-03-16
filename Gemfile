@@ -8,3 +8,5 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
 end
+
+gem 'overcommit', '~> 0.52.1'
