@@ -8,7 +8,7 @@ This note is to keep track of places I've been to and the ones I want to go next
 
 ## Booked 🧿
 
-- [ ] **Cuba**, April 2020
+- [ ] **Cuba**, April 2020 (cancelled `COVID19`)
 - [ ] **Boston**, May 2020
 - [ ] **Naples**, September 2020
 
