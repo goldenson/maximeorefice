@@ -39,6 +39,8 @@ Every year I'm maxing out this account (18% of my last year income). And we are 
 
 I invest all of this account with stocks and bonds as decribed above.
 
+> If you are married and you earn more money than your wife consider opening a [Spousal RRSP](https://www.wealthsimple.com/en-ca/learn/spousal-rrsp)
+
 #### TFSA
 
 > CELI in Québec
