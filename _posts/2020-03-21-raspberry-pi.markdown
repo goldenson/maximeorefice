@@ -63,6 +63,14 @@ A docker management web ui that helps you to visualize your container.
 
 - [portainer image](https://hub.docker.com/r/portainer/portainer/)
 
+## [Plex](https://www.plex.tv/)
+
+A custom media center.
+
+Access your server at `http://192.168.0.X:32400/web`
+
+- [plex image](https://hub.docker.com/r/linuxserver/plex/)
+
 ### Links
 
 - [Flashing SD card](https://www.balena.io/etcher/)
