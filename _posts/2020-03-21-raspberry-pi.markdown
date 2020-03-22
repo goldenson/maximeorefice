@@ -75,3 +75,4 @@ Access your server at `http://192.168.0.X:32400/web`
 
 - [Flashing SD card](https://www.balena.io/etcher/)
 - [Tutorial](https://homenetworkguy.com/how-to/install-pihole-on-raspberry-pi-with-docker-and-portainer/)
+- [SmartHome](https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/#Basic_Docker_and_Docker_Compose_Primer)
