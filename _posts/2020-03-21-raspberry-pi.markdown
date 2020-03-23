@@ -63,6 +63,12 @@ A docker management web ui that helps you to visualize your container.
 
 - [portainer image](https://hub.docker.com/r/portainer/portainer/)
 
+## [Watchower](https://github.com/containrrr/watchtower/)
+
+Automatically update your docker containers.
+
+- [watchtower image](https://hub.docker.com/r/containrrr/watchtower)
+
 ## [Plex](https://www.plex.tv/)
 
 A custom media center.
