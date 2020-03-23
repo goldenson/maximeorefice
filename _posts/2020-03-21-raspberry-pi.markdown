@@ -48,7 +48,6 @@ This is a technique to ensure our containers are getting spinned up at boot time
 
 > [Add a service](https://www.raspberrypi.org/documentation/linux/usage/systemd.md)
 
-
 ## [Pi-hole](https://pi-hole.net/)
 
 A network-wide ad blocking, you can access it at the following ip address: `http://192.168.0.X/admin`
@@ -56,14 +55,13 @@ A network-wide ad blocking, you can access it at the following ip address: `http
 - Change your password: `docker exec -it pihole pihole -a -p`
 - [pi-hole image](https://hub.docker.com/r/pihole/pihole/)
 
-
 ## [Portainer](https://www.portainer.io/)
 
 A docker management web ui that helps you to visualize your container.
 
 - [portainer image](https://hub.docker.com/r/portainer/portainer/)
 
-## [Watchower](https://github.com/containrrr/watchtower/)
+## [Watchtower](https://github.com/containrrr/watchtower/)
 
 Automatically update your docker containers.
 
