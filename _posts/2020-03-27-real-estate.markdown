@@ -8,29 +8,68 @@ What you need to know if you want to invest in Real Estate in Canada as a foreig
 
 ## Before buying
 
-## Find a property
+### Find a property
+
+List your requirements and pick a neighborhood you are interested in.
+
+Reach out to as many brokers as possible and visit as many places you can. It will give you a good idea of the market and will help you to find your house.
+
+- [Centris](https://www.centris.ca/en)
+- [Du proprio](https://duproprio.com/en)
+- [Remax](https://www.remax-quebec.com/en/index.rmx)
+
+### Offer
+
+Write down your offer with your broker to indicate how much you will pay for the house and setting an expiration date.
 
 ## Investigation
 
-### Questions to ask?
-
-- What degree do you have?
-- Where do you live?
-- Since when are you doing this job?
-- How many inspections are you doing each week?
-- How long will it take you to give me your report?
-- Can you send me an example report you did for previous customer?
+This is an optional step, and a lot of people are going through this process. The idea is to hire a profesionnal that will help you identify the weaknesses of the house and the thing you need to be aware of.
 
 > [Find the best inspector](https://www.lapresse.ca/maison/immobilier/conseils/201702/28/01-5074033-trouver-le-meilleur-inspecteur.php)
 
-## Notaire
+## Insurance
+
+Before going to the notary you will need to insure the house. Evaluate your options with a comparator such as [clicassure](https://www.clicassure.com/).
+
+## Notary
+
+The buyer choose the notary. Make sure to compare them and evaluate their work to get a reasonable price.
+
+This is the **day** you will become the owner of your house.
+
+You achieve a big milestone congrats! Take the time to celebrate!
 
 ## After buying
 
+### Taxes
+
+#### Bienvenue
+
+Every new buyer is required to pay this taxe when acquiring a new house.
+
+> [How much it will cost?](https://www.taxedebienvenue.com/calculateur-de-taxe.php)
+
+#### Municipale
+
+You would need to pay this taxe twice a year.
+
+#### Scolaire
+
+Taxe to pay once a year.
+
 ### Introduce yourself
+
+Say hi to your tenants and explain them the new process to collect rents. I recommend setting up a monthly interact transfer.
 
 ### Hydro
 
+Don't forget to call [hydro quebec](http://www.hydroquebec.com/residentiel/) and insure the house at your name in case your tenants move, the contract will get reassigned to your name.
+
 ## Run it as a company
 
+
+
 ### Links
+
+- [The costs of buying a home](https://duproprio.com/en/buy/how-buy-property/calculating-related-fees-and-the-down-payment)
