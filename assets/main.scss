@@ -16,6 +16,9 @@
   --clr-accent: #ffca04;
   --clr-darkmode: var(--clr-link);
 
+  --clr-code-dark: #eef;
+  --clr-code: #3c3c3c61;
+
   --background: var(--clr-light);
   --foreground: var(--clr-dark);
 
@@ -92,4 +95,16 @@ a {
   img:hover {
     opacity: 1;
   }
+}
+
+.highlighter-rouge .highlight  {
+  background: var(--clr-code);
+}
+
+.highlighter-rouge {
+  background-color: var(--clr-code);
+}
+
+pre, code {
+  background-color: transparent;
 }
