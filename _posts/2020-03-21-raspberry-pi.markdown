@@ -75,6 +75,17 @@ Access your server at `http://192.168.0.X:32400/web`
 
 - [plex image](https://hub.docker.com/r/linuxserver/plex/)
 
+## [Home Assistant](https://www.home-assistant.io/)
+
+Private and safe smart home.
+
+Access your server at `http://192.168.0.13:8123`
+
+- [home assistant image](https://hub.docker.com/u/homeassistant/)
+
+> [hassio](https://github.com/home-assistant/hassio-installer/blob/master/hassio_install.sh
+)
+
 ### Links
 
 - [Flashing SD card](https://www.balena.io/etcher/)
