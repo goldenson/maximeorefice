@@ -4,6 +4,10 @@ title: "🌝 Remote Work"
 date: 2020-03-15
 ---
 
+Transitioning to working remotely? GitLab is sharing everything we've learned as the world's largest all-remote company.
+
+Download the [Remote Work Plabybook](https://about.gitlab.com/resources/ebook-remote-playbook/?utm_medium=emailsig&utm_source=footer&utm_campaign=allremote&utm_content=remoteplaybook) now, and please don't hesitate to ask me for more information.
+
 Remote work is rapidly growing these past years. A lot of companies are embracing it by choice or constraint due to the recent health pandemic : `COVID19`.
 
 Some notes about how to work efficiently remotely.
