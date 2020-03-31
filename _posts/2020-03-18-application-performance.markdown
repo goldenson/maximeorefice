@@ -180,3 +180,7 @@ CPU LOAD = The number of active CPU tasks = Carried Traffic for CPUs = AVG in sy
 4. Iterate on solution
 
 This workshop was given by **Nate Berkopoc**, [register on his website](https://www.speedshop.co) if you want to learn more about it.
+
+### Links
+
+- [Performance at GitLab](https://docs.gitlab.com/ee/development/performance.html)
