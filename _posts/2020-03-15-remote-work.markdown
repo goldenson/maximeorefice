@@ -39,7 +39,7 @@ Some notes about how to work efficiently remotely.
 - [Logitech Webcam](https://www.amazon.ca/-/fr/gp/product/B07K95WFWM)
 - [SteelSeries Mouse Pad](https://www.amazon.ca/-/fr/gp/product/B00WAA2704)
 
-## Links
+### Links
 
 - [GitLab Handbook](https://about.gitlab.com/company/culture/all-remote/)
 - [Buffer Blog](https://open.buffer.com/category/remote-work/)

@@ -22,7 +22,7 @@ What to think about when your application runs in production, things to keep in 
   - [ ] `X-Download-Options: noopen`
   - [ ] `X-Permitted-Cross-Domain-Policies: none`
   - [ ] `X-Xss-Protection: 1; mode=block`
-  - [ ] `Referrer-Policy: origin-when-cross-origin` *
+  - [ ] `Referrer-Policy: origin-when-cross-origin` \*
   - [ ] `Content-Security-Policy: block-all-mixed-content;` or `Content-Security-Policy: upgrade-insecure-requests;`
   - [ ] `Strict-Transport-Security: max-age=631138519; includeSubdomains` (`includeSubdomains` is optional, `max-age` should be at least 10 years)
 - [ ] Rails log scrubber is configured with sensitive parameter names:
@@ -32,8 +32,7 @@ What to think about when your application runs in production, things to keep in 
   - Any other sensitive params.
 - [ ] `config.session_store` is configured with redis or mysql (usually in `config/initializers/session_store.rb`)
 
-
-## Links
+### Links
 
 - [Ankane blog post](https://ankane.org/sensitive-data-rails)
 - [Secure Rails gem](https://github.com/ankane/secure_rails)

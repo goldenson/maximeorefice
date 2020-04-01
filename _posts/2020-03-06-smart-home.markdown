@@ -20,7 +20,7 @@ Here are the things I will focus first:
 2. Verify if the door is locked
 3. Monitor temperature and humidity
 
-## Links
+### Links
 
 - [Intel NUC 7](https://www.amazon.ca/Intel-Windows-Optane-Gunmetal-BOXNUC7i5BNHXF/dp/B075VT9BDZ)
 - [home-assistant.io](https://www.home-assistant.io/)

@@ -39,6 +39,6 @@ Right now I'm working on making it possible to display screenshots from a [JUnit
 
 [Explore](https://about.gitlab.com/company/team/) our worldwide team and checkout our [open positions](https://about.gitlab.com/jobs/apply/) if you are interested.
 
-## Links
+### Links
 
 - [Ship small](https://dev.to/mscccc/how-we-use-ship-small-to-rapidly-build-new-features-at-github-5cl9)

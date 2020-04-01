@@ -38,4 +38,4 @@ Picturing what you want in life will actually help you to get it.
 
 - [OKR](https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them)
 - [Brag document](https://jvns.ca/blog/brag-documents/)
-- [GitLab Career development](https://about.gitlab.com/handbook/engineering/career-development/)
+- [GitLab career development](https://about.gitlab.com/handbook/engineering/career-development/)
