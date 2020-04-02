@@ -4,10 +4,6 @@ title: "🌝 Remote Work"
 date: 2020-03-15
 ---
 
-Transitioning to working remotely? GitLab is sharing everything we've learned as the world's largest all-remote company.
-
-Download the [Remote Work Plabybook](https://about.gitlab.com/resources/ebook-remote-playbook/?utm_medium=emailsig&utm_source=footer&utm_campaign=allremote&utm_content=remoteplaybook) now, and please don't hesitate to ask me for more information.
-
 Remote work is rapidly growing these past years. A lot of companies are embracing it by choice or constraint due to the recent health pandemic : `COVID19`.
 
 Some notes about how to work efficiently remotely.
@@ -24,7 +20,7 @@ Some notes about how to work efficiently remotely.
 - Plan in advance your roadmap
 - Travel to meet your team once or more every year
 
-## Set up
+## My current set up
 
 - [MacBook Pro 16''](https://www.apple.com/ca/macbook-pro-16/)
 - [Standing Desk](https://www.primecables.ca/p-362358-sitstand-dualmotor-height-adjustable-adr-desk-frame-electricblack-primecables) with [Ikea tabletop](https://www.ikea.com/ca/en/p/hilver-tabletop-bamboo-80278287/)
@@ -38,6 +34,12 @@ Some notes about how to work efficiently remotely.
 - [TaoTronics Light](https://www.amazon.ca/-/fr/gp/product/B00APAQSP6)
 - [Logitech Webcam](https://www.amazon.ca/-/fr/gp/product/B07K95WFWM)
 - [SteelSeries Mouse Pad](https://www.amazon.ca/-/fr/gp/product/B00WAA2704)
+
+## Resources
+
+Transitioning to working remotely? GitLab is sharing everything we've learned as the world's largest all-remote company.
+
+Download the [Remote Work Plabybook](https://about.gitlab.com/resources/ebook-remote-playbook/?utm_medium=emailsig&utm_source=footer&utm_campaign=allremote&utm_content=remoteplaybook) now, and please don't hesitate to ask me for more information.
 
 ### Links
 
