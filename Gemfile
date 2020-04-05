@@ -7,6 +7,7 @@ gem "jekyll", "~> 4.0.0"
 group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
+  gem "jekyll-relative-links"
 end
 
 gem 'overcommit', '~> 0.52.1'

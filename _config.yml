@@ -17,5 +17,10 @@ theme: minima
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
 
 google_analytics: UA-152637440-1
