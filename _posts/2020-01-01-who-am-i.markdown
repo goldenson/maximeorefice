@@ -2,6 +2,7 @@
 layout: post
 title: "👨‍💻 Qui suis-je?"
 date: 2020-01-01
+language: fr
 ---
 
 Dévelopeur passionné de startups.
