@@ -1,0 +1,26 @@
+---
+layout: post
+title: "👨‍💻 Qui suis-je?"
+date: 2020-01-01
+---
+
+Dévelopeur passionné de startups.
+
+## Ce que je fais?
+
+Plus de 6 ans d'expériences dans le développement web scalable à plusieurs millions d'utilisateurs. Expert en Shopify avec connaissances approfondies en Ruby et Rails.
+
+A votre écoute, je vous accompagne et vous aide à prendre les meilleures décisions techniques afin de porter votre projet à sa réussite. Autonome et discipliné et je peux naviguer dans les endroits les plus sombres de votre application afin de débugger ou optimiser une feature.
+
+Je suis avant tout quelqu'un qui accorde beaucoup d'importance au contact humain et toutes mes communications se font de manière transparente avec mes clients.
+
+## Mes valeurs
+
+- Simplicité
+- Communication
+- Transparence
+- Qualité
+
+### Links
+
+- [CV Maxime Orefice # not working yet]()
