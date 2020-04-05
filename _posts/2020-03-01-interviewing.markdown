@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "🎙 Interviewing"
-date: 2020-04-05
+date: 2020-03-01
 ---
 
-Some thoughts about how companies run interview to hire top talents.
+Some thoughts about how companies run interviews to hire top talents.
 
 ## Make a good first impression
 
@@ -12,7 +12,7 @@ The first step is extremely important as you need to hit the curiosity of the co
 
 High level summary of the things you did and what interest you in life.
 
-Most people struggle with this step as they don't know how to sell themselves. A good excercise it to train over and over to sell yourself in 5min, 15min and 30min. This way you can adapt to any situation that might happen.
+Most people struggle with this step as they don't know how to sell themselves. A good exercise it to train over and over to sell yourself in 5min, 15min and 30min. This way you can adapt to any situation that might happen.
 
 ## Technical interview
 
@@ -27,7 +27,7 @@ Someone that get work done, fits the culture and level up the team level.
 
 Are you able to understand the problem? How do you articulate your thoughts to solve the problem? How do you communicate about the problem?
 
-During the process they are collecting data about you that will help them to take a decision about you and help them to identify any red flags.
+During the process they collect data about you and identify any red flags helping them with their hiring decision.
 
 
 ### Links
