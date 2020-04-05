@@ -48,6 +48,12 @@ Faire des recommandations au prospect. Lui dire comment mener son projet. Le fai
 6. Avez vous deja travaillé avec des freelances sur ce type de projet?
 7. Qu’est ce qui vous retient de travailler avec moi aujourd’hui?
 
+#### Pendant le projet
+
+Rassurer le client, travailler chaque semaine main dans la main.
+
+Faire un point sur la situation, les axes d'amélioration, les questions à poser et les prochains éléments à travailler.
+
 ## Le réseau
 
 Il est important de cultiver son réseau au cours du temps. Assister à des évènements, organiser des déjeuners ...
