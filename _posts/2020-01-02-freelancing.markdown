@@ -24,13 +24,12 @@ Quel est l'objectif? La motivation?
 ## Les clients
 
 1. Ce qui motive le client?
-    - Quelle emotion dégagée après la première interaction?
-    - Rassurer le client, faire le travail en temps et en heure et de bonne qualité
+   - Quelle emotion dégagée après la première interaction?
+   - Rassurer le client, faire le travail en temps et en heure et de bonne qualité
 2. Ce qui bloque le client?
-    - Qu’est ce qui vous empêche de travailler aujourd’hui avec moi ?
+   - Qu’est ce qui vous empêche de travailler aujourd’hui avec moi ?
 
 Communication direct, claire et utile. Relance avec tacte et fermeté.
-
 
 ## Les projets
 
@@ -64,4 +63,4 @@ Toujours essayer d'apporter un **maximum de valeur**.
 
 ### Links
 
-- [Formation Marketing Mania](marketingmania.fr/freelance)
+- [Formation Marketing Mania](https://marketingmania.fr/freelance)
