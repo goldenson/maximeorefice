@@ -61,6 +61,15 @@ Il faut expliquer a son réseau qui nous sommes et ce que l'on fait de manière 
 
 Toujours essayer d'apporter un **maximum de valeur**.
 
+Identifier les personnes de son réseau:
+- Connecteurs: apporte opportunités de business
+- Complémentaires: aide à travailler sur d'importants projets
+- Futures stars: investissement qui peut rapporter gros
+- Mentors: capable de vous conseiller grâce à son expérience
+
+
+
 ### Links
 
 - [Formation Marketing Mania](https://marketingmania.fr/freelance)
+- [Agrandir son réseau](https://www.nateliason.com/blog/second-degree-dinners)
