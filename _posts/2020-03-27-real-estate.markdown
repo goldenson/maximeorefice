@@ -68,7 +68,19 @@ Don't forget to call [hydro quebec](http://www.hydroquebec.com/residentiel/) and
 
 ## Run it as a company
 
+Reinvest money in your asset to attract top tenants in your renting property. This will save you time and money in the future.
 
+Keep track of all things you did overe time. This would be valuable when you decide to sell your property.
+
+Take care of your tenants as your employees and help them whenever you can.
+
+### Renovation
+
+Use your network if you know qualified people in this industry. Otherwise you will need to use a platform such sa [sousmissionrenovation.ca](https://soumissionrenovation.ca) (in Québec) to find your entrepreneur.
+
+Ask him questions about his previous work and make sure to do your homework before hiring him.
+
+> [Finding an entrepreneur for your project?](https://www.renoassistance.ca/choix-entrepreneur/entrepreneur-en-renovation-questions-a-lui-poser/)
 
 ### Links
 
