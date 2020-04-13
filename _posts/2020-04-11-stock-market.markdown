@@ -14,7 +14,7 @@ I got lucky to join a startup offering stocks options that performed incredibly 
 
 ## After
 
-Most of people see the stock market as a complex world which they feel too dumb to understand.
+Most people see the stock market as a complex world which they feel too dumb to understand.
 
 Let's take a look at how this works and how you can leverage this tool to increase your wealth.
 
