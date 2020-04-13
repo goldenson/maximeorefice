@@ -55,11 +55,9 @@ Faire un point sur la situation, les axes d'amélioration, les questions à pose
 
 ## Le réseau
 
-Il est important de cultiver son réseau au cours du temps. Assister à des évènements, organiser des déjeuners ...
+Cultive ton réseau au fur et à mesure que le temps s'écoule. Assiste à des évènements, organise des déjeuners ...
 
-Il faut expliquer a son réseau qui nous sommes et ce que l'on fait de manière simple.
-
-Toujours essayer d'apporter un **maximum de valeur**.
+Explique à ton réseau qui tu es, ce que tu fais de manière simple et apporte lui un **maximum de valeur**.
 
 Identifier les personnes de son réseau:
 - Connecteurs: apporte opportunités de business
@@ -67,7 +65,19 @@ Identifier les personnes de son réseau:
 - Futures stars: investissement qui peut rapporter gros
 - Mentors: capable de vous conseiller grâce à son expérience
 
+Identifie le besoin des gens avec qui tu veux te connecter et choisis le bon timing! Fais un follow up avec la personne que tu viens de rencontrer.
 
+#### Contact
+
+Utilise ton réseau pour prendre contact avec n'importe qui. Gagne leur confiance.
+
+Réfléchis à comment tu peux atteindre les intermédiare de confiance (employées, freelance ...).
+
+> Technique du gros poisson: Utilise la preuve sociale afin de stimuler ton projet.
+
+#### Projet gratuit
+
+Cela va t'apporter de la crédibilité et de la visibilité quand tu te lances. Cela permet aussi d'améliorer la qualité de ton réseau.
 
 ### Links
 
