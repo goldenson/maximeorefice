@@ -24,6 +24,7 @@ This is the diet I'm following made of super aliments.
 - Banana
 - Cashew nuts
 - Peanut butter
+- Almonds
 
 ## Super Aliments
 
@@ -42,6 +43,9 @@ This is the diet I'm following made of super aliments.
 - Potato
 - Cabbage
 - Sweet Potato
+- Eggs
+- Cheese
+- Avocado
 
 ### Links
 
