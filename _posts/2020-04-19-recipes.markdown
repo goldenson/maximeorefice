@@ -1,0 +1,22 @@
+---
+layout: post
+title: "👨‍🍳 Recettes"
+date: 2020-04-19
+language: fr
+---
+
+Recettes titulaires de la casa `Or & Fils`
+
+## Pizza maison
+
+Fais la pâtes la veille:
+
+- `200ml` d'eau tiède
+- 1 sachet de levure boulangère
+- Grosse pincé de Sel
+- Filet d'huile d'olive
+- `250g` de farine
+
+### Liens
+
+- []()
