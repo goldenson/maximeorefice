@@ -71,13 +71,42 @@ Identifie le besoin des gens avec qui tu veux te connecter et choisis le bon tim
 
 Utilise ton réseau pour prendre contact avec n'importe qui. Gagne leur confiance.
 
-Réfléchis à comment tu peux atteindre les intermédiare de confiance (employées, freelance ...).
+Réfléchis à comment tu peux atteindre les intermédiaires de confiance (employées, freelance ...).
 
 > Technique du gros poisson: Utilise la preuve sociale afin de stimuler ton projet.
 
 #### Projet gratuit
 
 Cela va t'apporter de la crédibilité et de la visibilité quand tu te lances. Cela permet aussi d'améliorer la qualité de ton réseau.
+
+#### Faire une bonne impression en 5 min
+
+1. Apporter de la valeur:
+  - Mise ne relation
+  - Recommender outil/livre/service
+  - Aide sur un projet
+
+2. Poser une **bonne** question? Très précise qui montre que tu sais de quoi tu parles.
+
+3. Partager une anécdote mémorable
+
+#### Comment écrire un email de contact?
+
+Simple et court. Minimiser l'engagement initial, ex: `Es-tu intéressé?` (principe de cohérence).
+
+1. Créer une connexion personnelle (spécifique)
+2. Bénéfice
+3. Crédibilité
+4. Appel à l'action clair
+
+#### Relation durable
+
+- Follow up immédiat
+- Appliquer un conseil donné
+- Follow up sur le temps
+  - Partage sur une veille
+  - Question sur son expertise
+  - Avis sur une question
 
 ### Links
 
