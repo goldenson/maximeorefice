@@ -9,7 +9,7 @@ Comment créer un business rentable en dropshipping ?
 
 ## Produit
 
-C'est la base de ton business e-commercee, il faut que ton produit **résoud un problème** de ton client.
+C'est la base de ton business e-commerce, il faut que ton produit **résolve un problème** pour ton client.
 
 Tu peux aussi te baser sur la **règle de 4** afin de trouver un produit qui va se vendre comme des petits pains:
 
@@ -18,11 +18,9 @@ Tu peux aussi te baser sur la **règle de 4** afin de trouver un produit qui va 
 - Effet waouw
 - Marge d'au moins 30%
 
-### Sourcer
+### Prospecter des produits
 
-Utilises tous les outils que tu peux afin de découvrir de nouveaux produits: les meilleurs ventes sur amazon, explore la concurrence sur facebook et instagram...
-
-
+Utilises tous les outils que tu peux afin de découvrir de nouveaux produits: les meilleures ventes sur amazon, explore la concurrence sur facebook et instagram...
 
 - [AliExpress - Dropshipping Center](https://home.aliexpress.com/dropshippercenter/dashboard.htm)
 - [Comment trouver un produit?](https://www.withintheflow.com/how-to-find-best-selling-products-for-your-online-store/)
@@ -30,12 +28,12 @@ Utilises tous les outils que tu peux afin de découvrir de nouveaux produits: le
 
 ### Negocier
 
-Contactes plusieurs fournisseurs, présentes toi sérieusement et demande des devis. Demande des informations sur les méthodes de livraisons et des rabais si tu achètets en gros.
+Contactes plusieurs fournisseurs, présentes toi sérieusement et demandes des devis. Obtiens des informations sur les méthodes de livraisons et des rabais si tu achètes en gros.
 
 ```
 Hey,
 
-My name is X, I'm an entrepreneur selling differrent success products in France since 20XX.
+My name is X, I'm an entrepreneur selling different success products in France since 20XX.
 Here my latest website which is number 1 selling in France: https://XXX.com
 
 Your product hit my curiosity and I would like to get more information about it.
@@ -48,7 +46,7 @@ Thank you,
 
 ## Marketing
 
-Identifie ton prospect et dresse son portrait. Prépare ta stratégie marketing. Ou vas-tu aller chercher ton prospect? En quoi ton produit va résoudre son problème ? Comment le convaincre d'acheter ton produit?
+Identifie ton prospect et dresse son portrait. Prépare ta stratégie marketing. Où vas-tu aller chercher ton prospect? En quoi ton produit va résoudre son problème ? Comment le convaincre d'acheter ton produit?
 
 
 ### Liens
