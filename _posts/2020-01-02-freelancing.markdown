@@ -31,6 +31,15 @@ Quel est l'objectif? La motivation?
 
 Communication direct, claire et utile. Relance avec tacte et fermeté.
 
+### Trouver de nouveau client
+
+1. Création de contenu
+2. Prospection
+3. Networking
+4. Bouche à oreille
+
+Demande toujours à ton réseau s'ils connaissent un client potentiel pour toi.
+
 ## Les projets
 
 La gestion de projet `avant/pendant/après` représente une grande partie du métier, ne pas la négliger.
