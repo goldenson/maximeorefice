@@ -40,6 +40,10 @@ Communication direct, claire et utile. Relance avec tacte et fermeté.
 
 Demande toujours à ton réseau s'ils connaissent un client potentiel pour toi.
 
+Établis le profil de ton prospect cible et explique lui comment tu vas lui apporter de la valeur.
+
+Utilises un CRM ([streak](streak.com)) pour gérer tes clients et les relancer au bon moment plusieurs fois (3 à 5 fois).
+
 ## Les projets
 
 La gestion de projet `avant/pendant/après` représente une grande partie du métier, ne pas la négliger.
