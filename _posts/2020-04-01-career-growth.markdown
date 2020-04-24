@@ -12,7 +12,9 @@ Nobody will take care of it, it's **your responsability** to decide what you wan
 
 **Objectif Key Result (OKR)** is a good framework that will help you to set up goals and measure them.
 
-Write down somewhere your self vision and where you see yourself in a short-mid-long term future.
+Write down somewhere what you want to become and where you see yourself in a short-mid-long term future.
+
+If your manager can't help you to become better, surround yourself with people good at what they do.
 
 ## Document your progress
 
@@ -39,3 +41,4 @@ Picturing what you want in life will actually help you to get it.
 - [OKR](https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them)
 - [Brag document](https://jvns.ca/blog/brag-documents/)
 - [GitLab career development](https://about.gitlab.com/handbook/engineering/career-development/)
+- [Manager Voltron](https://larahogan.me/resources/Manager-Voltron-Bingo.pdf)
