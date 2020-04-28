@@ -19,7 +19,7 @@
   finished: true
   comment: A beginner guide to start a business online. Stan will teach you how to sell your product/service by leveraging human psychology. Hard work and consistency are keys to grow a sustainable business in the long term.
 
-- title: 'Total Recall: My Unbelievably True Life Story'
+- title: "Total Recall: My Unbelievably True Life Story"
   author: Arnold Schwarzenegger
   url: https://www.amazon.com/Simple-Path-Wealth-financial-independence/dp/1533667926
   started_at: 2019-03-20
@@ -79,10 +79,10 @@
   author: Derek Sivers
   url: https://www.amazon.com/Anything-You-Want-Derek-Sivers/dp/0241209048
   started_at: 2019-03-14
-  finished: false
-  comment:
+  finished: true
+  comment: Derek shares his entrepreneurial journey and the lessons he learned from running a business for 10 years. Being authentic and making what sounds right for his customers were what made him successful.
 
-- title: 'Drive: The Surprising Truth About What Motivates Us'
+- title: "Drive: The Surprising Truth About What Motivates Us"
   author: Daniel H. Pink
   url: https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805
   started_at: 2019-11-15
@@ -96,7 +96,7 @@
   finished: true
   comment: Incredible autobiography from the creator of Nike. Phil spent his life hustling to become successful. His journey is fascinating and very inspiring for entrepreneurs.
 
-- title: 'Influence: The Psychology of Persuasion'
+- title: "Influence: The Psychology of Persuasion"
   author: Dr. Robert Cialdini
   url: https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X
   started_at: 2019-10-01
