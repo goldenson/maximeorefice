@@ -36,6 +36,12 @@ The standard `postgres` client to interact with your cluster.
 |           `\set`            | Display `pg` settings for the client |
 |            `\e`             | Open a text editor                   |
 |            `\>@`            | Display a help from this operator    |
+|            `\du`            | Show list of rules                   |
+|            `\dt`            | Show list of object relations        |
+|    `SHOW data_activity;`    | Display path to postgres             |
+|            `\dn`            | List of schemas                      |
+|      `\sf count_rows`       | Show definition of a method          |
+|      `\ef count_rows`       | Edit a function                      |
 
 ### Indexes
 
@@ -218,7 +224,7 @@ It's okay to have some deadlocks, we can live with them. Adjust your design and 
 
 ### Functions
 
-You can create functions in `pg`.
+You can create functions in `pg`. By default they are executable by everybody.
 
 ```sql
 CREATE FUNCTION doubleme(i integer) RETURNS integer LANGUAGE sql AS 'SELECT i * 2';
@@ -319,6 +325,9 @@ INSERT INTO data(value) VALUES ('second');
 TABLE realdata;
 
 EXPLAIN SELECT id, value FROM realdata WHERE valid @> TIMESTAMPTZ '2020-04-29 17:18:37';
+
+/* Good for security but alter performance */
+ALTER VIEW data SET (security_barrier = true);
 ```
 
 `postgres` tracks dependencies between objects. We can't drop our `realdata` table as our `data` view depends on it.
@@ -371,6 +380,167 @@ Rule of thumb: `RAM >= shared_buffers + work_mem * max_connections`
 
 ## Day 4 - Security
 
+### Users
+
+You should never use a `SUPERUSER` in your application!
+
+`postgres` does not have `USERS` it's called a `ROLE`. An object is something created by `CREATE` and each object has an owner. Only the owner may alter/drop an object.
+
+`pg_hba.conf` is the config file for user authentication.
+
+You can not remove an existing permission at the user level if it has been granted at the group level.
+
+```sql
+CREATE USER
+
+/*It is equivalent to */
+CREATE ROLE joe LOGIN;
+
+/* This make sure the password does not leak in clear all over the place */
+\password
+
+CREATE ROLE logistics;
+GRANT logistics TO joe;
+\du
+\dt
+
+CREATE ROLE read_only NOLOGIN;
+
+/* Alter permissions for existing tables to read_only */
+SELECT format('GRANT SELECT ON myapp.%I TO read_only;' table_name) FROM information_schema.tables WHERE table_schema = 'myapp' \gexec
+GRAND SELECT ON ALL TABLES IN SCHEMA myapp TO read_only;
+
+/* Make sure all future new tables gets read_only permissions */
+ALTER DEFAULT PRIVILEGES FOR ROLE postgres IN SCHEMA myapp GRANT SELECT ON TABLES TO read_only;
+```
+
+### Schema
+
+Prefer to create your own schema for your app.
+
+If you are connected to one database you **can not access** to a different object in another database.
+
+Best practice is to set the `search_path` so you don't have to reference it everytime.
+
+```sql
+CREATE SCHEMA myapp;
+
+/* Prevent users without access to create object */
+REVOKE CREATE ON SCHEMA public FROM public;
+
+/* Add privilege to a specific group */
+GRANT USAGE ON SCHEMA myapp TO logistics;
+\dn+ myapp
+
+/* Create the new table in the myapp schema */
+CREATE TABLE myapp.new (x inet);
+
+SET search_path = myapp, public;
+SELECT * FROM new;
+```
+
+### Table
+
+```sql
+/* Grant permission at the role level */
+GRANT SELECT ON account TO logistics ;
+```
+
+### Columns
+
+You can do it but never use it in code!
+
+```sql
+REVOKE SELECT ON account FROM logistics;
+
+/* Grant permission at the role level */
+GRANT SELECT (id, name) ON account TO logistics ;
+```
+
+### Encryption
+
+The early you encrypt the better it is as there is no way for the database to decrypt the data.
+
+```sql
+CREATE EXTENSION pgcrypto;
+\dx+ pgcrypto
+```
+
+### SQL injection
+
+- Do not not construct SQL statement yourself!
+- Use a prepare statement
+
+```sql
+CREATE OR REPLACE FUNCTION public.count_rows(tablename text)
+ RETURNS bigint
+ LANGUAGE plpgsql
+AS $function$
+DECLARE
+  sql text;
+  res bigint;
+BEGIN
+  sql := 'SELECT count(*) FROM ' || tablename;
+   -- RAISE NOTICE
+  EXECUTE sql INTO res;
+  RETURN res;
+END;
+
+SELECT count_rows('test; SELECT count(*) FROM pg_user WHERE superuser');
+
+/* The fix is to use quote_ident() */
+sql := 'SELECT count(*) FROM ' || quote_ident(tablename);
+```
+
+### Partitioning
+
+It looks like a simple table but there are many behind the scene. The **partition key** determines which partition is choosen.
+
+Prefer using [pg12](https://www.postgresql.org/docs/12/ddl-partitioning.html) for better performance. Upper limit is always inclusive.
+
+A good case it that you can cheaply and easily get rid of old data.
+
+There are 3 techniques existing today:
+
+- **List**: Enumerate by a unique key
+- Range: Range by a timestamp
+- Hash: Arbitrary split
+
+> Don't create a default partition, you never know what could happen in the future!
+
+```sql
+CREATE TABLE part (id bigint NOT NULL, createdat timestamp with time zone NOT NULL, data text) PARTITION BY RANGE (createdat);
+
+CREATE TABLE part_2020 PARTITION OF part FOR VALUES FROM ('2020-01-01 00:00:00') TO ('2021-01-01 00:00:00');
+CREATE TABLE part_2019 PARTITION OF part FOR VALUES FROM ('2019-01-01 00:00:00') TO ('2020-01-01 00:00:00');
+CREATE TABLE part_2018 PARTITION OF part FOR VALUES FROM ('2018-01-01 00:00:00') TO ('2019-01-01 00:00:00');
+
+INSERT INTO part VALUES (1, current_timestamp, 'something');
+
+EXPLAIN SELECT * FROM part;
+                             QUERY PLAN
+--------------------------------------------------------------------
+ Append  (cost=0.00..62.10 rows=3210 width=48)
+   ->  Seq Scan on part_2020  (cost=0.00..20.70 rows=1070 width=48)
+   ->  Seq Scan on part_2019  (cost=0.00..20.70 rows=1070 width=48)
+   ->  Seq Scan on part_2018  (cost=0.00..20.70 rows=1070 width=48)
+(4 rows)
+
+/* Create an index to a partition */
+CREATE INDEX ON part(createdat);
+ANALYZE;
+EXPLAIN SELECT * FROM part WHERE createdat BETWEEN '2019-01-01' AND '2020-01-04'
+
+
+/* You can attach and detach partition */
+ALTER TABLE part ATTACH PARTITION part_2021 FOR VALUES FROM ('2021-01-01 00:00:00') TO ('2022-01-01 00:00:00')
+
+/* The primary key should include the partition key */
+ALTER TABLE part ADD PRIMARY KEY (id, createdat);
+```
+
+If you want to implement **sharding** have a look at [Pl/Proxy](https://plproxy.github.io/tutorial.html).
+
 ## Day 5 - Execution plans / Internal optimization; Ruby on Rails ActiveRecord with PostgreSQL (RAW SQL)
 
 ### Links
@@ -378,3 +548,4 @@ Rule of thumb: `RAM >= shared_buffers + work_mem * max_connections`
 - [SQL Zine](https://wizardzines.com/zines/sql/)
 - [Documentation](https://www.postgresql.org/docs/12/index.html)
 - [Cybertec](https://www.cybertec-postgresql.com/en/)
+- [Blog post about ORM](http://blogs.tedneward.com/post/the-vietnam-of-computer-science/)
