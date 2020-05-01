@@ -44,6 +44,17 @@ Demande toujours à ton réseau s'ils connaissent un client potentiel pour toi.
 
 Utilises un CRM ([streak](streak.com)) pour gérer tes clients et les relancer au bon moment plusieurs fois (3 à 5 fois).
 
+#### Contenu
+
+Il existe 2 strategies différentes:
+
+- Stratégie de traffic
+- Stratégide de conversion
+
+Privilégie les études de cas, ta méthodologie de travail, expliques comment tu travail. Partages le ensuite à ton réseau et à tes prospects.
+
+Parle à ton prospect de ses problèmes, de ta solution et comment tu vas transformée sa vie. Crée une méthodologie pour résoudre le problème de ton client.
+
 ## Les projets
 
 La gestion de projet `avant/pendant/après` représente une grande partie du métier, ne pas la négliger.
@@ -73,6 +84,7 @@ Cultive ton réseau au fur et à mesure que le temps s'écoule. Assiste à des �
 Explique à ton réseau qui tu es, ce que tu fais de manière simple et apporte lui un **maximum de valeur**.
 
 Identifier les personnes de son réseau:
+
 - Connecteurs: apporte opportunités de business
 - Complémentaires: aide à travailler sur d'importants projets
 - Futures stars: investissement qui peut rapporter gros
@@ -95,9 +107,10 @@ Cela va t'apporter de la crédibilité et de la visibilité quand tu te lances. 
 #### Faire une bonne impression en 5 min
 
 1. Apporter de la valeur:
-  - Mise ne relation
-  - Recommender outil/livre/service
-  - Aide sur un projet
+
+- Mise ne relation
+- Recommender outil/livre/service
+- Aide sur un projet
 
 2. Poser une **bonne** question? Très précise qui montre que tu sais de quoi tu parles.
 
