@@ -85,3 +85,4 @@ Ask him questions about his previous work and make sure to do your homework befo
 ### Links
 
 - [The costs of buying a home](https://duproprio.com/en/buy/how-buy-property/calculating-related-fees-and-the-down-payment)
+- [Gestion bail](https://bloc.solutions/)
