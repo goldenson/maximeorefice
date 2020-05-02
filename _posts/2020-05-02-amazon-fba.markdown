@@ -25,5 +25,5 @@ language: fr
 
 ### Liens
 
-- [Oseille.tv](https://oseille.tv/formation/)
+- [Oseille.tv](https://oseilletv.teachable.com/courses)
 - [Takit boutique](https://www.amazon.fr/stores/Takit/page/32B2259F-A5C6-4678-891D-31B571C2D069)
