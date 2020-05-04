@@ -134,6 +134,7 @@ SELECT show_trgm('maxime');
 - `IS NULL` is the way to test for `NULL` values
 - Whenever you create a foreign key always create an index with it.
 - You don't want to have data redundancy in your application
+- You should always filter data in SQL
 
 > Sometimes you have to change the query to make it efficient.
 
@@ -543,9 +544,153 @@ If you want to implement **sharding** have a look at [Pl/Proxy](https://plproxy.
 
 ## Day 5 - Execution plans / Internal optimization; Ruby on Rails ActiveRecord with PostgreSQL (RAW SQL)
 
+### Exporting data
+
+```sql
+\COPY part_2020 TO 'clientfile' (FORMAT 'csv')
+```
+
+### Performance
+
+Enable `pg_stat_statements` to find problems in your queries. It observes all queries executed.
+
+```bash
+pgbench -c 10 -T 30 course
+```
+
+```sql
+SHOW log_min_duration_statement;
+
+CREATE EXTENSION pg_stat_statements;
+\d pg_stat_statements
+
+ALTER SYSTEM SET shared_preload_libraries = 'pg_stat_statements';
+SHOW shared_preload_libraries;
+
+SELECT * FROM pg_settings WHERE name LIKE 'pg_stat_statements.%';
+ALTER SYSTEM SET shared_preload_libraries.track = 'all';
+SELECT pg_reload_conf();
+
+SELECT calls, total_time, query FROM pg_stat_statements ORDER BY total_time DESC LIMIT 10;
+
+SELECT relname, seq_scan, seq_tup_read, seq_tup_read::float8 / seq_scan AS tup_per_scan FROM pg_stat_user_tables WHERE seq_scan > 0 ORDER BY tup_per_scan DESC LIMIT 10;
+
+\d pg_stat_user_indexes
+SELECT relname, indexrelname, pg_total_relation_size(indexrelid) FROM pg_stat_user_indexes WHERE idx_scan = 0 ORDER BY 3 DESC;
+```
+
+### Rails with postgres
+
+#### Array
+
+```ruby
+add_column :users, :emails, :string, array: true, default: []
+add_index :users, :emails, using: 'gin'
+
+# Batch insert
+User.insert_all(users)
+User.where("emails @> '{test@email.com}'").explain
+```
+
+#### JSON / JSONB
+
+If you want to have an index use the `jsonb` datatype.
+
+```ruby
+add_column :users, :settings, :jsonb
+```
+
+#### Daterange
+
+```ruby
+create_table :events do |t|
+   t.daterange :duration
+   t.timestamps
+end
+
+Event.create(duration: Data.new(2014, 2, 11)..Date.new(2014, 2, 12))
+event = Event.first
+event.duration
+Event.where("duration @> ?::data", Date.new(2014, 2, 12))
+event = Event.select("lower(duration) AS starts_at").select("upper(duration) AS ends_at").first
+event.starts_at
+event.ends_at
+```
+
+#### UUID
+
+A good use case is security to prevent attacker to identify a given url.
+
+```ruby
+enable_extension 'pgcrypto'
+
+create_table :people, id: :uuid, do |t|
+  t.string :name
+  t.timestamps
+end
+
+# Set up automatic uuids for future models
+Rails.application.config.generators do |g|
+  g.orm :active_record, primary_key_type: :uuid
+end
+```
+
+### Transactions
+
+```ruby
+create_table :accounts do |t|
+   t.string :name
+   t.decimal :amount, precision: 10, scale: 2
+   t.timestamps
+end
+
+class Account < ApplicationRecord
+  def withdraw(quantity)
+    Account.transaction do
+      self.amount -= quantity
+      save!
+    end
+  end
+
+  def deposit(quantity)
+    Account.transaction do
+      self.amount += quantity
+      save!
+    end
+  end
+end
+```
+
+### Scopes
+
+Your scopes should do **one** thing at a time.
+
+```ruby
+scope :active, -> { where(active: true) }
+
+scope :ordered, -> { order('LOWER(name)') }
+```
+
+### RAW SQL
+
+```ruby
+query = <<~SQL
+  SELECT SUM(CASE WHEN status = 0 THEN 1 ELSE 0 END)
+  FROM PROJECTS
+SQL
+
+ActiveRecord::Base.connection.execute(query)
+```
+
 ### Links
 
 - [SQL Zine](https://wizardzines.com/zines/sql/)
 - [Documentation](https://www.postgresql.org/docs/12/index.html)
 - [Cybertec](https://www.cybertec-postgresql.com/en/)
 - [Blog post about ORM](http://blogs.tedneward.com/post/the-vietnam-of-computer-science/)
+- [Postgres with Rails](https://www.citusdata.com/blog/2017/04/28/postgres-tips-for-rails/)
+- [pghero](https://github.com/ankane/pghero)
+- [Format execution plan](https://explain.depesz.com)
+- [Filter params in your rails log](https://blog.bigbinary.com/2016/03/07/parameter-filtering-enhacement-rails-5.html)
+- [UUID with rails and pg](https://pawelurbanek.com/uuid-order-rails)
+- [Partition in rails](https://github.com/rkrage/pg_party)
