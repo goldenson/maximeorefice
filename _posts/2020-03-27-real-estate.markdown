@@ -80,6 +80,7 @@ Use your network if you know qualified people in this industry. Otherwise you wi
 
 Ask him questions about his previous work and make sure to do your homework before hiring him.
 
+> [Verify his company](https://www.pes.rbq.gouv.qc.ca/RegistreLicences/Recherche?mode=Entreprise)
 > [Finding an entrepreneur for your project?](https://www.renoassistance.ca/choix-entrepreneur/entrepreneur-en-renovation-questions-a-lui-poser/)
 
 ### Links
