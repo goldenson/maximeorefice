@@ -8,7 +8,7 @@ Let's talk about the most powerful financial tool ever.
 
 ## My rules
 
-- **Never buy a stock without looking a chart**
+- **Never buy a stock without looking at a chart**
 - **Don't listen to anybody**
 
 ### Investment 🌱
