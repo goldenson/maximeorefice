@@ -52,3 +52,4 @@ If you have a renting property, you can claim money to the government if you did
 
 - [SimpleTax](https://simpletax.ca/)
 - [Adjust Cost Base](https://www.adjustedcostbase.ca/)
+- [Foreign income](https://help.simpletax.ca/questions/foreign-employment-income)

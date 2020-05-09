@@ -4,9 +4,9 @@ title: "🦊 Work at GitLab"
 date: 2020-03-19
 ---
 
-I'm currently working for the [biggest remote company](https://about.gitlab.com/company/culture/all-remote/) in the world!
+I'm working for the [biggest remote company](https://about.gitlab.com/company/culture/all-remote/) in the world! I'm grateful to be part of this adventure as [our values](https://about.gitlab.com/handbook/values/) perfectly fit with me.
 
-I'm grateful to be part of this great company as [our values](https://about.gitlab.com/handbook/values/) perfectly fit with me.
+[Explore](https://about.gitlab.com/company/team/) our worldwide team.
 
 ## Role
 
@@ -29,15 +29,15 @@ Our goal is to make test easier for everybody. This means we create tools to hel
 
 ## Project
 
-You can follow [our Roadmap](https://about.gitlab.com/direction/maturity/#verify), if you are curious to know what we are working on.
+You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify), if you are curious to know what we are working on.
 
 ### Now
 
-Right now I'm working on making it possible to display screenshots from a [JUnit XML report](https://gitlab.com/gitlab-org/gitlab/-/issues/6061).
+Currently working on generating an accessibility report diff between 2 reports and show it on a `Merge Request`, see [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/39425).
 
 ### Done
 
-[Explore](https://about.gitlab.com/company/team/) our worldwide team and checkout our [open positions](https://about.gitlab.com/jobs/apply/) if you are interested.
+- Display screenshots from a [JUnit XML report](https://gitlab.com/gitlab-org/gitlab/-/issues/6061), see the [documentation](https://docs.gitlab.com/ee/ci/junit_test_reports.html#viewing-junit-screenshots-on-gitlab).
 
 ### Links
 
