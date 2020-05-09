@@ -6,6 +6,23 @@ date: 2020-04-11
 
 Let's talk about the most powerful financial tool ever.
 
+## My rules
+
+- **Never buy a stock without looking a chart**
+- **Don't listen to anybody**
+
+### Investment 🌱
+
+- Follow the DCA strategy
+- Building one index fund portfolio
+- Building one dividend portfolio
+
+### Trading 🏌️‍♂️
+
+- Sells `1/4` of my position if stocks moves `+/-20%`
+- Use indicators to decide to what to do
+- Use order and stop limit
+
 ## Before
 
 The young **Max** did not want to believe in this market which in fact drives our society. Our economy is built on this system which collapsed many times and is still here today. Interesting isn't ?
@@ -42,7 +59,13 @@ A bond represents a loan from the buyer (you) to the issuer of the bond.
 
 #### [Dividends](https://www.investopedia.com/terms/d/dividend.asp)
 
-A divident is a distribution of a company's profit to shareholders.
+A dividend is a distribution of a company's profit to shareholders.
+
+Buy consistently for a long period of time, it's called the [dollar cost averaging](https://www.investopedia.com/terms/d/dollarcostaveraging.asp) strategy.
+
+##### [Reit](https://www.investopedia.com/terms/r/reit.asp)
+
+A real estate investment trust is a company that owns, operates, or finances income-generating real estate. It's a good way for young investor to invest in the real estate market without big a capital.
 
 #### Options
 
@@ -60,8 +83,26 @@ Here a list of some options we have in Canada:
 - [TD](https://www.td.com/ca/en/investing/direct-investing/)
 - [Questrade](https://www.questrade.com/home)
 
+### Reading charts
+
+You need to use indicators when you want to buy or sell a stock. Here some basic ones I'm using:
+
+|                            Indicator                             | Definition                                                      |
+| :--------------------------------------------------------------: | :-------------------------------------------------------------- |
+|       [RSI](https://www.investopedia.com/terms/r/rsi.asp)        | Tells you when a stock is hot or cold                           |
+| [MA(20)](https://www.investopedia.com/terms/m/movingaverage.asp) | Tells you when to buy or sell a stock                           |
+|                            `MA(200)`                             | Help you determine your target (average 200 days stock's price) |
+
+It you want to gamble, take calculated risks when the current price is trading near previous support levels.
+
 ### Links
 
 - [🇫🇷 Degiro](https://www.degiro.fr/)
 - [🇫🇷 Bourse Direct](https://www.boursedirect.fr/fr/actualites)
 - [Ben Felix](https://www.youtube.com/channel/UCDXTQ8nWmx_EhZ2v-kp7QxA)
+- [The money flow](http://www.thepetersreport.com/)
+- [Stock Market Course](https://gumroad.com/l/IDaKd)
+- [Earning Whishpers](https://www.earningswhispers.com/)
+- [Dividend Investor](https://www.dividendinvestor.com/)
+- [Simply Safe Dividend](https://www.simplysafedividends.com/)
+- [Reit](https://www.reit.com/)
