@@ -41,3 +41,4 @@ Here are the things I will focus first:
 - [home-assistant.io](https://www.home-assistant.io/)
 - [JuanMtech Youtube Channel](https://www.youtube.com/user/Jfelipe83M)
 - [Tuto](https://www.smarthomebeginner.com/traefik-2-docker-tutorial/)
+- [Setup](https://www.smarthomebeginner.com/my-smart-home-setup-2019/)
