@@ -18,6 +18,9 @@ Here are the things I want to do at home:
 
 - [Intel NUC 7](https://www.amazon.ca/s?k=intel+nuc+i7)
 - [NAS Synology](https://www.amazon.ca/dp/B075N1Z9LT)
+- [Thermostat](https://www.amazon.com/dp/B06W2LQY6L)
+- [Zwave](https://www.amazon.ca/dp/B00X0AWA6E)
+- [Chatiere](https://www.amazon.ca/SureFlap-Microchip-Porte-animal-domestique/dp/B009NH6NR0)
 
 ## How
 
