@@ -9,10 +9,10 @@ Recettes titulaires de la casa `Or & Fils`
 
 ## Légende
 
-|           Abréviation       | Définition                 |
-| :-------------------------: | :------------------------- |
-|            `cas`            | Cuillère à soupe           |
-|            `cac`            | Cuillère à soupe           |
+| Abréviation | Définition       |
+| :---------: | :--------------- |
+|    `cas`    | Cuillère à soupe |
+|    `cac`    | Cuillère à soupe |
 
 ## Pizza maison
 
@@ -38,6 +38,13 @@ Faire la pâte la veille:
 - basilic
 - brocoli
 - tagliatelle
+
+### Sauce au thon
+
+- sauce tomate
+- thon
+- creme fraîche
+- mafaldine
 
 ### Liens
 
