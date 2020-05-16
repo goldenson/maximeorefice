@@ -7,15 +7,44 @@ language: fr
 
 Recettes titulaires de la casa `Or & Fils`
 
+## Légende
+
+| Abréviation | Définition       |
+| :---------: | :--------------- |
+|    `cas`    | Cuillère à soupe |
+|    `cac`    | Cuillère à soupe |
+
 ## Pizza maison
 
-Fais la pâtes la veille:
+Faire la pâte la veille:
 
 - `200ml` d'eau tiède
 - 1 sachet de levure boulangère
 - Grosse pincé de Sel
 - Filet d'huile d'olive
 - `250g` de farine
+
+## Pasta
+
+### Sauce au noix
+
+- ail
+- 75g noix
+- 50g parmesan
+- 4 `cas` yaourt
+- 1 `cas` chapelure
+- 3 `cas` huile d'olive
+- 1/2 citron
+- basilic
+- brocoli
+- tagliatelle
+
+### Sauce au thon
+
+- sauce tomate
+- thon
+- creme fraîche
+- mafaldine
 
 ### Liens
 

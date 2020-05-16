@@ -36,5 +36,6 @@ What to think about when your application runs in production, things to keep in 
 
 - [Ankane blog post](https://ankane.org/sensitive-data-rails)
 - [Secure Rails gem](https://github.com/ankane/secure_rails)
+- [Share private password](https://privnote.com)
 
 If you are curious to learn more about security, I suggest you to read about the [OSWAP](https://owasp.org/www-project-top-ten/).
