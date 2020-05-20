@@ -49,6 +49,14 @@ I'm using this account for stock picking with [Wealthsimple Trade](https://www.w
 
 This account is a huge advantage in Canada, as you don't pay taxes on capital gains. This means if your money double in 10 years you will be tax exempt on it.
 
+#### Dividend Strategy
+
+I'm currently building a new investment portfolio for my wife buying exclusively dividends.
+
+I've opened a `Spousal RRSP` on [questrade](https://www.questrade.com/home) and I'm using [getpassiv](https://getpassiv.com/) which connects to my broker and automate some boring stuff such as maintaining target allocation and portfolio rebalancing.
+
+I will add more notes about this strategy in a couple of months, stay tuned.
+
 ### 3. Cryptocurrency
 
 I believe in a world lead by technology as software is eating the world.
