@@ -88,3 +88,4 @@ Ask him questions about his previous work and make sure to do your homework befo
 - [The costs of buying a home](https://duproprio.com/en/buy/how-buy-property/calculating-related-fees-and-the-down-payment)
 - [Gestion bail](https://bloc.solutions/)
 - [Taxes](https://www.acomptax.com/credits-et-deductions/immobilier/revenus-locatifs-mieux-comprendre-les-depenses-deductibles/)
+- [🇫🇷  Easy immobilier](https://easy-mobilier.com)
