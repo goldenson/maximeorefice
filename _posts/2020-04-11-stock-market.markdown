@@ -108,3 +108,5 @@ It you want to gamble, take calculated risks when the current price is trading n
 - [Reit](https://www.reit.com/)
 - [Dividend strategy](https://www.myownadvisor.ca/dividends/)
 - [Vanguard robot](https://investor.vanguard.com/financial-advisor/digital-advisor)
+- [Dividend tool](https://www.digrin.com/)
+- [Toolbox for investor](https://finbox.com/)
