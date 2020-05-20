@@ -45,7 +45,9 @@ I invest all of this account with stocks and bonds as decribed above.
 
 > CELI in Québec
 
-I'm using this account for stock picking with [Wealthsimple Trade](https://www.wealthsimple.com/en-ca/product/trade/).
+I stopped using [Wealthsimple Trade](https://www.wealthsimple.com/en-ca/product/trade/) as this is not a reliable product for [swing trades](https://www.investopedia.com/terms/s/swingtrading.asp).
+
+I will either use [td investing](https://www.td.com/ca/en/investing/direct-investing/trading/) or [questrade](https://www.questrade.com/home) for stock picking.
 
 This account is a huge advantage in Canada, as you don't pay taxes on capital gains. This means if your money double in 10 years you will be tax exempt on it.
 
