@@ -14,6 +14,7 @@ J'utilise une [LLC](https://www.irs.gov/businesses/small-businesses-self-employe
 3. Création d'une adresse aux USA, [ipostal1](https://ipostal1.com/)
 4. Permettre à `ipostal` de recevoir du courier, [notorize](https://www.notarize.com/)
 5. Création de la société, [incfile](https://www.incfile.com)
+6. Création d'un compte en banque, [mercury](https://mercury.com/) et [transferwise](https://transferwise.com/)
 
 ## Trouver sa niche et un produit gagnant
 
