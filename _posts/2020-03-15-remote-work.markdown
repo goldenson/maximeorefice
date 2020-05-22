@@ -19,6 +19,7 @@ Some notes about how to work efficiently remotely.
 - Have a dedicate setup at home
 - Plan in advance your roadmap
 - Travel to meet your team once or more every year
+- Provide explicit feedback
 
 ## My current set up
 
@@ -46,3 +47,5 @@ Download the [Remote Work Plabybook](https://about.gitlab.com/resources/ebook-re
 - [GitLab Handbook](https://about.gitlab.com/company/culture/all-remote/)
 - [Buffer Blog](https://open.buffer.com/category/remote-work/)
 - [Productive Home Office](https://about.gitlab.com/company/culture/all-remote/workspace/)
+- [Conventional comment](https://conventionalcomments.org/)
+- [Feedback ladder](https://www.netlify.com/blog/2020/03/05/feedback-ladders-how-we-encode-code-reviews-at-netlify/)
