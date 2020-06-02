@@ -33,7 +33,7 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Now
 
-...
+- Making our `JUnit` feature fast again with some `performance` improvements, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/3198)
 
 ### Done
 
