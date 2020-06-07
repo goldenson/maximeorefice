@@ -110,3 +110,4 @@ It you want to gamble, take calculated risks when the current price is trading n
 - [Vanguard robot](https://investor.vanguard.com/financial-advisor/digital-advisor)
 - [Dividend tool](https://www.digrin.com/)
 - [Toolbox for investor](https://finbox.com/)
+- [Dividend analysis](https://finviz.com/)
