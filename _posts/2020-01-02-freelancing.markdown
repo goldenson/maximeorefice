@@ -138,3 +138,4 @@ Simple et court. Minimiser l'engagement initial, ex: `Es-tu intéressé?` (princ
 
 - [Formation Marketing Mania](https://training.marketingmania.fr/)
 - [Agrandir son réseau](https://www.nateliason.com/blog/second-degree-dinners)
+- [Frebee](https://www.freebe.me)
