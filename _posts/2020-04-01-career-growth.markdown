@@ -42,3 +42,4 @@ Picturing what you want in life will actually help you to get it.
 - [Brag document](https://jvns.ca/blog/brag-documents/)
 - [GitLab career development](https://about.gitlab.com/handbook/engineering/career-development/)
 - [Manager Voltron](https://larahogan.me/resources/Manager-Voltron-Bingo.pdf)
+- [Technical career](https://engineering.atspotify.com/2016/02/08/technical-career-path/)
