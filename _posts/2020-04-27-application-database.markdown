@@ -685,6 +685,7 @@ ActiveRecord::Base.connection.execute(query)
 ### Links
 
 - [SQL Zine](https://wizardzines.com/zines/sql/)
+- [Understanding EXPLAIN](https://docs.gitlab.com/ee/development/understanding_explain_plans.html)
 - [Documentation](https://www.postgresql.org/docs/12/index.html)
 - [Cybertec](https://www.cybertec-postgresql.com/en/)
 - [Blog post about ORM](http://blogs.tedneward.com/post/the-vietnam-of-computer-science/)
