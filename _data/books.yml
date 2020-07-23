@@ -4,6 +4,7 @@
   started_at: 2020-07-09
   finished: true
   comment: Une étude sur le comportement humain démontrant à quel point l'humain est irrationel. Un complément du classique livre de Cialdini. Tout nos choix sont influencés par différents facteurs environnementaux et sociaux.
+  grade: 3
 
 - title: L'homme le plus riche de babylone
   author: George S. Clason
@@ -11,6 +12,7 @@
   started_at: 2020-06-29
   finished: true
   comment: Un récit de plus de 5000 ans qui nous enseigne la sagesse de la gestion financière. Nous pouvons encore aujourd'hui appliquer les leçons transmisent dans ce livre et partager notre expérience afin d'augmenter la richesse de tous.
+  grade: 5
 
 - title: Le pouvoir du moment present
   author: Eckhart Tolle
@@ -18,6 +20,7 @@
   started_at: 2020-05-18
   finished: true
   comment: Une étude spirituelle sur l'acceptation du moment présent et le lâcher prise. Ce livre m'a aidé à avancer dans la vie sans regretter les évènements du passé.
+  grade: 4
 
 - title: A fleur de peau
   author: Saverio Tomasella
@@ -25,6 +28,7 @@
   started_at: 2019-05-11
   finished: true
   comment: An interesting novel telling the story of an hypersensitivity woman. This book helped me to build empathy with people living deeply their feeling. I feel now more aware of how they live with their emotions.
+  grade: 4
 
 - title: "The Millionaire Next Door: The Surprising Secrets of America's Wealthy"
   author: Thomas J. Stanley
@@ -32,6 +36,7 @@
   started_at: 2019-04-17
   finished: true
   comment: This book studies the rich with plenty of statistics about millionaires behavior.  What they think about money, what they do with their money and how they build wealth for their family.
+  grade: 5
 
 - title: The Alchemist
   author: Paulo Coelho
@@ -39,6 +44,7 @@
   started_at:
   finished: false
   comment:
+  grade:
 
 - title: Votre Empire Dans un Sac a Dos
   author: Stan Leloup
@@ -46,6 +52,7 @@
   started_at: 2019-04-11
   finished: true
   comment: A beginner guide to start a business online. Stan will teach you how to sell your product/service by leveraging human psychology. Hard work and consistency are keys to grow a sustainable business in the long term.
+  grade: 4
 
 - title: "Total Recall: My Unbelievably True Life Story"
   author: Arnold Schwarzenegger
@@ -53,6 +60,7 @@
   started_at: 2019-03-20
   finished: true
   comment: Arnold is an inspiring man that lived many lives at once. He is very passionated about what he is currently involved with and always hungry to accomplish more. He is never afraid of making mistakes and learned from them.
+  grade: 5
 
 - title: Trust Me, I'm Lying
   author: Ryan Holiday
@@ -60,6 +68,7 @@
   started_at: 2020-05-02
   finished: false
   comment:
+  grade:
 
 - title: The Simple Path to Wealth
   author: JL Collins
@@ -67,6 +76,7 @@
   started_at: 2019-03-01
   finished: true
   comment: JL Collins illustrates by simplicity how to build wealth on leveraging the most powerful financial tool in our society; the stock market. He describes what he did and shares his experience as an investor.
+  grade: 5
 
 - title: The Science of Getting Rich
   author: Wallace D. Wattles
@@ -74,6 +84,7 @@
   started_at: 2019-03-16
   finished: true
   comment: A philosophical read that helps to picture what you want in life in order to make it happen. Life is full of opportunity, so make small progress everyday that will lead you to great things in your future.
+  grade: 3
 
 - title: Rich Dad Poor Dad
   author: Robert T. Kiyosaki
@@ -81,6 +92,7 @@
   started_at: 2019-02-03
   finished: true
   comment: A classic book about how to build wealth for you family and the following generations. Robert explains the different mindsets between the rich and the poor. His secret sauce is to let his money working for himself.
+  grade: 5
 
 - title: Atomic Habits
   author: James Clear
@@ -88,6 +100,7 @@
   started_at: 2019-12-30
   finished: true
   comment: This book demontrates how small habits can lead to great things. James teaches you how to build good habit and get rid of the bad ones. His techniques seems simple but they work !
+  grade: 5
 
 - title: I Will Teach You to Be Rich
   author: Ramit Sethi
@@ -95,6 +108,7 @@
   started_at: 2019-12-01
   finished: true
   comment: This is a must read for everybody. Ramit will teach you what to do with your financial life. Setting up an automated financial system so you don't need to think about money anymore.
+  grade: 5
 
 - title: Refactoring UI
   author: Adam Wathan & Steve Schoger
@@ -102,6 +116,7 @@
   started_at: 2019-11-17
   finished: true
   comment: A book that will teach you all the fundamentals of design by showing you examples and explaining how you can build great UI your users will love. It's the foundation of <a href="https://tailwindcss.com/">Tailwind CSS</a>.
+  grade: 5
 
 - title: Anything you want
   author: Derek Sivers
@@ -109,6 +124,7 @@
   started_at: 2019-03-14
   finished: true
   comment: Derek shares his entrepreneurial journey and the lessons he learned from running a business for 10 years. Being authentic and making what sounds right for his customers were what made him successful.
+  grade: 5
 
 - title: "Drive: The Surprising Truth About What Motivates Us"
   author: Daniel H. Pink
@@ -116,6 +132,7 @@
   started_at: 2019-11-15
   finished: true
   comment: This book explains how intrinsic motivation can lead to great things. The author provides a lot of practical advices you can apply in your daily life.
+  grade: 4
 
 - title: Shoe Dog
   author: Phil Knight
@@ -123,6 +140,7 @@
   started_at: 2019-11-01
   finished: true
   comment: Incredible autobiography from the creator of Nike. Phil spent his life hustling to become successful. His journey is fascinating and very inspiring for entrepreneurs.
+  grade: 5
 
 - title: "Influence: The Psychology of Persuasion"
   author: Dr. Robert Cialdini
@@ -130,6 +148,7 @@
   started_at: 2019-10-01
   finished: true
   comment: The key to understand human basic of psychologysh. Dr. Cialdini introduces 6 principles of psychology that explains how our behavior could be influenced by different techniques.
+  grade: 5
 
 - title: Company of One
   author: Paul Jarvis
@@ -137,6 +156,7 @@
   started_at: 2019-09-15
   finished: true
   comment: Great book that questions in depth companies' growth. Paul thinks we don't need to double our numbers every year in order to build a sustainable and healthy business.
+  grade: 5
 
 - title: Never split the difference
   author: Chris Voss
@@ -144,3 +164,4 @@
   started_at: 2019-09-01
   finished: true
   comment: Amazing book that will teach you everything you need to know in order to negociate like a boss. Chris shares is 30 years of experience as and old FBI agent.
+  grade: 5

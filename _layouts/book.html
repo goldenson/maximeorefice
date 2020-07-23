@@ -56,6 +56,7 @@ layout: default
   {% for book in site.data.books %} {% if book.finished == true %}
   <div class="book-container">
     <div class="book-item">
+      <span>{% for grade in (1..book.grade) %}⭐{% endfor %}</span>
       <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a>
       <span class="book-by-author">
         de {{ book.author }} ({{ book.started_at | date: "%Y-%m-%d" }})</span>
