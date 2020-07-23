@@ -40,18 +40,13 @@ layout: default
       <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a>
       <span class="book-by-author">
         by {{ book.author }} {% if book.started_at != nil %} ({{ book.started_at
-        | date_to_string: "ordinal", "US" }}) {% endif %}</span
-      >
+        | date: "%Y-%m-%d"}}) {% endif %}</span>
       <p class="book-comment">{{ book.comment }}</p>
     </div>
     <div class="book-item-cover">
       <a class="book-cover-link" href="{{ book.url }}">
-        <img
-          class="book-cover lazy"
-          src="/assets/images/covers/book-placeholder.png"
-          data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg"
-          alt="Cover {{ book.title }}"
-        />
+        <img class="book-cover lazy" src="/assets/images/covers/book-placeholder.png"
+          data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}" />
       </a>
     </div>
   </div>
@@ -63,18 +58,12 @@ layout: default
     <div class="book-item">
       <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a>
       <span class="book-by-author">
-        by {{ book.author }} ({{ book.started_at | date_to_string: "ordinal",
-        "US" }})</span
-      >
+        de {{ book.author }} ({{ book.started_at | date: "%Y-%m-%d" }})</span>
       <p class="book-comment">{{ book.comment }}</p>
     </div>
     <a class="book-cover-link" href="{{ book.url }}">
-      <img
-        class="book-cover lazy"
-        src="/assets/images/covers/book-placeholder.png"
-        data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg"
-        alt="Cover {{ book.title }}"
-      />
+      <img class="book-cover lazy" src="/assets/images/covers/book-placeholder.png"
+        data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}" />
     </a>
   </div>
   {% endif %} {% endfor %}
