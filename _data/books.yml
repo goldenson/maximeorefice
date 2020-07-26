@@ -25,7 +25,7 @@
 - title: A fleur de peau
   author: Saverio Tomasella
   url: https://www.amazon.fr/fleur-peau-roman-initiatique-hypersensibles-ebook/dp/B071VP49Y5
-  started_at: 2019-05-11
+  started_at: 2020-05-11
   finished: true
   comment: An interesting novel telling the story of an hypersensitivity woman. This book helped me to build empathy with people living deeply their feeling. I feel now more aware of how they live with their emotions.
   grade: 4
@@ -33,7 +33,7 @@
 - title: "The Millionaire Next Door: The Surprising Secrets of America's Wealthy"
   author: Thomas J. Stanley
   url: https://www.amazon.com/Millionaire-Next-Door-Surprising-Americas/dp/1589795474
-  started_at: 2019-04-17
+  started_at: 2020-04-17
   finished: true
   comment: This book studies the rich with plenty of statistics about millionaires behavior.  What they think about money, what they do with their money and how they build wealth for their family.
   grade: 5
@@ -41,7 +41,7 @@
 - title: The Alchemist
   author: Paulo Coelho
   url: https://www.amazon.com/Alchemist-Fable-About-Following-Dream/dp/B000BO2D3C
-  started_at:
+  started_at: 2020-07-23
   finished: false
   comment:
   grade:
@@ -49,7 +49,7 @@
 - title: Votre Empire Dans un Sac a Dos
   author: Stan Leloup
   url: https://www.amazon.fr/Votre-Empire-Dans-Sac-Dos/dp/B0855HSC1V
-  started_at: 2019-04-11
+  started_at: 2020-04-11
   finished: true
   comment: A beginner guide to start a business online. Stan will teach you how to sell your product/service by leveraging human psychology. Hard work and consistency are keys to grow a sustainable business in the long term.
   grade: 4
@@ -57,7 +57,7 @@
 - title: "Total Recall: My Unbelievably True Life Story"
   author: Arnold Schwarzenegger
   url: https://www.amazon.com/Simple-Path-Wealth-financial-independence/dp/1533667926
-  started_at: 2019-03-20
+  started_at: 2020-03-20
   finished: true
   comment: Arnold is an inspiring man that lived many lives at once. He is very passionated about what he is currently involved with and always hungry to accomplish more. He is never afraid of making mistakes and learned from them.
   grade: 5
@@ -73,7 +73,7 @@
 - title: The Simple Path to Wealth
   author: JL Collins
   url: https://www.amazon.com/Simple-Path-Wealth-financial-independence/dp/1533667926
-  started_at: 2019-03-01
+  started_at: 2020-03-01
   finished: true
   comment: JL Collins illustrates by simplicity how to build wealth on leveraging the most powerful financial tool in our society; the stock market. He describes what he did and shares his experience as an investor.
   grade: 5
@@ -81,7 +81,7 @@
 - title: The Science of Getting Rich
   author: Wallace D. Wattles
   url: https://www.amazon.com/Science-Getting-Rich-Wallace-Wattles/dp/1984052330
-  started_at: 2019-03-16
+  started_at: 2020-03-16
   finished: true
   comment: A philosophical read that helps to picture what you want in life in order to make it happen. Life is full of opportunity, so make small progress everyday that will lead you to great things in your future.
   grade: 3
@@ -89,7 +89,7 @@
 - title: Rich Dad Poor Dad
   author: Robert T. Kiyosaki
   url: https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680178
-  started_at: 2019-02-03
+  started_at: 2020-02-03
   finished: true
   comment: A classic book about how to build wealth for you family and the following generations. Robert explains the different mindsets between the rich and the poor. His secret sauce is to let his money working for himself.
   grade: 5
