@@ -2,17 +2,17 @@
 layout: home
 ---
 
-<h1 class="hello">Hi, I'm Maxime Orefice.</h1>
+<h1 class="hello">Maxime Orefice</h1>
 
-Human being and maker of products. Originally from France, I'm living in Montreal (Canada) 🍁 🇨🇦. Interested right now on [...](/now)
+Humain en construction. Né en France, je vis actuellement à Montréal ([Canada](https://time.is/Montreal)). Intéressé par [...](/now)
 
-🦊 Currently Software Engineer [@GitLab](https://gitlab.com).
+🦊 Ingénieur Logiciel [@GitLab](https://gitlab.com)
 
-**I help startups to build the feature they need.**
+**J'aide les startups à se développer rapidement et sereinement**
 
-- You want to boostrap a new project and don't know where to start ?
-- You need to implement a feature and don't have the time to do it yourself ?
+- Tu cherches à créer un nouveau projet mais tu ne sais pas par où commencer ?
+- Tu as besoin de développer une fonctionnalité mais tu n'as pas le temps de traiter ce sujet en interne ?
 
-Former developer [@Shopify](https://www.shopify.com/), I learned how to write scalable code for millions of users.
+Ancien développeur [@Shopify](https://www.shopify.com/), j'ai appris à écrire du code performant pour des millions d'utilisateurs.
 
-Save time in your next project by <a target="_blank" href="https://calendly.com/orefice-maxime/chat?month=2019-11">booking a chat</a> with me.
+Si tu veux gagner du temps pour ton prochain projet 👉 <a target="_blank" href="https://calendly.com/orefice-maxime/chat?month=2019-11">appelle-moi</a>.
