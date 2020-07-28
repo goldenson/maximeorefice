@@ -8,11 +8,10 @@ layout: default
   </header>
 
   <p>
-    Starting <b>September 1st 2019</b> I committed to read 1 book each month.
-    Here is my progress so far:
+    À partir du <b>1er Septembre 2019</b>, j'ai commencé à lire 1 livre par mois.
   </p>
 
-  <h3>Books ideas to read next:</h3>
+  <h3>List de livre à acheter ou pas:</h3>
   <ul>
     <li>The boron letters</li>
     <li>Open, andre agassi</li>
@@ -29,17 +28,17 @@ layout: default
     <li>The Naked Warrior</li>
     <li><a href="https://www.amazon.ca/-/fr/gp/product/2378150946">Jordan belfort -le loup de wall street</a></li>
     <li><a href="https://www.amazon.ca/-/fr/SETH-GODIN/dp/2840016729">La vache pourpre</a></li>
-    <li><a href="https://www.amazon.ca/-/fr/TONY-BUZAN/dp/2212552157/ref">La lecture rapide</li>
-    <li><a href="https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/0241242533">Traction</li>
+    <li><a href="https://www.amazon.ca/-/fr/TONY-BUZAN/dp/2212552157/ref">La lecture rapide</a></li>
+    <li><a href="https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/0241242533">Traction</a></li>
   </ul>
 
-  <h2>Ongoing 📖</h2>
+  <h2>En cours 📖</h2>
   {% for book in site.data.books %} {% if book.finished == false %}
   <div class="book-container">
     <div class="book-item">
       <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a>
       <span class="book-by-author">
-        by {{ book.author }} {% if book.started_at != nil %} ({{ book.started_at
+        de {{ book.author }} {% if book.started_at != nil %} ({{ book.started_at
         | date: "%Y-%m-%d"}}) {% endif %}</span>
       <p class="book-comment">{{ book.comment }}</p>
     </div>
@@ -52,11 +51,19 @@ layout: default
   </div>
   {% endif %} {% endfor %}
 
-  <h2>Done 📚</h2>
+  <h2>Finis 📚</h2>
   {% for book in site.data.books %} {% if book.finished == true %}
   <div class="book-container">
     <div class="book-item">
-      <span>{% for grade in (1..book.grade) %}⭐{% endfor %}</span>
+      <span>
+        {% for grade in (1..5) %}
+        {% if grade <= book.grade %}
+        ★
+        {% else %}
+        ☆
+        {% endif %}
+        {% endfor %}
+      </span>
       <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a>
       <span class="book-by-author">
         de {{ book.author }} ({{ book.started_at | date: "%Y-%m-%d" }})</span>
@@ -72,6 +79,6 @@ layout: default
   <br />
 
   <p class="book-footer">
-    This is a reading page, inspired by <a href="https://hashref.com/reading">Xavier Noria</a>.
+    Merci à <a href="https://hashref.com/reading">Xavier Noria</a> pour l'inspiration.
   </p>
 </article>
