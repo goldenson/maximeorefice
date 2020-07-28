@@ -1,5 +1,5 @@
 ---
 layout: book
-title: Books
-permalink: /books/
+title: Livres
+permalink: /livres/
 ---
