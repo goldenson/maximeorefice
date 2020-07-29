@@ -7,7 +7,7 @@ title: Max's notes
 <ul>
   {% for post in site.posts %}
     <li>
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
       <a href="{{ post.url }}">{{ post.title }}</a> | <span class="post-meta">{{ post.date | date: date_format }}</span>
       {% if post.language == "fr" %}
         | <span class="post-meta">🇫🇷 </span>
