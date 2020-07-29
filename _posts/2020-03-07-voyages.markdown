@@ -1,0 +1,37 @@
+---
+layout: post
+title: "🌍 Voyages"
+date: 2020-03-07
+---
+
+Pays visités et future destinations.
+
+## Réservé 🧿
+
+- [ ] **Cuba**, Avril 2020 (annulé `COVID19`)
+- [ ] **Boston**, Mai 2020 (annulé `COVID19`)
+- [ ] **Naples**, Septembre 2020
+
+## À faire ✈️
+
+- [ ] **Martinique**
+- [ ] **Colombie**
+- [ ] **Philippines**
+- [ ] **Grece**
+- [ ] **Hawai**
+- [ ] **Myanmar**
+- [ ] **Chili**
+- [ ] **Armenie**
+- [ ] **Cap Vert**
+- [ ] **Corse**
+- [ ] **Collioure**
+- [ ] **Argentine**
+- [ ] **Egypte**
+- [ ] **Portugal**
+
+## Fait ✅
+
+- [x] **Mexique**, Octobre 2019
+- [x] **New York**, Septembre 2019
+- [x] **Venise**, Avril 2018
+- [x] **Thailand**, Septembre 2013
