@@ -38,13 +38,13 @@
   comment: This book studies the rich with plenty of statistics about millionaires behavior.  What they think about money, what they do with their money and how they build wealth for their family.
   grade: 5
 
-- title: The Alchemist
+- title: L'alchemist
   author: Paulo Coelho
-  url: https://www.amazon.com/Alchemist-Fable-About-Following-Dream/dp/B000BO2D3C
+  url: https://www.amazon.fr/LAlchimiste-Grand-prix-Lectrices-Elle/dp/2290004448
   started_at: 2020-07-23
-  finished: false
-  comment:
-  grade:
+  finished: true
+  comment: Une magnifique leçon de vie raconté dans ce livre. Paulo nous décrit combien il est important pour tout homme de vivre et de croire à sa légende personelle afin d'accomplir ses rêves.
+  grade: 5
 
 - title: Votre Empire Dans un Sac a Dos
   author: Stan Leloup
