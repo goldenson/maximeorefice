@@ -1,0 +1,33 @@
+---
+layout: post
+title: "🏌️‍♂️ Trading"
+date: 2020-05-02
+language: fr
+---
+
+Parlons d'argent et de mula.
+
+## Mes règles
+
+- **N'achètes jamais un stock sans regarder son graphe**
+- **N'écoutes pas ce que les gens/médias disent**
+- **Suis ton instinct garçon**
+
+### Stratégie
+
+On parle ici de `swing trade`. Cela consiste à acheter un stock à un certain prix et le revendre plus cher.
+
+- J'achète uniquement avec des [limit order](https://www.investopedia.com/terms/l/limitorder.asp)
+- Je vends `1/4` de ma position si un stock bouge `+/-20%`
+- J'utilise des indicateurs pour décider quand vendre/acheter
+- J'étudie le positionnement de l'entreprise avec [simplywall.st](https://simplywall.st)
+
+### Analyse
+
+Si tu veux te lancer dans le trading apprends les codes du monde financier:
+
+|                           Indicateurs                            | Definition                          |
+| :--------------------------------------------------------------: | :---------------------------------- |
+|       [RSI](https://www.investopedia.com/terms/r/rsi.asp)        | Tendance du marché                  |
+| [MA(20)](https://www.investopedia.com/terms/m/movingaverage.asp) | Prix moyen d'un stock sur 20 jours  |
+|                            `MA(200)`                             | Prix moyen d'un stock sur 200 jours |
