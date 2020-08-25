@@ -36,7 +36,10 @@ Ce compte est alimenté avec Wealthsimple.
 
 Je fais la même chose pour ma femme en utilisant un [Spousal RRSP](https://www.wealthsimple.com/en-ca/learn/spousal-rrsp).
 
-Nous construisons actuellement un portefeuille de dividend.
+Nous construisons actuellement un portefeuille basé sur les dividendes.
+
+
+<iframe height="515" width="860" allowfullscreen="" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpz8qxFUJs-QmLo8P4S1fFOspcKRLy2X7Je0Iadt1Q6utlsP5SlOrdc9GX4sdv3cV0FD6ByJvsW2zX/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
 #### CELI
