@@ -33,12 +33,13 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Now
 
-- Making our `JUnit` feature fast again with some `performance` improvements, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/3198)
+- Improving the performance of our `Code coverage` feature, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/4178)
 
 ### Done
 
 - Display an [accessibility report](https://gitlab.com/gitlab-org/gitlab/-/issues/39425) on a `Merge Request`, see [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/accessibility_testing.html)
 - Display screenshots from a [JUnit XML report](https://gitlab.com/gitlab-org/gitlab/-/issues/6061), see [documentation](https://docs.gitlab.com/ee/ci/junit_test_reports.html#viewing-junit-screenshots-on-gitlab)
+- Improve the performance of our `JUnit` feature, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/3198)
 
 ### Links
 
