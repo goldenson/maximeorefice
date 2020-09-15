@@ -33,14 +33,16 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Now
 
-- Improving the performance of our `Code coverage` feature, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/4178)
+- Expose `Code Coverage` to our `GraphQL API`, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/231386)
 
 ### Done
 
-- Display an [accessibility report](https://gitlab.com/gitlab-org/gitlab/-/issues/39425) on a `Merge Request`, see [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/accessibility_testing.html)
-- Display screenshots from a [JUnit XML report](https://gitlab.com/gitlab-org/gitlab/-/issues/6061), see [documentation](https://docs.gitlab.com/ee/ci/junit_test_reports.html#viewing-junit-screenshots-on-gitlab)
-- Improve the performance of our `JUnit` feature, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/3198)
+- Improve the performance of our [Code coverage](https://docs.gitlab.com/ee/user/project/merge_requests/test_coverage_visualization.html) feature, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/4178)
+- Improve the performance of our [JUnit](https://docs.gitlab.com/ee/ci/unit_test_reports.html) feature, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/3198)
+- Display screenshots from a [JUnit XML report](https://docs.gitlab.com/ee/ci/junit_test_reports.html#viewing-junit-screenshots-on-gitlab), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/6061)
+- Display an [accessibility report](https://docs.gitlab.com/ee/user/project/merge_requests/accessibility_testing.html) on a `Merge Request`, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/39425)
 
 ### Links
 
 - [Ship small](https://dev.to/mscccc/how-we-use-ship-small-to-rapidly-build-new-features-at-github-5cl9)
+- [How I work](https://gitlab.com/morefice/readme)
