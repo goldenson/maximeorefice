@@ -37,6 +37,7 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Done
 
+- Implement [Code coverage GraphQL API](https://docs.gitlab.com/ee/ci/pipelines/settings.html#code-coverage-history), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/231386)
 - Improve the performance of our [Code coverage](https://docs.gitlab.com/ee/user/project/merge_requests/test_coverage_visualization.html) feature, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/211410)
 - Improve the performance of our [JUnit](https://docs.gitlab.com/ee/ci/unit_test_reports.html) feature, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/3198)
 - Display screenshots from a [JUnit XML report](https://docs.gitlab.com/ee/ci/junit_test_reports.html#viewing-junit-screenshots-on-gitlab), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/6061)
