@@ -1,3 +1,11 @@
+- title: Quit like a millionaire
+  author: Kristy Shen
+  url: https://www.amazon.fr/Quit-Like-Millionaire-Gimmicks-Required/dp/0525538690
+  started_at: 2020-11-09
+  finished: false
+  comment:
+  grade:
+
 - title: The Psychology of Money
   author: Morgan Housel
   url: https://www.amazon.fr/Psychology-Money-Timeless-Lessons-Happiness/dp/0857197681
@@ -34,9 +42,9 @@
   author: Napoleon Hill
   url: https://www.amazon.fr/Réfléchissez-devenez-riche-Napoleon-Hill/dp/2290028827
   started_at: 2020-09-22
-  finished: false
-  comment:
-  grade:
+  finished: true
+  comment: Les lois du succès de Napoleon Hill nous illustrent comment accomplir de grandes choses dans ce monde. Que ce soit la réussite financière ou la prospérité, il réside dans ce livre de plus de 80 ans de nombreuses leçons de vies.
+  grade: 3
 
 - title: La Verite sur l'Affaire Harry Quebert
   author: Joël Dicker
