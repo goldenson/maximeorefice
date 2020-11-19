@@ -93,3 +93,4 @@ Ask him questions about his previous work and make sure to do your homework befo
 - [Enquête de crédit](https://oligny-thibodeau.com/enquete-de-pre-location/)
 - [Gestion immobilière](https://www.rendementlocatif.com)
 - [Gestion locative](https://www.flatlooker.com/)
+- [Trouver locataire](https://www.fleurdelysrelocation.com/)
