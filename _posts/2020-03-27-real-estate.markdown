@@ -94,3 +94,4 @@ Ask him questions about his previous work and make sure to do your homework befo
 - [Gestion immobilière](https://www.rendementlocatif.com)
 - [Gestion locative](https://www.flatlooker.com/)
 - [Trouver locataire](https://www.fleurdelysrelocation.com/)
+- [Alerte appartement](https://www.jinka.fr/)
