@@ -1,6 +1,6 @@
 - title: Le cygne noir
   author: Nassim Nicholas Taleb
-  url: https://basecamp-goods.com/products/shapeup
+  url: https://www.amazon.fr/Cygne-noir-puissance-limpr%C3%A9visible/dp/225144436X
   started_at:
   finished: false
   comment:
@@ -41,10 +41,10 @@
 - title: Born to Run
   author: Christopher Mcdougall
   url: https://www.amazon.fr/NES-POUR-COURIR-BORN-RUN/dp/2352210623
-  started_at: 2020-12-16
-  finished: false
-  comment:
-  grade:
+  started_at: 2021-01-12
+  finished: true
+  comment: Chritopher part à la rencontre des Tarahumaras, tribut méxicaine capable de courir plus de 80 kilomètres pieds nus! L'auteur nous raconte d'où viennent ses blessures récurrentes et remonte jusqu'à l'origine de la course à pieds. Un livre à la fois scientifique et humoristique.
+  grade: 4
 
 - title: Open
   author: Andre Agassi
