@@ -11,7 +11,6 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem "overcommit", "~> 0.52.1"
   gem "rake", "~> 13.0"
   gem "pry", "~> 0.13.1"
 end
