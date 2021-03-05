@@ -4,16 +4,17 @@ title: "🌍 Voyages"
 date: 2020-03-07
 ---
 
-Pays visités et future destinations.
+Pays, villes visités et future destinations.
 
 ## Réservé 🧿
 
-- [ ] **Cuba**, Avril 2020 (annulé `COVID19`)
-- [ ] **Boston**, Mai 2020 (annulé `COVID19`)
-- [ ] **Naples**, Septembre 2020
+- [ ] **Vancouver**, Mai 2021
 
 ## À faire ✈️
 
+- [ ] **Cuba**
+- [ ] **Boston**
+- [ ] **Naples**
 - [ ] **Martinique**
 - [ ] **Colombie**
 - [ ] **Philippines**
