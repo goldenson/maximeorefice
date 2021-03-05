@@ -9,7 +9,7 @@ Dévelopeur passionné de startups.
 
 ## Ce que je fais?
 
-Plus de 6 ans d'expériences dans le développement web scalable à plusieurs millions d'utilisateurs. Expert `Shopify` avec connaissances approfondies en `Ruby` et `Rails`.
+Plus de {{ "now" | date: "%y" | minus: 15 }} ans d'expériences dans le développement web scalable à plusieurs millions d'utilisateurs. Expert `Shopify` avec connaissances approfondies en `Ruby` et `Rails`.
 
 A votre écoute, je vous accompagne et vous aide à prendre les meilleures décisions techniques afin de porter votre projet à sa réussite. Autonome et discipliné et je peux naviguer dans les endroits les plus sombres de votre application afin de débugger ou optimiser une feature.
 
