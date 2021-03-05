@@ -37,10 +37,13 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Done
 
+#### 2021
 - Re-architect [Coverage Data analytics](https://docs.gitlab.com/ee/user/group/repositories_analytics), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/293825)
-- Implement [Codequality] mr diff, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/4609)
-- Expose `Code Coverage` to our `GraphQL API`, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/231386)
+- Implement `Codequality on MR diff`, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/4609)
+- Expose [Code Coverage](https://docs.gitlab.com/ee/user/group/repositories_analytics/#repositories-analytics) to our `GraphQL API`, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/231386)
 - Implement [Codequality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html) processing in the backend, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/271077)
+
+#### 2020
 - Implement [Code coverage GraphQL API](https://docs.gitlab.com/ee/user/group/repositories_analytics), see [epic](https://gitlab.com/groups/gitlab-org/-/epics/2838) or [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/231386)
 - Improve the performance of our [Code coverage](https://docs.gitlab.com/ee/user/project/merge_requests/test_coverage_visualization.html) feature, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/211410)
 - Improve the performance of our [JUnit](https://docs.gitlab.com/ee/ci/unit_test_reports.html) feature, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/3198)
