@@ -8,22 +8,13 @@ date: 2021-03-28
 
 - Achat d'actions (ETFs) chaque semaine avec assurance vie sur boursorama
 
+C'est l'assureur qui **détient les actions** et **assure jusqu'à 70K/€** par personne.
+
+Lorsque je contribue à mon assurance vie chaque lundi matin, je dois attendre 3-4 jours avant voir les actifs sur mon compte.
+
 ### Profil
 
 Mon profil est reparti à **100% d'actions** comme je suis dans la [phase d'accumulation de richesse](https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/).
-
-#### Recommendations
-
-Il est important de réduire le risque de son portefeuille lorsqu'on vieillit. Voici une méthode utilisé par [Kristy Chen](https://www.millennial-revolution.com) qui permet de mesurer le risque au fil du temps:
-
-|     Age     | Répartition                     |
-| :---------: | :------------------------------ |
-| `20-30 ans` | `90% actions / 10% obligations` |
-| `30-40 ans` | `80% actions / 20% obligations` |
-| `40-50 ans` | `70% actions / 30% obligations` |
-| `50-60 ans` | `60% actions / 40% obligations` |
-| `60-70 ans` | `50% actions / 50% obligations` |
-| `70-80 ans` | `40% actions / 60% obligations` |
 
 ### Diversification
 
@@ -36,7 +27,18 @@ Pour mon assurance vie voici la répartition que j'ai choisi pour mon portefeuil
 |   [LYXOR ETF MSCI WOR](https://www.boursorama.com/bourse/trackers/cours/1rTWLD/)    | `35%`       |
 |   [LYXOR ETF MSCI EM ](https://www.boursorama.com/bourse/trackers/cours/1rTLEM/)    | `15%`       |
 
+#### Risque / rendement
 
+Il est important de réduire le risque de son portefeuille lorsqu'on vieillit. Voici une méthode utilisé par [Kristy Chen](https://www.millennial-revolution.com) qui permet de mesurer le risque au fil du temps:
+
+|     Age     | Répartition                     |
+| :---------: | :------------------------------ |
+| `20-30 ans` | `90% actions / 10% obligations` |
+| `30-40 ans` | `80% actions / 20% obligations` |
+| `40-50 ans` | `70% actions / 30% obligations` |
+| `50-60 ans` | `60% actions / 40% obligations` |
+| `60-70 ans` | `50% actions / 50% obligations` |
+| `70-80 ans` | `40% actions / 60% obligations` |
 
 ### Links
 
