@@ -4,32 +4,30 @@ title: "💸 Bourse"
 date: 2021-03-28
 ---
 
-## Strategie actuelle (2021)
+## Stratégie actuelle (2021)
 
-- Achat d'actions (ETFs) chaque semaine avec assurance vie sur boursorama
+Fuck les assurances vie et les PEA qui t'imposent d'acheter leur produits financiers en pronant une fiscalité avantageuse. Tous le monde veut payer moins d'impôts mais pas pour acheter n'importe quoi!
 
-C'est l'assureur qui **détient les actions** et **assure jusqu'à 70K/€** par personne.
+Certes il éxiste des avantages et inconvénients pour chaque type de compte plus ou moins avantageux dépendamment de ta situation personnelle. Je préfère avoir un compte titre joint et être imposé à **30%** pour le moment. Les stratégies évoluent au fil du temps à moi de m'adapter dans le futur.
 
-Lorsque je contribue à mon assurance vie chaque lundi matin, je dois attendre 3-4 jours avant voir les actifs sur mon compte.
-
-### Profil
+- [Assurance vie:](https://www.service-public.fr/particuliers/vosdroits/F15274) Les actifs ne sont pas à toi mais à l'assureur qui couvre **jusqu'à 70K/€** par personne en cas de faillite ou de crise majeure.
+- [PEA:](https://www.service-public.fr/particuliers/vosdroits/F2385) Le plafond est limité à **150K** et ton choix est limité sur les différentes actions à acheter (EU exclusivement).
 
 Mon profil est reparti à **100% d'actions** comme je suis dans la [phase d'accumulation de richesse](https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/).
 
-### Diversification
+J'utilise [boursorama](https://www.boursorama-banque.com/bourse/) comme broker qui dipose d'une offre à bas prix en Europe: `1.99€ par ordre jusqu'à 500€ max`.
 
-Pour mon assurance vie voici la répartition que j'ai choisi pour mon portefeuille:
+J'ai choisi l'ETF **$VWRD** de chez Vanguard qui rempli mon critère de **simplicité** tout en assurant une grande **diversité**. De plus il est disponible sur plusieurs bourses européennes (Amsterdam/Paris) en EURO.
 
-|                                       Tracker                                       | Repartition |
-| :---------------------------------------------------------------------------------: | :---------- |
-| [LYXOR S&P 500 Ucits ETF](https://www.boursorama.com/bourse/trackers/cours/1rTSP5/) | `25%`       |
-|    [LYXOR NASDAQ 100 ](https://www.boursorama.com/bourse/trackers/cours/1rTUST/)    | `25%`       |
-|   [LYXOR ETF MSCI WOR](https://www.boursorama.com/bourse/trackers/cours/1rTWLD/)    | `35%`       |
-|   [LYXOR ETF MSCI EM ](https://www.boursorama.com/bourse/trackers/cours/1rTLEM/)    | `15%`       |
+|     Allocation     | Repartition |
+| :----------------: | :---------- |
+| Europe & Pacifique | `31.09%`    |
+|        USA         | `57.7%`     |
+|  Marché emergents  | `10%`       |
 
-#### Risque / rendement
+### Risque / rendement
 
-Il est important de réduire le risque de son portefeuille lorsqu'on vieillit. Voici une méthode utilisé par [Kristy Chen](https://www.millennial-revolution.com) qui permet de mesurer le risque au fil du temps:
+Il est important de réduire le risque de son portefeuille lorsqu'on vieillit. Voici une méthode utilisé par [Kristy Chen](https://www.millennial-revolution.com) qui permet de réduire le risque de son portefeuille au fil du temps:
 
 |     Age     | Répartition                     |
 | :---------: | :------------------------------ |
@@ -42,5 +40,7 @@ Il est important de réduire le risque de son portefeuille lorsqu'on vieillit. V
 
 ### Links
 
-- [Boursorama vie](https://www.boursorama-banque.com/assurance-vie/)
-- [JustETF](https://www.justetf.com)
+- [$VWRD](https://bourse.boursorama.com/bourse/trackers/cours/1rAVWRL/)
+- [Morningstar](https://www.morningstar.com/etfs/xlon/vwrd/performance)
+- [JustETF](https://www.justetf.com/en/etf-profile.html?query=vanguard&groupField=none&sortField=fundSize&sortOrder=desc&from=search&isin=IE00B3RBWM25#overview)
+- [Analyse graphique](https://stockcharts.com/h-sc/ui?s=VWRD.L)
