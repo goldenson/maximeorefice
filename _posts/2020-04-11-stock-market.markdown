@@ -1,27 +1,15 @@
 ---
 layout: post
-title: "📈 Stock Market"
+title: "📈 Marché financier"
 date: 2020-04-11
 ---
 
-Let's talk about the most powerful financial tool ever.
+Parlons de l'outil financier le plus puissant du monde.
 
-## My rules
+### Strategie actuelle (2020-2021) 🌱
 
-- **Never buy a stock without looking at a chart**
-- **Don't listen to anybody**
-
-### Investment 🌱
-
-- Follow the DCA strategy
-- Building one index fund portfolio
-- Building one dividend portfolio
-
-### Trading 🏌️‍♂️
-
-- Sells `1/4` of my position if stocks moves `+/-20%`
-- Use indicators to decide to what to do
-- Use order and stop limit
+- Achat de stock (ETFs) automatiser chaque semaine le lundi matin avec wealthsimple
+- Achat de stock
 
 ## Before
 
