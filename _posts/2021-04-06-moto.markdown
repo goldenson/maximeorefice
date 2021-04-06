@@ -1,0 +1,24 @@
+---
+layout: post
+title: "🏍 Moto"
+date: 2021-04-06
+---
+
+## Pourquoi une moto?
+
+Le plaisir de conduire une moto est quelque chose d'inexplicable. Cette sensation du vent qui frappe notre visage est unique. Je me sens vivant lorsque je suis sur une moto.
+
+## Quel model?
+
+|       Marque       | Model   |
+| :----------------: | :------ |
+|      Kawasaki      | `W800`  |
+|      Kawasaki      | `W650`  |
+|       Yamaha       | `XS650` |
+| Triumph Bonneville | `T100`  |
+|       Guzzi        | `V7`    |
+
+
+### Links
+
+- [Comparaison](https://canadamotoguide.com/2019/06/18/showroomshowdown/)
