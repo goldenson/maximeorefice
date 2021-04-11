@@ -8,7 +8,7 @@ date: 2021-03-28
 
 Fuck les assurances vie et les PEA qui t'imposent d'acheter leur produits financiers en pronant une fiscalité avantageuse. Tous le monde veut payer moins d'impôts mais pas pour acheter n'importe quoi!
 
-Certes il éxiste des avantages et inconvénients pour chaque type de compte plus ou moins avantageux dépendamment de ta situation personnelle. Je préfère avoir un compte titre joint et être imposé à **30%** pour le moment. Les stratégies évoluent au fil du temps à moi de m'adapter dans le futur.
+Certes il éxiste des [avantages et inconvénients](https://avenuedesinvestisseurs.fr/assurance-vie-ou-pea-que-choisir/#tableau-comparatif-assurance-vie-pea) pour chaque type de compte plus ou moins avantageux dépendamment de ta situation personnelle. Je préfère avoir un compte titre joint et être imposé à **30%** pour le moment. Les stratégies évoluent au fil du temps à moi de m'adapter dans le futur.
 
 - [Assurance vie:](https://www.service-public.fr/particuliers/vosdroits/F15274) Les actifs ne sont pas à toi mais à l'assureur qui couvre **jusqu'à 70K/€** par personne en cas de faillite ou de crise majeure.
 - [PEA:](https://www.service-public.fr/particuliers/vosdroits/F2385) Le plafond est limité à **150K** et ton choix est limité sur les différentes actions à acheter (EU exclusivement).
@@ -17,13 +17,14 @@ Mon profil est reparti à **100% d'actions** comme je suis dans la [phase d'accu
 
 J'utilise [boursorama](https://www.boursorama-banque.com/bourse/) comme broker qui dipose d'une offre à bas prix en Europe: `1.99€ par ordre jusqu'à 500€ max`.
 
-J'ai choisi l'ETF **$VWRD** de chez Vanguard qui rempli mon critère de **simplicité** tout en assurant une grande **diversité**. De plus il est disponible sur plusieurs bourses européennes (Amsterdam/Paris) en EURO.
+J'ai choisi l'ETF **$VWRL** de chez Vanguard qui rempli mon critère de **simplicité** tout en assurant une grande **diversité**. De plus il est disponible sur plusieurs bourses européennes (Amsterdam/Paris) en EURO.
 
-|     Allocation     | Repartition |
-| :----------------: | :---------- |
-| Europe & Pacifique | `31.09%`    |
-|        USA         | `57.7%`     |
-|  Marché emergents  | `10%`       |
+|    Allocation    | Repartition |
+| :--------------: | :---------- |
+|       USA        | `~60%`      |
+|      Europe      | `~17%`      |
+|    Pacifique     | `~12%`      |
+| Marché emergents | `~11%`      |
 
 ### Risque / rendement
 
@@ -40,7 +41,8 @@ Il est important de réduire le risque de son portefeuille lorsqu'on vieillit. V
 
 ### Links
 
-- [$VWRD](https://bourse.boursorama.com/bourse/trackers/cours/1rAVWRL/)
+- [$VWRL](https://www.vanguardfrance.fr/portal/instl/fr/fr/product.html#/fundDetail/etf/portId=9505/assetCode=equity/?overview)
 - [Morningstar](https://www.morningstar.com/etfs/xlon/vwrd/performance)
 - [JustETF](https://www.justetf.com/en/etf-profile.html?query=vanguard&groupField=none&sortField=fundSize&sortOrder=desc&from=search&isin=IE00B3RBWM25#overview)
 - [Analyse graphique](https://stockcharts.com/h-sc/ui?s=VWRD.L)
+- [Blog suisse](https://www.mustachianpost.com)
