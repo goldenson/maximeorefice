@@ -9,6 +9,7 @@ Pays, villes visités et future destinations.
 ## Réservé 🧿
 
 - [ ] **Vancouver**, Mai 2021
+- [ ] **Bahamas**, Septembre 2021
 
 ## À faire ✈️
 
@@ -29,6 +30,7 @@ Pays, villes visités et future destinations.
 - [ ] **Argentine**
 - [ ] **Egypte**
 - [ ] **Portugal**
+- [ ] **Bali**
 
 ## Fait ✅
 
