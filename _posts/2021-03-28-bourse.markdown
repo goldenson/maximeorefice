@@ -15,9 +15,9 @@ Certes il éxiste des [avantages et inconvénients](https://avenuedesinvestisseu
 
 Mon profil est reparti à **100% d'actions** comme je suis dans la [phase d'accumulation de richesse](https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/).
 
-J'utilise [boursorama](https://www.boursorama-banque.com/bourse/) comme broker qui dipose d'une offre à bas prix en Europe: `1.99€ par ordre jusqu'à 500€ max`.
+J'utilise [degiro](https://degiro.fr) comme broker qui est tout simplement le moins cher en Europe: **0€** sur les [ETFs suivants](https://www.degiro.fr/data/pdf/fr/S%C3%A9lection%20ETF%20gratuits.pdf).
 
-J'ai choisi l'ETF **$VWRL** de chez Vanguard qui rempli mon critère de **simplicité** tout en assurant une grande **diversité**. De plus il est disponible sur plusieurs bourses européennes (Amsterdam/Paris) en EURO.
+J'ai choisi l'ETF **$VWRL** de chez Vanguard qui rempli mon critère de **simplicité** tout en assurant une grande **diversité** avec des frais **imbattables**.
 
 |    Allocation    | Repartition |
 | :--------------: | :---------- |
