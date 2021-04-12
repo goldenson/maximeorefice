@@ -42,7 +42,7 @@ Il est important de réduire le risque de son portefeuille lorsqu'on vieillit. V
 ### Links
 
 - [$VWRL](https://www.vanguardfrance.fr/portal/instl/fr/fr/product.html#/fundDetail/etf/portId=9505/assetCode=equity/?overview)
-- [Morningstar](https://www.morningstar.com/etfs/xlon/vwrd/performance)
+- [Morningstar](https://www.morningstar.com/etfs/xlon/vwrl/performance)
 - [JustETF](https://www.justetf.com/en/etf-profile.html?query=vanguard&groupField=none&sortField=fundSize&sortOrder=desc&from=search&isin=IE00B3RBWM25#overview)
-- [Analyse graphique](https://stockcharts.com/h-sc/ui?s=VWRD.L)
-- [Blog suisse](https://www.mustachianpost.com)
+- [Analyse graphique](https://stockcharts.com/h-sc/ui?s=VWRL.L)
+- [Blog suisse](https://www.mustachianpost.com/fr/)
