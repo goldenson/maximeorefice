@@ -31,7 +31,7 @@ Some notes about how to work efficiently remotely.
 - [Magic Keyboard](https://www.apple.com/ca/shop/product/MLA22LL/A/magic-keyboard-us-english?fnode=56)
 - [mStand](https://www.amazon.ca/-/fr/gp/product/B01F01DRW6/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 - [HDMI to USB-C adaptor](https://www.amazon.ca/-/fr/gp/product/B01M6C49X2/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
-- [Bose Quiet Comfort](https://www.amazon.ca/-/fr/Bose-QuietComfort-série-Free-Size/dp/B0756CYWWD)
+- [Bose Quiet Comfort](https://www.amazon.ca/-/fr/QuietComfort-Bluetooth-antibruit-microphone-commande/dp/B0756CYWWD/)
 - [TaoTronics Light](https://www.amazon.ca/-/fr/gp/product/B00APAQSP6)
 - [Logitech Webcam](https://www.amazon.ca/-/fr/gp/product/B07K95WFWM)
 - [SteelSeries Mouse Pad](https://www.amazon.ca/-/fr/gp/product/B00WAA2704)
