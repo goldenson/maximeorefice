@@ -34,9 +34,9 @@
   author: Nassim Nicholas Taleb
   url: https://www.amazon.fr/Cygne-noir-puissance-limpr%C3%A9visible/dp/225144436X
   started_at: 2021-01-13
-  finished: false
-  comment:
-  grade:
+  finished: true
+  comment: Une lecture difficile qui nous apporte plus de questions que de réponses. L'auteur nous explique que les hommes tendent à surestimer leur capacité à interpréter le réel pour anticiper le futur, ce qui est tout juste impossible.
+  grade: 3
 
 - title: Shape Up
   author: Ryan Singer
