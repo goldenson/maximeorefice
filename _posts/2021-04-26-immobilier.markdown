@@ -43,3 +43,4 @@ Exemple sur un bien vendu à `100k`, tu fais une offre à `90K` soit une négoci
 - [Alerte appartement](https://www.jinka.fr/)
 - [Rechercher immo](https://moteurimmo.fr/)
 - [Historique des prix](https://www.castorus.com/)
+- [Carte prix immobilier](https://www.meilleursagents.com/)
