@@ -33,11 +33,12 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Now
 
-- Replicate [PipelineArtifact](https://docs.gitlab.com/ee/ci/pipelines/pipeline_artifacts.html) with [Geo feature](https://docs.gitlab.com/ee/development/geo.html), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/238464)
+- Introduce new [merge request approval rule](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html) for code coverage, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15765)
 
 ### Done
 
 #### 2021
+- Replicate [PipelineArtifact](https://docs.gitlab.com/ee/ci/pipelines/pipeline_artifacts.html) with [Geo feature](https://docs.gitlab.com/ee/development/geo.html), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/238464)
 - Re-architect [Coverage Data analytics](https://docs.gitlab.com/ee/user/group/repositories_analytics), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/293825)
 - Implement `Codequality on MR diff`, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/4609)
 - Expose [Code Coverage](https://docs.gitlab.com/ee/user/group/repositories_analytics/#repositories-analytics) to our `GraphQL API`, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/231386)
