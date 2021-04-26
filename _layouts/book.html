@@ -8,45 +8,58 @@ layout: default
   </header>
 
   <p>
-    À partir du <b>1er Septembre 2019</b>, j'ai commencé à lire 1 livre par
+    Depuis le <b>1er Septembre 2019</b>, j'ai commencé à lire 1 livre par
     mois.
   </p>
 
   <h3>Liste de livre à acheter ou pas:</h3>
-  <ul>
-    <li>The boron letters</li>
-    <li>On Writing Well</li>
-    <li>Foundation</li>
-    <li>How to Get Filthy Rich in Rising Asia: A Novel</li>
-    <li>Liar's Poker</li>
-    <li>Poor Charlie's Almanack</li>
-    <li>Overcoming Gravity</li>
-    <li>L'entrainement d'un détenu 1, 2 et 3</li>
-    <li>Convict Conditioning</li>
-    <li>Becoming a Supple Leopard 2nd Edition</li>
-    <li>The Naked Warrior</li>
+  <ol>
     <li>
-      <a href="https://www.amazon.ca/-/fr/gp/product/2378150946"
-        >Jordan belfort -le loup de wall street</a
-      >
+      <a href="https://www.amazon.fr/gp/product/2266186671">L'homme qui voulait être heureux</a>
     </li>
     <li>
-      <a href="https://www.amazon.ca/-/fr/SETH-GODIN/dp/2840016729"
-        >La vache pourpre</a
-      >
+      <a href="https://www.amazon.fr/Lart-subtil-sen-foutre-contre-courant-ebook/dp/B071GS638W">L'art subtil de s'en
+        foutre</a>
     </li>
     <li>
-      <a href="https://www.amazon.ca/-/fr/TONY-BUZAN/dp/2212552157/ref"
-        >La lecture rapide</a
-      >
+      <a href="https://www.amazon.fr/gp/product/2290344915">Le moine qui vendit sa Ferrari</a>
     </li>
     <li>
-      <a
-        href="https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/0241242533"
-        >Traction</a
-      >
+      <a href="https://www.amazon.fr/gp/product/B08241V9XY">The One Thing : Passez à l'essentiel</a>
     </li>
-  </ul>
+    <li>
+      <a href="https://www.amazon.fr/Boron-Letters-Gary-C-Halbert/dp/1484825985">The boron letters</a>
+    </li>
+    <li>
+      <a href="https://www.amazon.fr/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548">On Writing Well</a>
+    </li>
+    <li>
+      <a href="https://www.amazon.fr/Liars-Poker-Michael-Lewis/dp/0340839961">Liar's Poker</a>
+    </li>
+    <li>
+      <a href="https://www.amazon.fr/Overcoming-Gravity-Systematic-Gymnastics-Bodyweight/dp/0990873854/">Overcoming
+        Gravity</a>
+    </li>
+    <li>
+      <a href="https://www.amazon.fr/Lentrainement-dun-detenu-Paul-Wade/dp/236905008X">L'entrainement d'un détenu 3</a>
+    </li>
+    <li>
+      <a href="https://www.amazon.fr/Becoming-Supple-Leopard-2nd-Performance/dp/1628600837">Becoming a Supple Leopard
+        2nd Edition</a>
+    </li>
+    <li>
+      <a href="https://www.amazon.ca/-/fr/gp/product/2378150946">Jordan belfort -le loup de wall street</a>
+    </li>
+    <li>
+      <a href="https://www.amazon.ca/-/fr/SETH-GODIN/dp/2840016729">La vache pourpre</a>
+    </li>
+    <li>
+      <a href="https://www.amazon.ca/-/fr/TONY-BUZAN/dp/2212552157/ref">La lecture rapide</a>
+    </li>
+    <li>
+      <a href="https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/0241242533">Traction</a>
+    </li>
+  </ol>
 
   <h2>En cours 📖</h2>
   {% for book in site.data.books %} {% if book.finished == false %}
@@ -55,18 +68,13 @@ layout: default
       <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a>
       <span class="book-by-author">
         de {{ book.author }} {% if book.started_at != nil %} ({{ book.started_at
-        | date: "%Y-%m-%d"}}) {% endif %}</span
-      >
+        | date: "%Y-%m-%d"}}) {% endif %}</span>
       <p class="book-comment">{{ book.comment }}</p>
     </div>
     <div class="book-item-cover">
       <a class="book-cover-link" href="{{ book.url }}">
-        <img
-          class="book-cover lazy"
-          src="/assets/images/covers/book-placeholder.png"
-          data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg"
-          alt="Cover {{ book.title }}"
-        />
+        <img class="book-cover lazy" src="/assets/images/covers/book-placeholder.png"
+          data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}" />
       </a>
     </div>
   </div>
@@ -77,22 +85,15 @@ layout: default
   <div class="book-container">
     <div class="book-item">
       <span>
-        {% for grade in (1..5) %} {% if grade <= book.grade %} ★ {% else %} ☆ {%
-        endif %} {% endfor %}
-      </span>
-      <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a>
-      <span class="book-by-author">
-        de {{ book.author }} ({{ book.started_at | date: "%Y-%m-%d" }})</span
-      >
-      <p class="book-comment">{{ book.comment }}</p>
+        {% for grade in (1..5) %} {% if grade <= book.grade %} ★ {% else %} ☆ {% endif %} {% endfor %} </span>
+          <span class="fs-20">→ </span><a href="{{ book.url }}">{{ book.title }}</a>
+          <span class="book-by-author">
+            de {{ book.author }} ({{ book.started_at | date: "%Y-%m-%d" }})</span>
+          <p class="book-comment">{{ book.comment }}</p>
     </div>
     <a class="book-cover-link" href="{{ book.url }}">
-      <img
-        class="book-cover lazy"
-        src="/assets/images/covers/book-placeholder.png"
-        data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg"
-        alt="Cover {{ book.title }}"
-      />
+      <img class="book-cover lazy" src="/assets/images/covers/book-placeholder.png"
+        data-srcset="/assets/images/covers/{{ book.title | slugify }}.jpg" alt="Cover {{ book.title }}" />
     </a>
   </div>
   {% endif %} {% endfor %}
