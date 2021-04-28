@@ -12,7 +12,7 @@ L'immobilier est un actif parmis tant d'autres. Il est celui préférer des fran
 
 ### Travaux
 
-Prends une entreprise générale pour s'occuper de tes travaux afin de dialoguer avec un seul interlocuteur. Cela evitera que chaque corps de métiers de décharge de toutes responsabilités. En cas de futurs problèmes, l'entreprise assurera la responsabilitée totale.
+Prends une entreprise générale pour s'occuper de tes travaux afin de dialoguer avec un seul interlocuteur. Cela evitera que chaque corps de métiers se décharge de toutes responsabilités. En cas de futurs problèmes, l'entreprise assurera la responsabilitée totale.
 
 Prévois des pénalités de retard au début du projet et détermine le paiement des livrables en plusieurs fois selon l'avancement des travaux.
 
