@@ -42,6 +42,7 @@ The standard `postgres` client to interact with your cluster.
 |            `\dn`            | List of schemas                      |
 |      `\sf count_rows`       | Show definition of a method          |
 |      `\ef count_rows`       | Edit a function                      |
+|         `\conninfo`         | Give info about the current session  |
 
 ### Indexes
 
