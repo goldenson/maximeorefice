@@ -8,7 +8,6 @@ Pays, villes visités et future destinations.
 
 ## Réservé 🧿
 
-- [ ] **Vancouver**, Mai 2021
 - [ ] **Bahamas**, Septembre 2021
 
 ## À faire ✈️
@@ -34,6 +33,7 @@ Pays, villes visités et future destinations.
 
 ## Fait ✅
 
+- [x] **[Rocheuses Canadiennes](https://goo.gl/maps/RUV2TAuCHXjESshPA)**, Mai 2021
 - [x] **Mexique**, Octobre 2019
 - [x] **New York**, Septembre 2019
 - [x] **Venise**, Avril 2018
