@@ -8,6 +8,7 @@ Pays, villes visités et future destinations.
 
 ## Réservé 🧿
 
+- [ ] **[Gaspésie](https://goo.gl/maps/xVQcKw3sRQrQSFp9A)**, Juillet 2021
 - [ ] **Bahamas**, Septembre 2021
 
 ## À faire ✈️
