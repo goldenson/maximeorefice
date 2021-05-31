@@ -8,12 +8,14 @@ Interessé par la tech, le sport, la cuisine et la finance.
 
 # Se développer 🌱
 
-Après plus de 10 ans à coder, je cherche à développer de nouvelles compétences:
+Après plus de 10 ans à coder, je développe chaque jour de nouvelles compétences:
 
-- Marketing
-- Vente
-- Psychologie Humaine
-- Education financière
+- [x] Marketing
+- [x] Vente
+- [ ] Psychologie Humaine
+- [ ] Education financière
+- [x] Bricolage
+- [x] Lecture
 
 # Famille 👰😸
 
