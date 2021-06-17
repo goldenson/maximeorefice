@@ -44,3 +44,4 @@ Exemple sur un bien vendu à `100k`, tu fais une offre à `90K` soit une négoci
 - [Rechercher immo](https://moteurimmo.fr/)
 - [Historique des prix](https://www.castorus.com/)
 - [Carte prix immobilier](https://www.meilleursagents.com/)
+- [Checklist visite](https://da32ev14kd4yl.cloudfront.net/versioned/michaelferrari/R1L/LM-%20La%20check-list%20des%20vrifications%20%20faire%20avant%20un%20achat%20immobilier.pdf)
