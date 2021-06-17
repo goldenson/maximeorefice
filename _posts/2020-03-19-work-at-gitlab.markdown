@@ -33,16 +33,17 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Now
 
-- Introduce new [merge request approval rule](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html) for code coverage, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15765)
+- Scaling `Ci::Build`, the biggest table of `GitLab`, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/5909)
 
 ### Done
 
 #### 2021
+- Set up the foundation of [merge request approval rule](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html) for code coverage, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15765) and [POC](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/59698)
 - Replicate [PipelineArtifact](https://docs.gitlab.com/ee/ci/pipelines/pipeline_artifacts.html) with [Geo feature](https://docs.gitlab.com/ee/development/geo.html), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/238464)
 - Re-architect [Coverage Data analytics](https://docs.gitlab.com/ee/user/group/repositories_analytics), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/293825)
-- Implement `Codequality on MR diff`, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/4609)
-- Expose [Code Coverage](https://docs.gitlab.com/ee/user/group/repositories_analytics/#repositories-analytics) to our `GraphQL API`, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/231386)
-- Implement [Codequality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html) processing in the backend, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/271077)
+- Implement [Code quality MR diff](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html#code-quality-in-diff-view), see [epic](https://gitlab.com/groups/gitlab-org/-/epics/4609)
+- Expose [Code coverage](https://docs.gitlab.com/ee/user/group/repositories_analytics/#repositories-analytics) to our `GraphQL API`, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/231386)
+- Implement [Code quality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html) processing in the backend, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/271077)
 
 #### 2020
 - Implement [Code coverage GraphQL API](https://docs.gitlab.com/ee/user/group/repositories_analytics), see [epic](https://gitlab.com/groups/gitlab-org/-/epics/2838) or [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/231386)
