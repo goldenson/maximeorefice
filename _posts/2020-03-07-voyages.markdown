@@ -8,9 +8,6 @@ Pays, villes visités et future destinations.
 
 ## Réservé 🧿
 
-- [ ] **[Gaspésie](https://goo.gl/maps/xVQcKw3sRQrQSFp9A)**, Juillet 2021
-- [ ] **Bahamas**, Septembre 2021
-
 ## À faire ✈️
 
 - [ ] **Cuba**
@@ -34,6 +31,7 @@ Pays, villes visités et future destinations.
 
 ## Fait ✅
 
+- [x] **[Gaspésie](https://goo.gl/maps/xVQcKw3sRQrQSFp9A)**, Juillet 2021
 - [x] **[Rocheuses Canadiennes](https://goo.gl/maps/RUV2TAuCHXjESshPA)**, Mai 2021
 - [x] **[Mexique](https://goo.gl/maps/i4sZGGUXsc7tLtdHA)**, Octobre 2019
 - [x] **[New York](https://goo.gl/maps/qPLThHHFK9GEmm2dA)**, Septembre 2019
