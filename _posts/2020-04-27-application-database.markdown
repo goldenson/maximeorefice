@@ -31,7 +31,7 @@ The standard `postgres` client to interact with your cluster.
 |           `\dt+`            | Show me more on a table size         |
 |          `timing`           | Set timing execution                 |
 |            `\x`             | Sets expanded view                   |
-| `SET enable_seqcran = off;` | Disable sequential scanning          |
+| `SET enable_seqscan = off;` | Disable sequential scanning          |
 |          `ANALYZE`          | Better approximation                 |
 |           `\set`            | Display `pg` settings for the client |
 |            `\e`             | Open a text editor                   |
@@ -150,7 +150,7 @@ By default `pg` has an auto commit mode which means Each SQL statement is ran in
 - `I: Isolation`
 - `D: Durability`
 
-Any errors that happen within a transaction **abort** the transaction.
+Any errors that happens within a transaction **aborts** the transaction.
 
 ```sql
 /* COMPLETE A TRANSACTION */
@@ -213,11 +213,23 @@ BEGIN ISOLATION LEVEL REPEATABLE READ;
 ```sql
 /* How pg persist the data internally */
 SELECT ctid, xmin, xmax, * FROM account;
+/* ctid = where the row is physically located in the database */
 
 BEGIN;
 TRUNCATE account;
+
+/* Show pg processes currently blocked */
+SELECT * FROm pg_stat_activity WHERE datname IS NOT NULL;
+
 SELECT pg_backend_pid();
 SELECT * FROM pg_locks WHERE pid = 3419;
+
+/* Kill a given process */
+SELECT pg_cancel_backend(3419);
+
+/* Set 2s as the default timeout for transactions */
+SET idle_in_transaction_session_timeout = '2s';
+SHOW statement_timeout;
 ```
 
 ### Deadlock
