@@ -695,6 +695,109 @@ SQL
 ActiveRecord::Base.connection.execute(query)
 ```
 
+## Day 6 - Vacuum / Backup / Recovery
+
+### Vacuuming
+
+Vacuuming proceeds in 3 steps:
+
+1. Look for wich rows to remove
+2. Index scan to remove index referencing offending rows
+3. Remove offending rows
+
+```sql
+CREATE TABLE vactest (id integer);
+/* generate_series returns a table */
+INSERT INTO vactest SELECT * FROM generate_series(1, 100000);
+DELETE FROM vactest WHERE id % 2 = 0;
+
+VACUUM (VERBOSE) vactest;
+
+/* get information about autovacuum for our given table */
+SELECT * FROM pg_stat_user_tables WHERE relname = 'vactest';
+
+CREATE EXTENSION pgstattuple;
+SELECT * FROM pgstattuple('vactest');
+SELECT * FROM pgstattuple_approx('vactest');
+```
+
+Long running transactions are bad because they **prevent** `vaccum` to do its job.
+
+Auto-vacuum allows us to clean up in the background the garbage in your database without disturbing your work.
+
+When is autovaccum is executed? `Threshold(50) + scale_factor (0.2) * #rows < #death_rows`
+
+If autovaccum runs to often and slow, you can reduce the `cost_delay` or increase the `cost_limit`.
+
+```sql
+/* change the config only for test table */
+ALTER TABLE test SET (autovaccum_vacuum_cost_delay = 1);
+
+ALTER TABLE test SET (autovaccum_vacuum_scale_factor = 0, autovaccum_vacuum_auto_analyze = 1000000);
+```
+
+### Backup
+
+`pg_dump` is a great tool for backup, however it only captures in 1 point in time.
+
+```shell
+# dump a given database
+$ pg_dump course > course.sql
+$ psql CREATE DATABASE copy
+$ psql copy < course.sql
+
+# creates a directory for each table
+$ pg_dump -F d -f course.dir course
+
+# dump the whole cluster
+$ pg_dumpall -g
+
+# backup as a binary file which is smaller
+$ pg_dumpall -F c -f course.dmp course
+$ pg_restore -d copy course.dmp
+$ pg_restore -f - course.dmp
+$ pg_restore -f - -s accounts course.dmp
+```
+
+- Memory processes = shared buffers or pages
+- Disk = block (8Kb)
+
+### Backup & Recovery
+
+`postgres` has a specific client used for online backups using [WAL](https://www.postgresql.org/docs/13/wal-intro.html) segments.
+
+Set the configuration archive mode to in order to enable backup.
+
+```shell
+# Archive
+archive_mode = on
+achive_command = 'cp %p /var/lib/postgresql/walarchive/%f'
+
+$ systemctl restart postgresql
+$ vi var/log/postrgresq/postrgresql-13-main.log
+
+$ pg_basebackup -c fast -D backup
+$ ls backup
+$ ls 13/main
+$ less -RS backup/backup_manifest
+$ cat backup/backup_label
+$ systemctl restart postgresql
+
+
+# Recovery
+restore_command = 'cp /var/lib/postgresql/walarchive/%f %p'
+restore_target_time = '2021-09-01 18:25:00'
+restore_target_action = 'promote'
+
+$ touch 13/main/recovery.signal
+$ systemctl restart postgresql
+```
+
+```sql
+/* Get information about the archiver */
+SELECT * FROM pg_stat_archiver \gx
+```
+
 ### Links
 
 - [SQL Zine](https://wizardzines.com/zines/sql/)
@@ -712,3 +815,4 @@ ActiveRecord::Base.connection.execute(query)
 - [pgstats](https://pgstats.dev/)
 - [Upgrading postgresql](https://olivierlacan.com/posts/migrating-homebrew-postgres-to-a-new-version/)
 - [Postgresql tutorial](https://www.postgresqltutorial.com)
+- [pgBackRest](https://pgbackrest.org/)
