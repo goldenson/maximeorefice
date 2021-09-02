@@ -798,6 +798,44 @@ $ systemctl restart postgresql
 SELECT * FROM pg_stat_archiver \gx
 ```
 
+## Day 7 - Replication / High availability
+
+### Replication
+
+Replication is basically recovery which never stops. It's a physical copy of the primary server that is kept synchronised.
+
+If you kill your primary or secondary server nothing can't go wrong if you set up archive recovery mode.
+
+```shell
+$ pg_ctlcluster standby
+$ rm -rf 13/standby
+
+$ pg_basebackup -D 13/standby
+
+# Standby Servers
+primary_conninfo = 'host=/var/run/postgresql port=5432 user=postgres'
+primary_slot_name = 'slot'
+
+$ touch 12/standby/standby.signal
+$ systemctl start postgresql@13-standby
+$ less /var/log/postgresql/postgresql-13-standby.log
+
+## Replication without archive enabled
+wal_keep_size = '1GB'
+```
+
+Let's monitor how our replication is working.
+
+```sql
+SELECT * FROM pg_stat_replication \gx
+
+SELECT pg_current_wal_lsn();
+SELECT pg_wal_lsn_diff(pg_current_wal_lsn(), flush_lsn) FROM pg_stat_replication;
+
+/* Repeats the last command every 1 second */
+\watch
+```
+
 ### Links
 
 - [SQL Zine](https://wizardzines.com/zines/sql/)
