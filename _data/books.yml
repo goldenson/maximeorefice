@@ -1,7 +1,15 @@
+- title: L'Etalon Bitcoin
+  author: Saifedean Ammous
+  url: https://www.amazon.fr/Letalon-Bitcoin-Lalternative-decentralisee-banques-centrales/dp/2856083544
+  started_at: 2021-08-29
+  finished: false
+  comment:
+  grade:
+
 - title: L'art de la guerre
   author: Sun Tzu
   url: https://www.amazon.fr/Lart-guerre-Traduit-comment%C3%A9-chinois/dp/2818504961
-  started_at: 2021-07-31
+  started_at:
   finished: false
   comment:
   grade:
