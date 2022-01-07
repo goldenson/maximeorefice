@@ -15,3 +15,5 @@ group :development do
   gem 'rake', '~> 13.0'
   gem 'pry'
 end
+
+gem "webrick", "~> 1.7"
