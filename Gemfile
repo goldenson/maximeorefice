@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 ruby RUBY_VERSION
 
-gem 'minima', '~> 2.5'
-gem 'jekyll', '~> 4.2.1'
+gem 'minima'
+gem 'jekyll'
+gem 'webrick'
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
@@ -15,5 +16,3 @@ group :development do
   gem 'rake', '~> 13.0'
   gem 'pry'
 end
-
-gem "webrick", "~> 1.7"
