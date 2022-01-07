@@ -12,8 +12,8 @@ Après plus de 10 ans à coder, je développe chaque jour de nouvelles compéten
 
 - [x] Marketing
 - [x] Vente
-- [ ] Psychologie Humaine
-- [ ] Education financière
+- [x] Psychologie Humaine
+- [x] Education financière
 - [x] Bricolage
 - [x] Lecture
 

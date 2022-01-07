@@ -4,7 +4,7 @@ layout: home
 
 <h1 class="hello">Maxime Orefice</h1>
 
-Humain en construction. Né en France, je vis actuellement à Montréal ([Canada](https://time.is/Montreal)). Intéressé par [...](/present)
+Humain en construction. Né en France, je vis actuellement à Lausanne ([Suisse](https://time.is/Lausanne)). Intéressé par [...](/present)
 
 🦊 Ingénieur Logiciel [@GitLab](https://gitlab.com)
 
