@@ -13,6 +13,6 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem 'rake', '~> 13.0'
+  gem 'rake'
   gem 'pry'
 end

@@ -95,7 +95,7 @@ DEPENDENCIES
   jekyll-target-blank
   minima
   pry
-  rake (~> 13.0)
+  rake
   webrick
 
 RUBY VERSION
