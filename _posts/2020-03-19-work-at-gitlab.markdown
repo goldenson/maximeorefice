@@ -33,12 +33,13 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Now
 
-- Scaling `Ci::Build`, the biggest table of `GitLab`, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/5909) and [architecture](https://docs.gitlab.com/ee/architecture/blueprints/ci_scale/#queuing-mechanisms-are-using-the-large-table)
+- Preparing `GitLab` to use **2 databases**, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/6379)
 
 ### Done
 
 #### 2021
 
+- Scaling `Ci::Build`, the biggest table of `GitLab`, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/5909) and [architecture](https://docs.gitlab.com/ee/architecture/blueprints/ci_scale/#queuing-mechanisms-are-using-the-large-table)
 - Set up the foundation of [merge request approval rule](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html) for code coverage, see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15765), [POC](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/59698) and [demo](https://www.youtube.com/watch?v=IEQpZWyWKuQ)
 - Replicate [PipelineArtifact](https://docs.gitlab.com/ee/ci/pipelines/pipeline_artifacts.html) with [Geo feature](https://docs.gitlab.com/ee/development/geo.html), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/238464)
 - Re-architect [Coverage Data analytics](https://docs.gitlab.com/ee/user/group/repositories_analytics), see [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/293825)
