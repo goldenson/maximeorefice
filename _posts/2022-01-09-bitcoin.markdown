@@ -9,7 +9,7 @@ date: 2022-01-09
 
 - [Acheter du bitcoin en Europe](http://relai.ch)
 - [Multi-signature wallet](https://keys.casa)
-- [Quand acheter?](https://stats.buybitcoinworldwide.com/mayermultiple)
+- [Quand acheter?](https://stats.buybitcoinworldwide.com/mayermultiple/)
 - [Anonymiser ses bitcoins](https://blender.io)
 - [Apprendre 1](https://citadeldispatch.com/help)
 - [Apprendre 2](https://www.lopp.net/bitcoin-information.html)
