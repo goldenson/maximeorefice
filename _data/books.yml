@@ -1,10 +1,10 @@
 - title: Princesse Data
   author: Rabbin des Bois
   url: https://www.amazon.fr/Princesse-Data-Rabbin-Bois/dp/2732490024
-  started_at:
-  finished: false
-  comment:
-  grade:
+  started_at: 2022-01-17
+  finished: true
+  comment: Ce livre aide à nous faire prendre conscience de toutes les traces que nous laissons sur internet et de la créativité des hackers qui trouvent toujours un moyen pour exploiter la moindre vulnérabilité.
+  grade: 3
 
 - title: How to live
   author: Derek Sivers
