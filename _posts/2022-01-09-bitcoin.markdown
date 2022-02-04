@@ -13,3 +13,6 @@ date: 2022-01-09
 - [Anonymiser ses bitcoins](https://blender.io)
 - [Apprendre 1](https://citadeldispatch.com/help)
 - [Apprendre 2](https://www.lopp.net/bitcoin-information.html)
+- [Transaction dans le monde](https://fiatleak.com/btc)
+- [Part de marche](https://coin360.com)
+- [Acheter en France facilement](https://stackinsat.com)
