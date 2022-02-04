@@ -64,4 +64,4 @@ Comme tout le monde, je ne travaille pas gratuitement et je facture mes prestati
 
 Si tu as des questions, je suis là pour y répondre.
 
-Envoi moi un email à <a href="mailto:orefice.maxime@gmail.com">orefice.maxime@gmail.com</a>
+Envoi moi un email à <a href="mailto:contact@maximeorefice.com">contact@maximeorefice.com</a>
