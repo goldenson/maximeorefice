@@ -36,6 +36,13 @@ Some notes about how to work efficiently remotely.
 - [Logitech Webcam](https://www.amazon.ca/-/fr/gp/product/B07K95WFWM)
 - [SteelSeries Mouse Pad](https://www.amazon.ca/-/fr/gp/product/B00WAA2704)
 
+
+## To buy
+
+- [Tréteau Mittback x 2 - Blanc](https://www.ikea.com/ch/fr/p/mittback-treteau-blanc-bois-massif-70470993)
+- [Caisson Alex - Blanc](https://www.ikea.com/ch/fr/p/alex-caisson-a-tiroirs-blanc-00473546)
+- [Ekbacken - 240 - Beige](https://www.ikea.com/ch/fr/p/ekbacken-plan-de-travail-decor-frene-stratifie-90337620/)
+
 ## Resources
 
 Transitioning to working remotely? GitLab is sharing everything we've learned as the world's largest all-remote company.
