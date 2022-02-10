@@ -16,7 +16,7 @@ I love designing new features and fixing bugs. Being all remote is challenging a
 
 ## Team
 
-I'm part of the [Verify:Testing](https://about.gitlab.com/handbook/engineering/development/ci-cd/verify/testing/) team.
+I'm part of the [Verify:Pipeline Insights](https://about.gitlab.com/handbook/engineering/development/ops/verify/pipeline-insights/) team.
 
 Our goal is to make test easier for everybody. This means we create tools to help companies to develop better and safer software:
 
@@ -26,6 +26,8 @@ Our goal is to make test easier for everybody. This means we create tools to hel
 - Code Coverage
 - Accessibility Testing
 - Load Testing
+- Artifacts
+- Review apps
 
 ## Project
 
