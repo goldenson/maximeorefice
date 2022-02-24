@@ -8,11 +8,13 @@ Pays, villes visités et future destinations.
 
 ## Réservé 🧿
 
+- [x] **Lisbonne**, Avril 2022
+- [x] **[Naples](https://goo.gl/maps/P6nDNyezw2Tc25Xg8)**, Juin 2022
+
 ## À faire ✈️
 
 - [ ] **Cuba**
 - [ ] **Boston**
-- [ ] **Naples**
 - [ ] **Martinique**
 - [ ] **Colombie**
 - [ ] **Philippines**
@@ -26,7 +28,6 @@ Pays, villes visités et future destinations.
 - [ ] **Collioure**
 - [ ] **Argentine**
 - [ ] **Egypte**
-- [ ] **Portugal**
 - [ ] **Bali**
 
 ## Fait ✅
