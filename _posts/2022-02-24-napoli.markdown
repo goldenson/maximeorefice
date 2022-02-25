@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Napoli"
+title: "🍕 Napoli"
 date: 2022-02-24
 ---
 
@@ -15,7 +15,6 @@ date: 2022-02-24
 - `ORY 2022-06-20 | 12:35`
 - `NAP 2022-06-27 | 20:15`
 
-
 ## A voir
 
 - [Pompei & Vesuve](https://www.getyourguide.fr/naples-l162/une-journee-au-mont-vesuve-et-aux-ruines-de-pompei-t11049/?date_from=2022-06-20&date_to=2022-06-27&lang=fr)
@@ -27,6 +26,8 @@ date: 2022-02-24
 - [Chateau d’Ovo](https://goo.gl/maps/RuYVaamvW5KDhECD8)
 - [Galleria Umberto I](https://goo.gl/maps/5RByN7WFQAtaDRNd8)
 - [Activité Airbnb](https://www.airbnb.fr/s/Naples/experiences?refinement_paths%5B%5D=%2Fexperiences&tab_id=experience_tab&adults=1&query=Naples%2C%20Italy&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&rank_mode=default&experience_languages%5B%5D=2&search_type=filter_change&checkin=2022-06-23&source=structured_search_input_header)
+- [Bagni Regina Giovanna](https://goo.gl/maps/c4EmqDRUFcUte9dE8)
+- Positano
 - Capri
 - Ischia
 - Procida
@@ -37,22 +38,23 @@ date: 2022-02-24
 
 ## 🏠 Dormir
 
-- [Airbnb](https://www.airbnb.fr/rooms/23702724?check_in=2022-06-21&check_out=2022-06-27&guests=1&adults=1&children=0&infants=0&source_impression_id=p3_1645722547_Cc%2Bx7kxCV1JeJtpn): **1 763€**
+- [Airbnb Naples](https://www.airbnb.fr/rooms/1819277?adults=8&check_in=2022-06-20&federated_search_id=43b8a59a-2a0c-4c85-834e-62539c37c05b&source_impression_id=p3_1645725193_J5NCGOxGZ6KpeCZd&guests=1&check_out=2022-06-23): **1 099€**
+- [Airbnb Naples](https://www.airbnb.fr/rooms/23702724?source_impression_id=p3_1645723572_YI9a4cNLOhyBFXcN&check_in=2022-06-23&guests=1&adults=1&check_out=2022-06-27): **1 191€**
 
 ## Planning
 
 | Jour   |      Activité      |  Budget |
 |----------|:-------------:|------:|
 | 20 |  Arrivé | 200€ |
-| 21 |  Vesuve & Pompei | 850€ |
-| 22 |  Visite Naples | 300€ |
-| 23 |  Cote Amalfi | 700€ |
-| 24 |  Cote Amalfi | 700€ |
-| 25 |  Visite Naples | 300€ |
-| 26 |  Visite Naples | 300€ |
+| 21 |  Cote Amalfi | 400€ |
+| 22 |  Cote Amalfi | 400€ |
+| 23 |  Naples | 400€ |
+| 24 |  Vesuve & Pompei | 400€ |
+| 25 |  Visite Naples | 400€ |
+| 26 |  Visite Naples | 400€ |
 | 27 |  Départ  | 200€ |
 
-💰 Total: **3550€**
+💰 Total: **2 800**
 
 ### Liens
 
