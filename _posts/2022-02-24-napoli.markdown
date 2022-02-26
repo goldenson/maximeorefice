@@ -58,6 +58,16 @@ date: 2022-02-24
 
 💰 Total: **2 800€**
 
+## 💰 Budget
+
+| Type   |      Budget      |
+|----------|:-------------:|
+| Transport | 725€ |
+| Logement |  2 781€ |
+| Activité |  2 800€ |
+| Marge d'erreur | 600€ |
+| Total |  6 906€  |
+
 ### Liens
 
 - [Viree malin](https://www.viree-malin.fr/visiter-naples-5-jours)
