@@ -1,0 +1,52 @@
+---
+layout: post
+title: "🇵🇹 Lisboa"
+date: 2022-02-24
+---
+
+### ✈️ Transport
+
+- `GVA 2022-04-08 | 11:05`
+- `LIS 2022-04-16 | 15:10`
+- `Location voiture 2022-04-08 | 2022-04-11`
+
+💰 Total: **440€**
+
+## Manger
+
+## 🏠 Dormir
+
+💰 Total: **€**
+
+## A voir
+
+## Planning
+
+| Jour   |      Activité      |  Budget |
+|----------|:-------------:|------:|
+| 8 |  Arrivé | 100€ |
+| 9 |  Lagos | € |
+| 10 |  Faro | € |
+| 11 |  Lisbonne | € |
+| 12 |  Lisbonne | € |
+| 13 |  Lisbonne | € |
+| 14 |  Lisbonne | € |
+| 15 |  Lisbonne  | € |
+| 16 |  Départ  | 100€ |
+
+💰 Total: **€**
+
+## 💰 Budget
+
+| Type   |      Budget      |
+|----------|:-------------:|
+| Transport | 440€ |
+| Voiture | 160€ |
+| Logement |  € |
+| Activité |  € |
+| Marge d'erreur | € |
+| Total |  600€  |
+
+### Liens
+
+- [Viree malin](https://www.viree-malin.fr/guide-lisbonne-visite-weekend)
