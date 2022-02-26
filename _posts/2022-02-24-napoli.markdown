@@ -9,7 +9,7 @@ date: 2022-02-24
 - `ORY 2022-06-20 | 12:35`
 - `NAP 2022-06-27 | 20:15`
 
-💰 Total: **725€**
+💰 Total: **965€**
 
 ## Manger
 
@@ -58,11 +58,11 @@ date: 2022-02-24
 
 | Type   |      Budget      |
 |----------|:-------------:|
-| Transport | 725€ |
+| Transport | 965€ |
 | Logement |  2 781€ |
 | Activité |  2 800€ |
 | Marge d'erreur | 600€ |
-| Total |  6 906€  |
+| Total |  7 146€  |
 
 ### Liens
 
