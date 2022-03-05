@@ -4,6 +4,9 @@ title: "₿ Bitcoin"
 date: 2022-01-09
 ---
 
+> The first rule of Bitcoin is: always talk about Bitcoin. The second rule of Bitcoin is: never talk about your bitcoins.
+
+[@loop, 5:38 PM · Jun 23, 2017](https://twitter.com/lopp/status/878276149457166336)
 
 ### Liens
 
@@ -16,3 +19,4 @@ date: 2022-01-09
 - [Transaction dans le monde](https://fiatleak.com/btc)
 - [Part de marche](https://coin360.com)
 - [Acheter en France facilement](https://stackinsat.com)
+- [Guide bitcoin](https://bitcoiner.guide)
