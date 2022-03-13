@@ -6,7 +6,7 @@ date: 2022-02-24
 
 ### ✈️ Transport
 
-- `GVA 2022-04-08 | 11:05`
+- `GVA 2022-04-08 | 10:05`
 - `LIS 2022-04-16 | 15:10`
 - `Location voiture 2022-04-08 | 2022-04-11`
 
@@ -19,6 +19,10 @@ date: 2022-02-24
 💰 Total: **€**
 
 ## A voir
+
+- [Ria Formosa](https://www.getyourguide.fr/algarve-l66/croisiere-vers-les-iles-de-la-ria-formosa-depuis-faro-t64208/?date_from=2022-04-10&date_to=2022-04-10)
+- [Benagil](https://goo.gl/maps/V6ADsS2h7WmK5W8b7)
+- [Grotte Lagos](https://www.getyourguide.fr/algarve-l66/de-lagos-exploration-de-grottes-de-deux-heures-en-kayak-t105742/?date_from=2022-04-10&date_to=2022-04-10)
 
 ## Planning
 
@@ -40,13 +44,15 @@ date: 2022-02-24
 
 | Type   |      Budget      |
 |----------|:-------------:|
-| Transport | 440€ |
-| Voiture | 160€ |
-| Logement |  € |
-| Activité |  € |
+| Transport | 404€ |
+| Voiture | ?€ |
+| Logement | 495€ |
+| Activité | € |
 | Marge d'erreur | € |
-| Total |  600€  |
+| Total |  899€  |
 
 ### Liens
 
 - [Viree malin](https://www.viree-malin.fr/guide-lisbonne-visite-weekend)
+- [Location voiture](https://tinyurl.com/y9jrbcjl)
+- [Algarve](https://www.viree-malin.fr/location-voiture-algarve/)
