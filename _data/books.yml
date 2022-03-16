@@ -9,7 +9,7 @@
 - title: Vouloir toucher les etoiles
   author: Mike Horn
   url: https://www.amazon.fr/Vouloir-toucher-etoiles-Mike-HORN/dp/2266273515
-  started_at:
+  started_at: 2022-03-16
   finished: false
   comment:
   grade:
@@ -52,7 +52,7 @@
   url: https://www.amazon.fr/Travailler-vivre-Suisse-residents-frontaliers/dp/2297069766
   started_at: 2021-09-05
   finished: true
-  comment: Un livre qui regroupe l'essentiel des informations à connaître si l'on souhaite s'installer en Suisse. Vous apprendrez tout sur les permis de travail, l'assurance maladie, comment trouver un logement, les différences culturelles ...
+  comment: Un livre qui regroupe l'essentiel des informations à connaître si l'on souhaite s'installer en Suisse. Vous apprendrez tout sur les permis de travail, l'assurance maladie, trouver un logement, les différences culturelles...
   grade: 3
 
 - title: L'Etalon Bitcoin
