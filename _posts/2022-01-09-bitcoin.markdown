@@ -20,3 +20,5 @@ date: 2022-01-09
 - [Part de marche](https://coin360.com)
 - [Acheter en France facilement](https://stackinsat.com)
 - [Guide bitcoin](https://bitcoiner.guide)
+- [Block visualisation](https://bits.monospace.live)
+- [Mempool visualisation](https://mempool.space)
