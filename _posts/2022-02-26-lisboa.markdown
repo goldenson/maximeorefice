@@ -8,7 +8,7 @@ date: 2022-02-24
 
 - `GVA 2022-04-08 | 10:05`
 - `LIS 2022-04-16 | 15:10`
-- `Location voiture 2022-04-08 | 2022-04-11`
+- `Location scooter 2022-04-08 | 2022-04-11`
 
 💰 Total: **440€**
 
@@ -16,7 +16,7 @@ date: 2022-02-24
 
 ## 🏠 Dormir
 
-💰 Total: **€**
+💰 Total: **495€**
 
 ## A voir
 
@@ -45,7 +45,7 @@ date: 2022-02-24
 | Type   |      Budget      |
 |----------|:-------------:|
 | Transport | 404€ |
-| Voiture | ?€ |
+| Scooter | 80€ |
 | Logement | 495€ |
 | Activité | € |
 | Marge d'erreur | € |
