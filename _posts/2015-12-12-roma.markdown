@@ -1,0 +1,52 @@
+---
+layout: post
+title: "🇮🇹 Roma"
+date: 2015-12-12
+---
+
+### ✈️ Transport
+
+- `ORY 2015-12-12 | 07:20`
+- `FCO 2022-12-17 | 17:55`
+
+💰 Total: **200€**
+
+## Manger
+
+- Beaucoup de bon resto, attention aux attrapes touristes car grande capitale
+
+## 🏠 Dormir
+
+- Hébergé chez la famille
+
+💰 Total: **0€**
+
+## A voir
+
+## Planning
+
+| Jour   |      Activité      |  Budget |
+|----------|:-------------:|------:|
+| 12 |  Arrivé | 100€ |
+| 13 |  Rome | 100€ |
+| 14 |  Rome | 100€ |
+| 15 |  Rome | 100€ |
+| 16 |  Rome | 100€ |
+| 17 |  Départ | 100€ |
+
+💰 Total: **600€**
+
+## 💰 Budget
+
+| Type   |      Budget      |
+|----------|:-------------:|
+| Transport | 200€ |
+| Logement | 0€ |
+| Activité | 600€ |
+| Marge d'erreur | 0€ |
+| Total |  ~800€  |
+
+### Liens
+
+- [Viree malin](https://www.viree-malin.fr/visiter-rome-weekend-3-jours/)
+- [Carte des choses a faire](https://goo.gl/maps/Bigq7TLJNHSa6Z4a6)
