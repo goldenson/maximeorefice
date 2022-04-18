@@ -29,16 +29,16 @@ date: 2022-02-24
 | Jour   |      Activité      |  Budget |
 |----------|:-------------:|------:|
 | 8 |  Arrivé | 100€ |
-| 9 |  Lagos | € |
-| 10 |  Faro | € |
-| 11 |  Lisbonne | € |
-| 12 |  Lisbonne | € |
-| 13 |  Lisbonne | € |
-| 14 |  Lisbonne | € |
-| 15 |  Lisbonne  | € |
+| 9 |  Lagos | 100€ |
+| 10 |  Faro | 100€ |
+| 11 |  Lisbonne | 100€ |
+| 12 |  Lisbonne | 100€ |
+| 13 |  Lisbonne | 100€ |
+| 14 |  Lisbonne | 100€ |
+| 15 |  Lisbonne  | 100€ |
 | 16 |  Départ  | 100€ |
 
-💰 Total: **€**
+💰 Total: **900€**
 
 ## 💰 Budget
 
@@ -47,9 +47,9 @@ date: 2022-02-24
 | Transport | 404€ |
 | Scooter | 80€ |
 | Logement | 495€ |
-| Activité | € |
-| Marge d'erreur | € |
-| Total |  899€  |
+| Activité | 900€ |
+| Marge d'erreur | 200€ |
+| Total |  ~2000€  |
 
 ### Liens
 
