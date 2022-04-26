@@ -18,9 +18,9 @@
   author: Andreas Antonopoulos
   url: https://www.amazon.fr/Au-coeur-Bitcoin-Programmer-Blockchain/dp/2412037450
   started_at: 2022-03-27
-  finished: false
-  comment:
-  grade:
+  finished: true
+  comment: Un livre très technique qui explique en profondeur comment fonctionne bitcoin. C'est un livre destiné aux programmeurs qui souhaitent développer des applications sur bitcoin.
+  grade: 4
 
 - title: Les quatre accords tolteques
   author: Gary Keller
