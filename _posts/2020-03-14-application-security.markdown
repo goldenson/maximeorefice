@@ -38,5 +38,6 @@ What to think about when your application runs in production, things to keep in 
 - [Secure Rails gem](https://github.com/ankane/secure_rails)
 - [Share private note](https://privnote.com)
 - [Share private secret](https://yopass.se)
+- [Best practice](https://12factor.net/)
 
 If you are curious to learn more about security, I suggest you to read about the [OSWAP](https://owasp.org/www-project-top-ten/).
