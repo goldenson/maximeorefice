@@ -12,6 +12,7 @@ date: 2022-05-07
 - **Point de pression:** Sentir une pression constante sur son harnais.
 - **Fenetre de vol:** Angle de 180° dos au vent dans lequel on peut naviguer.
 - **Décollage:** Sentir la pression dans son harnais, attendre la rafale et tirer légèrement sur son aile.
+- **Le zenith:** Positionner son kit vers le soleil.
 
 ## Planning
 
