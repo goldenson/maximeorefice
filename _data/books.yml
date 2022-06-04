@@ -50,9 +50,9 @@
   author: Gary Keller
   url: https://www.amazon.fr/gp/product/B08241V9XY
   started_at: 2022-05-24
-  finished: false
-  comment:
-  grade:
+  finished: true
+  comment: "Gary nous explique dans sa méthodoligie de travail qui consiste à se poser la question suivante: quelle est LA chose essentielle à faire, de telle sorte qu'en la faisant tout le reste sera facile ou non nécessaire pour atteindre mon objectif ?"
+  grade: 3
 
 - title: Adrenaline
   author: Zlatan Ibrahimovic
