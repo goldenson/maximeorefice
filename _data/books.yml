@@ -1,10 +1,10 @@
 - title: "L'art de la meditation"
   author: Matthieu Ricard
   url: https://www.amazon.fr/LArt-meditation-Matthieu-RICARD-ebook/dp/B005SELQW4
-  started_at:
-  finished: false
-  comment:
-  grade:
+  started_at: 2022-06-05
+  finished: true
+  comment: L'auteur nous prend par la main pour nous enseigner de manière simple différentes méthodes pour apprendre à méditer et parvenir progressivement à devenir un meilleur nous-même.
+  grade: 2
 
 - title: Ecriture memoires d'un metier
   author: Stephen King
