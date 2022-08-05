@@ -17,10 +17,10 @@
 - title: Kilometre zero
   author: Maud Ankaoua
   url: https://www.amazon.fr/Kilometre-zero/dp/B08BWWMNPZ
-  started_at:
-  finished: false
-  comment:
-  grade:
+  started_at: 2022-07-03
+  finished: true
+  comment: Un bon livre qui nous fait voyager à l'autre bout du monde au Népal afin de prendre de conscience des choses importantes. La vie ne résume pas au métro boulot dodo, il faut apprendre à vivre l'instant présent et écouter son coeur et ses émotions.
+  grade: 3
 
 - title: 'Et si...?'
   author: Randall Munroe
