@@ -39,6 +39,10 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Done
 
+#### 2022
+
+- Scaling `CI` database with partitioning strategy, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/7522) and [architecture](https://docs.gitlab.com/ee/architecture/blueprints/ci_data_decay/pipeline_partitioning.html)
+
 #### 2021
 
 - Scaling `Ci::Build`, the biggest table of `GitLab`, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/5909) and [architecture](https://docs.gitlab.com/ee/architecture/blueprints/ci_scale/#queuing-mechanisms-are-using-the-large-table)
