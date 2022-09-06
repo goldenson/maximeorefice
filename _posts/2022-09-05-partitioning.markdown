@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🐘 Partitioning"
-date: 2022-10-05
+date: 2022-09-05
 ---
 
 ### Qu'est ce que le partitioning?
