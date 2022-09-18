@@ -28,7 +28,7 @@ birthday_job:
     TELEGRAM_TOKEN: $TELEGRAM_TOKEN
     CHAT_ID: $CHAT_ID
   stage: test
-  needs: ["test"]
+  needs: ["buil_app"]
   script:
     - echo "$TELEGRAM_TOKEN"
     - echo "$CHAT_ID"
