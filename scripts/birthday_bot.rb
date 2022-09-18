@@ -17,7 +17,7 @@ class BirthDayBot
   def execute
     load_file
     find_today_birthday
-    send_message_to_telegram
+    send_message_to_telegram if @today_birthday.any?
   end
 
   private
