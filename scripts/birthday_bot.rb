@@ -43,8 +43,8 @@ class BirthDayBot
 end
 
 begin
-  bot.execute
   bot = BirthDayBot.new
+  bot.execute
 rescue Telegram::Bot::Exceptions::ResponseError
   puts "CI VARIABLES are only set for the scheduled pipeline"
 end
