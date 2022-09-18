@@ -1,0 +1,299 @@
+# date format: Month-Day
+- date: 01-01
+  name:
+    - Martin Amin Latrille
+
+- date: 01-02
+  name:
+    - Cathy Maillé
+    - Mo Thiam
+
+- date: 01-06
+  name:
+    - Thierry Audidier
+    - François Bousquet
+    - Bryan Cerqueira
+
+- date: 01-07
+  name:
+    - Toms Lavialle
+
+- date: 01-10
+  name:
+    - Benoit Sénécal
+
+- date: 01-28
+  name:
+    - Antonio Orefice
+
+- date: 01-28
+  name:
+    - Charles Collas
+
+- date: 01-31
+  name:
+    - Wahbi Dkaki
+
+- date: 02-01
+  name:
+    - Isablle Pelletier
+    - Florianne Pn
+
+- date: 02-09
+  name:
+    - Shubham Sharma
+
+- date: 02-10
+  name:
+    - Hilda Selvaradjane
+
+- date: 02-12
+  name:
+    - Antoine Hamet
+
+- date: 02-14
+  name:
+    - Manon Guéguen
+
+- date: 02-21
+  name:
+    - Camille Odent
+
+- date: 02-22
+  name:
+    - Sandro Dabaghian
+
+- date: 02-25
+  name:
+    - Jérémie Rulquin
+
+- date: 02-27
+  name:
+    - Dimitri Cabete Jorge
+
+- date: 03-01
+  name:
+    - Sylvaine Zittel
+
+- date: 03-07
+  name:
+    - Andrew Louis
+
+- date: 03-08
+  name:
+    - Marion Chevalier
+
+- date: 03-11
+  name:
+    - Simona Iannucci
+
+- date: 03-15
+  name:
+    - Nathan Sénécal
+    - Marie-José Sénécal
+
+- date: 03-16
+  name:
+    - Igor Cheloudiakoff
+
+- date: 03-20
+  name:
+    - Brice Le Leizour
+
+- date: 03-28
+  name:
+    - Matthieu Zittel
+    - Brice Mionet
+
+- date: 03-29
+  name:
+    - Claudio Borgia
+
+- date: 04-01
+  name:
+    - Blandine Hamet
+
+- date: 04-05
+  name:
+    - Claire Hamet
+
+- date: 04-20
+  name:
+    - Millie Sénécal
+    - Kévin Tanguy
+
+- date: 04-24
+  name:
+    - Sacha Mellahi
+
+- date: 05-01
+  name:
+    - Alexis Guillot
+
+- date: 05-06
+  name:
+    - Benoit Clennett-Sirois
+
+- date: 05-08
+  name:
+    - Camille Orefice
+
+- date: 05-14
+  name:
+    - Laurie Sénécal
+
+- date: 05-15
+  name:
+    - Najla Amdouni
+
+- date: 05-19
+  name:
+    - Marion Maille
+    - Nima Izadi
+    - Grégoire Créteur
+
+- date: 05-20
+  name:
+    - Philippe Pelletier
+    - Loren Fletcher
+
+- date: 05-24
+  name:
+    - Jérémy Serres
+
+- date: 05-26
+  name:
+    - Imad Moqaddem
+
+- date: 05-27
+  name:
+    - Manon Asselot
+
+- date: 06-05
+  name:
+    - Charles Assus
+
+- date: 06-13
+  name:
+    - Kamran Raja
+
+- date: 07-02
+  name:
+    - François-Xavier Dufour
+
+- date: 07-15
+  name:
+    - Victor Pelletier
+
+- date: 07-23
+  name:
+    - Quentin Peron
+    - Sarah Patanchon
+
+- date: 07-24
+  name:
+    - Manu Chevalier
+
+- date: 07-28
+  name:
+    - Steven Philbert
+
+- date: 07-24
+  name:
+    - Marie-Christine Berthault
+
+- date: 07-31
+  name:
+    - Souleymane Camara
+
+- date: 08-05
+  name:
+    - Romain Maillé
+
+- date: 08-20
+  name:
+    - Ariane Vanherzeeke
+
+- date: 08-22
+  name:
+    - Thomas Zittel
+    - Cédric Bakala
+
+- date: 09-02
+  name:
+    - Rafael França
+
+- date: 09-04
+  name:
+    - Raphaël Egeley
+
+- date: 09-07
+  name:
+    - Margot Lavialle
+
+- date: 09-10
+  name:
+    - Paul-Armand Assus
+
+- date: 09-15
+  name:
+    - Vincent Raspaut
+
+- date: 09-18
+  name:
+    - Max
+    - Mil
+
+- date: 09-25
+  name:
+    - Jean-Luc Patanchon
+
+- date: 09-28
+  name:
+    - Frédéric Tanguy
+
+- date: 10-04
+  name:
+    - Matthieu Le Moal
+
+- date: 10-14
+  name:
+    - Tom Azernour
+    - Florian Elsaïr
+
+- date: 10-26
+  name:
+    - Alizé Bernard
+
+- date: 10-28
+  name:
+    - Audrey Sénécal
+
+- date: 11-01
+  name:
+    - Valentin Nerdenne
+
+- date: 11-11
+  name:
+    - Vincenzo Orefice
+
+- date: 12-07
+  name:
+    - Thibaut Assus
+
+- date: 12-07
+  name:
+    - Thibaut Assus
+
+- date: 12-24
+  name:
+    - Julie Pelletier
+
+- date: 12-29
+  name:
+    - Emilien Hamet
+
+- date: 12-31
+  name:
+    - Florian Renault
+    - Maxime Gerard
