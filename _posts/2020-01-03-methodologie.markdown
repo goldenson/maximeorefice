@@ -11,7 +11,7 @@ Voici comment je fonctionne si tu décides de travailler avec moi.
 
 ## Choses à savoir
 
-Je travaille actuellement depuis Montréal ([Canada](https://time.is/Montreal)) ce qui veut dire que si tu es en France, nous avons 6 heures de décalage horaire.
+Je travaille actuellement depuis la ([Suisse](https://time.is/Lausanne)) de la maison.
 
 Je traite toute information de manière asynchrone en fonction de mon temps de travail alloué sur le projet.
 
