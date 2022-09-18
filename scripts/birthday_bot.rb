@@ -36,7 +36,7 @@ class BirthDayBot
 
   def send_message_to_telegram
     Telegram::Bot::Client.run(@token) do |bot|
-      text = "🎉 Aujourd'hui c'est l'anniversaire de #{@today_birthday['name'].join('& ')}"
+      text = "🎉 Aujourd'hui c'est l'anniversaire de #{@today_birthday['name'].join(' & ')}"
       bot.api.send_message(chat_id: @chat_id, text: text)
     end
   end
