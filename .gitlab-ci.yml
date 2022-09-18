@@ -14,7 +14,7 @@ before_script:
   - bundle install
 
 test:
-  stage: test
+  stage: build
   script:
     - bundle exec jekyll build -d test
   artifacts:
