@@ -14,7 +14,7 @@ before_script:
   - bundle install
 
 test:
-  stage: build
+  stage: test
   variables:
     TELEGRAM_TOKEN: $TELEGRAM_TOKEN
     CHAT_ID: $CHAT_ID
