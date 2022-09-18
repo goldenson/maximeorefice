@@ -47,9 +47,9 @@
   grade: 4
 
 - title: Les quatre accords tolteques
-  author: Gary Keller
+  author: Don Miguel Ruiz
   url: https://www.amazon.fr/quatre-accords-tolteques-liberte-personnelle/dp/2889116549
-  started_at:
+  started_at: 2022-09-17
   finished: false
   comment:
   grade:
