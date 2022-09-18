@@ -15,24 +15,18 @@ before_script:
 
 test:
   stage: build
+  variables:
+    TELEGRAM_TOKEN: $TELEGRAM_TOKEN
+    CHAT_ID: $CHAT_ID
   script:
     - bundle exec jekyll build -d test
+  after_script:
+    - bundle exec ruby scripts/birthday_bot.rb
   artifacts:
     paths:
       - test
   except:
     - master
-
-birthday:
-  variables:
-    TELEGRAM_TOKEN: $TELEGRAM_TOKEN
-    CHAT_ID: $CHAT_ID
-  stage: test
-  needs: ["test"]
-  script:
-    - echo "$TELEGRAM_TOKEN"
-    - echo "$CHAT_ID"
-    - bundle exec ruby scripts/birthday_bot.rb
 
 pages:
   stage: deploy
