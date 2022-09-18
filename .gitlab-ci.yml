@@ -13,8 +13,8 @@ before_script:
   - bundle config set path 'vendor'
   - bundle install
 
-buil_app:
-  stage: build
+test:
+  stage: test
   script:
     - bundle exec jekyll build -d test
   artifacts:
@@ -23,12 +23,12 @@ buil_app:
   except:
     - master
 
-birthday_job:
+birthday:
   variables:
     TELEGRAM_TOKEN: $TELEGRAM_TOKEN
     CHAT_ID: $CHAT_ID
   stage: test
-  needs: ["buil_app"]
+  needs: ["test"]
   script:
     - echo "$TELEGRAM_TOKEN"
     - echo "$CHAT_ID"
