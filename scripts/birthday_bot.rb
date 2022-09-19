@@ -11,7 +11,7 @@ class BirthDayBot
     @birthdays = {}
     @today_birthday = {}
     @token = ENV.fetch('TELEGRAM_TOKEN')
-    @chat_id = ENV.fetch('CHAT_ID')
+    @chat_ids = [ENV.fetch('CHAT_ID_MAX'), ENV.fetch('CHAT_ID_MIL')]
   end
 
   def execute
@@ -37,7 +37,10 @@ class BirthDayBot
   def send_message_to_telegram
     Telegram::Bot::Client.run(@token) do |bot|
       text = "🎉 Aujourd'hui c'est l'anniversaire de #{@today_birthday['name'].join(' & ')}"
-      bot.api.send_message(chat_id: @chat_id, text: text)
+
+      @chat_ids.each do |chat_id|
+        bot.api.send_message(chat_id: chat_id, text: text)
+      end
     end
   end
 end
