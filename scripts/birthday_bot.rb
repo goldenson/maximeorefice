@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'dotenv/load'
 require 'yaml'
 require 'date'
 require 'telegram/bot'
@@ -48,6 +49,6 @@ end
 begin
   bot = BirthDayBot.new
   bot.execute
-rescue Telegram::Bot::Exceptions::ResponseError
+rescue Telegram::Bot::Exceptions::ResponseError, KeyError
   puts "CI VARIABLES are only set for the scheduled pipeline"
 end
