@@ -854,3 +854,4 @@ SELECT pg_wal_lsn_diff(pg_current_wal_lsn(), flush_lsn) FROM pg_stat_replication
 - [Upgrading postgresql](https://olivierlacan.com/posts/migrating-homebrew-postgres-to-a-new-version/)
 - [Postgresql tutorial](https://www.postgresqltutorial.com)
 - [pgBackRest](https://pgbackrest.org/)
+- [Timescale](https://ideia.me/using-the-timescale-gem-with-ruby)
