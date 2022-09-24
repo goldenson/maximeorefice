@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🇨🇭🇮🇹 Lugano"
+title: "🇨🇭🇮🇹 Ticino"
 date: 2022-04-19
 ---
 
@@ -24,16 +24,22 @@ date: 2022-04-19
 - [Valle Maggia](https://www.alltrails.com/trail/switzerland/ticino/valle-del-salto-via-maggia)
 - [Cascada del Salto](https://goo.gl/maps/GaApW4B3mLLpXLo69)
 - [Pin Umbrella](https://goo.gl/maps/MrWVxbtCzqPt7EZa8)
+- [Lavertezzo](https://goo.gl/maps/YUTCpKccmhnxZABa8)
+
 
 ## Planning
 
 | Jour   |      Activité      |  Budget |
 |----------|:-------------:|------:|
-| 2 |  Arrivé | 50€ |
-| 3 |  Como | 100€ |
-| 4 |  Lugano | 100€ |
-| 5 |  Lucarno | 100€ |
-| 6 |  Départ | 50€ |
+| 1 |  Arrivé | 50€ |
+| 2 |  Aoste | 100€ |
+| 3 |  Stressa - Varese | 100€ |
+| 4 |  Como | 100€ |
+| 5 |  Bellagio | 100€ |
+| 6 |  Lugano | 100€ |
+| 7 |  Lucarno | 100€ |
+| 8 |  Sion | 50€ |
+| 9 |  Départ | 50€ |
 
 💰 Total: **400€**
 
