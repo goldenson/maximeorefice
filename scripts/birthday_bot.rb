@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'dotenv/load'
 require 'yaml'
 require 'date'
 require 'telegram/bot'
