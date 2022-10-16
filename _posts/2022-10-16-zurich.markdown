@@ -23,6 +23,7 @@ date: 2022-10-16
 - [ ] [Vielle Ville](https://goo.gl/maps/yX6qCaKU2JtdD8SP7)
 - [ ] Bord du lac
 - [ ] Zurich West
+- [ ] [Mont Pilatus](https://www.alltrails.com/explore/trail/switzerland/lucerne--2/frakmuntegg-pilatus-klum)
 - [ ] [Spa Villa honegg](https://villa-honegg.ch/en/spa)
 
 ## Planning
