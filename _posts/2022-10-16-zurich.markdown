@@ -1,0 +1,55 @@
+---
+layout: post
+title: "🇨🇭 Zurich"
+date: 2022-10-16
+---
+
+### 🚙 Transport
+
+- `2022-10-29 | 2022-11-01`
+
+💰 Total: **60€**
+
+## Manger
+
+- [Best pizza a lago di como](https://goo.gl/maps/q5YsK5S5q7WcXKvL9)
+- [Bon grotto a Ascona](https://goo.gl/maps/dwFBAkkBarCQ2VNV9)
+
+## 🏠 Dormir
+
+`airbnb` or `booking.com`
+
+💰 Total: **€**
+
+## A voir
+
+- [ ] [Vielle Ville](https://goo.gl/maps/yX6qCaKU2JtdD8SP7)
+- [ ] Bord du lac
+- [ ] Zurich West
+- [ ] [Spa Villa honegg](https://villa-honegg.ch/en/spa)
+
+## Planning
+
+| Jour   |      Activité      |  Budget |
+|----------|:-------------:|------:|
+| 1 |  Zurich | 200€ |
+| 2 |  Zug | 200€ |
+| 3 |  Lucerne | 300€ |
+| 4 |  Maison | |
+
+💰 Total: **1350**
+
+## 💰 Budget
+
+| Type   |      Budget      |
+|----------|:-------------:|
+| Transport | 60€ |
+| Logement | € |
+| Activité | € |
+| Total |  ~€  |
+
+### Liens
+
+- [Choses a faire](https://goo.gl/maps/N4UD8zc8brftjFue7)
+- [Blog 1](https://www.zuerich.com/fr/visite/le-top-10-des-attractions)
+- [Blog 2](https://www.carnetdescapades.com/europe/suisse/visiter-zurich-idees.html)
