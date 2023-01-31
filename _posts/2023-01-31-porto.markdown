@@ -1,0 +1,49 @@
+---
+layout: post
+title: "🇵🇹 Porto"
+date: 2023-01-31
+---
+
+### 🚙 Transport
+
+💰 Total: **230€**
+
+## Manger
+
+- [Natas](https://goo.gl/maps/WApPaLrvyW9kb2cV9)
+
+## 🏠 Dormir
+
+- [Chez Jorge](https://goo.gl/maps/53xtLV7MjqVsHNRU8)
+
+💰 Total: **85€/nuit**
+
+## A voir
+
+- [Librairie Lello](https://goo.gl/maps/hRwbVTvRS4ET4UGM6)
+- [Douro](https://www.getyourguide.fr/porto-l151/une-journee-dans-la-vallee-du-douro-avec-degustation-t73660)
+
+## Planning
+
+| Jour   |      Activité      |  Budget |
+|----------|:-------------:|------:|
+| 1 |  Porto | 200€ |
+| 2 |  Douro | 200€ |
+| 3 |  Porto | 200€ |
+| 4 |  Départ | 0€ |
+
+💰 Total: **600€**
+
+## 💰 Budget
+
+| Type   |      Budget      |
+|----------|:-------------:|
+| Transport | 230€ |
+| Logement | 128€ |
+| Activité | 400€ |
+| Total |  ~758€  |
+
+### Liens
+
+- [Choses a faire Porto](https://www.viree-malin.fr/guide-porto-weekend-visite-bons-tuyaux/)
+- [Guide Douro](https://www.viree-malin.fr/visiter-vallee-du-douro-depuis-porto/)
