@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🇲🇦 Taghazout"
-date: 2023-02-23
+date: 2023-02-22
 ---
 
 ### 🚙 Transport
