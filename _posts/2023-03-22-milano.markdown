@@ -1,0 +1,50 @@
+---
+layout: post
+title: "🇮🇹 Milano"
+date: 2023-03-22
+---
+
+### 🚙 Transport
+
+💰 Total: **100€**
+
+## Manger
+
+- [El Brellin](https://goo.gl/maps/xHwVmmShPwHwqj2e7)
+
+## 🏠 Dormir
+
+- [Airbnb](https://www.airbnb.com/rooms/739126406361077943)
+
+💰 Total: **110€/nuit**
+
+## A voir / A faire
+
+- [Duomo](https://goo.gl/maps/bM41Un3F5hc3ExZo9)
+- [Galleria Vittorio Emanuele II](https://goo.gl/maps/soMYFc3ZfL1MHa9a6)
+- [Quadrilatero d'Oro](https://goo.gl/maps/b2eKqAR4HsEv7R3z7)
+- [Musée des sciences et des techniques Léonard de Vinci](https://goo.gl/maps/4WqEZJ48LYx9pZv66)
+- Brocante le dimanche à Navigli
+
+## Planning
+
+| Jour   |      Activité      |  Budget |
+|----------|:-------------:|------:|
+| 1 |  Milan | 100€ |
+| 2 |  Milan | 100€ |
+| 3 |  Milan | 100€ |
+
+💰 Total: **600€**
+
+## 💰 Budget
+
+| Type   |      Budget      |
+|----------|:-------------:|
+| Transport | 100€ |
+| Logement | 220€ |
+| Activité | 200€ |
+| Total |  ~520€  |
+
+### Liens
+
+- [Choses a faire Milan](https://www.viree-malin.fr/visiter-milan-en-3-jours/)
