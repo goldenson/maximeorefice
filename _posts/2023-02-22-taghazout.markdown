@@ -6,25 +6,32 @@ date: 2023-02-22
 
 ### 🚙 Transport
 
-💰 Total: **100€**
+- Avion `100€` total
+- Location voiture, `126€` total
+
+💰 Total: **132€**
 
 ## Manger
 
+- [Tajine Agadir](https://goo.gl/maps/TH5BnzYguEczWn9d7)
+
 ## 🏠 Dormir
 
+- [Airbnb](https://www.airbnb.com/rooms/10614040) / `9€/nuit`
 - [Hashpoint Surfcamp](https://goo.gl/maps/cDhp6HnComo1tJME6)
 
-💰 Total: **25€/nuit**
+## A voir / A faire
 
-## A voir
+- [Quad](https://www.airbnb.com/experiences/2465237)
+- [Paradise Valley](https://goo.gl/maps/WDE8WoFnKwSxoRzu5)
 
 ## Planning
 
 | Jour   |      Activité      |  Budget |
 |----------|:-------------:|------:|
-| 1 |  Essaouira | 30€ |
-| 2 |  Imsouane  | 30€ |
-| 3 |  Taghazout | 20€ |
+| 1 |  Taghazout | 30€ |
+| 2 |  Essaouira  | 30€ |
+| 3 |  Imsouane | 20€ |
 | 4 |  Taghazout | 20€ |
 | 5 |  Taghazout | 20€ |
 | 6 |  Taghazout | 20€ |
