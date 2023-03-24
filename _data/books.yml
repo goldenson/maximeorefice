@@ -219,9 +219,9 @@
   author: Ryan Singer
   url: https://basecamp-goods.com/products/shapeup
   started_at: 2023-02-21
-  finished: false
-  comment:
-  grade:
+  finished: true
+  comment: Explication approfondie de la méthode de travail utilisé par Basecamp pour créer des solutions logiciels. Cycle de 6 semaines de travail en autonomie effectué par 1 designer et 1 développeur.
+  grade: 5
 
 - title: Quit like a millionaire
   author: Kristy Shen
