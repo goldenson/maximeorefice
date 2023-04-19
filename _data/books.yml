@@ -2,9 +2,9 @@
   author: Sarah Drasner
   url: https://www.amazon.fr/Engineering-Management-Rest-Sarah-Drasner/dp/B0BHX6NLGZ
   started_at: 2023-04-27
-  finished: false
-  comment:
-  grade:
+  finished: true
+  comment: Ce livre explique les principes fondamentaux de la gestion d'équipe d'ingénieurs, en se concentrant sur des sujets tels que la communication, le leadership, la gestion des conflits et la prise de décision.
+  grade: 3
 
 - title: "L'art de la meditation"
   author: Matthieu Ricard
