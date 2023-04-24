@@ -11,10 +11,12 @@ date: 2023-03-22
 ## Manger
 
 - [El Brellin](https://goo.gl/maps/xHwVmmShPwHwqj2e7)
+- [Osteria del Gnocco Fritto](https://goo.gl/maps/4dVJL67fWnuQ3PmU8)
 - [Panzerotti Luini](https://goo.gl/maps/LTE9E6Yx3Pu1yNVa8)
 - [La Prosciutteria Milano Brera](https://goo.gl/maps/AxMCNB3yHmFxquvV7)
-- [Piz](https://goo.gl/maps/waokPb9iXJf9XoKg8)
 - [Gino Sorbillo](https://goo.gl/maps/15wQBT7x7rGyUT1N7)
+- [Antica Pizza Fritta da Zia Esterina](https://goo.gl/maps/K8xAAqK6UULVWJzT7)
+- [Osteria Conchetta](https://goo.gl/maps/Mpp9iAxnfj6cmr6J7)
 
 ## 🏠 Dormir
 
@@ -27,6 +29,11 @@ date: 2023-03-22
 - [Duomo](https://goo.gl/maps/bM41Un3F5hc3ExZo9)
 - [Galleria Vittorio Emanuele II](https://goo.gl/maps/soMYFc3ZfL1MHa9a6)
 - [Quadrilatero d'Oro](https://goo.gl/maps/b2eKqAR4HsEv7R3z7)
+- [Via Monte Napoleone](https://goo.gl/maps/1uLP3piPfLYze3Fh9)
+- [Via della Spiga](https://goo.gl/maps/8XP7BeRXJkTKicLE7)
+- [Santa Maria delle Grazie](https://goo.gl/maps/iwnTsGfQSAfQCGKL6)
+- [Castello Sforzesco](https://goo.gl/maps/ovK7bgZYcZnBd9MX7)
+- [Parco Sempione](https://goo.gl/maps/EUrHZcyynGa5ciWU7)
 - [Musée des sciences et des techniques Léonard de Vinci](https://goo.gl/maps/4WqEZJ48LYx9pZv66)
 - Brocante le dimanche à Navigli
 
@@ -34,9 +41,9 @@ date: 2023-03-22
 
 | Jour   |      Activité      |  Budget |
 |----------|:-------------:|------:|
-| 1 |  Milan | 100€ |
-| 2 |  Milan | 100€ |
-| 3 |  Milan | 100€ |
+| 1 |  Milan | 150€ |
+| 2 |  Milan | 150€ |
+| 3 |  Milan | 50€ |
 
 💰 Total: **600€**
 
@@ -46,8 +53,8 @@ date: 2023-03-22
 |----------|:-------------:|
 | Transport | 100€ |
 | Logement | 220€ |
-| Activité | 200€ |
-| Total |  ~520€  |
+| Activité | 300€ |
+| Total |  ~620€  |
 
 ### Liens
 
