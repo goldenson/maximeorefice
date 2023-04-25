@@ -34,6 +34,11 @@ WHERE indexrelid = (
 );
 ```
 
+### Avantages
+
+- Index maintenance car les indexes sont plus petits et plus rapides
+- Autovaccum run en parallel avec un process pour chaque partition
+
 ### Liens
 
 - [Posgres partitioning](https://www.postgresql.org/docs/current/ddl-partitioning.html)
