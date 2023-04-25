@@ -38,3 +38,4 @@ WHERE indexrelid = (
 
 - [Posgres partitioning](https://www.postgresql.org/docs/current/ddl-partitioning.html)
 - [CI Time decay](https://docs.gitlab.com/ee/architecture/blueprints/ci_data_decay/pipeline_partitioning.html)
+- [postgres.fm](https://postgres.fm/episodes/partitioning)
