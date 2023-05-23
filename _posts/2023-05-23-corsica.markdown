@@ -1,0 +1,61 @@
+---
+layout: post
+title: "🏝️ Corsica"
+date: 2023-05-23
+---
+
+### 🚙 Transport
+
+- Avion: 275€
+- Voiture: 190€
+
+💰 Total: **370€**
+
+## Manger
+
+- [Le 20123](https://goo.gl/maps/agxtfWrhzXW3EQF56)
+- [Boulangerie](https://goo.gl/maps/D4qWmSZ71mF9apux9) - Croissant
+- [Restaurant Chez Alain](https://goo.gl/maps/KpwpLkYsJu6JUjzw6)
+- [L'Atelier Pizza](https://goo.gl/maps/jFQ8ooCiCxsgBD727)
+- [Café De La Poste](https://goo.gl/maps/6kbphUAzFJnQ8stL7)
+- [Pozzo di Mastri](https://goo.gl/maps/5uMK3CYzDDu2w3aKA) - Vendredi soir cochon grillé
+
+## 🏠 Dormir
+
+💰 Total: **220€**
+
+## A voir / A faire
+
+- [Plage de Santa Giulia](https://goo.gl/maps/XRUBfT5H8XxaCruU6)
+- [Piscines Naturelles de Cavu](https://goo.gl/maps/2qH2jdfRvpuQtUza9)
+
+## Planning
+
+| Jour   |      Activité      |  Budget |
+|----------|:-------------:|------:|
+| 1 | Ajaccio | 30€ |
+| 2 | Porticcio | 30€ |
+| 3 | Porticcio | 30€ |
+| 4 | Porticcio | 30€ |
+| 5 | Porticcio | 30€ |
+| 6 | Porticcio | 30€ |
+| 7 | Sotta | 30€ |
+| 8 | Porto-Vecchio | 50€ |
+| 9 | Bonifacio | 50€ |
+| 10 | Sartene, Propriano | 50€ |
+| 11 | Ajaccio | 50€ |
+
+💰 Total: **600€**
+
+## 💰 Budget
+
+| Type   |      Budget      |
+|----------|:-------------:|
+| Transport | 100€ |
+| Logement | 220€ |
+| Activité | 300€ |
+| Total |  ~620€  |
+
+### Liens
+
+- [Choses a faire Corse](https://www.viree-malin.fr/que-visiter-en-corse)
