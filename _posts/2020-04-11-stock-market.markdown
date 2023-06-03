@@ -99,3 +99,4 @@ It you want to gamble, take calculated risks when the current price is trading n
 - [Dividend tool](https://www.digrin.com/)
 - [Toolbox for investor](https://finbox.com/)
 - [Dividend analysis](https://finviz.com/)
+- [VT](https://investor.vanguard.com/investment-products/etfs/profile/vt)
