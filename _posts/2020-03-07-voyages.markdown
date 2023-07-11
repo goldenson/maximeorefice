@@ -8,29 +8,33 @@ Pays, villes visités et future destinations.
 
 ## Réservé 🧿
 
-- [x] **[Naples](2022-02-24-napoli.markdown)**, Juin 2022
-
 ## À faire ✈️
 
+- [ ] **Collioure**
+- [ ] **Salvador**
+- [ ] **Costa Rica**
+- [ ] **Japon**
+- [ ] **Grece**
+- [ ] **Turquie**
 - [ ] **Cuba**
-- [ ] **Boston**
 - [ ] **Martinique**
 - [ ] **Colombie**
 - [ ] **Philippines**
-- [ ] **Grece**
 - [ ] **Hawai**
 - [ ] **Myanmar**
 - [ ] **Chili**
 - [ ] **Armenie**
 - [ ] **Cap Vert**
-- [ ] **Corse**
-- [ ] **Collioure**
 - [ ] **Argentine**
 - [ ] **Egypte**
 - [ ] **Bali**
 
 ## Fait ✅
 
+- [x] **[Corse](2023-05-23-corsica.markdown)**, Mai 2023
+- [x] **[Milan](2023-03-22-milano.markdown)**, Avril 2023
+- [x] **[Porto](2023-01-31-porto.markdown)**, Avril 2023
+- [x] **[Naples](2022-02-24-napoli.markdown)**, Juin 2022
 - [x] **[Lisboa](2022-02-26-lisboa.markdown)**, Avril 2022
 - [x] **[Gaspésie](https://goo.gl/maps/xVQcKw3sRQrQSFp9A)**, Juillet 2021
 - [x] **[Rocheuses Canadiennes](https://goo.gl/maps/RUV2TAuCHXjESshPA)**, Mai 2021
