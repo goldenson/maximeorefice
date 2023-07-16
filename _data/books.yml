@@ -1,3 +1,11 @@
+- title: Jours barbares
+  author: William Finnegan
+  url: https://www.amazon.fr/Jours-barbares-Une-vie-surf/dp/2757871315/
+  started_at:
+  finished: false
+  comment:
+  grade:
+
 - title: Forcez votre destin
   author: Anthony Bourbon
   url: https://www.amazon.fr/Forcez-votre-destin-Resilience-ambition/dp/2749949548
@@ -5,7 +13,6 @@
   finished: false
   comment:
   grade:
-
 
 - title: The minimalist entrepreneur
   author: Sahil Lavingia
