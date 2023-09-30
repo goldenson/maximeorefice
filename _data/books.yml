@@ -1,16 +1,16 @@
 - title: Un scenario optimiste pour bitcoin
   author: Knut Svanholm
   url: https://www.amazon.fr/scenario-optimiste-pour-bitcoin/dp/9916697345/
-  started_at:
-  finished: false
-  comment:
-  grade:
+  started_at: 2023-09-27
+  finished: true
+  comment: Une bonne introduction pour les débutants sur comment fonctionne bitcoin et à quoi sert-il. L'auteur résume très bien les différents arguments en faveur de Bitcoin et les critiques à son égard.
+  grade: 4
 
 
 - title: Everything divided by 21 million
   author: Knut Svanholm
   url: https://www.amazon.fr/Bitcoin-Everything-divided-21-million/dp/9916697310
-  started_at: 2023-10-11
+  started_at: 2023-09-11
   finished: true
   comment: Cet ancien capitaine explore la relation que nous avons avec le temps et l'argent de manière philosophique. Une bonne lecture qui met en lumière les problèmes de notre société lié à l'argent et comment bitcoin peut nous aider à construire un meilleur futur pour nos enfants.
   grade: 4
