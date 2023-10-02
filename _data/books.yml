@@ -1,3 +1,11 @@
+- title: "1984"
+  author: George Orwell
+  url: https://www.amazon.fr/1984-George-Orwell/dp/0451524934
+  started_at: 2023-10-02
+  finished: false
+  comment:
+  grade:
+
 - title: Un scenario optimiste pour bitcoin
   author: Knut Svanholm
   url: https://www.amazon.fr/scenario-optimiste-pour-bitcoin/dp/9916697345/
@@ -5,7 +13,6 @@
   finished: true
   comment: Une bonne introduction pour les débutants sur comment fonctionne bitcoin et à quoi sert-il. L'auteur résume très bien les différents arguments en faveur de Bitcoin et les critiques à son égard.
   grade: 4
-
 
 - title: Everything divided by 21 million
   author: Knut Svanholm
