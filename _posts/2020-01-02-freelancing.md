@@ -7,7 +7,7 @@ language: fr
 
 Quelques notes sur comment construire une carrière de freelance.
 
-"J’aide les entreprises à surmonter leur challenges techniques", [plus d'information](../_posts/2020-01-01-who-am-i.markdown)?
+"J’aide les entreprises à surmonter leur challenges techniques", [plus d'information](../_posts/2020-01-01-who-am-i.md)?
 
 > Devenez **le conseiller** de confiance de votre client.
 
