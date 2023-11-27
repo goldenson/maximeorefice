@@ -38,14 +38,6 @@
   comment: Cet ancien capitaine explore la relation que nous avons avec le temps et l'argent de manière philosophique. Une bonne lecture qui met en lumière les problèmes de notre société lié à l'argent et comment bitcoin peut nous aider à construire un meilleur futur pour nos enfants.
   grade: 4
 
-- title: Jours barbares
-  author: William Finnegan
-  url: https://www.amazon.fr/Jours-barbares-Une-vie-surf/dp/2757871315/
-  started_at: 2023-08-20
-  finished: false
-  comment:
-  grade:
-
 - title: Forcez votre destin
   author: Anthony Bourbon
   url: https://www.amazon.fr/Forcez-votre-destin-Resilience-ambition/dp/2749949548
@@ -101,14 +93,6 @@
   finished: true
   comment: Un bon livre qui nous fait voyager à l'autre bout du monde au Népal afin de prendre de conscience des choses importantes. La vie ne résume pas au métro boulot dodo, il faut apprendre à vivre l'instant présent et écouter son coeur et ses émotions.
   grade: 3
-
-- title: 'Et si...?'
-  author: Randall Munroe
-  url: https://www.amazon.fr/reponses-scientifiques-questions-jamais-posees/dp/2081343010
-  started_at: 2022-04-24
-  finished: false
-  comment:
-  grade:
 
 - title: Tout sur Bitcoin
   author: David St-Onge
@@ -206,14 +190,6 @@
   finished: true
   comment: 10 ans après sa création, Bitcoin continue d'exister. Ce livre nous explique comment Bitcoin résoud le problème de la monnaie dans notre société actuelle. Seul le temps nous dira si ce project collaboratif à grande échelle sera un succès pour l'humanité.
   grade: 4
-
-- title: L'art de la guerre
-  author: Sun Tzu
-  url: https://www.amazon.fr/Lart-guerre-Traduit-comment%C3%A9-chinois/dp/2818504961
-  started_at:
-  finished: false
-  comment:
-  grade:
 
 - title: Le moine qui vendit sa Ferrari
   author: Robin S. Sharma
