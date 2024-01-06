@@ -33,7 +33,7 @@ Mon profil est reparti à **100% d'actions** comme je suis dans la [phase d'accu
 
 ### 3. Bitcoin
 
-J'achète uniquement du `Bitcoins` au meilleur prix (en Suisse) sur [Relai](https://relai.app).
+J'achète uniquement du `Bitcoin` au meilleur prix (en Suisse) sur [Relai](https://relai.app).
 
 ### Liens
 
