@@ -47,3 +47,4 @@ date: 2023-10-03
 
 - [Choses a faire](https://www.viree-malin.fr/road-trip-cote-ouest-etats-unis)
 - [Spot a faire](https://www.que-faire-en-voyage.com/visiter-ouest-americain-que-faire/)
+- [Louer RV](https://indiecampers.com)
