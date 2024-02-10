@@ -29,9 +29,9 @@ date: 2023-10-03
 | Jour   |      Activité      |  Budget |
 |----------|:-------------:|------:|
 | 1 | Las Vegas -> Zion | $ |
-| 2 | Zion -> Bryce Canyon | $ |
-| 3 | Bryce -> Horseshoe Bend | $ |
-| 4 | Lake Powell -> Grand Canyon | $ |
+| 2 | Zion -> Bryce Canyon -> Lake Powell | $ |
+| 3 | Lake Powell -> Horseshoe Bend -> Antelope Canyon -> Grand Canyon | $ |
+| 4 | Grand Canyon | $ |
 | 5 | Grand Canyon -> Death Valley | $ |
 | 6 | Death Valley | $ |
 | 7 | Death Valley -> Sequoia Park | $ |
