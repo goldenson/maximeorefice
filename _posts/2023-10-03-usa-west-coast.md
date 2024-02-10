@@ -6,14 +6,13 @@ date: 2023-10-03
 
 ### ✈️ Transport
 
-💰 Total: **$4069**
+💰 Total: **$2769**
 
 - Max: $0
 - Mil: $1050
 - Marco: $119
 
-- Van (8 days): $2400
-- Car (4 days): $500
+- Car (16 days): $1600
 
 ## Manger
 
@@ -52,7 +51,7 @@ date: 2023-10-03
 
 | Type   |      Budget      |
 |----------|:-------------:|
-| Transport | $4069 |
+| Transport | $2769 |
 | Logement | $ |
 | Activité | $ |
 | Total |  ~$  |
