@@ -21,7 +21,7 @@ Si tu as une urgence (**urgence = bug critique impactant le business**), tu peux
 
 ### Début projet
 
-Je te poserai toutes le questions nécessaires afin de comprendre ton problème et t'aider à le résoudre.
+Je te poserai toutes les questions nécessaires afin de comprendre ton problème et t'aider à le résoudre.
 
 - **Nouveau projet:** Apres quelques heures de réflexion, nous passons à la phase de développement du projet.
 - **Projet existant:** Plusieurs jours serons nécessaires afin de comprendre l'environnement existant avant de passer au développement.
@@ -34,7 +34,7 @@ Nous allons établir ensemble les critères de validations pour la mission.
 
 J'ai pour habitude de faire un point le lundi ou le vendredi cela va dépendre de tes disponibilités.
 
-Chaque semaine nous discuterons de l'état d'avancement actuel et nous planifirons les objectifs pour la semaine suivante.
+Chaque semaine nous discuterons de l'état d'avancement actuel et nous planifierons les objectifs pour la semaine suivante.
 
 Voici un exemple du format que j'utilise:
 
@@ -59,9 +59,8 @@ Ceci nous permet à tous les 2 d'essayer **sans engagement** une collaboration a
 
 Comme tout le monde, je ne travaille pas gratuitement et je facture mes prestations **avant** de commencer à travailler sur le projet. Ceci nous évite à tous les 2 de gérer les délais de retard sur les factures envoyées pendant le développement du projet.
 
-
 ## Questions
 
 Si tu as des questions, je suis là pour y répondre.
 
-Envoi moi un email à <a href="mailto:contact@maximeorefice.com">contact@maximeorefice.com</a>
+Envoie moi un email à <a href="mailto:contact@maximeorefice.com">contact@maximeorefice.com</a>
