@@ -12,9 +12,15 @@ date: 2023-10-03
 - Mil: $1050
 - Marco: $119
 
-- Car (16 days): $1600
+- Car (16 days): $1634
 
 ## Manger
+
+### SF
+
+- [Pizz](https://maps.app.goo.gl/HvHZETbtdTKobkyV8)
+- [Brunch](https://maps.app.goo.gl/UkGMPcbMTZbNxAvy5)
+- [Dinner](https://maps.app.goo.gl/QwWm9J5oHyWhFdHG9)
 
 ## 🏠 Dormir
 
@@ -51,7 +57,7 @@ date: 2023-10-03
 
 | Type   |      Budget      |
 |----------|:-------------:|
-| Transport | $2769 |
+| Transport | $2803 |
 | Logement | $ |
 | Activité | $ |
 | Total |  ~$  |
