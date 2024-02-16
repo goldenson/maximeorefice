@@ -28,28 +28,28 @@ date: 2023-10-03
 
 ## A voir / A faire
 
--
+- [Alcatraz](https://maps.app.goo.gl/spGCA6h8w5NajufaA)
 
 ## Planning
 
-| Jour   |      Activité      |  Budget |
-|----------|:-------------:|------:|
-| 1 | Las Vegas -> Zion | $ |
-| 2 | Zion -> Bryce Canyon -> Lake Powell | $ |
-| 3 | Lake Powell -> Horseshoe Bend -> Antelope Canyon -> Grand Canyon | $ |
-| 4 | Grand Canyon | $ |
-| 5 | Grand Canyon -> Death Valley | $ |
-| 6 | Death Valley | $ |
-| 7 | Death Valley -> Sequoia Park | $ |
-| 8 | Sequoia Park | $ |
-| 9 | Sequoia Park -> San Francisco | $ |
-| 10 | San Francisco | $ |
-| 11 | San Francisco | $ |
-| 12 | San Francisco | $ |
-| 13 | San Francisco -> Los Angeles | $ |
-| 14 | Los Angeles | $ |
-| 15 | Los Angeles | $ |
-| 16 | Los Angeles -> Paris | $ |
+| Jour   |      Activité      |  Budget | Rando |
+|----------|:-------------:|------:|:-------------|
+| 1 | Las Vegas -> Zion | $ | [The watchman trail](https://www.alltrails.com/fr/explore/trail/us/utah/the-watchman-trail) |
+| 2 | Zion -> Bryce Canyon -> Lake Powell | $ | [Navajo Loop](https://www.alltrails.com/fr/explore/trail/us/utah/navajo-loop-and-queens-garden-trail) |
+| 3 | Lake Powell -> Horseshoe Bend -> Antelope Canyon -> Grand Canyon | $ | [Horseshoe bend trail](https://www.alltrails.com/fr/randonnee/us/arizona/horseshoe-bend-trail) |
+| 4 | Grand Canyon | $ | [Avion](https://www.getyourguide.fr/tusayan-l91478/survol-du-grand-canyon-t110698/), [Rim trail](https://www.alltrails.com/explore/trail/us/arizona/grand-canyon-rim-trail--3) |
+| 5 | Grand Canyon -> Death Valley | $ | |
+| 6 | Death Valley | $ | [Red Cathedral](https://www.alltrails.com/explore/trail/us/california/golden-canyon-trail-to-red-cathedral), [Dante view](https://www.alltrails.com/explore/trail/us/california/dantes-view-trail) |
+| 7 | Death Valley -> Sequoia Park | $ | |
+| 8 | Sequoia Park | $ | [Sherman Tree](https://www.alltrails.com/explore/trail/us/california/trail-of-the-sequoias-via-congress-trail) |
+| 9 | Sequoia Park -> San Francisco | $ | |
+| 10 | San Francisco | $ | |
+| 11 | San Francisco | $ | |
+| 12 | San Francisco | $ | |
+| 13 | San Francisco -> Los Angeles | $ | |
+| 14 | Los Angeles | $ | |
+| 15 | Los Angeles | $ | |
+| 16 | Los Angeles -> Paris | $ | |
 
 💰 Total: **$**
 
