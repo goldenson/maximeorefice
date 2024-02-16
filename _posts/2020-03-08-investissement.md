@@ -16,14 +16,13 @@ Mes 3 grands principes:
 
 On parle ici d'investissement sur une longue période de temps `+/-20 ans`.
 
-### 1. Immobilier
+### 1. Bitcoin
 
-On en y reparlera en 2024.
+J'achète uniquement du `Bitcoin` au meilleur prix (en Suisse) sur [Relai](https://relai.app).
 
 ### 2. Marché financier
 
 J'utilise [Interactive Brokers](https://www.interactivebrokers.com) pour gérer notre portefeuille boursier.
-
 
 | ETF | ISIN | Symbole | Pourcentage du portefeuille |
 |---------|:---------:|------:|------:|
@@ -31,9 +30,9 @@ J'utilise [Interactive Brokers](https://www.interactivebrokers.com) pour gérer 
 
 Mon profil est reparti à **100% d'actions** comme je suis dans la [phase d'accumulation de richesse](https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/).
 
-### 3. Bitcoin
+### 3. Immobilier
 
-J'achète uniquement du `Bitcoin` au meilleur prix (en Suisse) sur [Relai](https://relai.app).
+On en y reparlera en 2024 🤞
 
 ### Liens
 
