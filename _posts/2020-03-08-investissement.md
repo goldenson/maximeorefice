@@ -2,7 +2,10 @@
 layout: post
 title: "💰 Investissement"
 date: 2020-03-08
+image: /assets/images/posts/investissement.jpg
 ---
+
+![investissement](/assets/images/posts/investissement.jpg)
 
 ## Stratégie
 
