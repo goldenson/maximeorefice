@@ -86,15 +86,6 @@ a {
     --foreground: var(--clr-light);
     --clr-darkmode: var(--clr-accent);
   }
-
-  img {
-    opacity: .75;
-    transition: opacity .5s ease-in-out;
-  }
-
-  img:hover {
-    opacity: 1;
-  }
 }
 
 .highlighter-rouge .highlight  {
