@@ -2,7 +2,10 @@
 layout: post
 title: "🇲🇦 Taghazout"
 date: 2023-02-22
+image: "/assets/images/posts/taghazout.jpg"
 ---
+
+![taghazout](/assets/images/posts/taghazout.jpg)
 
 ### 🚙 Transport
 
