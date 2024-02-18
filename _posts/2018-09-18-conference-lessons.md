@@ -2,9 +2,10 @@
 layout: post
 title: "✍️ Conference lessons"
 date: 2018-09-18
+image: "/assets/images/posts/parisrb2018.jpg"
 ---
 
-![paris-rb-2018](/assets/images/posts/paris-rb-2018.jpeg)
+![paris-rb-2018](/assets/images/posts/parisrb2018.jpeg)
 
 > TLDR; What are the most important parts when you organize a conference and how to make sure to deliver the best experience to your audience.
 
