@@ -27,7 +27,7 @@ image: "/assets/images/posts/westcoast.jpg"
 
 ## 🏠 Dormir
 
-💰 Total: **$**
+💰 Total: **$2541**
 
 ## A voir / A faire
 
@@ -61,9 +61,9 @@ image: "/assets/images/posts/westcoast.jpg"
 | Type   |      Budget      |
 |----------|:-------------:|
 | Transport | $2803 |
-| Logement | $ |
+| Logement | $2541 |
 | Activité | $ |
-| Total |  ~$  |
+| Total |  ~$5344 |
 
 ### Liens
 
