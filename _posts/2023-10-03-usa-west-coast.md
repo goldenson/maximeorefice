@@ -2,10 +2,10 @@
 layout: post
 title: "🇺🇸 USA West Coast"
 date: 2023-10-03
-image: "/assets/images/posts/westcoast.jpg"
+image: "/assets/images/posts/westcoast.jpeg"
 ---
 
-![westcoast](/assets/images/posts/westcoast.jpg)
+![westcoast](/assets/images/posts/westcoast.jpeg)
 
 ### ✈️ Transport
 
