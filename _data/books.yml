@@ -22,14 +22,6 @@
   comment: Goggins inspire les gens à dépasser leurs limites (règle des 40%). Il trouve son bonheur dans la douleur en maîtrisant son esprit et en défiant les probabilités de sa propre vie. Son histoire est extraordinaire, et sa capacité à surmonter d'immenses défis est vraiment impressionnante.
   grade: 4
 
-- title: "1984"
-  author: George Orwell
-  url: https://www.amazon.fr/1984-George-Orwell/dp/0451524934
-  started_at: 2023-10-02
-  finished: false
-  comment:
-  grade:
-
 - title: Un scenario optimiste pour bitcoin
   author: Vijay Boyapati
   url: https://www.amazon.fr/scenario-optimiste-pour-bitcoin/dp/9916697345/
@@ -85,14 +77,6 @@
   finished: true
   comment: L'auteur nous prend par la main pour nous enseigner de manière simple différentes méthodes pour apprendre à méditer et parvenir progressivement à devenir un meilleur nous-même.
   grade: 2
-
-- title: Ecriture memoires d'un metier
-  author: Stephen King
-  url: https://www.amazon.fr/Ecriture-Memoires-metier/dp/B005OQDCL4/
-  started_at:
-  finished: false
-  comment:
-  grade:
 
 - title: Kilometre zero
   author: Maud Ankaoua
