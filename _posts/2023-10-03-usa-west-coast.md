@@ -15,15 +15,7 @@ image: "/assets/images/posts/westcoast.jpeg"
 - Mil: $1050
 - Marco: $119
 
-- Car (16 days): $1634
-
-## Manger
-
-### SF
-
-- [Pizz](https://maps.app.goo.gl/HvHZETbtdTKobkyV8)
-- [Brunch](https://maps.app.goo.gl/UkGMPcbMTZbNxAvy5)
-- [Dinner](https://maps.app.goo.gl/QwWm9J5oHyWhFdHG9)
+- Car (16 days): $1764
 
 ## 🏠 Dormir
 
