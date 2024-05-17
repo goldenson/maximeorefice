@@ -17,9 +17,9 @@ Après plus de 10 ans à coder, je développe chaque jour de nouvelles compéten
 - [x] Bricolage
 - [x] Lecture
 
-# Famille 👰😸
+# Famille 👰👶😸
 
-Ma famille est la chose la plus importante à mes yeux. Je suis marié avec l'amour de ma vie rencontré il a y 10 ans au théatre. Nous avons un chat qui s'appelle `Pizz`.
+Ma famille est ce qui compte le plus à mes yeux. Je suis marié avec l'amour de ma vie rencontré il y a {{ "today" | date: '%Y' | minus: "2012" }} ans au théatre. Nous avons un chat qui s'appelle `Pizz`. Et nous venons d'avoir un petit `Marco`.
 
 # Manger 🍕
 
