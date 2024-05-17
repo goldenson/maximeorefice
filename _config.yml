@@ -23,6 +23,4 @@ relative_links:
   enabled: true
   collections: true
 
-google_analytics: UA-152637440-1
-
 exclude: ["Rakefile"]
