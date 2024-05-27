@@ -1,3 +1,11 @@
+- title: Extreme Ownership
+  author: Jocko Willink
+  url: https://www.amazon.fr/Extreme-Ownership-U-S-Navy-SEALs/dp/B01CV2CKCA
+  started_at: 2024-05-27
+  finished: false
+  comment:
+  grade:
+
 - title: 12 regles pour une vie
   author: Jordan B. Peterson
   url: https://www.amazon.fr/12-r%C3%A8gles-pour-une-vie/dp/2290203130
@@ -23,7 +31,7 @@
   grade: 5
 
 - title: Elon Musk
-  author:  Walter Isaacson
+  author: Walter Isaacson
   url: https://www.amazon.fr/Elon-Musk-Walter-Isaacson/dp/2213722315
   started_at: 2023-11-27
   finished: true
@@ -182,7 +190,6 @@
   comment: Rabbin des bois nous raconte comment il est devenu hacker. De son recrutement dans sa cité à son plus grand hack avec Sciences Po il nous dévoile tout l'univers caché du dark web de façon humoristique.
   grade: 5
 
-
 - title: Travailler et vivre en Suisse
   author: David Talerman
   url: https://www.amazon.fr/Travailler-vivre-Suisse-residents-frontaliers/dp/2297069766
@@ -215,7 +222,7 @@
   comment: Comment se recentrer sur soit-même et faire abstraction du reste. Définir ses propres valeurs, être responsable de tout ce qui nous arrive et passer à l'action afin d'acquérir de l'expérience sont les principales idées de ce livre.
   grade: 5
 
-- title: 'How to Get Filthy Rich in Rising Asia: A Novel'
+- title: "How to Get Filthy Rich in Rising Asia: A Novel"
   author: Mohsin Hamid
   url: https://www.amazon.fr/How-Filthy-Rich-Rising-Asia-ebook/dp/B00AEGQOV4
   started_at: 2022-01-10
@@ -308,7 +315,7 @@
   url: https://www.amazon.fr/Almanack-Naval-Ravikant-Wealth-Happiness/dp/1544514212
   started_at: 2021-01-24
   finished: true
-  comment: 'Une collection de la pensée et des tweets de Naval. Ce livre est fait de 2 chapitres: Wealth & Happiness. Naval nous explique sa définition de ces 2 valeurs. Soit toi même, prends soin de ton corps et de ton esprit avant de prendre soin des autres.'
+  comment: "Une collection de la pensée et des tweets de Naval. Ce livre est fait de 2 chapitres: Wealth & Happiness. Naval nous explique sa définition de ces 2 valeurs. Soit toi même, prends soin de ton corps et de ton esprit avant de prendre soin des autres."
   grade: 4
 
 - title: Born to Run
