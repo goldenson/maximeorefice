@@ -4,30 +4,26 @@ title: "🦊 Work at GitLab"
 date: 2020-03-19
 ---
 
-I'm working for the [biggest remote company](https://about.gitlab.com/company/culture/all-remote/) in the world! I'm grateful to be part of this adventure as [our values](https://about.gitlab.com/handbook/values/) perfectly fit with me.
+I'm working for the [biggest remote company](https://handbook.gitlab.com/handbook/company/culture/all-remote/) in the world! I'm grateful to be part of this adventure as [our values](https://handbook.gitlab.com/handbook/values/) perfectly fit with me.
 
 [Explore](https://about.gitlab.com/company/team/) our worldwide team.
 
 ## Role
 
-I'm currently a [Backend Engineer](https://about.gitlab.com/job-families/engineering/backend-engineer/) working with `Ruby`.
+I'm currently a [Senior Backend Engineer](https://about.gitlab.com/job-families/engineering/backend-engineer/) working with `Ruby`.
 
 I love designing new features and fixing bugs. Being all remote is challenging at first, but once you start it's difficult to come back to a regular office.
 
 ## Team
 
-I'm part of the [Verify:Pipeline Insights](https://about.gitlab.com/handbook/engineering/development/ops/verify/pipeline-insights/) team.
+I'm part of the [Verify:Pipeline Security](https://handbook.gitlab.com/handbook/engineering/development/ops/verify/pipeline-security/) team.
 
-Our goal is to make test easier for everybody. This means we create tools to help companies to develop better and safer software:
+Our goal is to make the CI experience easier for everybody. This means we create tools to help companies developping better and safer software:
 
-- Generate reports giving insights at a glance
-- Actionable steps / Advices on how to improve things
-- Unit Testing
-- Code Coverage
-- Accessibility Testing
-- Load Testing
-- Artifacts
-- Review apps
+- Maintain [Build Artifacts](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html)
+- Manage [CI Variables](https://docs.gitlab.com/ee/ci/variables/)
+- Secure pipeline with [CI Job Token](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html)
+- Building [Gitlab Secrets Manager](https://gitlab.com/groups/gitlab-org/-/epics/10108)
 
 ## Project
 
@@ -35,13 +31,25 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Now
 
-- Preparing `GitLab` to use **2 databases**, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/6379)
+- Focusing on how to implement a native solution to **store secrets** within gitlab pipeline.
 
 ### Done
 
+#### 2024
+
+- Exploring how to build a ruby client API for [openbao](https://github.com/openbao/openbao)
+
+#### 2024 (January-June)
+
+- Implement **CI Partition Management** framework, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/11815), see all [MRs merged](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=merged&author_username=morefice&label_name[]=CI%20data%20partitioning) related to this project.
+
+#### 2023
+
+- Continue to scale the  `CI database` by partitioning more [tables](https://gitlab.com/groups/gitlab-org/-/epics/11811) and fixing a bunch of [broken queries](https://gitlab.com/groups/gitlab-org/-/epics/11812)
+
 #### 2022
 
-- Scaling `CI` database with partitioning strategy, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/7522) and [architecture](https://docs.gitlab.com/ee/architecture/blueprints/ci_data_decay/pipeline_partitioning.html)
+- Scaling `CI` database with partitioning strategy, see [epic](https://gitlab.com/groups/gitlab-org/-/epics/5417) and [architecture](https://docs.gitlab.com/ee/architecture/blueprints/ci_data_decay/pipeline_partitioning.html).
 
 #### 2021
 
