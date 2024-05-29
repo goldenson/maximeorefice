@@ -43,7 +43,7 @@ The standard `postgres` client to interact with your cluster.
 |      `\sf count_rows`       | Show definition of a method          |
 |      `\ef count_rows`       | Edit a function                      |
 |         `\conninfo`         | Give info about the current session  |
-
+| `SELECT pg_size_pretty(pg_total_relation_size('tablename'));` | Get table size in bytes |
 ### Indexes
 
 #### btree indexes
