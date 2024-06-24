@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-relative-links'
   gem 'jekyll-target-blank'
+  gem 'jekyll-last-modified-at'
 end
 
 group :development do
