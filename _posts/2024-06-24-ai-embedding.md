@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "🤖 AI"
+title: "🤖 AI Embedding"
 date: 2024-06-24
-image: "/assets/images/posts/ai.jpg"
+image: "/assets/images/posts/ai-embedding.jpg"
 ---
 
-![ai](/assets/images/posts/ai.jpg)
+![ai-embedding](/assets/images/posts/ai-embedding.jpg)
 
 ## Hackathon
 
