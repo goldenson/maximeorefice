@@ -1,3 +1,19 @@
+- title: Le Prix de Demain
+  author: Jeff Booth
+  url: https://www.amazon.fr/Prix-Demain-Pourquoi-d%C3%A9flation-abondant/dp/9916697434
+  started_at: 2024-07-20
+  finished: true
+  comment: Comment les innovations technologiques, notamment dans les domaines de l'intelligence artificielle et des biotechnologies, transformeront l'économie et la société. L'auteur met en garde contre les inégalités croissantes et l'importance de réguler ces avancées pour un futur équitable et prospère.
+  grade: 1
+
+- title: L'Internet de l'argent
+  author: Jocko Willink
+  url: https://www.amazon.fr/Linternet-largent-Andreas-M-Antonopoulos/dp/2856083390
+  started_at: 2024-07-14
+  finished: true
+  comment: La blockchain et les cryptomonnaies redéfinissent les systèmes financiers traditionnels. L'auteur discute des avantages, comme la transparence et la décentralisation, tout en abordant les défis de régulation et de sécurité.
+  grade: 5
+
 - title: Extreme Ownership
   author: Jocko Willink
   url: https://www.amazon.fr/Extreme-Ownership-U-S-Navy-SEALs/dp/B01CV2CKCA
