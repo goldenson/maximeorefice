@@ -31,13 +31,13 @@ You can follow [our roadmap](https://about.gitlab.com/direction/maturity/#verify
 
 ### Now
 
-- Focusing on how to implement a native solution to **store secrets** within gitlab pipeline.
+- Exploring how to build a [native secrets manager](https://docs.gitlab.com/ee/architecture/blueprints/secret_manager/) for `GitLab`
 
 ### Done
 
-#### 2024
+#### 2024 (July - September)
 
-- Exploring how to build a ruby client API for [openbao](https://github.com/openbao/openbao)
+- Integrating [`openbao`](https://openbao.org/) within our [pdevelopment tooling](https://gitlab.com/groups/gitlab-org/-/epics/14406)
 
 #### 2024 (January-June)
 
