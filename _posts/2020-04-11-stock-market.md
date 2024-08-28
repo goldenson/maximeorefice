@@ -100,3 +100,4 @@ It you want to gamble, take calculated risks when the current price is trading n
 - [Toolbox for investor](https://finbox.com/)
 - [Dividend analysis](https://finviz.com/)
 - [VT](https://investor.vanguard.com/investment-products/etfs/profile/vt)
+- [Trading & Poker](https://www.chrisperruna.com/2010/07/13/trading-and-poker/)
