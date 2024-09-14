@@ -1,0 +1,30 @@
+<h2>2024</h2>
+
+  <div class="heatmap">
+    <div class="heatmap-months">
+      <span>Jan</span><span>Fev</span><span>Mar</span><span>Avr</span><span>Mai</span><span>Juin</span><span>Juil</span><span>Aou</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span>
+    </div>
+    <div class="heatmap-grid">
+      <div class="heatmap-days">
+        <span>Lun</span>
+        <span>Mar</span>
+        <span>Mer</span>
+        <span>Jeu</span>
+        <span>Ven</span>
+        <span>Sam</span>
+        <span>Dim</span>
+      </div>
+      <div class="heatmap-cells">
+        {% for entry in site.data.crossfits %}
+          {% assign day_of_week = entry.date | date: "%u" %} <!-- 1 = lundi, 7 = dimanche -->
+          {% assign week_of_year = entry.date | date: "%V" %} <!-- Numéro de la semaine -->
+
+          <!-- Affiche un carré pour chaque jour -->
+          <div class="heatmap-day intensity-{{ entry.showup }}"
+               title="{{ entry.date }}"
+               style="grid-column: {{ week_of_year }}; grid-row: {{ day_of_week }};">
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
