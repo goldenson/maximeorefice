@@ -19,3 +19,6 @@ group :development do
   gem 'pry'
   gem 'dotenv'
 end
+
+gem "sqlite3"
+gem 'jekyll-sqlite'
