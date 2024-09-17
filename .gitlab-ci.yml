@@ -8,6 +8,11 @@ cache:
   paths:
     - vendor/
 
+stages:
+  - test
+  - deploy
+  - scheduled_task
+
 before_script:
   - gem install bundler
   - bundle config set path 'vendor'
@@ -26,15 +31,20 @@ test:
 
 pages:
   stage: deploy
-  variables:
-    TELEGRAM_TOKEN: $TELEGRAM_TOKEN
-    GROUP_ID: $GROUP_ID
   script:
     - bundle exec jekyll build -d public
-  after_script:
-    - bundle exec ruby telegram/birthday_bot.rb
   artifacts:
     paths:
       - public
   only:
     - master
+
+birthday_job:
+  stage: scheduled_task
+  variables:
+    TELEGRAM_TOKEN: $TELEGRAM_TOKEN
+    GROUP_ID: $GROUP_ID
+  script:
+    - bundle exec ruby telegram/birthday_bot.rb
+  only:
+    - schedules
