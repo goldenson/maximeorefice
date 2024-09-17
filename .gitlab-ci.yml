@@ -46,10 +46,9 @@ birthday_job:
     GROUP_ID: $GROUP_ID
   script:
     - bundle exec ruby telegram/birthday_bot.rb
-  only:
-    - schedules
   rules:
     - if: '$TELEGRAM_TOKEN'
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
 
 crossfit_job:
   stage: scheduled_task
@@ -59,7 +58,6 @@ crossfit_job:
   script:
     - bundle exec ruby telegram/crossfit_bot.rb
   timeout: 1h
-  only:
-    - schedules
   rules:
     - if: '$TELEGRAM_CROSSFIT_TOKEN'
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
