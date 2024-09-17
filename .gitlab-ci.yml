@@ -28,7 +28,7 @@ pages:
   stage: deploy
   variables:
     TELEGRAM_TOKEN: $TELEGRAM_TOKEN
-    CHAT_ID: $CHAT_ID
+    GROUP_ID: $GROUP_ID
   script:
     - bundle exec jekyll build -d public
   after_script:
