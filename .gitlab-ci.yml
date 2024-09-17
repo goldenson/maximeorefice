@@ -56,6 +56,20 @@ birthday_job:
     - if: $CI_PIPELINE_SOURCE == "schedule"
     - if: $TELEGRAM_TOKEN
 
+verify_telegram_token:
+  stage: test
+  script:
+    - |
+      if [ -z "$TELEGRAM_CROSSFIT_TOKEN" ]; then
+        echo "Error: TELEGRAM_CROSSFIT_TOKEN is not set or is empty."
+        exit 1
+      else
+        echo "TELEGRAM_CROSSFIT_TOKEN is set."
+      fi
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+  allow_failure: false
+
 crossfit_job:
   stage: scheduled_task
   variables:
@@ -70,6 +84,5 @@ crossfit_job:
   script:
     - bundle exec ruby telegram/crossfit_bot.rb
   timeout: 1h
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "schedule"
-    - if: $TELEGRAM_CROSSFIT_TOKEN
+  needs:
+    - verify_telegram_token
