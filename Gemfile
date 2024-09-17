@@ -5,6 +5,8 @@ gem 'minima'
 gem 'jekyll'
 gem 'webrick'
 gem 'telegram-bot-ruby'
+gem 'sqlite3'
+gem 'jekyll-sqlite'
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
@@ -19,6 +21,3 @@ group :development do
   gem 'pry'
   gem 'dotenv'
 end
-
-gem "sqlite3"
-gem 'jekyll-sqlite'
