@@ -44,6 +44,12 @@ birthday_job:
   variables:
     TELEGRAM_TOKEN: $TELEGRAM_TOKEN
     GROUP_ID: $GROUP_ID
+  before_script:
+    - |
+      if [ -z "$TELEGRAM_TOKEN" ]; then
+        echo "Error: TELEGRAM_TOKEN is not set or is empty."
+        exit 1
+      fi
   script:
     - bundle exec ruby telegram/birthday_bot.rb
   rules:
@@ -55,6 +61,12 @@ crossfit_job:
   variables:
     TELEGRAM_CROSSFIT_TOKEN: $TELEGRAM_CROSSFIT_TOKEN
     CROSSFIT_CHAT_ID: $CROSSFIT_CHAT_ID
+  before_script:
+    - |
+      if [ -z "$TELEGRAM_CROSSFIT_TOKEN" ]; then
+        echo "Error: TELEGRAM_CROSSFIT_TOKEN is not set or is empty."
+        exit 1
+      fi
   script:
     - bundle exec ruby telegram/crossfit_bot.rb
   timeout: 1h
