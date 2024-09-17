@@ -48,6 +48,8 @@ birthday_job:
     - bundle exec ruby telegram/birthday_bot.rb
   only:
     - schedules
+  rules:
+    - if: '$TELEGRAM_TOKEN'
 
 crossfit_job:
   stage: scheduled_task
@@ -59,3 +61,5 @@ crossfit_job:
   timeout: 1h
   only:
     - schedules
+  rules:
+    - if: '$TELEGRAM_CROSSFIT_TOKEN'
