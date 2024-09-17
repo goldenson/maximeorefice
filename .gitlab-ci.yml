@@ -38,6 +38,8 @@ pages:
       - public
   only:
     - master
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
 
 birthday_job:
   stage: scheduled_task
