@@ -15,7 +15,7 @@ stages:
 
 before_script:
   - gem install bundler
-  - bundle config set path vendor
+  - bundle config set path 'vendor'
   - bundle install
   - bundle exec ruby scripts/db_setup.rb
 
@@ -26,8 +26,8 @@ test:
   artifacts:
     paths:
       - test
-  rules:
-    - if: $CI_COMMIT_BRANCH != "master"
+  except:
+    - master
 
 pages:
   stage: deploy
@@ -36,53 +36,25 @@ pages:
   artifacts:
     paths:
       - public
-  rules:
-    - if: $CI_COMMIT_BRANCH == "master"
+  only:
+    - master
 
 birthday_job:
   stage: scheduled_task
   variables:
     TELEGRAM_TOKEN: $TELEGRAM_TOKEN
     GROUP_ID: $GROUP_ID
-  before_script:
-    - |
-      if [ -z "$TELEGRAM_TOKEN" ]; then
-        echo "Error: TELEGRAM_TOKEN is not set or is empty."
-        exit 1
-      fi
   script:
     - bundle exec ruby telegram/birthday_bot.rb
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "schedule"
-    - if: $TELEGRAM_TOKEN
+  only:
+    - schedules
 
-verify_telegram_token:
-  stage: test
-  script:
-    - |
-      if [ -z "$TELEGRAM_CROSSFIT_TOKEN" ]; then
-        echo "Error: TELEGRAM_CROSSFIT_TOKEN is not set or is empty."
-        exit 1
-      else
-        echo "TELEGRAM_CROSSFIT_TOKEN is set."
-      fi
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "schedule"'
-  allow_failure: false
-
-crossfit_job:
+birthday_job:
   stage: scheduled_task
   variables:
-    TELEGRAM_CROSSFIT_TOKEN: $TELEGRAM_CROSSFIT_TOKEN
-    CROSSFIT_CHAT_ID: $CROSSFIT_CHAT_ID
-  before_script:
-    - |
-      if [ -z "$TELEGRAM_CROSSFIT_TOKEN" ]; then
-        echo "Error: TELEGRAM_CROSSFIT_TOKEN is not set or is empty."
-        exit 1
-      fi
+    TELEGRAM_TOKEN: $TELEGRAM_TOKEN
+    GROUP_ID: $GROUP_ID
   script:
-    - bundle exec ruby telegram/crossfit_bot.rb
-  timeout: 1h
-  needs:
-    - verify_telegram_token
+    - bundle exec ruby telegram/birthday_bot.rb
+  only:
+    - schedules
