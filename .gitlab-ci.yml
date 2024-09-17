@@ -12,6 +12,7 @@ before_script:
   - gem install bundler
   - bundle config set path 'vendor'
   - bundle install
+  - bundle exec ruby scripts/db_setup.rb
 
 test:
   stage: test

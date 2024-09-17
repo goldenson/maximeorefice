@@ -19,9 +19,15 @@ plugins:
   - jekyll-relative-links
   - jekyll-target-blank
   - jekyll-last-modified-at
+  - jekyll_sqlite
 
 relative_links:
   enabled: true
   collections: true
 
 exclude: ["Rakefile"]
+
+sqlite:
+  - data: crossfits
+    file: crossfit.db
+    query: SELECT * from trainings
