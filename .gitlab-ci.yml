@@ -48,3 +48,14 @@ birthday_job:
     - bundle exec ruby telegram/birthday_bot.rb
   only:
     - schedules
+
+crossfit_job:
+  stage: scheduled_task
+  variables:
+    TELEGRAM_CROSSFIT_TOKEN: $TELEGRAM_CROSSFIT_TOKEN
+    CROSSFIT_CHAT_ID: $CROSSFIT_CHAT_ID
+  script:
+    - bundle exec ruby telegram/crossfit_bot.rb
+  timeout: 1h
+  only:
+    - schedules
