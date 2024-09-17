@@ -76,6 +76,8 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-sqlite (0.1.5)
+      sqlite3 (~> 2.0)
     jekyll-target-blank (2.0.2)
       jekyll (>= 3.0, < 5.0)
       nokogiri (~> 1.10)
@@ -121,6 +123,8 @@ GEM
     sass-embedded (1.77.8)
       google-protobuf (~> 4.26)
       rake (>= 13)
+    sqlite3 (2.0.4)
+      mini_portile2 (~> 2.8.0)
     strscan (3.1.0)
     telegram-bot-ruby (2.0.0)
       dry-struct (~> 1.6)
@@ -144,10 +148,12 @@ DEPENDENCIES
   jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-sqlite
   jekyll-target-blank
   minima
   pry
   rake
+  sqlite3
   telegram-bot-ruby
   webrick
 
