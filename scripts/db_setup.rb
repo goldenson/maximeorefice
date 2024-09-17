@@ -1,6 +1,6 @@
 require 'sqlite3'
 
-db = SQLite3::Database.new "crossfit.db"
+db = SQLite3::Database.new "_data/crossfit.db"
 
 db.execute <<-SQL
 CREATE TABLE IF NOT EXISTS trainings (
