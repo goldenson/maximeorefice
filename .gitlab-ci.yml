@@ -32,7 +32,7 @@ pages:
   script:
     - bundle exec jekyll build -d public
   after_script:
-    - bundle exec ruby scripts/birthday_bot.rb
+    - bundle exec ruby telegram/birthday_bot.rb
   artifacts:
     paths:
       - public
