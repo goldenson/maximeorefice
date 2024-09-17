@@ -12,7 +12,7 @@ class BirthDayBot
     @birthdays = {}
     @today_birthday = {}
     @token = ENV.fetch('TELEGRAM_TOKEN')
-    @chat_ids = [ENV.fetch('CHAT_ID_MAX'), ENV.fetch('CHAT_ID_MIL')]
+    @chat_id = ENV.fetch('CHAT_ID')
   end
 
   def execute
@@ -22,6 +22,8 @@ class BirthDayBot
   end
 
   private
+
+  attr_reader :chat_id
 
   def load_file
     path = File.expand_path(BIRTHDAY_FILE)
@@ -39,9 +41,7 @@ class BirthDayBot
     Telegram::Bot::Client.run(@token) do |bot|
       text = "🎉 Aujourd'hui c'est l'anniversaire de #{@today_birthday['name'].join(' & ')}"
 
-      @chat_ids.each do |chat_id|
-        bot.api.send_message(chat_id: chat_id, text: text)
-      end
+      bot.api.send_message(chat_id: chat_id, text: text)
     end
   end
 end
