@@ -3,7 +3,7 @@ require 'sqlite3'
 require 'dotenv/load'
 
 class CrossfitBot
-  DB_FILE = '_data/crossfit.db'
+  DB_FILE = '_data/main.sqlite3'
 
   def initialize
     @token = ENV.fetch('TELEGRAM_CROSSFIT_TOKEN')

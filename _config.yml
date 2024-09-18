@@ -29,5 +29,5 @@ exclude: ["Rakefile"]
 
 sqlite:
   - data: crossfits
-    file: _data/crossfit.db
+    file: _data/main.sqlite3
     query: SELECT * from trainings
