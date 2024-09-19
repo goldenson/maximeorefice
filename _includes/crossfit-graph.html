@@ -15,13 +15,13 @@
         <span>Dim</span>
       </div>
       <div class="heatmap-cells">
-        {% for entry in site.data.crossfits %}
-          {% assign day_of_week = entry.date | date: "%u" %} <!-- 1 = lundi, 7 = dimanche -->
-          {% assign week_of_year = entry.date | date: "%V" %} <!-- Numéro de la semaine -->
+        {% for training in site.data.crossfits %}
+          {% assign day_of_week = training.date | date: "%u" %} <!-- 1 = lundi, 7 = dimanche -->
+          {% assign week_of_year = training.date | date: "%V" %} <!-- Numéro de la semaine -->
 
           <!-- Affiche un carré pour chaque jour -->
-          <div class="heatmap-day intensity-{{ entry.showup }}"
-               title="{{ entry.date }}"
+          <div class="heatmap-day intensity-{{ training.showup }}"
+               title="{{ training.date }}"
                style="grid-column: {{ week_of_year }}; grid-row: {{ day_of_week }};">
           </div>
         {% endfor %}
