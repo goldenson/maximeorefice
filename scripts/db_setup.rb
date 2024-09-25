@@ -1,6 +1,6 @@
 require 'sqlite3'
 
-db = SQLite3::Database.new "_data/main.sqlite3"
+db = SQLite3::Database.new "_data/database.sqlite"
 
 db.execute <<-SQL
 CREATE TABLE IF NOT EXISTS trainings (
