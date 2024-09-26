@@ -31,3 +31,6 @@ sqlite:
   - data: crossfits
     file: _data/database.sqlite
     query: SELECT * from trainings
+  - data: trainings
+    file: _data/database.sqlite
+    query: SELECT * from trainings where showup = 1;
