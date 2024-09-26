@@ -33,4 +33,4 @@ sqlite:
     query: SELECT * from trainings
   - data: trainings
     file: _data/database.sqlite
-    query: SELECT * from trainings where showup = 1;
+    query: SELECT * from trainings where showup = 1 and date >= '2024-01-01' AND date <= '2024-12-31';
