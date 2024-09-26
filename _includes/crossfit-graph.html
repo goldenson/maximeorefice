@@ -1,4 +1,8 @@
-<h3>2024 - <span style="font-size: 0.7em;">{{ site.data.trainings | size }} entrainements</span></h3>
+{% assign training_by_years = site.data.trainings | group_by_exp: "training", "training.date | date: '%Y'" %}
+
+{% for year in training_by_years %}
+{% assign showup_trainings = year.items | where: "showup", 1 %}
+<h3>{{ year.name }} - <span style="font-size: 0.7em;">{{ showup_trainings | size }} entrainements</span></h3>
 
 <div class="heatmap">
   <div class="heatmap-months">
@@ -15,7 +19,7 @@
       <span>Dim</span>
     </div>
     <div class="heatmap-cells">
-      {% for training in site.data.crossfits %}
+      {% for training in year.items %}
       {% assign day_of_week = training.date | date: "%u" %} <!-- 1 = lundi, 7 = dimanche -->
       {% assign week_of_year = training.date | date: "%V" %} <!-- Numéro de la semaine -->
 
@@ -27,3 +31,4 @@
     </div>
   </div>
 </div>
+{% endfor %}
