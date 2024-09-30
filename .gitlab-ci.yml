@@ -58,3 +58,4 @@ crossfit_job:
     - bundle exec ruby telegram/crossfit_bot.rb
   only:
     - schedules
+  allow_failure: true
