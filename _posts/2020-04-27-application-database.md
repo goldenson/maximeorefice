@@ -45,6 +45,7 @@ The standard `postgres` client to interact with your cluster.
 |         `\conninfo`         | Give info about the current session  |
 |         `\r`                | Reset buffer (clear cache)           |
 | `SELECT pg_size_pretty(pg_total_relation_size('tablename'));` | Get table size in bytes |
+
 ### Indexes
 
 #### btree indexes
