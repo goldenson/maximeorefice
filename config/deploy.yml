@@ -1,0 +1,42 @@
+# config/deploy.yml
+<% require "dotenv"; Dotenv.load(".env") %>
+# Name of your application. Used to uniquely configure containers.
+service: maximeorefice
+
+# Name of the container image.
+image: goldenson/maximeorefice
+
+# Deploy to these servers.
+servers:
+  web:
+    hosts:
+      - 91.214.191.37 # server IP
+volumes:
+  - "/home/ubuntu/storage:/_data/database.sqlite"
+
+ssh:
+  user: ubuntu
+
+# Enable SSL auto certification via Let's Encrypt (and allow for multiple apps on one server).
+# Set ssl: false if using something like Cloudflare to terminate SSL (but keep host!).
+proxy:
+  ssl: true
+  hosts:
+    - maximeorefice.com
+  healthcheck:
+    path: /
+    interval: 3
+    timeout: 30
+# # Credentials for your image host.
+registry:
+  server: registry.gitlab.com
+  username:
+    - KAMAL_REGISTRY_USERNAME
+  # Always use an access token rather than real password when possible.
+  password:
+    - KAMAL_REGISTRY_PASSWORD
+
+# Configure builder setup.
+builder:
+  arch: amd64
+  context: .

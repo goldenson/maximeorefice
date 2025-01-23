@@ -1,0 +1,6 @@
+# .dockerignore
+
+# Ignore everything
+*
+# Allow build folder
+!/_site
