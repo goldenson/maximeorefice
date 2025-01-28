@@ -12,7 +12,7 @@ servers:
     hosts:
       - 91.214.191.37 # server IP
 volumes:
-  - "/home/ubuntu/storage:/_data/database.sqlite"
+  - "/storage:/_data/database.sqlite"
 
 ssh:
   user: ubuntu
