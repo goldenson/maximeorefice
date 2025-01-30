@@ -11,8 +11,8 @@ servers:
   web:
     hosts:
       - 91.214.191.37 # server IP
-volumes:
-  - "/home/ubuntu/db:/usr/share/nginx/html/db"
+# volumes:
+  # - "/home/ubuntu/db:/usr/share/nginx/html/db"
 
 ssh:
   user: ubuntu

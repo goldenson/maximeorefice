@@ -29,5 +29,5 @@ exclude: ["Rakefile"]
 
 sqlite:
   - data: trainings
-    file: db/database.sqlite
+    file: _data/database.sqlite
     query: SELECT * from trainings ORDER BY date DESC;
