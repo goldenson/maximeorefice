@@ -12,7 +12,7 @@ servers:
     hosts:
       - 91.214.191.37 # server IP
 volumes:
-  - "/storage:/_data"
+  - "/home/ubuntu/db:/usr/share/nginx/html/_data"
 
 ssh:
   user: ubuntu
