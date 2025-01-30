@@ -4,3 +4,4 @@
 *
 # Allow build folder
 !/_site
+!_data
