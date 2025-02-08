@@ -1,0 +1,23 @@
+image: ruby:latest
+
+cache:
+  paths:
+    - vendor/
+
+stages:
+  - scheduled_task
+
+before_script:
+  - gem install bundler
+  - bundle config set path 'vendor'
+  - bundle install
+
+birthday_job:
+  stage: scheduled_task
+  variables:
+    TELEGRAM_TOKEN: $TELEGRAM_TOKEN
+    GROUP_ID: $GROUP_ID
+  script:
+    - bundle exec ruby scripts/daily_birthday.rb
+  only:
+    - schedules

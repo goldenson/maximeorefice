@@ -69,10 +69,3 @@ class BirthDayBot
     bot ||= Telegram::Bot::Client.new(token)
   end
 end
-
-begin
-  bot = BirthDayBot.new
-  bot.execute
-rescue Telegram::Bot::Exceptions::ResponseError, KeyError
-  puts "CI VARIABLES are only set for the scheduled pipeline"
-end
