@@ -1,4 +1,5 @@
 require 'yaml'
+require 'date'
 
 task :generate_cover_name do
   puts '📚 Generating cover name ...'
@@ -6,7 +7,7 @@ task :generate_cover_name do
   image = Dir["assets/images/covers/1.jpg"].first
   raise "Image must be called 1.jpg" if image.nil?
 
-  books = YAML::load_file(File.join('_data/books.yml'))
+  books = YAML::load_file(File.join('_data/books.yml'), permitted_classes: [Date])
   title = books.first['title']
   cover_name = title.gsub("\'","-").split.map(&:downcase).join("-")
 
