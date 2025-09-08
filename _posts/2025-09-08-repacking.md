@@ -9,9 +9,9 @@ image: "/assets/images/posts/pg-repack.png"
 
 ## Table Bloat
 
-This week I've been dealing with PostgreSQL table bloat issues in our development environment. When tables accumulate dead tuples from frequent updates and deletes, they can become severely bloated, impacting query performance.
+This week I've been dealing with PostgreSQL table bloat issues with some production data. When tables accumulate dead tuples from frequent updates and deletes, they can become severely bloated, impacting query performance.
 
-I discovered [pg_repack](https://github.com/reorg/pg_repack/), a powerful extension that reorganizes tables online without holding exclusive locks.
+I explored [pg_repack](https://github.com/reorg/pg_repack/), a powerful extension that reorganizes tables online without holding exclusive locks.
 
 ## Why pg_repack?
 
@@ -21,7 +21,7 @@ The tool works by creating a new table copy, applying all changes via triggers, 
 
 > pg_repack removes bloat from tables and indexes, and optionally restores the physical order of clustered indexes.
 
-### How we did it?
+### How to run it?
 
 Note: This was tested on macOS with a local PostgreSQL instance.
 
@@ -55,7 +55,7 @@ $ pg_repack \
 
 The `--echo` flag shows all SQL commands being executed, which is helpful for understanding what pg_repack is doing behind the scenes.
 
-The entire repack of our 500GB partition completed in 3 hours, achieving a 60% reduction in table size.
+The entire repack of our 500GB partition completed in 3 hours, achieving a 30% reduction in table size.
 
 ### Links
 
