@@ -19,8 +19,10 @@ birthday_job:
     GROUP_ID: $GROUP_ID
   script:
     - bundle exec ruby scripts/daily_birthday.rb
-  only:
-    - schedules
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: on_success
+    - when: never
 
 wealth_report:
   stage: scheduled_task
