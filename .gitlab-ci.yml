@@ -22,18 +22,15 @@ birthday_job:
   only:
     - schedules
 
-money_job:
+wealth_report:
   stage: scheduled_task
   variables:
     HOLDINGS_JSON: $HOLDINGS_JSON
     WEALTH_CHAT_ID: $WEALTH_CHAT_ID
-    TELEGRAM_WEALTH_TOKEN: $ TELEGRAM_WEALTH_TOKEN
+    TELEGRAM_WEALTH_TOKEN: $TELEGRAM_WEALTH_TOKEN
   script:
     - bundle exec ruby telegram/money_bot.rb
-  only:
-    - schedules
   rules:
-    # FAIL FAST IF ANY VAR MISSING
-    - if: '$HOLDINGS_JSON == null || $WEALTH_CHAT_ID == null || $TELEGRAM_WEALTH_TOKEN == null'
-      when: never
-    - when: on_success
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: on_success
+    - when: never
