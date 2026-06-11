@@ -24,7 +24,8 @@
   height: 44px;
   display: block;
   border-radius: 12px;
-  transition: transform var(--transition);
+  opacity: 0.8;
+  transition: transform var(--transition), opacity var(--transition);
 }
 
 .site-title {
@@ -41,6 +42,7 @@
 
     .logo-mark {
       transform: scale(1.06);
+      opacity: 1;
     }
   }
 }
@@ -63,4 +65,63 @@
 
 .nav-link .active {
   color: var(--clr-accent);
+}
+
+/* Theme toggle: moon (light) / sun (dark) cross-fade, steipete-style */
+.theme-toggle {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--foreground);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--transition);
+
+  &:hover {
+    color: var(--accent);
+  }
+
+  svg {
+    position: absolute;
+    transition: transform var(--transition), opacity var(--transition);
+  }
+}
+
+/* Light (default): show moon, hide sun */
+.theme-toggle .icon-moon {
+  transform: scale(1) rotate(0);
+  opacity: 1;
+}
+
+.theme-toggle .icon-sun {
+  transform: scale(0) rotate(90deg);
+  opacity: 0;
+}
+
+/* Dark: hide moon, show sun */
+@mixin toggle-dark {
+  .theme-toggle .icon-moon {
+    transform: scale(0) rotate(-90deg);
+    opacity: 0;
+  }
+
+  .theme-toggle .icon-sun {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.theme-light) {
+    @include toggle-dark;
+  }
+}
+
+:root.darkmode {
+  @include toggle-dark;
 }

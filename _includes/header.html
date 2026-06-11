@@ -16,18 +16,27 @@
         <a class="page-link nav-link-item" href="/livres/">Livres</a>
       </div>
 
-      <div class="darkmode-moon" id="dark-mode-toggle" aria-label="toggle dark mode">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-          focusable="false" width="1em" height="1em"
-          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
-          preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
-          <path
-            d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216c88.68 0 166.73-51.57 200-128c-26.39 11.49-57.38 16-88 16c-119.29 0-216-96.71-216-216z"
-            fill="var(--clr-darkmode)" stroke="#626262" stroke-linecap="round" stroke-linejoin="round"
-            stroke-width="32" />
-          <rect x="0" y="0" width="512" height="512" fill="rgba(0, 0, 0, 0)" />
+      <button class="theme-toggle" id="dark-mode-toggle" type="button" aria-live="polite"
+        aria-label="Basculer le thème clair / sombre" title="Thème clair / sombre">
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          aria-hidden="true" focusable="false">
+          <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
         </svg>
-      </div>
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          aria-hidden="true" focusable="false">
+          <path d="M14.828 14.828a4 4 0 1 0 -5.656 -5.656a4 4 0 0 0 5.656 5.656z" />
+          <path d="M6.343 17.657l-1.414 1.414" />
+          <path d="M6.343 6.343l-1.414 -1.414" />
+          <path d="M17.657 6.343l1.414 -1.414" />
+          <path d="M17.657 17.657l1.414 1.414" />
+          <path d="M4 12h-2" />
+          <path d="M12 4v-2" />
+          <path d="M20 12h2" />
+          <path d="M12 20v2" />
+        </svg>
+      </button>
     </nav>
   </div>
 </header>
