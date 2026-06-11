@@ -31,15 +31,21 @@ deploy:
   services:
     - docker:27-dind
   variables:
-    DOCKER_HOST: tcp://docker:2376
-    DOCKER_TLS_CERTDIR: "/certs"
-    DOCKER_TLS_VERIFY: 1
-    DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
+    DOCKER_HOST: tcp://docker:2375
+    DOCKER_TLS_CERTDIR: ""
     KAMAL_REGISTRY_USERNAME: gitlab-ci-token
     KAMAL_REGISTRY_PASSWORD: $CI_JOB_TOKEN
+    GEM_HOME: $CI_PROJECT_DIR/.kamal-gems
+  cache:
+    key: kamal-2.10.1
+    paths:
+      - .kamal-gems/
   before_script:
-    - apk add --no-cache ruby ruby-dev build-base linux-headers openssh-client git
-    - gem install kamal -v 2.10.1
+    - apk add --no-cache ruby openssh-client git
+    - export PATH="$GEM_HOME/bin:$PATH"
+    - >
+      gem list -i kamal -v 2.10.1 --silent ||
+      (apk add --no-cache ruby-dev build-base linux-headers && gem install kamal -v 2.10.1)
     - mkdir -p ~/.ssh
     - echo "$SSH_PRIVATE_KEY" | base64 -d > ~/.ssh/id_ed25519
     - chmod 600 ~/.ssh/id_ed25519
