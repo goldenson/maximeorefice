@@ -61,6 +61,10 @@ $base-font-family: "Atkinson", ui-sans-serif, system-ui, -apple-system, BlinkMac
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ---------- Base ---------- */
 body {
   background: var(--background);
