@@ -5,12 +5,53 @@ cache:
     - vendor/
 
 stages:
+  - build
+  - deploy
   - scheduled_task
 
 before_script:
   - gem install bundler
   - bundle config set path 'vendor'
   - bundle install
+
+build_site:
+  stage: build
+  script:
+    - bundle exec jekyll build
+  artifacts:
+    paths:
+      - _site/
+    expire_in: 1 hour
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+deploy:
+  stage: deploy
+  image: docker:27
+  services:
+    - docker:27-dind
+  variables:
+    DOCKER_HOST: tcp://docker:2376
+    DOCKER_TLS_CERTDIR: "/certs"
+    DOCKER_TLS_VERIFY: 1
+    DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
+    KAMAL_REGISTRY_USERNAME: gitlab-ci-token
+    KAMAL_REGISTRY_PASSWORD: $CI_JOB_TOKEN
+  before_script:
+    - apk add --no-cache ruby ruby-dev build-base linux-headers openssh-client git
+    - gem install kamal -v 2.10.1
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" | base64 -d > ~/.ssh/id_ed25519
+    - chmod 600 ~/.ssh/id_ed25519
+    - ssh-keyscan -H 91.214.191.37 >> ~/.ssh/known_hosts
+  script:
+    - kamal deploy
+  needs:
+    - build_site
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: on_success
+    - when: never
 
 birthday_job:
   stage: scheduled_task
