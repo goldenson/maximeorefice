@@ -49,7 +49,7 @@ deploy:
     - mkdir -p ~/.ssh
     - echo "$SSH_PRIVATE_KEY" | base64 -d > ~/.ssh/id_ed25519
     - chmod 600 ~/.ssh/id_ed25519
-    - ssh-keyscan -H 91.214.191.37 >> ~/.ssh/known_hosts
+    - printf 'Host 91.214.191.37\n  StrictHostKeyChecking no\n  UserKnownHostsFile /dev/null\n' > ~/.ssh/config
   script:
     - kamal deploy
   needs:
