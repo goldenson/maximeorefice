@@ -32,6 +32,7 @@ layout: default
   {% endif %} {% endfor %}
 
   <h2>Finis 📚</h2>
+  <div id="finished-books" class="paginated-list">
   {% for book in site.data.books %} {% if book.finished == true %}
   <div class="book-container">
     <div class="book-item">
@@ -48,6 +49,8 @@ layout: default
     </a>
   </div>
   {% endif %} {% endfor %}
+  </div>
+  <nav id="finished-books-pagination" class="pagination" aria-label="Pagination des livres finis"></nav>
 
   <br />
 
