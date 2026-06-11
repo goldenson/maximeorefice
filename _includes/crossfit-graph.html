@@ -2,8 +2,11 @@
 
 {% for year in training_by_years %}
 {% assign showup_trainings = year.items | where: "showup", 1 %}
-<h3>{{ year.name }} - <span style="font-size: 0.7em;">{{ showup_trainings | size }} entrainements</span></h3>
-
+<details class="heatmap-year"{% if forloop.first %} open{% endif %}>
+  <summary>
+    <span class="heatmap-year-name">{{ year.name }}</span>
+    <span class="heatmap-year-count">{{ showup_trainings | size }} entrainements</span>
+  </summary>
 <div class="heatmap">
   <div class="heatmap-months">
     <span>Jan</span><span>Fev</span><span>Mar</span><span>Avr</span><span>Mai</span><span>Juin</span><span>Juil</span><span>Aou</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span>
@@ -31,4 +34,5 @@
     </div>
   </div>
 </div>
+</details>
 {% endfor %}
