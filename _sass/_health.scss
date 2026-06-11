@@ -52,15 +52,3 @@
   fill: var(--muted);
   font-size: 12px;
 }
-
-/* Horizontal scroll so the 8-column table never crushes on mobile */
-.table-scroll {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-bottom: calc(var(--padding) * 2);
-}
-
-.table-scroll .health-table {
-  min-width: 600px;
-  margin-bottom: 0;
-}
