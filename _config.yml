@@ -31,3 +31,6 @@ sqlite:
   - data: trainings
     file: _data/database.sqlite
     query: SELECT * from trainings ORDER BY date DESC;
+  - data: health
+    file: _data/database.sqlite
+    query: SELECT * from health ORDER BY date ASC;

@@ -1,0 +1,86 @@
+{%- comment -%} Weight-over-time SVG chart + detail table, driven by site.data.health {%- endcomment -%}
+{%- assign data = site.data.health | sort: "date" -%}
+{%- assign n = data | size -%}
+{%- assign weights = data | map: "weight" -%}
+{%- assign wmin = weights | sort | first -%}
+{%- assign wmax = weights | sort | last -%}
+
+{%- assign W = 720 -%}
+{%- assign H = 260 -%}
+{%- assign padL = 30 -%}
+{%- assign padR = 30 -%}
+{%- assign padT = 44 -%}
+{%- assign padB = 30 -%}
+{%- assign innerW = W | minus: padL | minus: padR -%}
+{%- assign innerH = H | minus: padT | minus: padB -%}
+{%- assign baseY = padT | plus: innerH -%}
+{%- assign nm1 = n | minus: 1 -%}
+{%- assign step = innerW | times: 1.0 | divided_by: nm1 -%}
+{%- assign range = wmax | minus: wmin -%}
+{%- if range == 0 -%}{%- assign range = 1 -%}{%- endif -%}
+{%- assign margin = range | times: 0.3 -%}
+{%- assign lo = wmin | minus: margin -%}
+{%- assign hi = wmax | plus: margin -%}
+{%- assign span = hi | minus: lo -%}
+{%- assign lastX = padL | plus: innerW -%}
+
+{%- comment -%} Build polyline points and area path {%- endcomment -%}
+{%- assign poly = "" -%}
+{%- assign area = "M " | append: padL | append: "," | append: baseY -%}
+{%- for d in data -%}
+  {%- assign x = forloop.index0 | times: step | plus: padL | round: 1 -%}
+  {%- assign yfrac = hi | minus: d.weight | times: 1.0 | divided_by: span -%}
+  {%- assign y = yfrac | times: innerH | plus: padT | round: 1 -%}
+  {%- assign poly = poly | append: x | append: "," | append: y | append: " " -%}
+  {%- assign area = area | append: " L " | append: x | append: "," | append: y -%}
+{%- endfor -%}
+{%- assign area = area | append: " L " | append: lastX | append: "," | append: baseY | append: " Z" -%}
+
+<figure class="health-figure">
+  <figcaption class="health-caption">Évolution du poids <span>(kg)</span></figcaption>
+  <svg class="health-chart" viewBox="0 0 {{ W }} {{ H }}" role="img" aria-label="Évolution du poids dans le temps">
+    <defs>
+      <linearGradient id="healthGradient" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ff6b01" stop-opacity="0.28" />
+        <stop offset="100%" stop-color="#ff6b01" stop-opacity="0" />
+      </linearGradient>
+    </defs>
+    <path class="health-area" d="{{ area }}" fill="url(#healthGradient)" />
+    <polyline class="health-line" points="{{ poly }}" />
+    {%- for d in data -%}
+      {%- assign x = forloop.index0 | times: step | plus: padL | round: 1 -%}
+      {%- assign yfrac = hi | minus: d.weight | times: 1.0 | divided_by: span -%}
+      {%- assign y = yfrac | times: innerH | plus: padT | round: 1 -%}
+      {%- assign labelY = y | minus: 12 -%}
+      <circle class="health-dot" cx="{{ x }}" cy="{{ y }}" r="4" />
+      <text class="health-value" x="{{ x }}" y="{{ labelY }}" text-anchor="middle">{{ d.weight }}</text>
+      <text class="health-axis" x="{{ x }}" y="{{ H | minus: 8 }}" text-anchor="middle">{{ d.date | date: "%Y" }}</text>
+    {%- endfor -%}
+  </svg>
+</figure>
+
+<div class="table-scroll">
+<table class="health-table">
+  <thead>
+    <tr>
+      <th>Date</th><th>Poids</th><th>IMC</th><th>Graisse</th>
+      <th>M. Graisse</th><th>M. Maigre</th><th>M. Musculaire</th><th>MB</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- assign rows = data | reverse -%}
+    {%- for e in rows -%}
+    <tr>
+      <td><code>{{ e.date | date: "%Y-%m-%d" }}</code></td>
+      <td><code>{{ e.weight }}Kg</code></td>
+      <td><code>{{ e.imc }}</code></td>
+      <td><code>{{ e.fat }}%</code></td>
+      <td><code>{{ e.fat_mass }}Kg</code></td>
+      <td><code>{{ e.lean_mass }}Kg</code></td>
+      <td><code>{{ e.muscle_mass }}Kg</code></td>
+      <td><code>{{ e.bmr }}Kcal</code></td>
+    </tr>
+    {%- endfor -%}
+  </tbody>
+</table>
+</div>
