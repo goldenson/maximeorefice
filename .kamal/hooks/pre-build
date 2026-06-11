@@ -1,2 +1,6 @@
 #!/bin/sh
-JEKYLL_ENV=production bundle exec jekyll build
+if command -v bundle >/dev/null 2>&1; then
+  JEKYLL_ENV=production bundle exec jekyll build
+else
+  echo "bundle not found, using pre-built _site/ from CI artifacts"
+fi
