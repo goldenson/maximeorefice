@@ -23,16 +23,3 @@ birthday_job:
     - if: $CI_PIPELINE_SOURCE == "schedule"
       when: on_success
     - when: never
-
-wealth_report:
-  stage: scheduled_task
-  variables:
-    HOLDINGS_JSON: $HOLDINGS_JSON
-    WEALTH_CHAT_ID: $WEALTH_CHAT_ID
-    TELEGRAM_WEALTH_TOKEN: $TELEGRAM_WEALTH_TOKEN
-  script:
-    - bundle exec ruby telegram/money_bot.rb
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "schedule"
-      when: on_success
-    - when: never
