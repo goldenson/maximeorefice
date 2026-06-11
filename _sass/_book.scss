@@ -3,8 +3,8 @@
 }
 
 .book-by-author {
-  color: var(--clr-link);
-  font-weight: italic;
+  color: var(--muted);
+  font-style: italic;
 }
 
 .book-comment {
@@ -18,9 +18,9 @@
 .book-cover {
   width: 100px;
   height: 175px;
-  box-shadow: 3px 3px 4px 5px var(--clr-link);
-  border-radius: 3px;
-  opacity: 0.9;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+  opacity: 0.95;
   transition: all .2s ease-in-out;
 
   &:hover {

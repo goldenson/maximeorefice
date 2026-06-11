@@ -1,31 +1,25 @@
-let darkMode = localStorage.getItem("darkMode");
-const darkModeToggle = document.querySelector("#dark-mode-toggle")
+const root = document.documentElement;
+const darkModeToggle = document.querySelector("#dark-mode-toggle");
 
-const enableDarkMode = () => {
-  document.body.classList.add("darkmode");
-  localStorage.setItem("darkMode", "enabled");
-}
+const systemPrefersDark = () =>
+  window.matchMedia("(prefers-color-scheme: dark)").matches;
 
-const disableDarkMode = () => {
-  document.body.classList.remove("darkmode");
-  localStorage.setItem("darkMode", null);
-}
+// Effective theme: explicit choice wins, otherwise follow the OS.
+const isDark = () => {
+  if (root.classList.contains("darkmode")) return true;
+  if (root.classList.contains("theme-light")) return false;
+  return systemPrefersDark();
+};
 
-if (darkMode === 'enabled') {
-  enableDarkMode();
-}
+const applyTheme = (dark) => {
+  root.classList.toggle("darkmode", dark);
+  root.classList.toggle("theme-light", !dark);
+  localStorage.setItem("theme", dark ? "dark" : "light");
+};
 
-darkModeToggle.addEventListener("click", () => {
-  darkMode = localStorage.getItem("darkMode")
+// Restore a saved choice; with none, leave it to the OS preference.
+const saved = localStorage.getItem("theme");
+if (saved === "dark") applyTheme(true);
+else if (saved === "light") applyTheme(false);
 
-  if (darkMode !== "enabled") {
-    setTimeout(() => {
-      enableDarkMode();
-    }, 100);
-  }
-  else {
-    setTimeout(() => {
-      disableDarkMode();
-    }, 100);
-  }
-});
+darkModeToggle.addEventListener("click", () => applyTheme(!isDark()));

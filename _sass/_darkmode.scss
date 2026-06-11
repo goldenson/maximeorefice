@@ -1,12 +1,29 @@
-.darkmode {
-  background-color: var(--foreground);
-  color: var(--background);
-  --clr-darkmode: var(--clr-link);
+/* Neutral charcoal dark palette, shared by the OS-preference media query
+   (see main.scss) and the manual toggle below. */
+@mixin dark-theme {
+  --background: #1b1b1d;
+  --foreground: #ededed;
+  --border: #2e2e30;
+  --muted: #9a9a9a;
+  --clr-link: var(--foreground);
+  --clr-darkmode: var(--accent);
   --clr-code: var(--clr-code-dark);
 }
 
+/* Manual toggle wins over the OS preference: `.darkmode` forces dark,
+   `.theme-light` keeps the default light tokens even on a dark OS. */
+:root.darkmode {
+  @include dark-theme;
+}
+
+.darkmode body,
+:root.darkmode body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
 .darkmode-moon svg {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
 }

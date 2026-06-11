@@ -1,23 +1,50 @@
-social-icons, footer > ul > li {
-  display: inline-block;
+.site-footer {
+  border-top: 1px solid var(--border);
+  margin-top: 4rem;
+  padding: 2rem 0;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.social-icons > li {
+  display: inline-flex;
 }
 
 footer ul > li > a {
   border-bottom: none;
+  text-decoration: none;
+  display: inline-flex;
 
   &:hover {
     border-bottom: none;
+    text-decoration: none;
   }
 }
 
+.social-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
 li .social-icon {
-  &:hover {
-    path {
-      fill: var(--clr-accent);
-    }
+  path {
+    fill: var(--clr-link);
+  }
+
+  &:hover path {
+    fill: var(--clr-accent);
   }
 }
 
 .page__footer-copyright {
-  padding-bottom: 20px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding-bottom: 0;
 }

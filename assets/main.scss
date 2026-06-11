@@ -1,6 +1,10 @@
 ---
 ---
 
+// Narrower, centered reading column (steipete-style). Set before minima import.
+$content-width: 768px;
+$base-font-family: "Atkinson", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
 @import "minima";
 @import "header";
 @import "footer";
@@ -8,103 +12,274 @@
 @import "book";
 @import "crossfit-graph";
 
-:root {
-  --clr-light: #f5f5f5;
-  --clr-dark: #303335;
-  --clr-link: #626262;
-  --clr-primary: #000;
-  --clr-secondary: #949494;
-  --clr-accent: #ffca04;
-  --clr-darkmode: var(--clr-link);
-
-  --clr-code-dark: #eef;
-  --clr-code: #3c3c3c61;
-
-  --background: var(--clr-light);
-  --foreground: var(--clr-dark);
-
-  --padding: 10px;
-  --transition: ease 0.4s;
+/* ---------- Atkinson Hyperlegible (self-hosted) ---------- */
+@font-face {
+  font-family: "Atkinson";
+  src: url("/assets/fonts/atkinson-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
+@font-face {
+  font-family: "Atkinson";
+  src: url("/assets/fonts/atkinson-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Design tokens (light) ---------- */
+:root {
+  --background: #fdfdfd;
+  --foreground: #282728;
+  --accent: #ff6b01;
+  --border: #ece9e9;
+  --muted: #6b6b6b;
+
+  /* aliases kept for header / footer / book / crossfit partials */
+  --clr-accent: var(--accent);
+  --clr-link: var(--foreground);
+  --clr-secondary: var(--muted);
+  --clr-darkmode: var(--foreground);
+  --clr-code: #f3f3f1;
+  --clr-code-dark: #262629;
+
+  --font-sans: "Atkinson", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+
+  --padding: 10px;
+  --transition: ease 0.3s;
+}
+
+/* Apply the dark palette (see _darkmode.scss) on OS preference,
+   unless the visitor has explicitly chosen light. */
+@media (prefers-color-scheme: dark) {
+  :root:not(.theme-light) {
+    @include dark-theme;
+  }
+}
+
+/* ---------- Base ---------- */
 body {
   background: var(--background);
   color: var(--foreground);
-  text-align: center;
-  padding-bottom: calc(var(--pading) * 6);
-
-  margin: 0;
-  margin-bottom: 0px;
-  padding: 0;
-  border: none;
-  outline: none;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: "iA", monospace;
+  font-family: var(--font-sans);
   font-weight: 400;
-  vertical-align: baseline;
-  font-size: 17px;
-  letter-spacing: -.016em;
-  line-height: 2;
+  font-size: 1.0625rem; /* 17px */
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-blockquote, h1, h2, h3, ol, p, small, ul {
-  margin-bottom: calc(var(--padding) * 2);
-  display: block;
+.wrapper {
+  max-width: $content-width;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .interface {
   text-align: left;
 }
 
+blockquote, h1, h2, h3, h4, ol, p, small, ul {
+  margin-bottom: calc(var(--padding) * 2);
+  display: block;
+}
+
+/* ---------- Headings ---------- */
+h1, h2, h3, h4 {
+  color: var(--foreground);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+h1, .hello, .page-heading {
+  font-size: 2.25rem;
+  text-align: left;
+}
+
+h3 {
+  font-style: italic; /* steipete signature */
+}
+
+/* ---------- Links: dashed underline, accent on hover ---------- */
 a {
   color: inherit;
-  transition: color var(--transition), border var(--transition);
-  border-bottom: 2px solid var(--clr-accent);
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+  border-bottom: none;
+  transition: color var(--transition), text-decoration-color var(--transition);
 
   &:hover {
-    color: var(--clr-accent);
-    border-bottom: 2px solid var(--clr-accent);
-    text-decoration: none;
+    color: var(--accent);
+    text-decoration-color: var(--accent);
+    border-bottom: none;
   }
 
   &:visited {
     color: inherit;
 
     &:hover {
-      color: var(--clr-accent);
+      color: var(--accent);
     }
   }
 }
 
-.hello {
-  text-align: center;
+/* ---------- Blockquotes ---------- */
+blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+  margin-left: 0;
+  color: var(--foreground);
+  opacity: 0.85;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: var(--clr-dark);
-    --foreground: var(--clr-light);
-    --clr-darkmode: var(--clr-accent);
-  }
-}
-
-.highlighter-rouge .highlight  {
-  background: var(--clr-code);
-}
-
-.highlighter-rouge {
-  background-color: var(--clr-code);
-}
-
+/* ---------- Code ---------- */
 pre, code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
   background-color: transparent;
 }
 
+/* Inline code */
+code.highlighter-rouge,
+p > code, li > code, td > code, h1 > code, h2 > code, h3 > code, h4 > code {
+  background: var(--clr-code);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+}
+
+/* Fenced code block: only the outer wrapper is the "box" */
+.highlighter-rouge,
+figure.highlight {
+  background: var(--clr-code);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: calc(var(--padding) * 2);
+  overflow: hidden;
+}
+
+/* Inner layers are transparent; padding lives on the <pre> only */
+.highlighter-rouge .highlight,
+figure.highlight .highlight {
+  background: transparent;
+  margin: 0;
+}
+
+.highlighter-rouge pre,
+figure.highlight pre,
+pre.highlight {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0.9rem 1.1rem;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
+.highlighter-rouge pre code,
+figure.highlight pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* Standalone <pre> not produced by Rouge */
+pre {
+  background: var(--clr-code);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  margin-bottom: calc(var(--padding) * 2);
+  overflow-x: auto;
+}
+
+/* ---------- Media ---------- */
 img {
   width: 100%;
 }
 
-tr {
-  background: var(--clr-secondary);
+.post-content img {
+  border-radius: 8px;
+}
+
+/* Theme-aware tables (override minima's hardcoded grey backgrounds) */
+table {
+  width: 100%;
+  margin-bottom: calc(var(--padding) * 2);
+  border-collapse: collapse;
+  border: none;
+  color: var(--foreground);
+  font-size: 0.95rem;
+}
+
+table th,
+table td {
+  padding: 0.55rem 0.9rem;
+  border: none;
+  border-bottom: 1px solid var(--border);
+}
+
+table th {
+  background: transparent;
+  border-bottom: 2px solid var(--border);
+  font-weight: 700;
+}
+
+table tr,
+table tbody tr:nth-child(2n) {
+  background: transparent;
+}
+
+table tbody tr:nth-child(2n) {
+  background: color-mix(in srgb, var(--foreground) 5%, transparent);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+/* ---------- Post meta ---------- */
+.post-meta {
+  color: var(--muted);
+}
+
+/* ---------- Notes index (post list) ---------- */
+.post-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.post-item {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-item-link {
+  text-decoration-color: transparent;
+}
+
+.post-item-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  white-space: nowrap;
 }

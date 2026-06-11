@@ -1,32 +1,46 @@
+.site-header {
+  border-top: none;
+  border-bottom: 1px solid var(--border);
+}
+
 .site-nav .page-link {
   color: inherit;
 }
 
 .page-link {
-  transition: color var(--transition), border var(--transition);
-  border-bottom: 2px solid var(--clr-accent);
+  text-decoration: none;
+  border-bottom: none;
+  transition: color var(--transition);
 
   &:hover {
-    color: var(--clr-accent);
-    border-bottom: 2px solid var(--clr-accent);
+    color: var(--accent);
     text-decoration: none;
+    border-bottom: none;
   }
 }
 
-.site-title svg {
-  width: 50px;
-  height: 50px;
+.logo-mark {
+  width: 44px;
+  height: 44px;
+  display: block;
+  border-radius: 12px;
+  transition: transform var(--transition);
 }
 
 .site-title {
-  margin-top: var(--padding);
+  display: flex;
+  align-items: center;
+  margin: 0;
+  line-height: 1;
+  text-decoration: none;
   border-bottom: none;
 
   &:hover {
+    text-decoration: none;
     border-bottom: none;
 
-    path {
-      fill: var(--clr-accent);
+    .logo-mark {
+      transform: scale(1.06);
     }
   }
 }
