@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🏘 Immobilier"
+topic: "Money & Finance"
 date: 2021-04-26
 ---
 

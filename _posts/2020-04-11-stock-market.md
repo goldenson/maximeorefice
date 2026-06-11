@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "📈 Marché financier"
+topic: "Money & Finance"
 date: 2020-04-11
 ---
 

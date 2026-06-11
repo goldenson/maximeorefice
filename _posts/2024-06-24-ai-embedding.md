@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🤖 AI Embedding"
+topic: "Tech & Dev"
 date: 2024-06-24
 image: "/assets/images/posts/ai-embedding.jpg"
 ---

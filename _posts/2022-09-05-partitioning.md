@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🐘 Partitioning"
+topic: "Tech & Dev"
 date: 2022-09-05
 ---
 

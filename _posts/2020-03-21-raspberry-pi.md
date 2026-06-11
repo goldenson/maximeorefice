@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🍇 Raspberry Pi"
+topic: "Tech & Dev"
 date: 2020-03-21
 ---
 

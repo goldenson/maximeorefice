@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🇺🇸 USA West Coast"
+topic: "Travel"
 date: 2023-10-03
 image: "/assets/images/posts/westcoast.jpeg"
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "👨‍🎨 Comment je travaille?"
+topic: "Career & Work"
 date: 2020-01-03
 language: fr
 ---

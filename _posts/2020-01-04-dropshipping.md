@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🛍 Dropshipping"
+topic: "Money & Finance"
 date: 2020-01-04
 language: fr
 ---

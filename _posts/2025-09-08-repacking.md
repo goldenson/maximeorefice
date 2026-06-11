@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "📦 Repacking"
+topic: "Tech & Dev"
 date: 2025-09-08
 image: "/assets/images/posts/pg-repack.png"
 ---

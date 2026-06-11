@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🦊 Work at GitLab"
+topic: "Career & Work"
 date: 2020-03-19
 ---
 

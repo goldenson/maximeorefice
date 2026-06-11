@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🌝 Remote Work"
+topic: "Career & Work"
 date: 2020-03-15
 ---
 

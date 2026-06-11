@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🍏 Negociating"
+topic: "Career & Work"
 date: 2020-03-03
 ---
 

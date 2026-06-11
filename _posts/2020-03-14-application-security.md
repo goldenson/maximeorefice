@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🔒 Application Security"
+topic: "Tech & Dev"
 date: 2020-03-14
 ---
 

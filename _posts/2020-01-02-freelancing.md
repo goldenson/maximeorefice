@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🌟 Freelancing"
+topic: "Career & Work"
 date: 2020-01-02
 language: fr
 ---

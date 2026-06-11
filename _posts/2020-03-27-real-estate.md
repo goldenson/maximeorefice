@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "🏡 Real Estate"
+topic: "Money & Finance"
 date: 2020-03-27
 ---
 

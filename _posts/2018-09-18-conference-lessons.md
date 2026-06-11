@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "✍️ Conference lessons"
+topic: "Career & Work"
 date: 2018-09-18
 image: "/assets/images/posts/parisrb2018.jpg"
 ---

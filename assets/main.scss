@@ -299,3 +299,32 @@ hr {
   font-size: 0.9rem;
   white-space: nowrap;
 }
+
+.notes-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: calc(var(--padding) * 3);
+}
+
+.notes-toc a {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  text-decoration: none;
+
+  &:hover {
+    border-color: var(--accent);
+  }
+}
+
+.notes-group h2 {
+  margin-bottom: calc(var(--padding) * 1.5);
+}
+
+.notes-group + .notes-group {
+  margin-top: calc(var(--padding) * 3);
+  padding-top: calc(var(--padding) * 3);
+  border-top: 1px solid var(--border);
+}

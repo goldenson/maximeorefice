@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "💰 Investissement"
+topic: "Money & Finance"
 date: 2020-03-08
 image: /assets/images/posts/investissement.jpg
 ---
