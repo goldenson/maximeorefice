@@ -1,12 +1,10 @@
 ---
-layout: post
+layout: travel
 title: "🇺🇸 USA West Coast"
 topic: "Travel"
 date: 2023-10-03
 image: "/assets/images/posts/westcoast.jpeg"
 ---
-
-![westcoast](/assets/images/posts/westcoast.jpeg)
 
 ### ✈️ Transport
 
@@ -46,8 +44,6 @@ image: "/assets/images/posts/westcoast.jpeg"
 | 14 | Los Angeles | $ | |
 | 15 | Los Angeles | $ | |
 | 16 | Los Angeles -> Paris | $ | |
-
-💰 Total: **$**
 
 ## 💰 Budget
 

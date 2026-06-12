@@ -1,12 +1,10 @@
 ---
-layout: post
+layout: travel
 title: "🇲🇦 Taghazout"
 topic: "Travel"
 date: 2023-02-22
 image: "/assets/images/posts/taghazout.jpg"
 ---
-
-![taghazout](/assets/images/posts/taghazout.jpg)
 
 ### 🚙 Transport
 
