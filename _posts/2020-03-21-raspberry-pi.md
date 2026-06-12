@@ -12,7 +12,7 @@ My home network configuration is available on my [gitlab account](https://gitlab
 1. Flash your SD card with the latest [raspian image](https://www.raspberrypi.org/downloads/raspbian/).
 2. Add an empty [ssh file](https://www.raspberrypi.org/documentation/remote-access/ssh/) at the root of your SD card.
 3. Find your raspberry's ip address on your network with `arp -a`
-4. Ssh to your raspberry and [add your own user](https://www.raspberrypi.org/documentation/linux/usage/users.md)
+4. Ssh to your raspberry and add your own user
 5. Add your `ssh` access with `ssh-copy-id goldenson@192.168.0.X`
 6. Install some dependencies
 
@@ -46,8 +46,6 @@ $ sudo pip3 install docker-compose
 This is a technique to ensure our containers are getting spinned up at boot time in case our rapsberry crashes.
 
 - Run `./install.sh`
-
-> [Add a service](https://www.raspberrypi.org/documentation/linux/usage/systemd.md)
 
 ## [Pi-hole](https://pi-hole.net/)
 
@@ -83,9 +81,6 @@ Private and safe smart home.
 Access your server at `http://192.168.0.13:8123`
 
 - [home assistant image](https://hub.docker.com/u/homeassistant/)
-
-> [hassio](https://github.com/home-assistant/hassio-installer/blob/master/hassio_install.sh
-)
 
 ### Links
 

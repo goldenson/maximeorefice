@@ -845,7 +845,6 @@ SELECT pg_wal_lsn_diff(pg_current_wal_lsn(), flush_lsn) FROM pg_stat_replication
 - [Understanding EXPLAIN](https://docs.gitlab.com/ee/development/understanding_explain_plans.html)
 - [Documentation](https://www.postgresql.org/docs/12/index.html)
 - [Cybertec](https://www.cybertec-postgresql.com/en/)
-- [Blog post about ORM](http://blogs.tedneward.com/post/the-vietnam-of-computer-science/)
 - [Postgres with Rails](https://www.citusdata.com/blog/2017/04/28/postgres-tips-for-rails/)
 - [pghero](https://github.com/ankane/pghero)
 - [Format execution plan](https://explain.depesz.com)

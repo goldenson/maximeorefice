@@ -55,9 +55,4 @@ Have fun and meet as many people as you can. The magic will emerge from the comm
 
 Thanks for reading, I hope you enjoyed it and learned something that will help you organize the best conference 🙏
 
-Follow me on [twitter](goldenson_) 🐦
-
-
-### Links
-
-- [2018.rubyparis.org](https://2018.rubyparis.org)
+Follow me on [twitter](https://twitter.com/goldenson_) 🐦

@@ -23,7 +23,6 @@ Tu peux aussi te baser sur la **règle de 4** afin de trouver un produit qui va 
 
 Utilises tous les outils que tu peux afin de découvrir de nouveaux produits: les meilleures ventes sur amazon, explore la concurrence sur facebook et instagram...
 
-- [AliExpress - Dropshipping Center](https://home.aliexpress.com/dropshippercenter/dashboard.htm)
 - [Comment trouver un produit?](https://www.withintheflow.com/how-to-find-best-selling-products-for-your-online-store/)
 - [AdHunter](https://ecomhunt.com/)
 
