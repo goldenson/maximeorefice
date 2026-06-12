@@ -4,15 +4,16 @@ layout: home
 
 <h1 class="hello">Maxime Orefice</h1>
 
-Humain en construction. Né en France, je vis actuellement à Lausanne ([Suisse](https://time.is/Lausanne)). Intéressé par [...](/present)
+<p class="tagline">🦊 Senior Software Engineer chez <a href="https://gitlab.com" target="_blank">GitLab</a> · Lausanne, Suisse</p>
 
-🦊 Ingénieur Logiciel [@GitLab](https://gitlab.com)
+Je travaille sur l'architecture base de données de GitLab : je construis des outils pour aider les développeurs à écrire du SQL Postgres efficace à grande échelle et à éviter les pannes.
 
-**J'aide les startups à se développer rapidement et sereinement**
+En dehors du code : crossfit, plongée et cuisine.
 
-- Tu cherches à créer un nouveau projet et tu ne sais pas par où commencer ?
-- Tu as besoin de développer une fonctionnalité et tu n'as pas le temps de traiter ce sujet en interne ?
-
-Ancien développeur [@Shopify](https://www.shopify.com/), j'ai appris à écrire du code performant pour des millions d'utilisateurs.
-
-Si tu veux gagner du temps pour ton prochain projet 👉 <a target="_blank" href="https://calendly.com/orefice-maxime/chat?month=2019-11">appelle-moi</a>.
+<div class="home-links">
+  <a href="/2020/01/01/who-am-i/">Qui suis-je ?</a>
+  <a href="/assets/maxime-orefice.pdf">CV</a>
+  <a href="/notes/">Notes</a>
+  <a href="/livres/">Livres</a>
+  <a href="mailto:contact@maximeorefice.com">Contact</a>
+</div>

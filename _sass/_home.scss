@@ -1,0 +1,33 @@
+/* ---------- Home ---------- */
+.hero {
+  margin-bottom: calc(var(--padding) * 4);
+}
+
+.tagline {
+  margin-top: calc(var(--padding) * -1);
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: calc(var(--padding) * 2);
+}
+
+.home-links a {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.95rem;
+
+  &:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+}

@@ -13,6 +13,7 @@ $base-font-family: "Atkinson", ui-sans-serif, system-ui, -apple-system, BlinkMac
 @import "crossfit-graph";
 @import "health";
 @import "travel";
+@import "home";
 
 /* ---------- Atkinson Hyperlegible (self-hosted) ---------- */
 @font-face {
@@ -121,13 +122,11 @@ a {
   text-decoration-style: dashed;
   text-decoration-thickness: 1px;
   text-underline-offset: 6px;
-  border-bottom: none;
   transition: color var(--transition), text-decoration-color var(--transition);
 
   &:hover {
     color: var(--accent);
     text-decoration-color: var(--accent);
-    border-bottom: none;
   }
 
   &:visited {
@@ -330,6 +329,9 @@ hr {
 }
 
 .notes-toc a {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
   padding: 0.3rem 0.8rem;
   border: 1px solid var(--border);
   border-radius: 999px;

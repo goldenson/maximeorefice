@@ -19,7 +19,6 @@
   background: var(--background);
   color: var(--foreground);
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: color var(--transition), border-color var(--transition);
 
   &:hover {
