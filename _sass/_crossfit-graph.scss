@@ -3,13 +3,15 @@ $heat-gap: 2px;
 $heat-day-col: 32px;
 $heat-month-col: calc((53 * (#{$heat-cell} + #{$heat-gap})) / 12);
 
-.heatmap-year {
+.heatmap-year,
+.opens-year {
   border-top: 1px solid var(--border);
   padding-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.heatmap-year > summary {
+.heatmap-year > summary,
+.opens-year > summary {
   display: flex;
   align-items: baseline;
   gap: 0.6rem;
@@ -35,8 +37,20 @@ $heat-month-col: calc((53 * (#{$heat-cell} + #{$heat-gap})) / 12);
   }
 }
 
-.heatmap-year[open] > summary::before {
+.heatmap-year[open] > summary::before,
+.opens-year[open] > summary::before {
   transform: translateY(-1px) rotate(90deg);
+}
+
+.opens-year > summary {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.3rem;
+  letter-spacing: -0.02em;
+}
+
+.opens-year ul {
+  margin-top: calc(var(--padding) * 1.5);
 }
 
 .heatmap-year-name {
