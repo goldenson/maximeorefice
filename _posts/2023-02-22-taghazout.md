@@ -22,7 +22,7 @@ image: "/assets/images/posts/taghazout.jpg"
 - [Airbnb](https://www.airbnb.com/rooms/10614040) / `9€/nuit`
 - [Hashpoint Surfcamp](https://goo.gl/maps/cDhp6HnComo1tJME6)
 
-## A voir / A faire
+## À voir / À faire
 
 - [Quad](https://www.airbnb.com/experiences/2465237)
 - [Paradise Valley](https://goo.gl/maps/WDE8WoFnKwSxoRzu5)
@@ -53,4 +53,4 @@ image: "/assets/images/posts/taghazout.jpg"
 
 ### Liens
 
-- [Choses a faire](https://www.jeremybackpacker.com/taghazout-maroc-guide)
+- [Choses à faire](https://www.jeremybackpacker.com/taghazout-maroc-guide)

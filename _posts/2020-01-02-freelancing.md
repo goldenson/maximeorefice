@@ -8,7 +8,7 @@ language: fr
 
 Quelques notes sur comment construire une carrière de freelance.
 
-"J’aide les entreprises à surmonter leur challenges techniques", [plus d'information](../_posts/2020-01-01-who-am-i.md)?
+"J’aide les entreprises à surmonter leurs challenges techniques", [plus d'information](../_posts/2020-01-01-who-am-i.md)?
 
 > Devenez **le conseiller** de confiance de votre client.
 
@@ -16,23 +16,23 @@ Quelques notes sur comment construire une carrière de freelance.
 
 Quel est l'objectif? La motivation?
 
-- Réponse a toutes ses questions, le guider vers la bonne décision.
-- Laisser place à l’humain et la conversation.
-- Apporté le max de valeur ajouté. Comprendre ce que le prospect recherche vraiment.
-- Ecouter le client et lui donné la sensation qu’il a le contrôle du processus.
+- Répondre à toutes ses questions, le guider vers la bonne décision.
+- Laisser place à l’humain et à la conversation.
+- Apporter le max de valeur ajoutée. Comprendre ce que le prospect recherche vraiment.
+- Écouter le client et lui donner la sensation qu’il a le contrôle du processus.
 - Comprendre les motivations du client.
 
 ## Les clients
 
 1. Ce qui motive le client?
-   - Quelle emotion dégagée après la première interaction?
+   - Quelle émotion dégagée après la première interaction?
    - Rassurer le client, faire le travail en temps et en heure et de bonne qualité
 2. Ce qui bloque le client?
-   - Qu’est ce qui vous empêche de travailler aujourd’hui avec moi ?
+   - Qu’est-ce qui vous empêche de travailler aujourd’hui avec moi ?
 
-Communication direct, claire et utile. Relance avec tacte et fermeté.
+Communication directe, claire et utile. Relance avec tact et fermeté.
 
-### Trouver de nouveau client
+### Trouver de nouveaux clients
 
 1. Création de contenu
 2. Prospection
@@ -41,20 +41,20 @@ Communication direct, claire et utile. Relance avec tacte et fermeté.
 
 Demande toujours à ton réseau s'ils connaissent un client potentiel pour toi.
 
-Établis le profil de ton prospect cible et explique lui comment tu vas lui apporter de la valeur.
+Établis le profil de ton prospect cible et explique-lui comment tu vas lui apporter de la valeur.
 
-Utilises un CRM ([streak](https://streak.com)) pour gérer tes clients et les relancer au bon moment plusieurs fois (3 à 5 fois).
+Utilise un CRM ([streak](https://streak.com)) pour gérer tes clients et les relancer au bon moment plusieurs fois (3 à 5 fois).
 
 #### Contenu
 
-Il existe 2 strategies différentes:
+Il existe 2 stratégies différentes:
 
-- Stratégie de traffic
-- Stratégide de conversion
+- Stratégie de trafic
+- Stratégie de conversion
 
-Privilégie les études de cas, ta méthodologie de travail, expliques comment tu travail. Partages le ensuite à ton réseau et à tes prospects.
+Privilégie les études de cas, ta méthodologie de travail, explique comment tu travailles. Partage-le ensuite à ton réseau et à tes prospects.
 
-Parle à ton prospect de ses problèmes, de ta solution et comment tu vas transformée sa vie. Crée une méthodologie pour résoudre le problème de ton client.
+Parle à ton prospect de ses problèmes, de ta solution et de comment tu vas transformer sa vie. Crée une méthodologie pour résoudre le problème de ton client.
 
 ## Les projets
 
@@ -62,15 +62,15 @@ La gestion de projet `avant/pendant/après` représente une grande partie du mé
 
 Faire des recommandations au prospect. Lui dire comment mener son projet. Le faire exécuter par quelqu’un autre par la suite ou pas.
 
-#### Questions a poser avant de démarrer le projet
+#### Questions à poser avant de démarrer le projet
 
-1. Pourquoi avez vous besoin de faire cela aujourd'hui?
+1. Pourquoi avez-vous besoin de faire cela aujourd'hui?
 2. Quel est le problème aujourd'hui?
 3. Pourquoi est-ce que vous faites ce projet maintenant?
-4. A quoi est ce que le succès ressemblerait sur ce projet à vos yeux?
+4. À quoi est-ce que le succès ressemblerait sur ce projet à vos yeux?
 5. Quelles seront les conséquences pour vous si vous ne pouvez pas atteindre cet objectif?
-6. Avez vous deja travaillé avec des freelances sur ce type de projet?
-7. Qu’est ce qui vous retient de travailler avec moi aujourd’hui?
+6. Avez-vous déjà travaillé avec des freelances sur ce type de projet?
+7. Qu’est-ce qui vous retient de travailler avec moi aujourd’hui?
 
 #### Pendant le projet
 
@@ -86,10 +86,10 @@ Explique à ton réseau qui tu es, ce que tu fais de manière simple et apporte 
 
 Identifier les personnes de son réseau:
 
-- Connecteurs: apporte opportunités de business
-- Complémentaires: aide à travailler sur d'importants projets
+- Connecteurs: apportent des opportunités de business
+- Complémentaires: aident à travailler sur d'importants projets
 - Futures stars: investissement qui peut rapporter gros
-- Mentors: capable de vous conseiller grâce à son expérience
+- Mentors: capables de vous conseiller grâce à leur expérience
 
 Identifie le besoin des gens avec qui tu veux te connecter et choisis le bon timing! Fais un follow up avec la personne que tu viens de rencontrer.
 
@@ -97,7 +97,7 @@ Identifie le besoin des gens avec qui tu veux te connecter et choisis le bon tim
 
 Utilise ton réseau pour prendre contact avec n'importe qui. Gagne leur confiance.
 
-Réfléchis à comment tu peux atteindre les intermédiaires de confiance (employées, freelance ...).
+Réfléchis à comment tu peux atteindre les intermédiaires de confiance (employés, freelances ...).
 
 > Technique du gros poisson: Utilise la preuve sociale afin de stimuler ton projet.
 
@@ -109,13 +109,13 @@ Cela va t'apporter de la crédibilité et de la visibilité quand tu te lances. 
 
 1. Apporter de la valeur:
 
-- Mise ne relation
-- Recommender outil/livre/service
-- Aide sur un projet
+- Mise en relation
+- Recommander outil/livre/service
+- Aider sur un projet
 
 2. Poser une **bonne** question? Très précise qui montre que tu sais de quoi tu parles.
 
-3. Partager une anécdote mémorable
+3. Partager une anecdote mémorable
 
 #### Comment écrire un email de contact?
 
@@ -139,4 +139,4 @@ Simple et court. Minimiser l'engagement initial, ex: `Es-tu intéressé?` (princ
 
 - [Formation Marketing Mania](https://training.marketingmania.fr/)
 - [Agrandir son réseau](https://www.nateliason.com/blog/second-degree-dinners)
-- [Frebee](https://www.freebe.me)
+- [Freebe](https://www.freebe.me)

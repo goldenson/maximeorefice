@@ -21,11 +21,11 @@ Here are the things I want to do at home:
 - [NAS Synology](https://www.amazon.ca/dp/B075N1Z9LT)
 - [Thermostat](https://www.amazon.com/dp/B06W2LQY6L)
 - [Zwave](https://www.amazon.ca/dp/B00X0AWA6E)
-- [Chatiere](https://www.amazon.ca/SureFlap-Microchip-Porte-animal-domestique/dp/B009NH6NR0)
+- [Chatière](https://www.amazon.ca/SureFlap-Microchip-Porte-animal-domestique/dp/B009NH6NR0)
 
 ## How
 
-Here are the things I will focus first:
+Here are the things I will focus on first:
 
 1. Shut down all the lights
 2. Verify if the door is locked
@@ -34,10 +34,10 @@ Here are the things I will focus first:
 ## Todo
 
 - [ ] Buy hardware
-- [ ] Move domain to [cloudflare](https://www.cloudflare.com/en-au/products/registrar/)
-- [ ] Set up docker
+- [ ] Move domain to [Cloudflare](https://www.cloudflare.com/en-au/products/registrar/)
+- [ ] Set up Docker
 - [ ] Set up torrent client
-- [ ] Set up plex
+- [ ] Set up Plex
 
 ### Links
 

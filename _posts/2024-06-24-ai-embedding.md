@@ -12,13 +12,13 @@ image: "/assets/images/posts/ai-embedding.jpg"
 
 This week I have been playing around with AI models from [Anthropic](https://www.anthropic.com/news/claude-3-5-sonnet) and [Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models) at GitLab to familiarize myself with this new technology.
 
-I have learned a lot of new skills and discovered how powerful those recents models are.
+I have learned a lot of new skills and discovered how powerful those recent models are.
 
 ## Detecting duplicate content
 
 We have been working on a [small project](https://gitlab.com/gitlab-org/gitlab/-/issues/468157) in order to identify when an issue contains the same information.
 
-The idea was to convert the content of an issue an generating an [embedding](https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings) for it.
+The idea was to convert the content of an issue and generate an [embedding](https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings) for it.
 
 This technique is being called [Semantic Similarity](https://en.wikipedia.org/wiki/Semantic_similarity).
 
@@ -51,9 +51,9 @@ And a new index to speed up the queries:
 CREATE INDEX ON issues USING hnsw (embedding vector_l2_ops);
 ```
 
-Finally we ran a script to import all existing issues for a given team and generating embedding for it.
+Finally we ran a script to import all existing issues for a given team and generate embeddings for them.
 
-To determine how similar an issue is with another one we leveraged the [neighboor gem](https://github.com/ankane/neighbor) to measure the euclidean distance between those vectors:
+To determine how similar an issue is with another one we leveraged the [neighbor gem](https://github.com/ankane/neighbor) to measure the euclidean distance between those vectors:
 
 ```ruby
 nearest_issue = issue.nearest_neighbors(:embedding, distance: "euclidean").first
@@ -61,7 +61,7 @@ nearest_issue.neighbor_distance
 => 0.6025755637811935
 ```
 
-This gives us a great approximation of how similar an issue with the rest of them and we need to adjust the distance to determine good threshold with our entire dataset.
+This gives us a great approximation of how similar an issue is to the rest of them, and we need to adjust the distance to determine a good threshold for our entire dataset.
 
 For our use case, a distance of [0.3](https://gitlab.com/gitlab-org/gitlab/-/issues/468157#note_1957869527) gave us a good approximation of similar issues.
 
@@ -71,4 +71,4 @@ For our use case, a distance of [0.3](https://gitlab.com/gitlab-org/gitlab/-/iss
 - [pgvector](https://www.timescale.com/learn/postgresql-extensions-pgvector)
 - [Detect duplicate issues](https://mikulskibartosz.name/text-search-and-duplicate-detection-with-word-embeddings-and-vector-databases)
 - [upgrade gdk](https://gitlab.com/gitlab-org/gitlab-development-kit/-/merge_requests/3778)
-- [neighboor](https://github.com/ankane/neighbor)
+- [neighbor](https://github.com/ankane/neighbor)

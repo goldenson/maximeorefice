@@ -41,4 +41,4 @@ What to think about when your application runs in production, things to keep in 
 - [Share private secret](https://yopass.se)
 - [Best practice](https://12factor.net/)
 
-If you are curious to learn more about security, I suggest you to read about the [OSWAP](https://owasp.org/www-project-top-ten/).
+If you are curious to learn more about security, I suggest you read about the [OWASP](https://owasp.org/www-project-top-ten/).

@@ -18,7 +18,7 @@ date: 2021-06-08
 - [ ] Yaourtière
 - [ ] Lego
 - [ ] Ceinture
-- [ ] Boucle oreille
+- [ ] Boucle d'oreille
 - [ ] Massage
 - [ ] Maison123
 - [ ] Basket

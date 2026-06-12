@@ -25,7 +25,7 @@ Write down your offer with your broker to indicate how much you will pay for the
 
 ## Investigation
 
-This is an optional step, and a lot of people are going through this process. The idea is to hire a profesionnal that will help you identify the weaknesses of the house and the thing you need to be aware of.
+This is an optional step, and a lot of people are going through this process. The idea is to hire a professional that will help you identify the weaknesses of the house and the things you need to be aware of.
 
 > [Find the best inspector](https://www.lapresse.ca/maison/immobilier/conseils/201702/28/01-5074033-trouver-le-meilleur-inspecteur.php)
 
@@ -35,7 +35,7 @@ Before going to the notary you will need to insure the house. Evaluate your opti
 
 ## Notary
 
-The buyer choose the notary. Make sure to compare them and evaluate their work to get a reasonable price.
+The buyer chooses the notary. Make sure to compare them and evaluate their work to get a reasonable price.
 
 This is the **day** you will become the owner of your house.
 
@@ -47,37 +47,37 @@ You achieve a big milestone congrats! Take the time to celebrate!
 
 #### Bienvenue
 
-Every new buyer is required to pay this taxe when acquiring a new house.
+Every new buyer is required to pay this tax when acquiring a new house.
 
 > [How much it will cost?](https://www.taxedebienvenue.com/calculateur-de-taxe.php)
 
 #### Municipale
 
-You would need to pay this taxe twice a year.
+You would need to pay this tax twice a year.
 
 #### Scolaire
 
-Taxe to pay once a year.
+Tax to pay once a year.
 
 ### Introduce yourself
 
-Say hi to your tenants and explain them the new process to collect rents. I recommend setting up a monthly interact transfer.
+Say hi to your tenants and explain to them the new process for collecting rent. I recommend setting up a monthly interact transfer.
 
 ### Hydro
 
-Don't forget to call [hydro quebec](http://www.hydroquebec.com/residentiel/) and insure the house at your name in case your tenants move, the contract will get reassigned to your name.
+Don't forget to call [hydro quebec](http://www.hydroquebec.com/residentiel/) and insure the house in your name in case your tenants move, the contract will get reassigned to your name.
 
 ## Run it as a company
 
 Reinvest money in your asset to attract top tenants in your renting property. This will save you time and money in the future.
 
-Keep track of all things you did overe time. This would be valuable when you decide to sell your property.
+Keep track of all things you did over time. This would be valuable when you decide to sell your property.
 
 Take care of your tenants as your employees and help them whenever you can.
 
 ### Renovation
 
-Use your network if you know qualified people in this industry. Otherwise you will need to use a platform such sa [sousmissionrenovation.ca](https://soumissionrenovation.ca) (in Québec) to find your entrepreneur.
+Use your network if you know qualified people in this industry. Otherwise you will need to use a platform such as [sousmissionrenovation.ca](https://soumissionrenovation.ca) (in Québec) to find your entrepreneur.
 
 Ask him questions about his previous work and make sure to do your homework before hiring him.
 

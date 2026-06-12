@@ -19,12 +19,12 @@ I love designing new features and fixing bugs. Being all remote is challenging a
 
 I'm part of the [Database](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/) team.
 
-Our goal is to keep the light on postgres and make sure it does not bring down the appp.
+Our goal is to keep the lights on for postgres and make sure it does not bring down the app.
 
-We provide solutions that allow us to scale to our customer’s demands:
+We provide solutions that allow us to scale to our customers' demands:
 
 - [Table Partitioning](https://docs.gitlab.com/ee/development/database/partitioning/)
-- [Batched backgroung migrations](https://docs.gitlab.com/ee/development/database/batched_background_migrations.html)
+- [Batched background migrations](https://docs.gitlab.com/ee/development/database/batched_background_migrations.html)
 - [Avoiding downtime](https://docs.gitlab.com/ee/development/database/avoiding_downtime_in_migrations.html)
 - [Review guidelines](https://docs.gitlab.com/ee/development/database_review.html)
 
@@ -35,13 +35,13 @@ You can follow [our roadmap](https://handbook.gitlab.com/handbook/engineering/in
 ### Now
 
 - Weekly partitioning strategy, [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/413849)
-- Unique sequence accross `Cells`, [issue](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/459)
+- Unique sequence across `Cells`, [issue](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/459)
 
 ### Done
 
 #### 2024 (July - September)
 
-- Integrating [`openbao`](https://openbao.org/) within our [pdevelopment tooling](https://gitlab.com/groups/gitlab-org/-/epics/14406)
+- Integrating [`openbao`](https://openbao.org/) within our [development tooling](https://gitlab.com/groups/gitlab-org/-/epics/14406)
 - Exploring how to build a [native secrets manager](https://docs.gitlab.com/ee/architecture/blueprints/secret_manager/) for `GitLab`
 
 #### 2024 (January-June)

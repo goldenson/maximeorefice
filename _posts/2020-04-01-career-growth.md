@@ -7,11 +7,11 @@ date: 2020-04-01
 
 Let's talk about how to move on in your career.
 
-Nobody will take care of it, it's **your responsability** to decide what you want do to.
+Nobody will take care of it, it's **your responsibility** to decide what you want to do.
 
 ## Establish a plan
 
-**Objectif Key Result (OKR)** is a good framework that will help you to set up goals and measure them.
+**Objective Key Result (OKR)** is a good framework that will help you to set up goals and measure them.
 
 Write down somewhere what you want to become and where you see yourself in a short-mid-long term future.
 

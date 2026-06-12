@@ -21,11 +21,11 @@ I moved to 🇨🇦 2 years ago when I fell in love with this amazing country. I
 
 A year ago, I asked my friend [Thibaut Assus](https://twitter.com/tibastral) what if this year, we dream bigger for the Ruby community in France. What if we host our own conference? That’s how https://2018.rubyparis.org was born 👶.
 
-I’ll try to summarize and share all the lessons we’ve learned by organizing this conference. Here an exhaustive list of things I wished I would know a couple months ago:
+I’ll try to summarize and share all the lessons we’ve learned by organizing this conference. Here is an exhaustive list of things I wish I had known a couple months ago:
 
 ## 🏛 The venue
 
-Pick a centralized venue where as many people can join and well serve by transportation. Also, consider having comfortable chairs for your audience otherwise being sat all day long will hurt your back. If your conference happens during the summer AC is necessary. It’s also a plus if you can provide electrical outlets for your audience. And last but most important, triple check if your venue is disabled friendly.
+Pick a centralized venue where as many people can join and that is well served by transportation. Also, consider having comfortable chairs for your audience otherwise being sat all day long will hurt your back. If your conference happens during the summer AC is necessary. It’s also a plus if you can provide electrical outlets for your audience. And last but most important, triple check if your venue is disabled friendly.
 
 ## 📝 The speakers
 
@@ -33,7 +33,7 @@ Of course, one of the most important points of the conference is the quality of 
 
 ## 🥖 The food
 
-This topic is also very important. Providing high-quality food for 250 people is hard and require a lot of logistic efforts. Don’t hesitate to outsource it if you can’t handle it. In case your conference happens during the summer, make sure you give at least 2L of water per person per day to your audience to keep them hydrated. It is also extremely important to provide diverse food depending on your audience’s diet.
+This topic is also very important. Providing high-quality food for 250 people is hard and requires a lot of logistical effort. Don’t hesitate to outsource it if you can’t handle it. In case your conference happens during the summer, make sure you give at least 2L of water per person per day to your audience to keep them hydrated. It is also extremely important to provide diverse food depending on your audience’s diet.
 
 ## 👥 The organization
 
@@ -45,7 +45,7 @@ Finally, the last point is about your audience. Be transparent and communicate a
 
 ## ✨ Conclusion
 
-Have fun and meet as many people as you can. The magic will emerge from the community raising and growing together. We received many feedback which will help us to improve the event for next year. Overall the community was very enthusiastic and we all shared an amazing moment together.
+Have fun and meet as many people as you can. The magic will emerge from the community rising and growing together. We received a lot of feedback which will help us improve the event for next year. Overall the community was very enthusiastic and we all shared an amazing moment together.
 
 🙇‍♂️ Thanks everybody who contributed to making this wonderful conference.
 

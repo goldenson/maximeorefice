@@ -5,22 +5,22 @@ topic: "Tech & Dev"
 date: 2022-09-05
 ---
 
-### Qu'est ce que le partitioning?
+### Qu'est-ce que le partitioning?
 
-C'est une technique utilisé pour améliorer les performances d'une base de donnée.
+C'est une technique utilisée pour améliorer les performances d'une base de données.
 
-On va découper nos tables plusieurs petites tables. Cela va permettre
-d'ameliorer le temps de réponse des requêtes SQL car notre emsemble de données sera plus
+On va découper nos tables en plusieurs petites tables. Cela va permettre
+d'améliorer le temps de réponse des requêtes SQL car notre ensemble de données sera plus
 petit et nous n'aurons plus besoin de parcourir des millions de données.
 
-### Technique utilisé - Partitionnement par liste
+### Technique utilisée - Partitionnement par liste
 
-Afin de partitionner une table, nous commençons par ajouter une nouvelle colonne contenant la clé de partionnement. Cette colonne sera utilisé pour savoir dans quel partition nos données se trouvent.
+Afin de partitionner une table, nous commençons par ajouter une nouvelle colonne contenant la clé de partitionnement. Cette colonne sera utilisée pour savoir dans quelle partition nos données se trouvent.
 
-Ensuite nous nous assurons que chaque contrainte suivantes inclus la clé de partionnement:
+Ensuite nous nous assurons que chaque contrainte suivante inclut la clé de partitionnement:
 
 - La clé primaire
-- Toutes les clés étrangères référencent la table qui va être partitionné
+- Toutes les clés étrangères référencent la table qui va être partitionnée
 - Les contraintes d'unicité
 
 ### Désactiver un index
@@ -37,12 +37,12 @@ WHERE indexrelid = (
 
 ### Avantages
 
-- Index maintenance car les indexes sont plus petits et plus rapides
-- Autovaccum run en parallel avec un process pour chaque partition
+- Maintenance des index car ils sont plus petits et plus rapides
+- Autovacuum tourne en parallèle avec un process pour chaque partition
 
 ### Liens
 
-- [Posgres partitioning](https://www.postgresql.org/docs/current/ddl-partitioning.html)
+- [Postgres partitioning](https://www.postgresql.org/docs/current/ddl-partitioning.html)
 - [CI Time decay](https://docs.gitlab.com/ee/architecture/blueprints/ci_data_decay/pipeline_partitioning.html)
 - [postgres.fm](https://postgres.fm/episodes/partitioning)
 - [PlanetScale](https://planetscale.com/learn/articles/sharding-vs-partitioning-whats-the-difference#what-is-partitioning-)

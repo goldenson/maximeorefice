@@ -5,7 +5,7 @@ topic: "Career & Work"
 date: 2020-03-15
 ---
 
-Remote work is rapidly growing these past years. A lot of companies are embracing it by choice or constraint due to the recent health pandemic : `COVID19`.
+Remote work has been rapidly growing over these past years. A lot of companies are embracing it by choice or constraint due to the recent health pandemic: `COVID19`.
 
 Some notes about how to work efficiently remotely.
 
@@ -16,8 +16,8 @@ Some notes about how to work efficiently remotely.
 - Ask for help if you are stuck
 - Find a routine that works for you
 - Have daily social breaks during the day
-- Dress up like if you were going to work
-- Have a dedicate setup at home
+- Dress up as if you were going to work
+- Have a dedicated setup at home
 - Plan in advance your roadmap
 - Travel to meet your team once or more every year
 - Provide explicit feedback
@@ -48,7 +48,7 @@ Some notes about how to work efficiently remotely.
 
 Transitioning to working remotely? GitLab is sharing everything we've learned as the world's largest all-remote company.
 
-Download the [Remote Work Plabybook](https://about.gitlab.com/resources/ebook-remote-playbook/?utm_medium=emailsig&utm_source=footer&utm_campaign=allremote&utm_content=remoteplaybook) now, and please don't hesitate to ask me for more information.
+Download the [Remote Work Playbook](https://about.gitlab.com/resources/ebook-remote-playbook/?utm_medium=emailsig&utm_source=footer&utm_campaign=allremote&utm_content=remoteplaybook) now, and please don't hesitate to ask me for more information.
 
 ### Links
 

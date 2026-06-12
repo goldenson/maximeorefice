@@ -12,7 +12,7 @@ Voici comment je fonctionne si tu décides de travailler avec moi.
 
 ## Choses à savoir
 
-Je travaille actuellement depuis la ([Suisse](https://time.is/Lausanne)) de la maison.
+Je travaille actuellement depuis la maison, en [Suisse](https://time.is/Lausanne).
 
 Je traite toute information de manière asynchrone en fonction de mon temps de travail alloué sur le projet.
 
@@ -24,8 +24,8 @@ Si tu as une urgence (**urgence = bug critique impactant le business**), tu peux
 
 Je te poserai toutes les questions nécessaires afin de comprendre ton problème et t'aider à le résoudre.
 
-- **Nouveau projet:** Apres quelques heures de réflexion, nous passons à la phase de développement du projet.
-- **Projet existant:** Plusieurs jours serons nécessaires afin de comprendre l'environnement existant avant de passer au développement.
+- **Nouveau projet:** Après quelques heures de réflexion, nous passons à la phase de développement du projet.
+- **Projet existant:** Plusieurs jours seront nécessaires afin de comprendre l'environnement existant avant de passer au développement.
 
 > Les temps estimés vont évidemment dépendre de la taille du projet.
 
@@ -46,7 +46,7 @@ Pendant le projet, nous mettrons en place une documentation afin d'assurer la pa
 
 ### Fin de projet
 
-Nous passons à l'étape de résolution de bogues sur le projet. Au plus tôt le code est mis en production au plus tôt nous pourrons démarrer cette étape.
+Nous passons à l'étape de résolution de bogues sur le projet. Plus vite le code est mis en production, plus vite nous pourrons démarrer cette étape.
 
 Lorsque nous n'avons plus aucun bogue, nous validerons les critères établis au début afin de clôturer la mission.
 
@@ -64,4 +64,4 @@ Comme tout le monde, je ne travaille pas gratuitement et je facture mes prestati
 
 Si tu as des questions, je suis là pour y répondre.
 
-Envoie moi un email à <a href="mailto:contact@maximeorefice.com">contact@maximeorefice.com</a>
+Envoie-moi un email à <a href="mailto:contact@maximeorefice.com">contact@maximeorefice.com</a>

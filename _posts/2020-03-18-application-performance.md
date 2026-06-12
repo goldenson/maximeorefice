@@ -11,7 +11,7 @@ In this course we learned what are the most common mistakes that lead to poor pe
 
 ### Prerequisite
 
-This is a mandadory step that will help us to understand what is going on with our application.
+This is a mandatory step that will help us to understand what is going on with our application.
 
 You want to have all kind of metrics that will tell you how your app behaves.
 
@@ -81,9 +81,9 @@ These tools added above will help us identify where the problem is coming from.
 ### Reading a flamegraph
 
 - Prefer `JSON` format for `stackprof`
-- Look for long flat section, it usually means a long running method.
+- Look for a long flat section, it usually means a long-running method.
 - Add URL params: `?pp=flamegrah&flamegraph_sample_rate=0.1`
-- It's not relevant with multi threaded servers.
+- It's not relevant for multi-threaded servers.
 
 > [speedscope.app](http://speedscope.app) is a great tool for visualization
 
@@ -107,7 +107,7 @@ Install the [TestProf](https://test-prof.evilmartians.io/#/) gem in you `Gemfile
 gem "test-prof"
 ```
 
-This is a powerful tool that helps us to track perfomance regressions which is hard to detect with our human brains.
+This is a powerful tool that helps us track performance regressions, which are hard to detect with our human brains.
 
 ### Database tricks
 
@@ -122,7 +122,7 @@ This is a powerful tool that helps us to track perfomance regressions which is h
 
 ## Week 4 - Scaling
 
-This section help us to understand resources efficiency. How many `CPU/memory` do I need for my system to perform well? What are the breaking points of our system?
+This section helps us understand resource efficiency. How many `CPU/memory` do I need for my system to perform well? What are the breaking points of our system?
 
 ### Queueing System
 
@@ -141,14 +141,14 @@ There are 2 existing contributions:
 
 What is a good range for **utilization**?
 
-> As high as possible without adding exessive queue time (50-80%).
+> As high as possible without adding excessive queue time (50-80%).
 
 - Web Request: queue time <= 10-20% service time, 300ms 30-60s
 - Background jobs: queue time <= 60-90% service time, sla dependent
 
 Background jobs are cheaper to run than web requests.
 
-Let's take a look a some companies and their numbers:
+Let's take a look at some companies and their numbers:
 
 #### Twitter
 
@@ -169,7 +169,7 @@ Ruby threads are running ruby code concurrently which means **only 1 thread runs
 
 > [Understanding Ruby Threads](https://thoughtbot.com/blog/untangling-ruby-threads)
 
-Puma with ~5 threads and ~25% IO will inreases offered traffic per process by 1.3x.
+Puma with ~5 threads and ~25% IO will increase offered traffic per process by 1.3x.
 
 CPU LOAD = The number of active CPU tasks = Carried Traffic for CPUs = AVG in system
 

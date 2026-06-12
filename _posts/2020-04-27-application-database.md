@@ -146,14 +146,14 @@ SELECT show_trgm('maxime');
 
 A transaction is either **completed** or not.
 
-By default `pg` has an auto commit mode which means Each SQL statement is ran in a transaction.
+By default `pg` has an auto-commit mode which means each SQL statement is run in a transaction.
 
 - `A: Atomicity`
 - `C: Consistency`
 - `I: Isolation`
 - `D: Durability`
 
-Any errors that happens within a transaction **aborts** the transaction.
+Any error that happens within a transaction **aborts** the transaction.
 
 ```sql
 /* COMPLETE A TRANSACTION */
@@ -165,7 +165,7 @@ BEGIN;
 ROLLBACK;
 ```
 
-We can prevent this behavior by using a `SAVEPOINT`. This will create a sub transaction to prevent the transaction to abort. This has a performance cost so careful with those.
+We can prevent this behavior by using a `SAVEPOINT`. This will create a sub-transaction to prevent the transaction from aborting. This has a performance cost, so be careful with those.
 
 ```sql
 SAVEPOINT a;
@@ -275,13 +275,13 @@ EXPLAIN (VERBOSE) SELECT addone(id::integer) FROM test;
 
 It's a function that returns a trigger.
 
-They only run on data modification. They run immediatly after they has been triggered. You can delay them at the end of a transaction with the `DEFERRED` option.
+They only run on data modification. They run immediately after they have been triggered. You can delay them at the end of a transaction with the `DEFERRED` option.
 
-There are 2 kind of triggers: `BEFORE & AFTER`.
+There are 2 kinds of triggers: `BEFORE & AFTER`.
 
 - `tstzrange`: timestamp with timezone
 
-A `SQL View` is **just** an SQL statement. Here some good use cases:
+A `SQL View` is **just** an SQL statement. Here are some good use cases:
 
 - Showing subset of data
 - As a security tool
@@ -349,7 +349,7 @@ ALTER VIEW data SET (security_barrier = true);
 
 `postgres` tracks dependencies between objects. We can't drop our `realdata` table as our `data` view depends on it.
 
-We can rename our `realdata` table to something else and the view will be automatically updated as `postgres` keeps a reference of the `object id` hunder the hood.
+We can rename our `realdata` table to something else and the view will be automatically updated as `postgres` keeps a reference of the `object id` under the hood.
 
 - [Trigger documentation](https://www.postgresql.org/docs/12/plpgsql-trigger.html)
 
@@ -379,7 +379,7 @@ TABLE aside;
 
 When reading, everything is a read from the `shared buffers`. Everything is mirrored in the shared buffer.
 
-`SET enable_seqscan = off` is only enable for the open session.
+`SET enable_seqscan = off` is only enabled for the open session.
 
 The base directory is where all the data is stored.
 
@@ -391,7 +391,7 @@ ALTER SYSTEM SET enable_seqscan = off;
 
 You can increase the size of the `shared_buffers` if you want but no more than `8GB`.
 
-Increasing `work_mem` makes big query much performant.
+Increasing `work_mem` makes big queries much more performant.
 
 Rule of thumb: `RAM >= shared_buffers + work_mem * max_connections`
 
@@ -435,9 +435,9 @@ ALTER DEFAULT PRIVILEGES FOR ROLE postgres IN SCHEMA myapp GRANT SELECT ON TABLE
 
 Prefer to create your own schema for your app.
 
-If you are connected to one database you **can not access** to a different object in another database.
+If you are connected to one database you **cannot access** a different object in another database.
 
-Best practice is to set the `search_path` so you don't have to reference it everytime.
+Best practice is to set the `search_path` so you don't have to reference it every time.
 
 ```sql
 CREATE SCHEMA myapp;
@@ -476,7 +476,7 @@ GRANT SELECT (id, name) ON account TO logistics ;
 
 ### Encryption
 
-The early you encrypt the better it is as there is no way for the database to decrypt the data.
+The earlier you encrypt, the better it is, as there is no way for the database to decrypt the data.
 
 ```sql
 CREATE EXTENSION pgcrypto;
@@ -485,7 +485,7 @@ CREATE EXTENSION pgcrypto;
 
 ### SQL injection
 
-- Do not not construct SQL statement yourself!
+- Do not construct SQL statements yourself!
 - Use a prepare statement
 
 ```sql
@@ -511,11 +511,11 @@ sql := 'SELECT count(*) FROM ' || quote_ident(tablename);
 
 ### Partitioning
 
-It looks like a simple table but there are many behind the scene. The **partition key** determines which partition is choosen.
+It looks like a simple table, but there's a lot happening behind the scenes. The **partition key** determines which partition is chosen.
 
 Prefer using [pg12](https://www.postgresql.org/docs/12/ddl-partitioning.html) for better performance. Upper limit is always inclusive.
 
-A good case it that you can cheaply and easily get rid of old data.
+A good case is that you can cheaply and easily get rid of old data.
 
 There are 3 techniques existing today:
 
@@ -704,7 +704,7 @@ ActiveRecord::Base.connection.execute(query)
 
 Vacuuming proceeds in 3 steps:
 
-1. Look for wich rows to remove
+1. Look for which rows to remove
 2. Index scan to remove index referencing offending rows
 3. Remove offending rows
 
@@ -724,13 +724,13 @@ SELECT * FROM pgstattuple('vactest');
 SELECT * FROM pgstattuple_approx('vactest');
 ```
 
-Long running transactions are bad because they **prevent** `vaccum` to do its job.
+Long-running transactions are bad because they **prevent** `vacuum` from doing its job.
 
 Auto-vacuum allows us to clean up in the background the garbage in your database without disturbing your work.
 
-When is autovaccum is executed? `Threshold(50) + scale_factor (0.2) * #rows < #death_rows`
+When is autovacuum executed? `Threshold(50) + scale_factor (0.2) * #rows < #death_rows`
 
-If autovaccum runs to often and slow, you can reduce the `cost_delay` or increase the `cost_limit`.
+If autovacuum runs too often and too slowly, you can reduce the `cost_delay` or increase the `cost_limit`.
 
 ```sql
 /* change the config only for test table */
@@ -741,7 +741,7 @@ ALTER TABLE test SET (autovaccum_vacuum_scale_factor = 0, autovaccum_vacuum_auto
 
 ### Backup
 
-`pg_dump` is a great tool for backup, however it only captures in 1 point in time.
+`pg_dump` is a great tool for backup, however it only captures a single point in time.
 
 ```shell
 # dump a given database
@@ -769,7 +769,7 @@ $ pg_restore -f - -s accounts course.dmp
 
 `postgres` has a specific client used for online backups using [WAL](https://www.postgresql.org/docs/13/wal-intro.html) segments.
 
-Set the configuration archive mode to in order to enable backup.
+Set the configuration archive mode in order to enable backup.
 
 ```shell
 # Archive
@@ -807,7 +807,7 @@ SELECT * FROM pg_stat_archiver \gx
 
 Replication is basically recovery which never stops. It's a physical copy of the primary server that is kept synchronised.
 
-If you kill your primary or secondary server nothing can't go wrong if you set up archive recovery mode.
+If you kill your primary or secondary server, nothing can go wrong if you set up archive recovery mode.
 
 ```shell
 $ pg_ctlcluster standby

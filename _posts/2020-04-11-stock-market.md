@@ -7,16 +7,16 @@ date: 2020-04-11
 
 Parlons de l'outil financier le plus puissant du monde.
 
-### Strategie actuelle (2020-2021) 🌱
+### Stratégie actuelle (2020-2021) 🌱
 
-- Achat de stock (ETFs) automatiser chaque semaine le lundi matin avec wealthsimple
+- Achat de stock (ETFs) automatisé chaque semaine le lundi matin avec Wealthsimple
 - Achat de stock
 
 ## Before
 
-The young **Max** did not want to believe in this market which in fact drives our society. Our economy is built on this system which collapsed many times and is still here today. Interesting isn't ?
+The young **Max** did not want to believe in this market which in fact drives our society. Our economy is built on this system which collapsed many times and is still here today. Interesting, isn't it?
 
-I got lucky to join a startup offering stocks options that performed incredibly well in the market which begins to hit my curiosity.
+I got lucky to join a startup offering stock options that performed incredibly well in the market, which began to spark my curiosity.
 
 ## After
 
@@ -32,7 +32,7 @@ This means you own a part of a company.
 
 ### What stocks can you buy?
 
-Many options exist today. I call them **financial products**. See them as something you would buy at a shop except it could bring you money over time. Here a small list of the things you can buy on the stock market.
+Many options exist today. I call them **financial products**. See them as something you would buy at a shop except it could bring you money over time. Here is a small list of the things you can buy on the stock market.
 
 #### [Stocks](https://www.nerdwallet.com/blog/investing/what-is-a-stock/)
 
@@ -54,7 +54,7 @@ Buy consistently for a long period of time, it's called the [dollar cost averagi
 
 ##### [Reit](https://www.investopedia.com/terms/r/reit.asp)
 
-A real estate investment trust is a company that owns, operates, or finances income-generating real estate. It's a good way for young investor to invest in the real estate market without big a capital.
+A real estate investment trust is a company that owns, operates, or finances income-generating real estate. It's a good way for young investors to invest in the real estate market without a big capital.
 
 #### Options
 
@@ -66,7 +66,7 @@ You would need a **brokerage** account to start investing in the stock market.
 
 > Broker: Company that charges a fee or commission for executing buy and sell orders submitted by an investor.
 
-Here a list of some options we have in Canada:
+Here is a list of some options we have in Canada:
 
 - [Trade](https://www.wealthsimple.com/en-ca/product/trade/)
 - [TD](https://www.td.com/ca/en/investing/direct-investing/)
@@ -74,7 +74,7 @@ Here a list of some options we have in Canada:
 
 ### Reading charts
 
-You need to use indicators when you want to buy or sell a stock. Here some basic ones I'm using:
+You need to use indicators when you want to buy or sell a stock. Here are some basic ones I'm using:
 
 |                            Indicator                             | Definition                                                      |
 | :--------------------------------------------------------------: | :-------------------------------------------------------------- |
@@ -82,7 +82,7 @@ You need to use indicators when you want to buy or sell a stock. Here some basic
 | [MA(20)](https://www.investopedia.com/terms/m/movingaverage.asp) | Tells you when to buy or sell a stock                           |
 |                            `MA(200)`                             | Help you determine your target (average 200 days stock's price) |
 
-It you want to gamble, take calculated risks when the current price is trading near previous support levels.
+If you want to gamble, take calculated risks when the current price is trading near previous support levels.
 
 ### Links
 
@@ -91,7 +91,7 @@ It you want to gamble, take calculated risks when the current price is trading n
 - [Ben Felix](https://www.youtube.com/channel/UCDXTQ8nWmx_EhZ2v-kp7QxA)
 - [The money flow](http://www.thepetersreport.com/)
 - [Stock Market Course](https://gumroad.com/l/IDaKd)
-- [Earning Whishpers](https://www.earningswhispers.com/)
+- [Earning Whispers](https://www.earningswhispers.com/)
 - [Dividend Investor](https://www.dividendinvestor.com/)
 - [Simply Safe Dividend](https://www.simplysafedividends.com/)
 - [Reit](https://www.reit.com/)

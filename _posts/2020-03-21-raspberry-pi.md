@@ -43,7 +43,7 @@ $ sudo pip3 install docker-compose
 
 ### Using systemd
 
-This is a technique to ensure our containers are getting spinned up at boot time in case our rapsberry crashes.
+This is a technique to ensure our containers are spun up at boot time in case our raspberry crashes.
 
 - Run `./install.sh`
 

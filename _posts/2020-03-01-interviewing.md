@@ -11,20 +11,20 @@ Some thoughts about how companies run interviews to hire top talents.
 
 The first step is extremely important as you need to hit the curiosity of the company in order to attract their interest.
 
-High level summary of the things you did and what interest you in life.
+High level summary of the things you did and what interests you in life.
 
-Most people struggle with this step as they don't know how to sell themselves. A good exercise it to train over and over to sell yourself in 5min, 15min and 30min. This way you can adapt to any situation that might happen.
+Most people struggle with this step as they don't know how to sell themselves. A good exercise is to train over and over to sell yourself in 5min, 15min and 30min. This way you can adapt to any situation that might happen.
 
 ## Technical interview
 
-This is the most stressful part the process for some people. Showing your technical skills to make sure you fit the job.
+This is the most stressful part of the process for some people. Showing your technical skills to make sure you fit the job.
 
-You need to put you in the problem solver shoes. My advise would be to train yourself to solve problem with a tool like [codewars](https://www.codewars.com/) just to train your brain and prepare it for the interview battle.
+You need to put yourself in the problem solver's shoes. My advice would be to train yourself to solve problems with a tool like [codewars](https://www.codewars.com/) just to train your brain and prepare it for the interview battle.
 
 
 ## What companies are looking for?
 
-Someone that get work done, fits the culture and level up the team level.
+Someone who gets work done, fits the culture and raises the team's level.
 
 Are you able to understand the problem? How do you articulate your thoughts to solve the problem? How do you communicate about the problem?
 
