@@ -6,7 +6,7 @@ layout: home
 
 <p class="tagline">🦊 Senior Software Engineer chez <a href="https://gitlab.com" target="_blank">GitLab</a> · Lausanne, Suisse</p>
 
-Je travaille sur l'architecture de base de données de GitLab : je construis des outils pour aider les développeurs à écrire du SQL Postgres efficace à grande échelle et à éviter les pannes.
+Je travaille sur l'architecture de base de données de GitLab : je conçois les standards et les outils qui permettent à Postgres de rester performant et fiable à l'échelle de la plateforme.
 
 En dehors du code : crossfit, plongée et cuisine.
 
