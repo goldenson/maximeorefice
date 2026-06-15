@@ -1,6 +1,12 @@
 /* ---------- Home ---------- */
 .hero {
+  padding-top: calc(var(--padding) * 2);
   margin-bottom: calc(var(--padding) * 4);
+}
+
+.hello {
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  line-height: 1.05;
 }
 
 .tagline {
@@ -9,25 +15,49 @@
   font-size: 1.1rem;
 }
 
+.accent-text {
+  color: var(--accent);
+  font-weight: 700;
+}
+
 .home-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: calc(var(--padding) * 2);
+  gap: 0.75rem;
+  margin-top: calc(var(--padding) * 3);
 }
 
-.home-links a {
+.btn {
   display: inline-flex;
   align-items: center;
   line-height: 1;
-  padding: 0.4rem 1rem;
+  padding: 0.6rem 1.25rem;
   border: 1px solid var(--border);
   border-radius: 999px;
   text-decoration: none;
   font-size: 0.95rem;
+  font-weight: 700;
+  transition: all var(--transition);
 
   &:hover {
     border-color: var(--accent);
     color: var(--accent);
+    text-decoration: none;
+  }
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover,
+  &:visited:hover {
+    color: #fff;
+    opacity: 0.9;
   }
 }
