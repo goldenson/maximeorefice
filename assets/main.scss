@@ -309,6 +309,10 @@ hr {
   gap: 0.5rem 1rem;
   padding: 0.6rem 0;
   border-bottom: 1px solid var(--border);
+
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 .post-item-link {
