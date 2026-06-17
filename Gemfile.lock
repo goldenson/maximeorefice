@@ -38,8 +38,8 @@ GEM
       faraday-net_http (>= 2.0, < 3.4)
       json
       logger
-    faraday-multipart (1.0.4)
-      multipart-post (~> 2)
+    faraday-multipart (1.2.0)
+      multipart-post (~> 2.0)
     faraday-net_http (3.3.0)
       net-http
     ffi (1.17.3)
@@ -168,7 +168,7 @@ DEPENDENCIES
   webrick
 
 RUBY VERSION
-   ruby 3.4.1p0
+   ruby 4.0.5p0
 
 BUNDLED WITH
    2.5.17
