@@ -16,6 +16,8 @@ const PRECACHE_URLS = [
   '/assets/books-pagination.js',
   '/assets/fonts/atkinson-bold.woff',
   '/assets/fonts/atkinson-regular.woff',
+  {% for post in site.posts %}'{{ post.url }}',
+  {% endfor %}
 ];
 
 function cacheKey(request) {
