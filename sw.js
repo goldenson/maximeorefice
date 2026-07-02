@@ -4,6 +4,7 @@ const CACHE_NAME = 'maximeorefice-{{ site.time | date: "%s" }}';
 
 const PRECACHE_URLS = [
   '/',
+  '/notes/',
   '/livres/',
   '/offline/',
   '/assets/main.css',
