@@ -20,12 +20,12 @@ const PRECACHE_URLS = [
   {% endfor %}
 ];
 
-function cacheKey(request) {
+// Strip cache-busting query strings from asset URLs so ?v=... doesn't create duplicates
+function cacheUrl(request) {
   const url = new URL(request.url);
-  if (url.search && url.pathname.startsWith('/assets/')) {
-    return new Request(url.origin + url.pathname);
-  }
-  return request;
+  return url.search && url.pathname.startsWith('/assets/')
+    ? url.origin + url.pathname
+    : url.href;
 }
 
 self.addEventListener('install', event => {
@@ -52,27 +52,34 @@ self.addEventListener('fetch', event => {
 
   if (url.origin !== self.location.origin || request.method !== 'GET') return;
 
-  const key = cacheKey(request);
+  const key = cacheUrl(request);
 
   if (request.mode === 'navigate') {
+    // Cache-first: serve cached page immediately, refresh in background while online
     event.respondWith(
-      fetch(request)
-        .then(response => {
-          caches.open(CACHE_NAME).then(cache => cache.put(key, response.clone()));
-          return response;
-        })
-        .catch(() =>
-          caches.match(key).then(cached => cached || caches.match('/offline/'))
-        )
+      caches.match(key, { ignoreVary: true }).then(cached => {
+        if (cached) {
+          fetch(request).then(response => {
+            if (response.ok) caches.open(CACHE_NAME).then(c => c.put(key, response.clone()));
+          }).catch(() => {});
+          return cached;
+        }
+        // Not cached yet: hit the network, cache the result
+        return fetch(request)
+          .then(response => {
+            if (response.ok) caches.open(CACHE_NAME).then(c => c.put(key, response.clone()));
+            return response;
+          })
+          .catch(() => caches.match('/offline/', { ignoreVary: true }));
+      })
     );
   } else {
+    // Assets: cache-first, fallback to network
     event.respondWith(
-      caches.match(key).then(cached => {
+      caches.match(key, { ignoreVary: true }).then(cached => {
         if (cached) return cached;
         return fetch(request).then(response => {
-          if (response.ok) {
-            caches.open(CACHE_NAME).then(cache => cache.put(key, response.clone()));
-          }
+          if (response.ok) caches.open(CACHE_NAME).then(c => c.put(key, response.clone()));
           return response;
         });
       })
