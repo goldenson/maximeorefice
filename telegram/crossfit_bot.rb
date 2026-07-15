@@ -85,12 +85,3 @@ class CrossfitBot
     end
   end
 end
-
-# Configuration du bot Telegram
-
-begin
-  bot = CrossfitBot.new
-  bot.execute
-rescue Telegram::Bot::Exceptions::ResponseError, KeyError
-  puts "CI VARIABLES are only set for the scheduled pipeline"
-end

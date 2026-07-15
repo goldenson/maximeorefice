@@ -67,6 +67,35 @@ birthday_job:
   script:
     - bundle exec ruby scripts/daily_birthday.rb
   rules:
+    - if: '$SCHEDULE_TASK == "crossfit"'
+      when: never
     - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: on_success
+    - when: never
+
+crossfit_job:
+  stage: scheduled_task
+  variables:
+    TELEGRAM_CROSSFIT_TOKEN: $TELEGRAM_CROSSFIT_TOKEN
+    CROSSFIT_CHAT_ID: $CROSSFIT_CHAT_ID
+  script:
+    - bundle exec ruby scripts/crossfit_bot.rb
+    - |
+      if ! git diff --quiet -- _data/database.sqlite; then
+        git config user.email "ci@maximeorefice.com"
+        git config user.name "GitLab CI"
+        git remote set-url origin "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+        git fetch origin "$CI_COMMIT_REF_NAME"
+        git pull --rebase origin "$CI_COMMIT_REF_NAME"
+        git add _data/database.sqlite
+        git commit -m "update trainings"
+        git push origin "HEAD:$CI_COMMIT_REF_NAME"
+      else
+        echo "No training update recorded, nothing to commit."
+      fi
+  timeout: 1h
+  allow_failure: true
+  rules:
+    - if: '$SCHEDULE_TASK == "crossfit"'
       when: on_success
     - when: never
