@@ -92,6 +92,7 @@ crossfit_job:
         git add _data/database.sqlite
         git commit -m "update trainings"
         git checkout -- .
+        echo "GITLAB_PUSH_TOKEN length: ${#GITLAB_PUSH_TOKEN}"
         git remote set-url origin "https://oauth2:${GITLAB_PUSH_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
         git pull --rebase origin "$CI_COMMIT_REF_NAME"
         git push origin "HEAD:$CI_COMMIT_REF_NAME"
