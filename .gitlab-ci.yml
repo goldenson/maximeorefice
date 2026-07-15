@@ -82,6 +82,7 @@ crossfit_job:
   variables:
     TELEGRAM_CROSSFIT_TOKEN: $TELEGRAM_CROSSFIT_TOKEN
     CROSSFIT_CHAT_ID: $CROSSFIT_CHAT_ID
+    GITLAB_PUSH_TOKEN: $GITLAB_PUSH_TOKEN
   script:
     - bundle exec ruby scripts/crossfit_bot.rb
     - |
@@ -91,7 +92,7 @@ crossfit_job:
         git add _data/database.sqlite
         git commit -m "update trainings"
         git checkout -- .
-        git remote set-url origin "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+        git remote set-url origin "https://oauth2:${GITLAB_PUSH_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
         git pull --rebase origin "$CI_COMMIT_REF_NAME"
         git push origin "HEAD:$CI_COMMIT_REF_NAME"
       else
