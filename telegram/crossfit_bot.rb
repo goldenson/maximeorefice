@@ -20,6 +20,7 @@ class CrossfitBot
         date_today = Time.now.strftime('%Y-%m-%d')
         showup = message.data == 'yes' ? 1 : 0
         save_training(date_today, showup)
+        mark_selected_answer(bot, message)
 
         begin
           bot.api.answer_callback_query(callback_query_id: message.id, text: 'Merci pour votre réponse !')
@@ -45,6 +46,21 @@ class CrossfitBot
     )
   ensure
     db&.close
+  end
+
+  def mark_selected_answer(bot, message)
+    markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(
+      inline_keyboard: [
+        [Telegram::Bot::Types::InlineKeyboardButton.new(text: message.data == 'yes' ? '✅ Oui' : 'Oui', callback_data: 'yes')],
+        [Telegram::Bot::Types::InlineKeyboardButton.new(text: message.data == 'no' ? '✅ Non' : 'Non', callback_data: 'no')]
+      ]
+    )
+
+    bot.api.edit_message_reply_markup(
+      chat_id: message.message.chat.id,
+      message_id: message.message.message_id,
+      reply_markup: markup
+    )
   end
 
   # Envoyer un message à tous les utilisateurs
