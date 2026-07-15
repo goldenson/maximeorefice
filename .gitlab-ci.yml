@@ -88,11 +88,10 @@ crossfit_job:
       if ! git diff --quiet -- _data/database.sqlite; then
         git config user.email "ci@maximeorefice.com"
         git config user.name "GitLab CI"
-        git remote set-url origin "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
-        git fetch origin "$CI_COMMIT_REF_NAME"
-        git pull --rebase origin "$CI_COMMIT_REF_NAME"
         git add _data/database.sqlite
         git commit -m "update trainings"
+        git remote set-url origin "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+        git pull --rebase origin "$CI_COMMIT_REF_NAME"
         git push origin "HEAD:$CI_COMMIT_REF_NAME"
       else
         echo "No training update recorded, nothing to commit."
