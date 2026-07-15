@@ -12,10 +12,11 @@ class CrossfitBot
 
   def execute
     Telegram::Bot::Client.run(token) do |bot|
-      send_daily_message(bot)
+      prompt_message_id = send_daily_message(bot).message_id
 
       bot.listen do |message|
         next unless message.is_a?(Telegram::Bot::Types::CallbackQuery)
+        next unless message.message.message_id == prompt_message_id
 
         date_today = Time.now.strftime('%Y-%m-%d')
         showup = message.data == 'yes' ? 1 : 0
