@@ -33,7 +33,13 @@ class CrossfitBot
           puts "Erreur lors de la réponse au callback_query: #{e.message}"
         end
 
-        bot.api.send_message(chat_id: message.message.chat.id, text: showup == 1 ? 'Bravo champion!' : 'Dommage, la fiotte !')
+        count = monthly_training_count
+        text = if showup == 1
+                 "Bravo champion ! Tu t'es entraîné #{count} fois ce mois-ci 💪"
+               else
+                 "Dommage, la fiotte ! Tu t'es entraîné #{count} fois ce mois-ci."
+               end
+        bot.api.send_message(chat_id: message.message.chat.id, text: text)
         bot.stop
       end
     end
@@ -53,11 +59,21 @@ class CrossfitBot
     db&.close
   end
 
+  def monthly_training_count
+    db = SQLite3::Database.new(DB_FILE)
+    month_prefix = Time.now.strftime('%Y-%m')
+    db.execute("SELECT COUNT(*) FROM trainings WHERE showup = 1 AND date LIKE ?", ["#{month_prefix}%"]).first.first
+  ensure
+    db&.close
+  end
+
   def mark_selected_answer(bot, message)
     markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(
       inline_keyboard: [
-        [Telegram::Bot::Types::InlineKeyboardButton.new(text: message.data == 'yes' ? '✅ Oui' : 'Oui', callback_data: 'yes')],
-        [Telegram::Bot::Types::InlineKeyboardButton.new(text: message.data == 'no' ? '✅ Non' : 'Non', callback_data: 'no')]
+        [
+          Telegram::Bot::Types::InlineKeyboardButton.new(text: message.data == 'yes' ? '✅ Oui' : 'Oui', callback_data: 'yes'),
+          Telegram::Bot::Types::InlineKeyboardButton.new(text: message.data == 'no' ? '✅ Non' : 'Non', callback_data: 'no')
+        ]
       ]
     )
 
@@ -72,8 +88,10 @@ class CrossfitBot
   def send_daily_message(bot)
     markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(
       inline_keyboard: [
-        [Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Oui', callback_data: 'yes')],
-        [Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Non', callback_data: 'no')]
+        [
+          Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Oui', callback_data: 'yes'),
+          Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Non', callback_data: 'no')
+        ]
       ]
     )
 
