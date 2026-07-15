@@ -20,7 +20,12 @@ class CrossfitBot
         date_today = Time.now.strftime('%Y-%m-%d')
         showup = message.data == 'yes' ? 1 : 0
         save_training(date_today, showup)
-        mark_selected_answer(bot, message)
+
+        begin
+          mark_selected_answer(bot, message)
+        rescue Telegram::Bot::Exceptions::ResponseError => e
+          puts "Erreur lors de la mise à jour du clavier: #{e.message}"
+        end
 
         begin
           bot.api.answer_callback_query(callback_query_id: message.id, text: 'Merci pour votre réponse !')
