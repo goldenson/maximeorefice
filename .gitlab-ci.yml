@@ -85,20 +85,7 @@ crossfit_job:
     GITLAB_PUSH_TOKEN: $GITLAB_PUSH_TOKEN
   script:
     - bundle exec ruby scripts/crossfit_bot.rb
-    - |
-      if ! git diff --quiet -- _data/database.sqlite; then
-        git config user.email "ci@maximeorefice.com"
-        git config user.name "GitLab CI"
-        git add _data/database.sqlite
-        git commit -m "update trainings"
-        git checkout -- .
-        echo "GITLAB_PUSH_TOKEN length: ${#GITLAB_PUSH_TOKEN}"
-        git remote set-url origin "https://oauth2:${GITLAB_PUSH_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
-        git pull --rebase origin "$CI_COMMIT_REF_NAME"
-        git push origin "HEAD:$CI_COMMIT_REF_NAME"
-      else
-        echo "No training update recorded, nothing to commit."
-      fi
+    - bundle exec ruby scripts/publish_training_update.rb
   timeout: 1h
   allow_failure: true
   rules:
