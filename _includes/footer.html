@@ -51,6 +51,10 @@
     &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
     {{ site.data.ui-text[site.locale].powered_by | default: "Assemblé avec" }}
     <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; hébergé en 🇨🇭
+    {% if site.git_sha %}
+      &middot;
+      <a href="https://gitlab.com/goldenson/maximeorefice/-/commit/{{ site.git_sha }}" rel="nofollow" target="_blank">{{ site.git_sha_short }}</a>
+    {% endif %}
   </div>
   </div>
 </footer>
