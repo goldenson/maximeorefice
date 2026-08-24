@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "📡 Réseau Ubiquiti pour la villa"
+title: "📡 Réseau domestique"
 topic: "Tech & Dev"
 date: 2026-08-12
+image: "/assets/images/posts/reseau-domestique.jpg"
 ---
+
+![reseau-domestique](/assets/images/posts/reseau-domestique.jpg)
 
 ## Contexte
 
@@ -27,6 +30,14 @@ Plus l'armoire ([coffret 7U](https://www.galaxus.ch/de/s1/product/digitus-7he-dy
 ## Câblage
 
 En étoile depuis le patch panel du sous-sol : 1 câble depuis le salon (fibre), 4 vers les bornes Wi-Fi (Sous-sol, Rez, Étage, jardin), 3 vers les caméras extérieures, 1 vers la serrure. Câble extérieur blindé anti-UV pour tout ce qui sort de la maison.
+
+## NAS
+
+Le Synology DS918+ actuel (tour, pas rackable) reste hors armoire pour l'instant. Options envisagées pour un remplacement rackable 1U : [Synology RS422+](https://www.galaxus.ch/fr/s1/product/synology-rs422-0-tb-nas-21046432) (4 baies, DSM, garde Download Station et Plex) ou [UniFi UNAS Pro 4](https://www.galaxus.ch/de/s1/product/ubiquiti-unas-pro-4-unifi-unas-pro-4-nas-69401902) (4 baies, 10G, intégré à la console UniFi mais sans les apps DSM).
+
+## Son
+
+Enceintes [Sonos Era 100](https://www.sonos.com/fr-ch/shop/era-100) en cuisine, salon et salle de bain, en Wi-Fi pur (l'Era 100 ne supporte plus SonosNet, pas besoin de câbler). Elles rejoignent celle déjà en place.
 
 ## Électrique
 
