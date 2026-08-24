@@ -31,7 +31,7 @@ Plus l'armoire ([coffret 12U](https://www.galaxus.ch/fr/s1/product/digitus-dn-19
 
 ## Câblage
 
-En étoile depuis le patch panel du sous-sol : 1 câble depuis le salon (fibre), 4 vers les bornes Wi-Fi (Sous-sol, Rez, Étage, jardin), 3 vers les caméras extérieures, 1 vers la serrure. Câble extérieur blindé anti-UV pour tout ce qui sort de la maison.
+En étoile depuis le patch panel du sous-sol : 1 câble depuis le salon (câble coaxial, [Yallo Home Supermax](https://www.yallo.ch/fr/promo-internet) 2.5 Gbit/s), 4 vers les bornes Wi-Fi (Sous-sol, Rez, Étage, jardin), 3 vers les caméras extérieures, 1 vers la serrure. Câble extérieur blindé anti-UV pour tout ce qui sort de la maison.
 
 ## NAS
 
