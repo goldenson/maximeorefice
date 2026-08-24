@@ -23,7 +23,9 @@ Nouvelle maison (1'000 m² de terrain, villa de 150 m² en béton armé) donc pa
 | [G6 Turret](https://eu.store.ui.com/eu/en/products/uvc-g6-turret) | Caméra 4K (entrée, terrasse, garage) | 3 | €179 |
 | [Access Ultra](https://eu.store.ui.com/eu/en/products/ua-ultra) | Lecteur de badge porte | 1 | €90 |
 | [Strike Lock](https://eu.store.ui.com/eu/en/products/uacc-lock-strike-secure-15mm) | Gâche fail-secure | 1 | €80 |
-| **Total** | | | **€1'658** |
+| [SuperLink Gateway](https://eu.store.ui.com/eu/en/category/physical-security-sensors-alarms/collections/superlink-gateway) | Passerelle capteurs (PoE) | 1 | €115 |
+| [Entry Sensor](https://eu.store.ui.com/eu/en/products/usl-entry) | Capteur ouverture porte/fenêtre | 6 | €35 |
+| **Total** | | | **€1'965** |
 
 Plus l'armoire ([coffret 7U](https://www.galaxus.ch/de/s1/product/digitus-7he-dynamic-basic-wandgehaeuse-7-he-19-zoll-rack-serverschrank-10325219), [patch panel 24 ports](https://www.galaxus.ch/de/s1/product/rm-patchpanel-24-port-kat-6a-1he-19-ungeschirmt-leer-server-zubehoer-12738645), [étagère](https://www.galaxus.ch/de/s1/product/startech-1u-vented-rack-shelf-serverschrank-zubehoer-54738049), [PDU](https://www.galaxus.ch/de/s1/product/intellinet-19-8-fach-steckdosenleiste-pdu-schutzkontakt-1-he-usv-zubehoer-22820372), [patch cables](https://eu.store.ui.com/eu/en/category/accessories-cables-dacs/collections/accessories-pro-patch-cables/products/uacc-cable-patch-el-c6a) 10-pack) pour ~200 CHF, et une **Home Assistant Green** (~99 CHF) pour piloter énergie, clim et chauffage.
 
