@@ -51,6 +51,8 @@ Box [Yallo Home Supermax](https://www.yallo.ch/fr/promo-internet) (câble coaxia
 
 Nuki et les capteurs IKEA sont sans fil — rien à câbler pour eux.
 
+![Schéma du câblage Ethernet et du maillage Thread](/assets/images/posts/reseau-domestique-cablage.svg)
+
 ## NAS
 
 Le Synology DS918+ actuel (tour, pas rackable) reste sur une étagère — le 12U laisse assez de marge pour ses ~5U de dégagement vertical. Garde Download Station et Plex.
