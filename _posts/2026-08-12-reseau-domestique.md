@@ -29,6 +29,22 @@ Nouvelle maison (1'000 m² de terrain, villa de 150 m² en béton armé) donc pa
 
 Plus l'armoire ([coffret 12U](https://www.galaxus.ch/fr/s1/product/digitus-dn-19-12u-66-armoire-murale-12-he-rack-19-pouces-armoire-serveur-266092), [patch panel 24 ports](https://www.galaxus.ch/de/s1/product/rm-patchpanel-24-port-kat-6a-1he-19-ungeschirmt-leer-server-zubehoer-12738645), [étagère](https://www.galaxus.ch/de/s1/product/startech-1u-vented-rack-shelf-serverschrank-zubehoer-54738049), [PDU](https://www.galaxus.ch/de/s1/product/intellinet-19-8-fach-steckdosenleiste-pdu-schutzkontakt-1-he-usv-zubehoer-22820372), [patch cables](https://eu.store.ui.com/eu/en/category/accessories-cables-dacs/collections/accessories-pro-patch-cables/products/uacc-cable-patch-el-c6a) 10-pack) pour ~200 CHF, et une **Home Assistant Green** (~99 CHF) pour piloter énergie, clim et chauffage.
 
+## Variante allégée (sans vidéosurveillance ni contrôle d'accès)
+
+Pour comparaison, la même base réseau/Wi-Fi/capteurs sans caméras ni serrure connectée :
+
+| Produit | Rôle | Qté | Prix |
+|---|---|---|---|
+| [Cloud Gateway Ultra](https://eu.store.ui.com/eu/en/category/cloud-gateways-compact/products/ucg-ultra) | Routeur (1 Gbps IPS) | 1 | €90 |
+| [Switch Pro 8 PoE](https://eu.store.ui.com/eu/en/products/usw-pro-8-poe) | Switch 8 ports PoE (120W), sur étagère | 1 | €269 |
+| [U7 Lite](https://eu.store.ui.com/eu/en/products/u7-lite) | Borne Wi-Fi 7 plafond (Sous-sol, Rez, Étage) | 3 | €89 |
+| [UK-Ultra](https://eu.store.ui.com/eu/en/products/uk-ultra) | Borne extérieure jardin | 1 | €75 |
+| [SuperLink Gateway](https://eu.store.ui.com/eu/en/category/physical-security-sensors-alarms/collections/superlink-gateway) | Passerelle capteurs (PoE) | 1 | €115 |
+| [Entry Sensor](https://eu.store.ui.com/eu/en/products/usl-entry) | Capteur ouverture porte/fenêtre | 6 | €35 |
+| **Total** | | | **€1'026** |
+
+Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS (vs 2.3 Gbps pour le Max) — suffisant sans caméras, mais ça bride le débit effectif de la ligne Yallo 2.5 Gbit/s si l'inspection de sécurité est activée.
+
 ## Câblage
 
 En étoile depuis le patch panel du sous-sol : 1 câble depuis le salon (câble coaxial, [Yallo Home Supermax](https://www.yallo.ch/fr/promo-internet) 2.5 Gbit/s), 4 vers les bornes Wi-Fi (Sous-sol, Rez, Étage, jardin), 3 vers les caméras extérieures, 1 vers la serrure. Câble extérieur blindé anti-UV pour tout ce qui sort de la maison.
