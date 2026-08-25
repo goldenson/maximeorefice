@@ -27,11 +27,11 @@ Nouvelle maison (1'000 m² de terrain, villa de 150 m² en béton armé) donc pa
 | [Entry Sensor](https://eu.store.ui.com/eu/en/products/usl-entry) | Capteur ouverture porte/fenêtre | 6 | €35 |
 | **Total** | | | **€1'965** |
 
-Plus l'armoire ([coffret 12U](https://www.galaxus.ch/fr/s1/product/digitus-dn-19-12u-66-armoire-murale-12-he-rack-19-pouces-armoire-serveur-266092), [patch panel 24 ports](https://www.galaxus.ch/de/s1/product/rm-patchpanel-24-port-kat-6a-1he-19-ungeschirmt-leer-server-zubehoer-12738645), [étagère](https://www.galaxus.ch/de/s1/product/startech-1u-vented-rack-shelf-serverschrank-zubehoer-54738049), [PDU](https://www.galaxus.ch/de/s1/product/intellinet-19-8-fach-steckdosenleiste-pdu-schutzkontakt-1-he-usv-zubehoer-22820372), [patch cables](https://eu.store.ui.com/eu/en/category/accessories-cables-dacs/collections/accessories-pro-patch-cables/products/uacc-cable-patch-el-c6a) 10-pack) pour ~200 CHF, et une **Home Assistant Green** (~99 CHF) pour piloter énergie, clim et chauffage.
+Plus l'armoire ([coffret 12U](https://www.galaxus.ch/fr/s1/product/digitus-dn-19-12u-66-armoire-murale-12-he-rack-19-pouces-armoire-serveur-266092), [patch panel 24 ports](https://www.galaxus.ch/de/s1/product/rm-patchpanel-24-port-kat-6a-1he-19-ungeschirmt-leer-server-zubehoer-12738645), [étagère](https://www.galaxus.ch/de/s1/product/startech-1u-vented-rack-shelf-serverschrank-zubehoer-54738049), [PDU](https://www.galaxus.ch/de/s1/product/intellinet-19-8-fach-steckdosenleiste-pdu-schutzkontakt-1-he-usv-zubehoer-22820372), [patch cables](https://eu.store.ui.com/eu/en/category/accessories-cables-dacs/collections/accessories-pro-patch-cables/products/uacc-cable-patch-el-c6a) 10-pack, [onduleur PowerWalker VI 750 R1U](https://www.galaxus.ch/fr/s1/product/powerwalker-vi-750-r1u-750-va-450-w-asi-line-interactive-onduleur-10378379) 1U) pour ~400 CHF, et une **Home Assistant Green** (~99 CHF) pour piloter énergie, clim et chauffage.
 
-## Variante allégée (sans vidéosurveillance ni contrôle d'accès)
+## Variante allégée (sans vidéosurveillance, accès par Nuki)
 
-Pour comparaison, la même base réseau/Wi-Fi/capteurs sans caméras ni serrure connectée :
+Pour comparaison, la même base réseau/Wi-Fi/capteurs sans caméras ni contrôle d'accès UniFi, avec une serrure [Nuki Smart Lock Ultra](https://nuki.io/en/products/smart-lock-ultra) pilotée en local depuis Home Assistant (Matter over Thread) :
 
 | Produit | Rôle | Qté | Prix |
 |---|---|---|---|
@@ -41,9 +41,13 @@ Pour comparaison, la même base réseau/Wi-Fi/capteurs sans caméras ni serrure 
 | [UK-Ultra](https://eu.store.ui.com/eu/en/products/uk-ultra) | Borne extérieure jardin | 1 | €75 |
 | [SuperLink Gateway](https://eu.store.ui.com/eu/en/category/physical-security-sensors-alarms/collections/superlink-gateway) | Passerelle capteurs (PoE) | 1 | €115 |
 | [Entry Sensor](https://eu.store.ui.com/eu/en/products/usl-entry) | Capteur ouverture porte/fenêtre | 6 | €35 |
-| **Total** | | | **€1'026** |
+| [Nuki Smart Lock Ultra](https://nuki.io/en/products/smart-lock-ultra) | Serrure connectée (Matter/Thread) | 1 | €349 |
+| [Connect ZBT-2](https://www.home-assistant.io/connect/zbt-2/) | Dongle Zigbee/Thread pour Home Assistant | 1 | €49 |
+| **Total** | | | **€1'424** |
 
-Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS (vs 2.3 Gbps pour le Max) — suffisant sans caméras, mais ça bride le débit effectif de la ligne Yallo 2.5 Gbit/s si l'inspection de sécurité est activée.
+Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS (vs 2.3 Gbps pour le Max) — suffisant sans caméras, mais ça bride le débit effectif de la ligne Yallo 2.5 Gbit/s si l'inspection de sécurité est activée. La Home Assistant Green + Connect ZBT-2 restent dans l'armoire au sous-sol ; le maillage Thread jusqu'à la Nuki est assuré par les futures prises connectées, avec au moins une prise proche de l'escalier pour faire le premier relais.
+
+Même armoire que la config principale ([coffret 12U](https://www.galaxus.ch/fr/s1/product/digitus-dn-19-12u-66-armoire-murale-12-he-rack-19-pouces-armoire-serveur-266092)), avec un [patch panel 12 ports](https://www.galaxus.ch/fr/s1/product/delock-panneau-de-brassage-19-keystone-12-ports-19-rack-serveur-accessoires-16399972) (19", ~CHF 33) suffisant pour les ~6 câbles de cette config.
 
 ## Câblage
 
