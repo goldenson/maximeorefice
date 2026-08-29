@@ -120,6 +120,6 @@
 
   <!-- IKEA sensors (thread-only) -->
   <rect x="70" y="106" width="160" height="48" rx="6" fill="#FFFFFF" stroke="#B5651D" stroke-width="1.2" stroke-dasharray="3 3" />
-  <text x="150" y="126" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="12.5" fill="#1C2024">IKEA MYGGBETT ×6</text>
+  <text x="150" y="126" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="12.5" fill="#1C2024">AQARA P2 ×6</text>
   <text x="150" y="140" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#62676F">fenêtres / portes</text>
 </svg>

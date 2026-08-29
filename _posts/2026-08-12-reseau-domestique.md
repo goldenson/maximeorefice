@@ -24,8 +24,8 @@ Réseau et Wi-Fi sur [UniFi](https://ui.com). Serrure et capteurs en Matter/Thre
 | [UK-Ultra](https://www.galaxus.ch/fr/s1/product/ubiquiti-point-dacces-uk-ultra-swiss-army-knife-ultra-867-mbits-point-dacces-42077987) | Borne extérieure jardin | 1 | CHF 95 |
 | [Nuki Smart Lock Ultra](https://nuki.io/en/products/smart-lock-ultra) | Serrure connectée (Matter/Thread) | 1 | CHF 349 |
 | [Connect ZBT-2](https://www.home-assistant.io/connect/zbt-2/) | Dongle Zigbee/Thread pour Home Assistant | 1 | CHF 49 |
-| [IKEA MYGGBETT](https://www.ikea.com/ch/fr/p/myggbett-capteur-fenetre-porte-connecte-00603864/) | Capteur ouverture porte/fenêtre (Matter/Thread) | 6 | CHF 8 |
-| **Total** | | | **~CHF 1'001** |
+| [Aqara Door & Window Sensor P2](https://www.digitec.ch/en/s1/product/aqara-dw-s02d-burglary-protection-alarm-systems-33347603) | Capteur ouverture porte/fenêtre (Matter/Thread) | 6 | CHF 32 |
+| **Total** | | | **~CHF 1'139** |
 
 Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans caméras. Tout l'accès passe par Thread/Matter plutôt qu'une passerelle propriétaire : Home Assistant Green + Connect ZBT-2 dans l'armoire, et une [Apple TV 4K](https://www.apple.com/ch-fr/apple-tv-4k/) en Ethernet au salon comme second border router Thread — ça renforce le maillage à travers la dalle en béton.
 
@@ -49,7 +49,7 @@ Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans camér
 
 Box [Yallo Home Supermax](https://www.yallo.ch/fr/promo-internet) (câble coaxial, 2.5 Gbit/s) directement au sous-sol, à côté de l'armoire. En étoile depuis le patch panel : 4 câbles vers les bornes Wi-Fi (Rez, Étage, jardin, Sous-sol), 1 vers l'Apple TV au salon. Câble extérieur blindé anti-UV pour tout ce qui sort de la maison.
 
-Nuki et les capteurs IKEA sont sans fil — rien à câbler pour eux.
+Nuki et les capteurs Aqara sont sans fil — rien à câbler pour eux.
 
 ![Schéma du câblage Ethernet et du maillage Thread](/assets/images/posts/reseau-domestique-cablage.svg)
 
