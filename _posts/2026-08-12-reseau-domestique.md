@@ -34,21 +34,21 @@ Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans camér
 
 | Produit | Rôle | Qté | Prix |
 |---|---|---|---|
-| [Coffret 12U](https://www.galaxus.ch/fr/s1/product/digitus-dn-19-12u-66-armoire-murale-12-he-rack-19-pouces-armoire-serveur-266092) | Armoire murale 19" | 1 | CHF 212 |
+| [Coffret 12U](https://www.galaxus.ch/fr/s1/product/digitus-wandgehaeuse-dynamic-basic-serie-12-he-rack-19-pouces-armoire-serveur-13399503) | Armoire murale 19" (600×450mm, série Dynamic Basic) | 1 | CHF 190 |
 | [Patch panel 12 ports](https://www.galaxus.ch/fr/s1/product/delock-panneau-de-brassage-19-keystone-12-ports-19-rack-serveur-accessoires-16399972) | Brassage 19" | 1 | CHF 33 |
-| [Étagère 1U](https://www.galaxus.ch/de/s1/product/startech-1u-vented-rack-shelf-serverschrank-zubehoer-54738049) | Support Cloud Gateway/switch/NAS | 1 | ~CHF 30 |
+| [Digitus DN-19 TRAY-1-SW](https://www.galaxus.ch/fr/s1/product/digitus-etagere-dn-19-tray-1-sw-armoire-serveur-accessoires-451464) | Support NAS/box Yallo (1), support Cloud Gateway/switch (1), 250mm | 2 | ~CHF 30 |
 | [PDU Bachmann](https://www.galaxus.ch/fr/s1/product/bachmann-pdu-accessoire-asi-257270) | Multiprise 8x T13, 1U | 1 | CHF 53 |
 | [Patch cables](https://eu.store.ui.com/eu/en/category/accessories-cables-dacs/collections/accessories-pro-patch-cables/products/uacc-cable-patch-el-c6a) | Jarretières 0.3m patch panel↔switch | 6 | ~CHF 12 |
 | [Onduleur PowerWalker VI 750 R1U](https://www.galaxus.ch/fr/s1/product/powerwalker-vi-750-r1u-750-va-450-w-asi-line-interactive-onduleur-10378379) | UPS 750VA/450W, 1U | 1 | CHF 197 |
 | [Apple TV 4K](https://www.galaxus.ch/en/s1/product/apple-tv-4k-3rd-gen-ethernet-128-gb-streaming-box-22720374) | Second border router Thread (salon) | 1 | ~CHF 219 |
 | [Home Assistant Green](https://www.home-assistant.io/green/) | Hub domotique + Matter/Thread | 1 | ~CHF 99 |
-| **Total** | | | **~CHF 855** |
+| **Total** | | | **~CHF 833** |
 
-5 des 12 ports du patch panel utilisés (4 bornes Wi-Fi + Apple TV). L'armoire tourne à ~7-8U sur 12 — encore de la marge.
+5 des 12 ports du patch panel utilisés (4 bornes Wi-Fi + Apple TV). L'armoire tourne à 9U sur 12, box Yallo et deux étagères comprises — encore de la marge.
 
 ## Câblage
 
-Box [Yallo Home Supermax](https://www.yallo.ch/fr/promo-internet) (câble coaxial, 2.5 Gbit/s) directement au sous-sol, à côté de l'armoire. En étoile depuis le patch panel : 4 câbles vers les bornes Wi-Fi (Rez, Étage, jardin, Sous-sol), 1 vers l'Apple TV au salon. Câble extérieur blindé anti-UV pour tout ce qui sort de la maison.
+Box [Yallo Home Supermax](https://www.yallo.ch/fr/promo-internet) (câble coaxial, 2.5 Gbit/s) installée dans l'armoire, au sous-sol. En étoile depuis le patch panel : 4 câbles vers les bornes Wi-Fi (Rez, Étage, jardin, Sous-sol), 1 vers l'Apple TV au salon. Câble extérieur blindé anti-UV pour tout ce qui sort de la maison.
 
 Nuki, les capteurs et les vannes Aqara sont sans fil — rien à câbler pour eux.
 
