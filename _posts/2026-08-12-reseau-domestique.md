@@ -28,7 +28,7 @@ Réseau et Wi-Fi sur [UniFi](https://ui.com). Serrure et capteurs en Matter/Thre
 | [Aqara Thermostat W600](https://www.galaxus.ch/fr/s2/product/aqara-thermostat-w600-thermostat-62433864) | Vanne thermostatique radiateur (Matter/Thread) | 2 | CHF 46 |
 | **Total** | | | **~CHF 1'237** |
 
-Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans caméras. Tout l'accès passe par Thread/Matter plutôt qu'une passerelle propriétaire : Home Assistant Green + Connect ZBT-2 dans l'armoire, et une [Apple TV 4K](https://www.apple.com/ch-fr/apple-tv-4k/) en Ethernet au salon comme second border router Thread — ça renforce le maillage à travers la dalle en béton.
+Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans caméras. Tout l'accès passe par Thread/Matter plutôt qu'une passerelle propriétaire : Home Assistant Green dans l'armoire, Connect ZBT-2 sorti du coffret métallique via son câble USB 1.5m (déconseillé dans un boîtier métallique), et une [Apple TV 4K](https://www.apple.com/ch-fr/apple-tv-4k/) en Ethernet au salon comme second border router Thread — ça renforce le maillage à travers la dalle en béton.
 
 ## Infrastructure rack
 
@@ -45,6 +45,8 @@ Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans camér
 | **Total** | | | **~CHF 833** |
 
 5 des 12 ports du patch panel utilisés (4 bornes Wi-Fi + Apple TV). L'armoire tourne à 9U sur 12, box Yallo et deux étagères comprises — encore de la marge.
+
+![Élévation du coffret 12U montrant l'ordre de montage de haut en bas](/assets/images/posts/reseau-domestique-rack-elevation.svg)
 
 ## Câblage
 
