@@ -19,14 +19,14 @@ Réseau et Wi-Fi sur [UniFi](https://ui.com). Serrure et capteurs en Matter/Thre
 | Produit | Rôle | Qté | Prix |
 |---|---|---|---|
 | [Cloud Gateway Ultra](https://www.galaxus.ch/fr/s1/product/ubiquiti-passerelle-cloud-ultra-routeur-43908900) | Routeur (1 Gbps IPS) | 1 | CHF 85 |
-| [Switch Lite 8 PoE](https://www.galaxus.ch/fr/s1/product/ubiquiti-lite-8-poe-8-ports-switch-reseau-13751323) | Switch 8 ports, 4x PoE+ (52W), sur étagère | 1 | CHF 105 |
-| [U7 Lite](https://www.galaxus.ch/fr/s1/product/ubiquiti-u7-lite-4300-mbits-point-dacces-55702552) | Borne Wi-Fi 7 plafond (Sous-sol, Rez, Étage) | 3 | CHF 90 |
+| [Switch Pro 8 PoE](https://www.galaxus.ch/en/s1/product/ubiquiti-unifi-usw-pro-8-poe-10-ports-network-switches-39138988) | Switch 8 ports, 2x PoE++ + 6x PoE+ (120W), sur étagère | 1 | ~CHF 360 |
+| [U7 Pro-Wall](https://www.galaxus.ch/fr/s1/product/ubiquiti-u7-pro-wall-4324-mbits-point-dacces-46320107) | Borne Wi-Fi 7 murale (Sous-sol, Rez, Étage) | 3 | ~CHF 190 |
 | [UK-Ultra](https://www.galaxus.ch/fr/s1/product/ubiquiti-point-dacces-uk-ultra-swiss-army-knife-ultra-867-mbits-point-dacces-42077987) | Borne extérieure jardin | 1 | CHF 95 |
 | [Nuki Smart Lock Ultra](https://nuki.io/en/products/smart-lock-ultra) | Serrure connectée (Matter/Thread) | 1 | CHF 349 |
 | [Connect ZBT-2](https://www.home-assistant.io/connect/zbt-2/) | Dongle Zigbee/Thread pour Home Assistant | 1 | CHF 49 |
 | [Aqara Door & Window Sensor P2](https://www.digitec.ch/en/s1/product/aqara-dw-s02d-burglary-protection-alarm-systems-33347603) | Capteur ouverture porte/fenêtre (Matter/Thread) | 6 | CHF 32 |
 | [Aqara Thermostat W600](https://www.galaxus.ch/fr/s2/product/aqara-thermostat-w600-thermostat-62433864) | Vanne thermostatique radiateur (Matter/Thread) | 2 | CHF 46 |
-| **Total** | | | **~CHF 1'237** |
+| **Total** | | | **~CHF 1'792** |
 
 Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans caméras. Tout l'accès passe par Thread/Matter plutôt qu'une passerelle propriétaire : Home Assistant Green dans l'armoire, Connect ZBT-2 sorti du coffret métallique via son câble USB 1.5m (déconseillé dans un boîtier métallique), et une [Apple TV 4K](https://www.apple.com/ch-fr/apple-tv-4k/) en Ethernet au salon comme second border router Thread — ça renforce le maillage à travers la dalle en béton.
 

@@ -70,8 +70,8 @@
 
   <!-- Switch -->
   <rect x="310" y="538" width="130" height="44" rx="6" fill="#FFFFFF" stroke="#62676F" stroke-width="1.2" />
-  <text x="375" y="556" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="12.5" fill="#1C2024">SWITCH LITE 8</text>
-  <text x="375" y="570" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#62676F">4× PoE+ · 52W</text>
+  <text x="375" y="556" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="12.5" fill="#1C2024">SWITCH PRO 8</text>
+  <text x="375" y="570" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#62676F">8× PoE · 120W</text>
 
   <!-- Patch panel -->
   <rect x="460" y="538" width="140" height="44" rx="6" fill="#FFFFFF" stroke="#62676F" stroke-width="1.2" />
@@ -90,7 +90,7 @@
 
   <!-- U7 Lite Sous-sol -->
   <rect x="635" y="538" width="130" height="44" rx="6" fill="#FFFFFF" stroke="#62676F" stroke-width="1.2" />
-  <text x="700" y="556" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="12.5" fill="#1C2024">U7 LITE</text>
+  <text x="700" y="556" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#1C2024">U7 PRO-WALL</text>
   <text x="700" y="570" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#62676F">Sous-sol</text>
 
   <!-- UK-Ultra -->
@@ -100,7 +100,7 @@
 
   <!-- U7 Lite Rez -->
   <rect x="635" y="288" width="130" height="44" rx="6" fill="#FFFFFF" stroke="#62676F" stroke-width="1.2" />
-  <text x="700" y="306" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="12.5" fill="#1C2024">U7 LITE</text>
+  <text x="700" y="306" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#1C2024">U7 PRO-WALL</text>
   <text x="700" y="320" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#62676F">Rez</text>
 
   <!-- Apple TV -->
@@ -115,7 +115,7 @@
 
   <!-- U7 Lite Étage -->
   <rect x="635" y="108" width="130" height="44" rx="6" fill="#FFFFFF" stroke="#62676F" stroke-width="1.2" />
-  <text x="700" y="126" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="12.5" fill="#1C2024">U7 LITE</text>
+  <text x="700" y="126" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#1C2024">U7 PRO-WALL</text>
   <text x="700" y="140" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#62676F">Étage</text>
 
   <!-- IKEA sensors (thread-only) -->
