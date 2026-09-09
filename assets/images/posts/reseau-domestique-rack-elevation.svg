@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 620" role="img" aria-label="Elevation du coffret 12U montrant l'ordre de montage de haut en bas : patch panel en U1, etagere Cloud Gateway/Switch/Home Assistant Green en U2, etagere NAS et box Yallo sur 5U de U3 a U7, PDU en U8, onduleur en U9, et 3U de marge libre de U10 a U12.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 620" role="img" aria-label="Elevation du coffret 12U montrant l'ordre de montage de haut en bas : patch panel en U1, etagere Cloud Gateway Ultra/Switch Pro 8 PoE/Home Assistant Green en U2, etagere NAS et box Yallo sur 5U de U3 a U7, PDU en U8, onduleur en U9, et 3U de marge libre de U10 a U12.">
   <rect x="0" y="0" width="560" height="620" fill="#FFFFFF" />
 
   <text x="280" y="32" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="12" letter-spacing="1" fill="#62676F">COFFRET 12U · SOUS-SOL</text>
