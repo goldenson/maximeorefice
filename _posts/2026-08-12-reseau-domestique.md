@@ -30,6 +30,8 @@ Réseau et Wi-Fi sur [UniFi](https://ui.com). Serrure et capteurs en Matter/Thre
 
 Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans caméras. Tout l'accès passe par Thread/Matter plutôt qu'une passerelle propriétaire : Home Assistant Green dans l'armoire, Connect ZBT-2 sorti du coffret métallique via son câble USB 1.5m (déconseillé dans un boîtier métallique), et une [Apple TV 4K](https://www.apple.com/ch-fr/apple-tv-4k/) en Ethernet au salon comme second border router Thread — ça renforce le maillage à travers la dalle en béton.
 
+**À faire côté config** : segmenter en VLAN (réseau perso / IoT isolé, sans routage inter-VLAN) pour cloisonner Aqara/Nuki/Sonos du reste, et fixer des réservations DHCP + DNS local (`nas.local`, `homeassistant.local`) pour le NAS et Home Assistant.
+
 ## Infrastructure rack
 
 | Produit | Rôle | Qté | Prix |
