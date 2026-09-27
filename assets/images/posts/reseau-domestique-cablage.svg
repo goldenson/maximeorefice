@@ -93,9 +93,9 @@
   <text x="700" y="556" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#1C2024">U7 PRO-WALL</text>
   <text x="700" y="570" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#62676F">Sous-sol</text>
 
-  <!-- UK-Ultra -->
+  <!-- U7 Outdoor -->
   <rect x="785" y="583" width="120" height="44" rx="6" fill="#FFFFFF" stroke="#62676F" stroke-width="1.2" />
-  <text x="845" y="601" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="12.5" fill="#1C2024">UK-ULTRA</text>
+  <text x="845" y="601" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#1C2024">U7 OUTDOOR</text>
   <text x="845" y="615" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#62676F">Jardin</text>
 
   <!-- U7 Lite Rez -->
