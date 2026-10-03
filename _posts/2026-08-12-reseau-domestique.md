@@ -10,7 +10,7 @@ image: "/assets/images/posts/reseau-domestique.jpg"
 
 ## Contexte
 
-Nouvelle maison, 1'000 m² de terrain, villa de 150 m² en béton armé — pas de Wi-Fi maillé possible. Tout part en filaire depuis une armoire rack 19" 12U au sous-sol.
+Nouvelle maison, 1'000 m² de terrain, villa de 150 m² en béton armé — pas de Wi-Fi maillé possible. Tout part en filaire depuis une armoire rack 19" 9U au sous-sol.
 
 Réseau et Wi-Fi sur [UniFi](https://ui.com). Serrure et capteurs en Matter/Thread, pilotés depuis Home Assistant. Pas de vidéosurveillance.
 
@@ -36,7 +36,7 @@ Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans camér
 
 | Produit | Rôle | Qté | Prix |
 |---|---|---|---|
-| [Coffret 12U](https://www.galaxus.ch/fr/s1/product/digitus-dn-19-12u-66-armoire-murale-12-he-rack-19-pouces-armoire-serveur-266092) | Armoire murale 19" (600×600mm) | 1 | CHF 212 |
+| [Coffret 9U](https://www.galaxus.ch/fr/s1/product/digitus-dynamic-basic-9-he-rack-19-pouces-armoire-serveur-10158489) | Armoire murale 19" (505×600×450mm) | 1 | CHF 110 |
 | [Patch panel 12 ports](https://www.galaxus.ch/fr/s1/product/delock-panneau-de-brassage-19-keystone-12-ports-19-rack-serveur-accessoires-16399972) | Brassage 19" | 1 | CHF 33 |
 | [Digitus DN-19 TRAY-1-SW](https://www.galaxus.ch/fr/s1/product/digitus-etagere-dn-19-tray-1-sw-armoire-serveur-accessoires-451464) | Support NAS/box Yallo (1), support Cloud Gateway/switch (1), 250mm | 2 | ~CHF 30 |
 | [PDU Bachmann](https://www.galaxus.ch/fr/s1/product/bachmann-pdu-accessoire-asi-257270) | Multiprise 8x T13, 1U | 1 | CHF 53 |
@@ -44,11 +44,11 @@ Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans camér
 | [Onduleur PowerWalker VI 750 R1U](https://www.galaxus.ch/fr/s1/product/powerwalker-vi-750-r1u-750-va-450-w-asi-line-interactive-onduleur-10378379) | UPS 750VA/450W, 1U | 1 | CHF 197 |
 | [Apple TV 4K](https://www.galaxus.ch/en/s1/product/apple-tv-4k-3rd-gen-ethernet-128-gb-streaming-box-22720374) | Second border router Thread (salon) | 1 | ~CHF 219 |
 | [Home Assistant Green](https://www.home-assistant.io/green/) | Hub domotique + Matter/Thread | 1 | ~CHF 99 |
-| **Total** | | | **~CHF 945** |
+| **Total** | | | **~CHF 843** |
 
-5 des 12 ports du patch panel utilisés (4 bornes Wi-Fi + Apple TV). L'armoire tourne à 9U sur 12, box Yallo et deux étagères comprises — encore de la marge.
+5 des 12 ports du patch panel utilisés (4 bornes Wi-Fi + Apple TV). L'armoire tourne à 9U sur 9, box Yallo et deux étagères comprises — aucune marge, tout est utilisé.
 
-![Élévation du coffret 12U montrant l'ordre de montage de haut en bas](/assets/images/posts/reseau-domestique-rack-elevation.svg)
+![Élévation du coffret 9U montrant l'ordre de montage de haut en bas](/assets/images/posts/reseau-domestique-rack-elevation.svg)
 
 ## Câblage
 
@@ -60,7 +60,7 @@ Nuki, les capteurs et les vannes Aqara sont sans fil — rien à câbler pour eu
 
 ## NAS
 
-Le Synology DS918+ actuel (tour, pas rackable) reste sur une étagère — le 12U laisse assez de marge pour ses ~5U de dégagement vertical. Garde Download Station et Plex.
+Le Synology DS918+ actuel (tour, pas rackable) reste sur une étagère — le 9U laisse tout juste la place pour ses ~5U de dégagement vertical. Garde Download Station et Plex.
 
 ## Son
 

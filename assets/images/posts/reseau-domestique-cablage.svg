@@ -28,7 +28,7 @@
 
   <!-- rack boundary -->
   <rect x="20" y="520" width="590" height="172" rx="8" fill="none" stroke="#D8D5CC" stroke-width="1.4" stroke-dasharray="4 4" />
-  <text x="36" y="538" font-family="ui-monospace, Menlo, monospace" font-size="10.5" letter-spacing="0.8" fill="#62676F">ARMOIRE 12U · SOUS-SOL</text>
+  <text x="36" y="538" font-family="ui-monospace, Menlo, monospace" font-size="10.5" letter-spacing="0.8" fill="#62676F">ARMOIRE 9U · SOUS-SOL</text>
 
   <!-- ===== WIRED ETHERNET (solid, teal) ===== -->
   <g fill="none" stroke="#0E6E64" stroke-width="2">
