@@ -25,8 +25,8 @@ Réseau et Wi-Fi sur [UniFi](https://ui.com). Serrure et capteurs en Matter/Thre
 | [Nuki Smart Lock Ultra](https://nuki.io/en/products/smart-lock-ultra) | Serrure connectée (Matter/Thread) | 1 | CHF 349 |
 | [Connect ZBT-2](https://www.home-assistant.io/connect/zbt-2/) | Dongle Zigbee/Thread pour Home Assistant | 1 | CHF 49 |
 | [Aqara Door & Window Sensor P2](https://www.digitec.ch/en/s1/product/aqara-dw-s02d-burglary-protection-alarm-systems-33347603) | Capteur ouverture porte/fenêtre (Matter/Thread) | 6 | CHF 32 |
-| [Aqara Thermostat W600](https://www.galaxus.ch/fr/s2/product/aqara-thermostat-w600-thermostat-62433864) | Vanne thermostatique radiateur (Matter/Thread) | 2 | CHF 46 |
-| **Total** | | | **~CHF 1'873** |
+| [tado° Smart Radiator Thermostat X](https://shop.tado.com/fr-ch/products/smart-radiator-thermostat-x) | Vanne thermostatique radiateur (Matter/Thread) | 10 | CHF 40 |
+| **Total** | | | **~CHF 2'181** |
 
 Le Cloud Gateway Ultra plafonne à 1 Gbps d'IPS, largement suffisant sans caméras. Tout l'accès passe par Thread/Matter plutôt qu'une passerelle propriétaire : Home Assistant Green dans l'armoire, Connect ZBT-2 sorti du coffret métallique via son câble USB 1.5m (déconseillé dans un boîtier métallique), et une [Apple TV 4K](https://www.apple.com/ch-fr/apple-tv-4k/) en Ethernet au salon comme second border router Thread — ça renforce le maillage à travers la dalle en béton.
 
